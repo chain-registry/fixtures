@@ -18,7 +18,7 @@
       "name": "LAVA",
       "display": "lava",
       "symbol": "LAVA",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

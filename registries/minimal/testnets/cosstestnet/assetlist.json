@@ -24,7 +24,7 @@
       "name": "cgas",
       "display": "cgas",
       "symbol": "cgas",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

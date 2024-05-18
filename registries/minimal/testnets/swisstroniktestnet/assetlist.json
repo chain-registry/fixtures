@@ -19,7 +19,7 @@
       "display": "swtr",
       "symbol": "SWTR",
       "coingeckoId": "",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

@@ -18,7 +18,7 @@
       "name": "Artela Testnet",
       "display": "art",
       "symbol": "ART",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

@@ -28,7 +28,7 @@
           "provider": "Dydx"
         }
       ],
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

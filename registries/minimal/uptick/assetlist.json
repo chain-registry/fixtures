@@ -18,7 +18,7 @@
       "name": "Uptick",
       "display": "uptick",
       "symbol": "UPTICK",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

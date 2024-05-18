@@ -28,7 +28,7 @@
           "provider": "impacthub"
         }
       ],
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

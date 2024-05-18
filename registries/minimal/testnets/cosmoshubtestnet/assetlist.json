@@ -18,7 +18,7 @@
       "name": "Cosmos",
       "display": "atom",
       "symbol": "ATOM",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

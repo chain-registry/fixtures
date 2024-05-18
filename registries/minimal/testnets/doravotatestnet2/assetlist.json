@@ -18,7 +18,7 @@
       "name": "Dora Vota Incentive Testnet",
       "display": "DORA",
       "symbol": "DORA",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

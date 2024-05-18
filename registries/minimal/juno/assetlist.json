@@ -19,7 +19,7 @@
       "display": "juno",
       "symbol": "JUNO",
       "coingeckoId": "juno-network",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     },
     {
       "denomUnits": [
@@ -1232,7 +1232,7 @@
       "name": "NEXX GEN AI",
       "display": "nexx",
       "symbol": "NEXX",
-      "assetType": "sdk.Factory"
+      "assetType": "sdk.factory"
     },
     {
       "denomUnits": [
@@ -1250,7 +1250,7 @@
       "name": "Licorice",
       "display": "dgl",
       "symbol": "DGL",
-      "assetType": "sdk.Factory"
+      "assetType": "sdk.factory"
     },
     {
       "description": "ERIS liquid staked JUNO",
@@ -1492,7 +1492,7 @@
       "name": "Wind Token",
       "display": "wind",
       "symbol": "WIND",
-      "assetType": "sdk.Factory"
+      "assetType": "sdk.factory"
     },
     {
       "description": "Airdrop For All [AFA - New Name on Cosmos Ecosystem, A4A - Old Name on TurtleNetwork] is a token from turtleNetwork towards cosmos ecosystem.",

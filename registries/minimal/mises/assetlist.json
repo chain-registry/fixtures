@@ -32,7 +32,7 @@
       "name": "mises network MIS",
       "symbol": "MIS",
       "coingeckoId": "",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

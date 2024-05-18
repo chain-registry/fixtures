@@ -18,7 +18,7 @@
       "name": "HEART",
       "display": "heart",
       "symbol": "HEART",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

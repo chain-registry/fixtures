@@ -19,7 +19,7 @@
       "display": "atom",
       "symbol": "ATOM",
       "coingeckoId": "cosmos",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     },
     {
       "description": "Tether USDt on the Cosmos Hub",

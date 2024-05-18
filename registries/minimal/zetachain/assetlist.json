@@ -19,7 +19,7 @@
       "display": "zeta",
       "symbol": "ZETA",
       "coingeckoId": "zetachain",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

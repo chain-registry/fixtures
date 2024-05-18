@@ -18,7 +18,7 @@
       "name": "Stride",
       "display": "strd",
       "symbol": "STRD",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

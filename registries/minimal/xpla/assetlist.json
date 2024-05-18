@@ -19,7 +19,7 @@
       "display": "xpla",
       "symbol": "XPLA",
       "coingeckoId": "xpla",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

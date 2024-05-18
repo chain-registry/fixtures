@@ -18,7 +18,7 @@
       "name": "Galaxy",
       "display": "glx",
       "symbol": "GLX",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

@@ -18,7 +18,7 @@
       "name": "Neutron Testnet",
       "display": "ntrn",
       "symbol": "NTRN",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     },
     {
       "description": "The yield token for ATOM denominated vaults on Amulet Protocol",
@@ -36,7 +36,7 @@
       "name": "amATOM (Testnet)",
       "display": "amATOM",
       "symbol": "amATOM",
-      "assetType": "sdk.Factory"
+      "assetType": "sdk.factory"
     }
   ]
 }

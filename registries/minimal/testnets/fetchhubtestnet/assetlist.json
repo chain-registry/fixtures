@@ -19,7 +19,7 @@
       "display": "testfet",
       "symbol": "FET",
       "coingeckoId": "fetch-ai",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

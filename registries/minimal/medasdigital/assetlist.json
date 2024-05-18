@@ -18,7 +18,7 @@
       "name": "Medas Digital",
       "display": "medas",
       "symbol": "MEDAS",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

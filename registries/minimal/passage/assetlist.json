@@ -19,7 +19,7 @@
       "display": "pasg",
       "symbol": "PASG",
       "coingeckoId": "passage",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

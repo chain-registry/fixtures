@@ -19,7 +19,7 @@
       "display": "regen",
       "symbol": "REGEN",
       "coingeckoId": "regen",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     },
     {
       "description": "Nature Carbon Ton (NCT) is a carbon token standard backed 1:1 by carbon credits issued by Verra, a global leader in the voluntary carbon market. NCT credits on Regen Network have been tokenized by Toucan.earth.",
@@ -38,7 +38,7 @@
       "display": "nct",
       "symbol": "NCT",
       "coingeckoId": "toucan-protocol-nature-carbon-tonne",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

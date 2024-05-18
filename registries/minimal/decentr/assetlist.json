@@ -19,7 +19,7 @@
       "display": "dec",
       "symbol": "DEC",
       "coingeckoId": "decentr",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

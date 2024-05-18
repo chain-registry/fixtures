@@ -79,7 +79,7 @@
           "provider": "PolyNetwork"
         }
       ],
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     },
     {
       "description": "bNEO token on Carbon",
@@ -114,7 +114,7 @@
           "provider": "PolyNetwork"
         }
       ],
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     },
     {
       "description": "BUSD (BEP-20) token on Carbon",
@@ -149,7 +149,7 @@
           "provider": "PolyNetwork"
         }
       ],
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     },
     {
       "description": "Carbon Wrapped GLP on Carbon",
@@ -184,7 +184,7 @@
           "provider": "PolyNetwork"
         }
       ],
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     },
     {
       "description": "Grouped USD on Carbon",
@@ -205,7 +205,7 @@
       "name": "Carbon Grouped USD",
       "display": "usd",
       "symbol": "USD",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     },
     {
       "description": "ETH (Arbitrum) token on Carbon",
@@ -240,7 +240,7 @@
           "provider": "PolyNetwork"
         }
       ],
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     },
     {
       "description": "ETH (ERC20) token on Carbon",
@@ -275,7 +275,7 @@
           "provider": "PolyNetwork"
         }
       ],
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     },
     {
       "description": "STARS token on Carbon",
@@ -762,7 +762,7 @@
           "provider": "PolyNetwork"
         }
       ],
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     },
     {
       "description": "USD Coin (BEP-20) token on Carbon",
@@ -797,7 +797,7 @@
           "provider": "PolyNetwork"
         }
       ],
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     },
     {
       "description": "ZIL token on Carbon",
@@ -832,7 +832,7 @@
           "provider": "PolyNetwork"
         }
       ],
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

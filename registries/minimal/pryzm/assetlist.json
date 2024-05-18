@@ -18,7 +18,7 @@
       "name": "Pryzm",
       "display": "pryzm",
       "symbol": "PRYZM",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     },
     {
       "description": "The meme token of PRYZM",
@@ -36,7 +36,7 @@
       "name": "AUUU",
       "display": "auuu",
       "symbol": "AUUU",
-      "assetType": "sdk.Factory"
+      "assetType": "sdk.factory"
     }
   ]
 }

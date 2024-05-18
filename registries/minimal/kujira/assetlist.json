@@ -19,7 +19,7 @@
       "display": "kuji",
       "symbol": "KUJI",
       "coingeckoId": "kujira",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     },
     {
       "description": "The native over-collateralized stablecoin from the Kujira chain.",
@@ -38,7 +38,7 @@
       "display": "usk",
       "symbol": "USK",
       "coingeckoId": "usk",
-      "assetType": "sdk.Factory"
+      "assetType": "sdk.factory"
     },
     {
       "description": "Quark's auto-compounding KUJI derivative",
@@ -56,7 +56,7 @@
       "name": "qcKUJI",
       "display": "qcKUJI",
       "symbol": "qcKUJI",
-      "assetType": "sdk.Factory"
+      "assetType": "sdk.factory"
     },
     {
       "description": "ampKUJI",
@@ -74,7 +74,7 @@
       "name": "ampKUJI",
       "display": "ampKUJI",
       "symbol": "ampKUJI",
-      "assetType": "sdk.Factory"
+      "assetType": "sdk.factory"
     },
     {
       "description": "MantaDAO Governance Token",
@@ -93,7 +93,7 @@
       "display": "mnta",
       "symbol": "MNTA",
       "coingeckoId": "mantadao",
-      "assetType": "sdk.Factory"
+      "assetType": "sdk.factory"
     },
     {
       "description": "Quark's auto-compounding MNTA derivative",
@@ -111,7 +111,7 @@
       "name": "qcMNTA",
       "display": "qcMNTA",
       "symbol": "qcMNTA",
-      "assetType": "sdk.Factory"
+      "assetType": "sdk.factory"
     },
     {
       "description": "ERIS Liquid Staked MNTA",
@@ -129,7 +129,7 @@
       "name": "ERIS Amplified MNTA",
       "display": "ampMNTA",
       "symbol": "ampMNTA",
-      "assetType": "sdk.Factory"
+      "assetType": "sdk.factory"
     },
     {
       "description": "The content house of Kujira",
@@ -147,7 +147,7 @@
       "name": "WINK",
       "display": "wink",
       "symbol": "WINK",
-      "assetType": "sdk.Factory"
+      "assetType": "sdk.factory"
     },
     {
       "description": "Blend Token",
@@ -165,7 +165,7 @@
       "name": "BLEND",
       "display": "blend",
       "symbol": "BLEND",
-      "assetType": "sdk.Factory"
+      "assetType": "sdk.factory"
     },
     {
       "description": "Tether USDt on Kujira",
@@ -215,7 +215,7 @@
       "name": "Fuzion",
       "display": "fuzn",
       "symbol": "FUZN",
-      "assetType": "sdk.Factory"
+      "assetType": "sdk.factory"
     },
     {
       "description": "The receipt token of Fuzion",
@@ -233,7 +233,7 @@
       "name": "Fuzion Receipt",
       "display": "rfuzn",
       "symbol": "rFUZN",
-      "assetType": "sdk.Factory"
+      "assetType": "sdk.factory"
     },
     {
       "description": "The yield token of Fuzion",
@@ -251,7 +251,7 @@
       "name": "Fuzion Yield",
       "display": "yfuzn",
       "symbol": "yFUZN",
-      "assetType": "sdk.Factory"
+      "assetType": "sdk.factory"
     },
     {
       "description": "Quark's auto-compounding FUZN derivative",
@@ -269,7 +269,7 @@
       "name": "qcFUZN",
       "display": "qcFUZN",
       "symbol": "qcFUZN",
-      "assetType": "sdk.Factory"
+      "assetType": "sdk.factory"
     },
     {
       "description": "The Revenue & Governance token of Unstake.fi",
@@ -288,7 +288,7 @@
       "display": "nstk",
       "symbol": "NSTK",
       "coingeckoId": "unstake-fi",
-      "assetType": "sdk.Factory"
+      "assetType": "sdk.factory"
     },
     {
       "description": "Local Money",
@@ -306,7 +306,7 @@
       "name": "LOCAL",
       "display": "local",
       "symbol": "LOCAL",
-      "assetType": "sdk.Factory"
+      "assetType": "sdk.factory"
     },
     {
       "description": "Food for whales",
@@ -324,7 +324,7 @@
       "name": "Plankton",
       "display": "PLNK",
       "symbol": "PLNK",
-      "assetType": "sdk.Factory"
+      "assetType": "sdk.factory"
     },
     {
       "denomUnits": [
@@ -782,7 +782,7 @@
       "name": "BackBone Labs Liquid Staked KUJI",
       "display": "bKUJI",
       "symbol": "bKUJI",
-      "assetType": "sdk.Factory"
+      "assetType": "sdk.factory"
     },
     {
       "denomUnits": [
@@ -834,7 +834,7 @@
       "name": "Ghost Vault USK",
       "display": "xusk",
       "symbol": "xUSK",
-      "assetType": "sdk.Factory"
+      "assetType": "sdk.factory"
     },
     {
       "description": "Ghost Vault MNTA",
@@ -852,7 +852,7 @@
       "name": "Ghost Vault MNTA",
       "display": "xmnta",
       "symbol": "xMNTA",
-      "assetType": "sdk.Factory"
+      "assetType": "sdk.factory"
     },
     {
       "description": "Stride staked ATOM",
@@ -966,7 +966,7 @@
       "name": "LP Bow: DOT.axl-MNTA",
       "display": "lp-dot-mnta",
       "symbol": "LP DOT.axl-MNTA",
-      "assetType": "sdk.Factory"
+      "assetType": "sdk.factory"
     },
     {
       "description": "LP Bow: SHD-MNTA",
@@ -984,7 +984,7 @@
       "name": "LP Bow: SHD-MNTA",
       "display": "lp-shd-mnta",
       "symbol": "LP SHD-MNTA",
-      "assetType": "sdk.Factory"
+      "assetType": "sdk.factory"
     },
     {
       "description": "LP Bow: DYDX-MNTA",
@@ -1002,7 +1002,7 @@
       "name": "LP Bow: DYDX-MNTA",
       "display": "lp-dydx-mnta",
       "symbol": "LP DYDX-MNTA",
-      "assetType": "sdk.Factory"
+      "assetType": "sdk.factory"
     },
     {
       "description": "LP Bow: wAVAX.axl-MNTA",
@@ -1020,7 +1020,7 @@
       "name": "LP Bow: wAVAX.axl-MNTA",
       "display": "lp-wavax-mnta",
       "symbol": "LP wAVAX.axl-MNTA",
-      "assetType": "sdk.Factory"
+      "assetType": "sdk.factory"
     },
     {
       "description": "LP Bow: CHEQ-MNTA",
@@ -1038,7 +1038,7 @@
       "name": "LP Bow: CHEQ-MNTA",
       "display": "lp-cheq-mnta",
       "symbol": "LP CHEQ-MNTA",
-      "assetType": "sdk.Factory"
+      "assetType": "sdk.factory"
     },
     {
       "description": "LP Bow: FUZN-MNTA",
@@ -1056,7 +1056,7 @@
       "name": "LP Bow: FUZN-MNTA",
       "display": "lp-fuzn-mnta",
       "symbol": "LP FUZN-MNTA",
-      "assetType": "sdk.Factory"
+      "assetType": "sdk.factory"
     },
     {
       "description": "LP Bow: SOMM-MNTA",
@@ -1074,7 +1074,7 @@
       "name": "LP Bow: SOMM-MNTA",
       "display": "lp-somm-mnta",
       "symbol": "LP SOMM-MNTA",
-      "assetType": "sdk.Factory"
+      "assetType": "sdk.factory"
     },
     {
       "description": "LP Bow: wETH.axl-MNTA",
@@ -1092,7 +1092,7 @@
       "name": "LP Bow: wETH.axl-MNTA",
       "display": "lp-weth-mnta",
       "symbol": "LP wETH.axl-MNTA",
-      "assetType": "sdk.Factory"
+      "assetType": "sdk.factory"
     },
     {
       "description": "LP Bow: NTRN-MNTA",
@@ -1110,7 +1110,7 @@
       "name": "LP Bow: NTRN-MNTA",
       "display": "lp-ntrn-mnta",
       "symbol": "LP NTRN-MNTA",
-      "assetType": "sdk.Factory"
+      "assetType": "sdk.factory"
     },
     {
       "description": "LP Bow: wFTM.axl-MNTA",
@@ -1128,7 +1128,7 @@
       "name": "LP Bow: wFTM.axl-MNTA",
       "display": "lp-wftm-mnta",
       "symbol": "LP wFTM.axl-MNTA",
-      "assetType": "sdk.Factory"
+      "assetType": "sdk.factory"
     },
     {
       "description": "LP Bow: STARS-MNTA",
@@ -1146,7 +1146,7 @@
       "name": "LP Bow: STARS-MNTA",
       "display": "lp-stars-mnta",
       "symbol": "LP STARS-MNTA",
-      "assetType": "sdk.Factory"
+      "assetType": "sdk.factory"
     },
     {
       "description": "LP Bow: TIA-MNTA",
@@ -1164,7 +1164,7 @@
       "name": "LP Bow: TIA-MNTA",
       "display": "lp-tia-mnta",
       "symbol": "LP TIA-MNTA",
-      "assetType": "sdk.Factory"
+      "assetType": "sdk.factory"
     },
     {
       "description": "LP Bow: SOL.wh-MNTA",
@@ -1182,7 +1182,7 @@
       "name": "LP Bow: SOL.wh-MNTA",
       "display": "lp-sol-mnta",
       "symbol": "LP SOL.wh-MNTA",
-      "assetType": "sdk.Factory"
+      "assetType": "sdk.factory"
     },
     {
       "description": "LP Bow: DYM-MNTA",
@@ -1200,7 +1200,7 @@
       "name": "LP Bow: DYM-MNTA",
       "display": "lp-dym-mnta",
       "symbol": "LP DYM-MNTA",
-      "assetType": "sdk.Factory"
+      "assetType": "sdk.factory"
     },
     {
       "description": "LP Bow: AKT-MNTA",
@@ -1218,7 +1218,7 @@
       "name": "LP Bow: AKT-MNTA",
       "display": "lp-akt-mnta",
       "symbol": "LP AKT-MNTA",
-      "assetType": "sdk.Factory"
+      "assetType": "sdk.factory"
     },
     {
       "description": "LP Bow: LINK.axl-MNTA",
@@ -1236,7 +1236,7 @@
       "name": "LP Bow: LINK.axl-MNTA",
       "display": "lp-link-mnta",
       "symbol": "LP LINK.axl-MNTA",
-      "assetType": "sdk.Factory"
+      "assetType": "sdk.factory"
     },
     {
       "description": "LP Bow: wTAO.grv-MNTA",
@@ -1254,7 +1254,7 @@
       "name": "LP Bow: wTAO.grv-MNTA",
       "display": "lp-wtao-mnta",
       "symbol": "LP wTAO.grv-MNTA",
-      "assetType": "sdk.Factory"
+      "assetType": "sdk.factory"
     },
     {
       "description": "LP Bow: MNTA-KUJI",
@@ -1272,7 +1272,7 @@
       "name": "LP Bow: MNTA-KUJI",
       "display": "lp-mnta-kuji",
       "symbol": "LP MNTA-KUJI",
-      "assetType": "sdk.Factory"
+      "assetType": "sdk.factory"
     },
     {
       "description": "LP Bow: AXL-MNTA",
@@ -1290,7 +1290,7 @@
       "name": "LP Bow: AXL-MNTA",
       "display": "lp-axl-mnta",
       "symbol": "LP AXL-MNTA",
-      "assetType": "sdk.Factory"
+      "assetType": "sdk.factory"
     },
     {
       "description": "LP Bow: ATOM-MNTA",
@@ -1308,7 +1308,7 @@
       "name": "LP Bow: ATOM-MNTA",
       "display": "lp-atom-mnta",
       "symbol": "LP ATOM-MNTA",
-      "assetType": "sdk.Factory"
+      "assetType": "sdk.factory"
     },
     {
       "description": "LP Bow: ARB-MNTA",
@@ -1326,7 +1326,7 @@
       "name": "LP Bow: ARB-MNTA",
       "display": "lp-arb-mnta",
       "symbol": "LP ARB-MNTA",
-      "assetType": "sdk.Factory"
+      "assetType": "sdk.factory"
     },
     {
       "description": "LP Bow: WHALE-MNTA",
@@ -1344,7 +1344,7 @@
       "name": "LP Bow: WHALE-MNTA",
       "display": "lp-whale-mnta",
       "symbol": "LP WHALE-MNTA",
-      "assetType": "sdk.Factory"
+      "assetType": "sdk.factory"
     },
     {
       "description": "LP Bow: SCRT-MNTA",
@@ -1362,7 +1362,7 @@
       "name": "LP Bow: SCRT-MNTA",
       "display": "lp-scrt-mnta",
       "symbol": "LP SCRT-MNTA",
-      "assetType": "sdk.Factory"
+      "assetType": "sdk.factory"
     },
     {
       "description": "LP Bow: wstETH.axl-MNTA",
@@ -1380,7 +1380,7 @@
       "name": "LP Bow: wstETH.axl-MNTA",
       "display": "lp-wsteth-mnta",
       "symbol": "LP wstETH.axl-MNTA",
-      "assetType": "sdk.Factory"
+      "assetType": "sdk.factory"
     },
     {
       "description": "LP Bow: wMATIC.axl-MNTA",
@@ -1398,7 +1398,7 @@
       "name": "LP Bow: wMATIC.axl-MNTA",
       "display": "lp-wmatic-mnta",
       "symbol": "LP wMATIC.axl-MNTA",
-      "assetType": "sdk.Factory"
+      "assetType": "sdk.factory"
     },
     {
       "description": "LP Bow: UNI.axl-MNTA",
@@ -1416,7 +1416,7 @@
       "name": "LP Bow: UNI.axl-MNTA",
       "display": "lp-uni-mnta",
       "symbol": "LP UNI.axl-MNTA",
-      "assetType": "sdk.Factory"
+      "assetType": "sdk.factory"
     },
     {
       "description": "LP Bow: yieldETH.axl-MNTA",
@@ -1434,7 +1434,7 @@
       "name": "LP Bow: yieldETH.axl-MNTA",
       "display": "lp-yieldeth-mnta",
       "symbol": "LP yieldETH.axl-MNTA",
-      "assetType": "sdk.Factory"
+      "assetType": "sdk.factory"
     },
     {
       "description": "LP Bow: wBTC.axl-MNTA",
@@ -1452,7 +1452,7 @@
       "name": "LP Bow: wBTC.axl-MNTA",
       "display": "lp-wbtc-mnta",
       "symbol": "LP wBTC.axl-MNTA",
-      "assetType": "sdk.Factory"
+      "assetType": "sdk.factory"
     },
     {
       "description": "LP Bow: PAXG.grv-MNTA",
@@ -1470,7 +1470,7 @@
       "name": "LP Bow: PAXG.grv-MNTA",
       "display": "lp-paxg-mnta",
       "symbol": "LP PAXG.grv-MNTA",
-      "assetType": "sdk.Factory"
+      "assetType": "sdk.factory"
     },
     {
       "description": "LP Bow: wBNB.axl-MNTA",
@@ -1488,7 +1488,7 @@
       "name": "LP Bow: wBNB.axl-MNTA",
       "display": "lp-wbnb-mnta",
       "symbol": "LP wBNB.axl-MNTA",
-      "assetType": "sdk.Factory"
+      "assetType": "sdk.factory"
     },
     {
       "description": "LP Bow: OSMO-MNTA",
@@ -1506,7 +1506,7 @@
       "name": "LP Bow: OSMO-MNTA",
       "display": "lp-osmo-mnta",
       "symbol": "LP OSMO-MNTA",
-      "assetType": "sdk.Factory"
+      "assetType": "sdk.factory"
     },
     {
       "description": "LP Bow: INJ-MNTA",
@@ -1524,7 +1524,7 @@
       "name": "LP Bow: INJ-MNTA",
       "display": "lp-inj-mnta",
       "symbol": "LP INJ-MNTA",
-      "assetType": "sdk.Factory"
+      "assetType": "sdk.factory"
     },
     {
       "description": "LP Bow: stOSMO-OSMO",
@@ -1542,7 +1542,7 @@
       "name": "LP Bow: stOSMO-OSMO",
       "display": "lp-stosmo-osmo",
       "symbol": "LP stOSMO-OSMO",
-      "assetType": "sdk.Factory"
+      "assetType": "sdk.factory"
     },
     {
       "description": "LP Bow: wstETH.axl-wETH.axl",
@@ -1560,7 +1560,7 @@
       "name": "LP Bow: wstETH.axl-wETH.axl",
       "display": "lp-wsteth-weth",
       "symbol": "LP wstETH.axl-wETH.axl",
-      "assetType": "sdk.Factory"
+      "assetType": "sdk.factory"
     },
     {
       "description": "LP Bow: qcMNTA-MNTA",
@@ -1578,7 +1578,7 @@
       "name": "LP Bow: qcMNTA-MNTA",
       "display": "lp-qcmnta-mnta",
       "symbol": "LP qcMNTA-MNTA",
-      "assetType": "sdk.Factory"
+      "assetType": "sdk.factory"
     },
     {
       "description": "LP Bow: ampMNTA-MNTA",
@@ -1596,7 +1596,7 @@
       "name": "LP Bow: ampMNTA-MNTA",
       "display": "lp-ampmnta-mnta",
       "symbol": "LP ampMNTA-MNTA",
-      "assetType": "sdk.Factory"
+      "assetType": "sdk.factory"
     },
     {
       "description": "LP Bow: wETH.axl-USK",
@@ -1614,7 +1614,7 @@
       "name": "LP Bow: wETH.axl-USK",
       "display": "lp-weth-usk",
       "symbol": "LP wETH.axl-USK",
-      "assetType": "sdk.Factory"
+      "assetType": "sdk.factory"
     },
     {
       "description": "The token of NAMI",
@@ -1632,7 +1632,7 @@
       "name": "NAMI",
       "display": "nami",
       "symbol": "NAMI",
-      "assetType": "sdk.Factory"
+      "assetType": "sdk.factory"
     }
   ]
 }

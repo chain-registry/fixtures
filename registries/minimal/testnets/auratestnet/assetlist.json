@@ -18,7 +18,7 @@
       "name": "EAura",
       "display": "eaura",
       "symbol": "EAURA",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

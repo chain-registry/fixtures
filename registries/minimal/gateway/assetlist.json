@@ -83,7 +83,7 @@
           "provider": "Wormhole"
         }
       ],
-      "assetType": "sdk.Factory"
+      "assetType": "sdk.factory"
     },
     {
       "description": "Wrapped Ether (Wormhole), WETH, factory/wormhole14ejqjyq8um4p3xfqj74yld5waqljf88fz25yxnma0cngspxe3les00fpjx/5BWqpR48Lubd55szM5i62zK7TFkddckhbT48yy6mNbDp",
@@ -118,7 +118,7 @@
           "provider": "Wormhole"
         }
       ],
-      "assetType": "sdk.Factory"
+      "assetType": "sdk.factory"
     },
     {
       "description": "Wrapped liquid staked Ether 2.0 (Wormhole), wstETH, factory/wormhole14ejqjyq8um4p3xfqj74yld5waqljf88fz25yxnma0cngspxe3les00fpjx/5TSQTEhJ5Q6r1YqCmCxTRSPiV2pGx5rZUQf6g2XH4e1b",
@@ -153,7 +153,7 @@
           "provider": "Wormhole"
         }
       ],
-      "assetType": "sdk.Factory"
+      "assetType": "sdk.factory"
     },
     {
       "description": "Aptos Coin (Wormhole), APT, factory/wormhole14ejqjyq8um4p3xfqj74yld5waqljf88fz25yxnma0cngspxe3les00fpjx/5wS2fGojbL9RhGEAeQBdkHPUAciYDxjDTMYvdf9aDn2r",
@@ -188,7 +188,7 @@
           "provider": "Wormhole"
         }
       ],
-      "assetType": "sdk.Factory"
+      "assetType": "sdk.factory"
     },
     {
       "description": "Tether USD (Wormhole), USDT, factory/wormhole14ejqjyq8um4p3xfqj74yld5waqljf88fz25yxnma0cngspxe3les00fpjx/8iuAc6DSeLvi2JDUtwJxLytsZT8R19itXebZsNReLLNi",
@@ -223,7 +223,7 @@
           "provider": "Wormhole"
         }
       ],
-      "assetType": "sdk.Factory"
+      "assetType": "sdk.factory"
     },
     {
       "description": "Wrapped SOL (Wormhole), SOL, factory/wormhole14ejqjyq8um4p3xfqj74yld5waqljf88fz25yxnma0cngspxe3les00fpjx/8sYgCzLRJC3J7qPn2bNbx6PiGcarhyx8rBhVaNnfvHCA",
@@ -258,7 +258,7 @@
           "provider": "Wormhole"
         }
       ],
-      "assetType": "sdk.Factory"
+      "assetType": "sdk.factory"
     },
     {
       "description": "Bonk (Wormhole), Bonk, factory/wormhole14ejqjyq8um4p3xfqj74yld5waqljf88fz25yxnma0cngspxe3les00fpjx/95mnwzvJZJ3fKz77xfGN2nR5to9pZmH8YNvaxgLgw5AR",
@@ -293,7 +293,7 @@
           "provider": "Wormhole"
         }
       ],
-      "assetType": "sdk.Factory"
+      "assetType": "sdk.factory"
     },
     {
       "description": "Wrapped BTC (Wormhole), WBTC, factory/wormhole14ejqjyq8um4p3xfqj74yld5waqljf88fz25yxnma0cngspxe3les00fpjx/BGkuAcga2WArUghF8L6kt6uCAhAzrxmn1QcbQqi5r5bd",
@@ -328,7 +328,7 @@
           "provider": "Wormhole"
         }
       ],
-      "assetType": "sdk.Factory"
+      "assetType": "sdk.factory"
     },
     {
       "description": "tBTC v2 (Wormhole), tBTC, factory/wormhole14ejqjyq8um4p3xfqj74yld5waqljf88fz25yxnma0cngspxe3les00fpjx/BhqTYfQogyt7jX7cx7x8uHEQP1x9fdtdBZtK4Swghgpw",
@@ -363,7 +363,7 @@
           "provider": "Wormhole"
         }
       ],
-      "assetType": "sdk.Factory"
+      "assetType": "sdk.factory"
     },
     {
       "description": "Dai Stablecoin (Wormhole), DAI, factory/wormhole14ejqjyq8um4p3xfqj74yld5waqljf88fz25yxnma0cngspxe3les00fpjx/EKiMEqDnPKokFGcSXDvGMk6Gt1BJ6BC7BDZzTmEpWLH1",
@@ -398,7 +398,7 @@
           "provider": "Wormhole"
         }
       ],
-      "assetType": "sdk.Factory"
+      "assetType": "sdk.factory"
     },
     {
       "description": "USD Coin (Wormhole), USDC, factory/wormhole14ejqjyq8um4p3xfqj74yld5waqljf88fz25yxnma0cngspxe3les00fpjx/GGh9Ufn1SeDGrhzEkMyRKt5568VbbxZK2yvWNsd6PbXt",
@@ -433,7 +433,7 @@
           "provider": "Wormhole"
         }
       ],
-      "assetType": "sdk.Factory"
+      "assetType": "sdk.factory"
     },
     {
       "description": "Avalanche USD Coin (Wormhole), Avalanche USDC, factory/wormhole14ejqjyq8um4p3xfqj74yld5waqljf88fz25yxnma0cngspxe3les00fpjx/5ZLmAZpcbaP4EGyihSmpfwryzDr84h51tboV392BCjW4",
@@ -468,7 +468,7 @@
           "provider": "Wormhole"
         }
       ],
-      "assetType": "sdk.Factory"
+      "assetType": "sdk.factory"
     },
     {
       "description": "Pyth Network (Wormhole), PYTH, factory/wormhole14ejqjyq8um4p3xfqj74yld5waqljf88fz25yxnma0cngspxe3les00fpjx/B8ohBnfisop27exk2gtNABJyYjLwQA7ogrp5uNzvZCoy",
@@ -503,7 +503,7 @@
           "provider": "Wormhole"
         }
       ],
-      "assetType": "sdk.Factory"
+      "assetType": "sdk.factory"
     },
     {
       "description": "Solana USD Coin (Wormhole), Solana USDC, factory/wormhole14ejqjyq8um4p3xfqj74yld5waqljf88fz25yxnma0cngspxe3les00fpjx/HJk1XMDRNUbRrpKkNZYui7SwWDMjXZAsySzqgyNcQoU3",
@@ -537,7 +537,7 @@
           "provider": "Wormhole"
         }
       ],
-      "assetType": "sdk.Factory"
+      "assetType": "sdk.factory"
     },
     {
       "description": "Basket (Wormhole), BSKT, factory/wormhole14ejqjyq8um4p3xfqj74yld5waqljf88fz25yxnma0cngspxe3les00fpjx/bqqqpqsxzelp2hdfd4cgmxr6ekpatlj8yt2eghk52vst",
@@ -573,7 +573,7 @@
           "provider": "Wormhole"
         }
       ],
-      "assetType": "sdk.Factory"
+      "assetType": "sdk.factory"
     },
     {
       "description": "W is the native token powering the Wormhole interoperability platform.",

@@ -19,7 +19,7 @@
       "name": "Hypersign",
       "symbol": "HID",
       "coingeckoId": "hypersign-identity-token",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

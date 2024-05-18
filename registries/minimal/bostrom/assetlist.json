@@ -18,7 +18,7 @@
       "display": "boot",
       "symbol": "BOOT",
       "coingeckoId": "bostrom",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     },
     {
       "description": "The liquid staking token of Bostrom",
@@ -35,7 +35,7 @@
       "name": "Bostrom Hydrogen",
       "display": "hydrogen",
       "symbol": "HYDROGEN",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     },
     {
       "description": "The resource token of Bostrom",
@@ -59,7 +59,7 @@
       "name": "Bostrom Ampere",
       "display": "ampere",
       "symbol": "A",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     },
     {
       "description": "The resource token of Bostrom",
@@ -83,7 +83,7 @@
       "name": "Bostrom Volt",
       "display": "volt",
       "symbol": "V",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     },
     {
       "description": "The staking token of Cyber",
@@ -100,7 +100,7 @@
       "name": "Bostrom Tocyb",
       "display": "tocyb",
       "symbol": "TOCYB",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

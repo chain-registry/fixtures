@@ -24,7 +24,7 @@
       "name": "SGE Testnet",
       "display": "sge",
       "symbol": "SGE",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

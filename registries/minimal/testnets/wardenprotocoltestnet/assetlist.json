@@ -18,7 +18,7 @@
       "name": "Ward",
       "display": "ward",
       "symbol": "WARD",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

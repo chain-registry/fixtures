@@ -19,7 +19,7 @@
       "display": "ORAI",
       "symbol": "ORAI",
       "coingeckoId": "oraichain-token",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

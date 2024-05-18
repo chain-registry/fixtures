@@ -24,7 +24,7 @@
       "name": "Saga",
       "display": "tsaga",
       "symbol": "TSAGA",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

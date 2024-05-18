@@ -18,7 +18,7 @@
       "name": "Berberis HEDGE",
       "display": "hedge",
       "symbol": "HEDGE",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

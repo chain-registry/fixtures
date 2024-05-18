@@ -18,7 +18,7 @@
       "name": "OKP4 Network",
       "display": "know",
       "symbol": "KNOW",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

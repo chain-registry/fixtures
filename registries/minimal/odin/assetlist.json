@@ -19,7 +19,7 @@
       "display": "odin",
       "symbol": "ODIN",
       "coingeckoId": "odin-protocol",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     },
     {
       "description": "GEO token for ODIN Protocol",
@@ -37,7 +37,7 @@
       "name": "GEO",
       "display": "geo",
       "symbol": "GEO",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     },
     {
       "description": "DOKI the last Dragon",
@@ -56,7 +56,7 @@
       "display": "doki",
       "symbol": "DOKI",
       "coingeckoId": "doki",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     },
     {
       "description": "Myrkur the leader of OLD Order",
@@ -74,7 +74,7 @@
       "name": "MYRK",
       "display": "myrk",
       "symbol": "MYRK",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     },
     {
       "description": "O9W token for ODIN Protocol",
@@ -92,7 +92,7 @@
       "name": "O9W",
       "display": "O9W",
       "symbol": "O9W",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

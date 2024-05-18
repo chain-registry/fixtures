@@ -19,7 +19,7 @@
       "display": "qwoyn",
       "symbol": "QWOYN",
       "coingeckoId": "qwoyn",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

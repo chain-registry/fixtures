@@ -19,7 +19,7 @@
       "display": "tori",
       "symbol": "TORI",
       "coingeckoId": "teritori",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     },
     {
       "description": "The native token of Osmosis",

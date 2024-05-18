@@ -19,7 +19,7 @@
       "display": "fis",
       "symbol": "FIS",
       "coingeckoId": "stafi",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     },
     {
       "description": "A liquid staking representation of staked ATOMs",
@@ -48,7 +48,7 @@
         }
       ],
       "coingeckoId": "",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     },
     {
       "description": "A liquid staking representation of staked IRISs",
@@ -77,7 +77,7 @@
         }
       ],
       "coingeckoId": "",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     },
     {
       "description": "A liquid staking representation of staked HUAHUAs",
@@ -106,7 +106,7 @@
         }
       ],
       "coingeckoId": "",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     },
     {
       "description": "A liquid staking representation of staked SWTHs",
@@ -135,7 +135,7 @@
         }
       ],
       "coingeckoId": "",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

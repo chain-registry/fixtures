@@ -19,7 +19,7 @@
       "display": "like",
       "symbol": "LIKE",
       "coingeckoId": "likecoin",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

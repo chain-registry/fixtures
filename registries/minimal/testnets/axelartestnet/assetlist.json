@@ -19,7 +19,7 @@
       "display": "axl",
       "symbol": "AXL",
       "coingeckoId": "axelar",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     },
     {
       "description": "Circle's stablecoin on Axelar",
@@ -47,7 +47,7 @@
           "provider": "Axelar"
         }
       ],
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     },
     {
       "description": "Wrapped Ether on Axelar",
@@ -75,7 +75,7 @@
           "provider": "Axelar"
         }
       ],
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     },
     {
       "description": "Wrapped Moonbeam on Axelar",
@@ -103,7 +103,7 @@
           "provider": "Axelar"
         }
       ],
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     },
     {
       "description": "Wrapped Matic on Axelar",
@@ -131,7 +131,7 @@
           "provider": "Axelar"
         }
       ],
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     },
     {
       "description": "Wrapped BNB on Axelar",
@@ -159,7 +159,7 @@
           "provider": "Axelar"
         }
       ],
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     },
     {
       "description": "Wrapped AVAX on Axelar.",
@@ -187,7 +187,7 @@
           "provider": "Axelar"
         }
       ],
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     },
     {
       "description": "Wrapped FTM on Axelar.",
@@ -215,7 +215,7 @@
           "provider": "Axelar"
         }
       ],
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

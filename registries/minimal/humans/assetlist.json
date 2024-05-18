@@ -19,7 +19,7 @@
       "display": "heart",
       "symbol": "HEART",
       "coingeckoId": "humans-ai",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

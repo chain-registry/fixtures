@@ -19,7 +19,7 @@
       "display": "dhp",
       "symbol": "DHP",
       "coingeckoId": "dhealth",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

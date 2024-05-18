@@ -24,7 +24,7 @@
       "name": "EntryPoint",
       "display": "entry",
       "symbol": "ENTRY",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     },
     {
       "description": "The native staking and governance token of the Theta testnet version of the Cosmos Hub, via Osmosis.",

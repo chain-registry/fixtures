@@ -25,7 +25,7 @@
       "display": "qck",
       "symbol": "QCK",
       "coingeckoId": "quicksilver",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     },
     {
       "description": "Quicksilver Liquid Staked STARS",
@@ -59,7 +59,7 @@
           "provider": "Quicksilver"
         }
       ],
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     },
     {
       "description": "Quicksilver Liquid Staked ATOM",
@@ -93,7 +93,7 @@
           "provider": "Quicksilver"
         }
       ],
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     },
     {
       "description": "Quicksilver Liquid Staked REGEN",
@@ -127,7 +127,7 @@
           "provider": "Quicksilver"
         }
       ],
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     },
     {
       "description": "Quicksilver Liquid Staked OSMO",
@@ -161,7 +161,7 @@
           "provider": "Quicksilver"
         }
       ],
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     },
     {
       "description": "Quicksilver Liquid Staked SOMM",
@@ -195,7 +195,7 @@
           "provider": "Quicksilver"
         }
       ],
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     },
     {
       "description": "Quicksilver Liquid Staked JUNO",
@@ -229,7 +229,7 @@
           "provider": "Quicksilver"
         }
       ],
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     },
     {
       "description": "Quicksilver Liquid Staked DYDX",
@@ -263,7 +263,7 @@
           "provider": "Quicksilver"
         }
       ],
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     },
     {
       "description": "Quicksilver Liquid Staked SAGA",
@@ -297,7 +297,7 @@
           "provider": "Quicksilver"
         }
       ],
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     },
     {
       "description": "Quicksilver Liquid Staked BLD",
@@ -331,7 +331,7 @@
           "provider": "Quicksilver"
         }
       ],
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

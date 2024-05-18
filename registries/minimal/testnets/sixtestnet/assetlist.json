@@ -18,7 +18,7 @@
       "name": "Six token",
       "display": "six",
       "symbol": "six",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

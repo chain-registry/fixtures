@@ -19,7 +19,7 @@
       "display": "stars",
       "symbol": "STARS",
       "coingeckoId": "stargaze",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

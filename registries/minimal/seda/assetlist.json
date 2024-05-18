@@ -19,7 +19,7 @@
       "display": "seda",
       "symbol": "SEDA",
       "coingeckoId": "seda-2",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

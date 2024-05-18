@@ -19,7 +19,7 @@
       "display": "wahax",
       "symbol": "WAHAX",
       "coingeckoId": "",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

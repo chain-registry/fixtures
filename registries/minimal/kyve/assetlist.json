@@ -19,7 +19,7 @@
       "display": "kyve",
       "symbol": "KYVE",
       "coingeckoId": "kyve-network",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

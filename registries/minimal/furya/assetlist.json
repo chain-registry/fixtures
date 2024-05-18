@@ -19,7 +19,7 @@
       "display": "fury",
       "symbol": "FURY",
       "coingeckoId": "fanfury",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

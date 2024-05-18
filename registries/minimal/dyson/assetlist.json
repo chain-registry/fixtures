@@ -15,7 +15,7 @@
       "display": "dys",
       "symbol": "DYS",
       "coingeckoId": "",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     },
     {
       "denomUnits": [

@@ -19,7 +19,7 @@
       "display": "cgas",
       "symbol": "CGAS",
       "coingeckoId": "",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     },
     {
       "description": "The inscription token of the COSS.",
@@ -38,7 +38,7 @@
       "display": "coss",
       "symbol": "COSS",
       "coingeckoId": "coss-2",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     },
     {
       "description": "The inscription token of the CIAS.",
@@ -57,7 +57,7 @@
       "display": "cias",
       "symbol": "CIAS",
       "coingeckoId": "cias",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

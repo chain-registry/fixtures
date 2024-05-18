@@ -630,7 +630,7 @@
       "name": "Willyz",
       "display": "willyz",
       "symbol": "WILLYZ",
-      "assetType": "sdk.Factory"
+      "assetType": "sdk.factory"
     },
     {
       "description": "The yield token for ATOM denominated vaults on Amulet Protocol",

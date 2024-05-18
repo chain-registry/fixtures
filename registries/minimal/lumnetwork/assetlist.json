@@ -19,7 +19,7 @@
       "display": "lum",
       "symbol": "LUM",
       "coingeckoId": "lum-network",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

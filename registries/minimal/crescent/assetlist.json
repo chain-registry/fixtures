@@ -19,7 +19,7 @@
       "display": "cre",
       "symbol": "CRE",
       "coingeckoId": "crescent-network",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     },
     {
       "description": "The bonded token of Crescent",
@@ -38,7 +38,7 @@
       "display": "bcre",
       "symbol": "bCRE",
       "coingeckoId": "liquid-staking-crescent",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

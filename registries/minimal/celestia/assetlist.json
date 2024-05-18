@@ -19,7 +19,7 @@
       "display": "tia",
       "symbol": "TIA",
       "coingeckoId": "celestia",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

@@ -18,7 +18,7 @@
       "name": "Scorum",
       "display": "scr",
       "symbol": "SCR",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     },
     {
       "description": "Scorum Power used for internal mechanics and staking",
@@ -36,7 +36,7 @@
       "name": "Scorum Power",
       "display": "sp",
       "symbol": "SP",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     },
     {
       "description": "Virtual(non-transferable) coin used to pay gas",
@@ -50,7 +50,7 @@
       "name": "GAS",
       "display": "gas",
       "symbol": "GAS",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

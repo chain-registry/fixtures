@@ -18,7 +18,7 @@
       "name": "Planq Atlas Testnet",
       "display": "tplanq",
       "symbol": "tPLQ",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

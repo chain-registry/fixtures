@@ -18,7 +18,7 @@
       "name": "GenesisL1",
       "display": "l1",
       "symbol": "L1",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

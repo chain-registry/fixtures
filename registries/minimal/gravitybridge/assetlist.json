@@ -19,7 +19,7 @@
       "display": "graviton",
       "symbol": "GRAV",
       "coingeckoId": "graviton",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     },
     {
       "description": "pSTAKE is a liquid staking protocol unlocking the liquidity of staked assets.",
@@ -55,7 +55,7 @@
           "provider": "Gravity Bridge"
         }
       ],
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     },
     {
       "description": "Gravity Bridge WETH",
@@ -91,7 +91,7 @@
           "provider": "Gravity Bridge"
         }
       ],
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     },
     {
       "description": "Gravity Bridge USDC",
@@ -128,7 +128,7 @@
           "provider": "Gravity Bridge"
         }
       ],
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     },
     {
       "description": "Gravity Bridge USDT",
@@ -164,7 +164,7 @@
           "provider": "Gravity Bridge"
         }
       ],
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     },
     {
       "description": "Gravity Bridge WBTC",
@@ -200,7 +200,7 @@
           "provider": "Gravity Bridge"
         }
       ],
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     },
     {
       "description": "Gravity Bridge DAI",
@@ -236,7 +236,7 @@
           "provider": "Gravity Bridge"
         }
       ],
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     },
     {
       "description": "Gravity Bridge sDAI",
@@ -264,7 +264,7 @@
           "provider": "Gravity Bridge"
         }
       ],
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     },
     {
       "description": "Gravity Bridge OCC",
@@ -292,7 +292,7 @@
           "provider": "Gravity Bridge"
         }
       ],
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     },
     {
       "description": "The PAGE token is used for actions in the PageDAO NFT literary ecosystem and for DAO governance.",
@@ -320,7 +320,7 @@
           "provider": "Gravity Bridge"
         }
       ],
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     },
     {
       "description": "Gravity Bridge Paxos Gold",
@@ -348,7 +348,7 @@
           "provider": "Gravity Bridge"
         }
       ],
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

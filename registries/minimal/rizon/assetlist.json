@@ -19,7 +19,7 @@
       "display": "atolo",
       "symbol": "ATOLO",
       "coingeckoId": "rizon",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

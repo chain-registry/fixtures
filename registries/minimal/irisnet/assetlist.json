@@ -19,7 +19,7 @@
       "display": "iris",
       "symbol": "IRIS",
       "coingeckoId": "iris-network",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

@@ -38,7 +38,7 @@
       "display": "tkx",
       "name": "titan tkx",
       "symbol": "TKX",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

@@ -19,7 +19,7 @@
       "display": "cmdx",
       "symbol": "CMDX",
       "coingeckoId": "comdex",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     },
     {
       "description": "Governance Token of Harbor protocol on Comdex network",
@@ -38,7 +38,7 @@
       "display": "harbor",
       "symbol": "HARBOR",
       "coingeckoId": "harbor-2",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     },
     {
       "description": "Stable Token of Harbor protocol on Comdex network",
@@ -57,7 +57,7 @@
       "display": "cmst",
       "symbol": "CMST",
       "coingeckoId": "composite",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

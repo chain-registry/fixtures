@@ -18,7 +18,7 @@
       "name": "Nomic",
       "display": "nom",
       "symbol": "NOM",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     },
     {
       "description": "Bitcoin. On Cosmos.",
@@ -46,7 +46,7 @@
           "provider": "Nomic"
         }
       ],
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

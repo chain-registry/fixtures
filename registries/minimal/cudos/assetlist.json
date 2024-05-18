@@ -22,7 +22,7 @@
       "display": "cudos",
       "symbol": "CUDOS",
       "coingeckoId": "cudos",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

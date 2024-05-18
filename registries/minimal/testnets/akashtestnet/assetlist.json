@@ -18,7 +18,7 @@
       "name": "Akash Network",
       "display": "akt",
       "symbol": "AKT",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

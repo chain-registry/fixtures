@@ -25,7 +25,7 @@
       "display": "om",
       "symbol": "OM",
       "coingeckoId": "",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

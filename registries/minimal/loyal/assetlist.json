@@ -18,7 +18,7 @@
       "name": "Loyal",
       "display": "lyl",
       "symbol": "LYL",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

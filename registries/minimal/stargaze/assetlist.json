@@ -19,7 +19,7 @@
       "display": "stars",
       "symbol": "STARS",
       "coingeckoId": "stargaze",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     },
     {
       "description": "The native token of ohhNFT.",
@@ -38,7 +38,7 @@
       "display": "strdst",
       "symbol": "STRDST",
       "coingeckoId": "",
-      "assetType": "sdk.Factory"
+      "assetType": "sdk.factory"
     },
     {
       "description": "The native meme token of stargaze.",
@@ -57,7 +57,7 @@
       "display": "GAZE",
       "symbol": "GAZE",
       "coingeckoId": "",
-      "assetType": "sdk.Factory"
+      "assetType": "sdk.factory"
     },
     {
       "description": "ohhNFT LP token.",
@@ -76,7 +76,7 @@
       "display": "BRNCH",
       "symbol": "BRNCH",
       "coingeckoId": "",
-      "assetType": "sdk.Factory"
+      "assetType": "sdk.factory"
     },
     {
       "description": "Social token for the ohhVAULT.",
@@ -95,7 +95,7 @@
       "display": "OHH",
       "symbol": "OHH",
       "coingeckoId": "",
-      "assetType": "sdk.Factory"
+      "assetType": "sdk.factory"
     },
     {
       "description": "The native coin of Sneaky Productions.",
@@ -114,7 +114,7 @@
       "display": "sneaky",
       "symbol": "SNEAKY",
       "coingeckoId": "",
-      "assetType": "sdk.Factory"
+      "assetType": "sdk.factory"
     },
     {
       "description": "LAB - Everything is an Experiment",

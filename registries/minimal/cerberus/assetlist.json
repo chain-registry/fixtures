@@ -19,7 +19,7 @@
       "display": "crbrus",
       "symbol": "CRBRUS",
       "coingeckoId": "cerberus-2",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

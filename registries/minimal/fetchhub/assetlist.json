@@ -19,7 +19,7 @@
       "display": "fet",
       "symbol": "FET",
       "coingeckoId": "fetch-ai",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     },
     {
       "description": "The MOBX coin rewards the use of eco-friendly micromobility transportation.",
@@ -37,7 +37,7 @@
       "name": "MOBIX",
       "display": "mobx",
       "symbol": "MOBX",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

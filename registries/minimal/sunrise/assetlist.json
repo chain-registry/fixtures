@@ -21,7 +21,7 @@
       "name": "Sunrise",
       "display": "sr",
       "symbol": "SR",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

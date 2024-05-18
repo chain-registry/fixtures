@@ -18,7 +18,7 @@
       "name": "Qwoyn Blockchain",
       "display": "qwoyn",
       "symbol": "QWOYN",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

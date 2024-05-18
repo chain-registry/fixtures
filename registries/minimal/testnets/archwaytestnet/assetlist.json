@@ -22,7 +22,7 @@
       "name": "Archway",
       "display": "const",
       "symbol": "CONST",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

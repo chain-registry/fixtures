@@ -19,7 +19,7 @@
       "display": "planq",
       "symbol": "PLQ",
       "coingeckoId": "planq",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     },
     {
       "description": "The token of Source Protocol bridged from BSC.",

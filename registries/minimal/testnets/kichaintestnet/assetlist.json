@@ -19,7 +19,7 @@
       "display": "tki",
       "symbol": "TKI",
       "coingeckoId": "ki",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

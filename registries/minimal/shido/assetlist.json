@@ -19,7 +19,7 @@
       "display": "SHIDO",
       "symbol": "SHIDO",
       "coingeckoId": "shido-2",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

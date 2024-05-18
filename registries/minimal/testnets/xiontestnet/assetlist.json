@@ -24,7 +24,7 @@
       "display": "XION",
       "name": "xion",
       "symbol": "XION",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     },
     {
       "denomUnits": [

@@ -18,7 +18,7 @@
       "name": "ONEX",
       "display": "onex",
       "symbol": "ONEX",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

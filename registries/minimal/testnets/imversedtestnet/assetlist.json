@@ -24,7 +24,7 @@
       "name": "Imv",
       "display": "imv",
       "symbol": "IMV",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     },
     {
       "description": "The native staking and governance token of the Imversed testnet.",

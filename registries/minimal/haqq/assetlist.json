@@ -19,7 +19,7 @@
       "display": "ISLM",
       "symbol": "ISLM",
       "coingeckoId": "islamic-coin",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

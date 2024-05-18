@@ -25,7 +25,7 @@
       "display": "qck",
       "symbol": "QCK",
       "coingeckoId": "quicksilver",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

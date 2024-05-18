@@ -19,7 +19,7 @@
       "display": "c4e",
       "symbol": "C4E",
       "coingeckoId": "",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

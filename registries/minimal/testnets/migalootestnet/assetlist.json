@@ -18,7 +18,7 @@
       "name": "Whale",
       "display": "whale",
       "symbol": "WHALE",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

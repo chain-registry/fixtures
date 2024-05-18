@@ -19,7 +19,7 @@
       "display": "ROWAN",
       "symbol": "ROWAN",
       "coingeckoId": "sifchain",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

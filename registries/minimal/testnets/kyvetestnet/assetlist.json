@@ -28,7 +28,7 @@
           "provider": "Kyve"
         }
       ],
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

@@ -19,7 +19,7 @@
       "name": "cheqd",
       "symbol": "CHEQ",
       "coingeckoId": "cheqd-network",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

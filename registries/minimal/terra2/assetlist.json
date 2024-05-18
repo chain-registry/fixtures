@@ -340,7 +340,7 @@
       "name": "ERIS Alliance Staked ampWHALE",
       "display": "ampWHALEt",
       "symbol": "ampWHALEt",
-      "assetType": "sdk.Factory"
+      "assetType": "sdk.factory"
     },
     {
       "description": "ERIS Alliance Staked boneWHALE on Terra",
@@ -358,7 +358,7 @@
       "name": "ERIS Alliance Staked boneWHALE",
       "display": "boneWHALEt",
       "symbol": "boneWHALEt",
-      "assetType": "sdk.Factory"
+      "assetType": "sdk.factory"
     },
     {
       "description": "ERIS Liquid Enterprise Staked ROAR",
@@ -376,7 +376,7 @@
       "name": "ERIS Amplified ROAR",
       "display": "ampROAR",
       "symbol": "ampROAR",
-      "assetType": "sdk.Factory"
+      "assetType": "sdk.factory"
     },
     {
       "description": "Nico Dao Money",
@@ -741,7 +741,7 @@
       "name": "ERIS MOAR",
       "display": "MOAR",
       "symbol": "MOAR",
-      "assetType": "sdk.Factory"
+      "assetType": "sdk.factory"
     },
     {
       "description": "Tether USDt on Terra",

@@ -19,7 +19,7 @@
       "display": "ngm",
       "symbol": "NGM",
       "coingeckoId": "e-money",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     },
     {
       "description": "e-Money EUR stablecoin. Audited and backed by fiat EUR deposits and government bonds.",
@@ -38,7 +38,7 @@
       "display": "eur",
       "symbol": "EEUR",
       "coingeckoId": "e-money-eur",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     },
     {
       "description": "e-Money CHF stablecoin. Audited and backed by fiat CHF deposits and government bonds.",
@@ -57,7 +57,7 @@
       "display": "chf",
       "symbol": "ECHF",
       "coingeckoId": "",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     },
     {
       "description": "e-Money NOK stablecoin. Audited and backed by fiat NOK deposits and government bonds.",
@@ -76,7 +76,7 @@
       "display": "nok",
       "symbol": "ENOK",
       "coingeckoId": "",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     },
     {
       "description": "e-Money DKK stablecoin. Audited and backed by fiat DKK deposits and government bonds.",
@@ -95,7 +95,7 @@
       "display": "dkk",
       "symbol": "EDKK",
       "coingeckoId": "",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     },
     {
       "description": "e-Money SEK stablecoin. Audited and backed by fiat SEK deposits and government bonds.",
@@ -114,7 +114,7 @@
       "display": "sek",
       "symbol": "ESEK",
       "coingeckoId": "",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

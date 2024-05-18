@@ -18,7 +18,7 @@
       "name": "GovGen",
       "display": "govgen",
       "symbol": "GOVGEN",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

@@ -18,7 +18,7 @@
       "name": "TPRL",
       "display": "tprl",
       "symbol": "TPRL",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

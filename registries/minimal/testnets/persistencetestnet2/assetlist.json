@@ -19,7 +19,7 @@
       "display": "xprt",
       "symbol": "XPRT",
       "coingeckoId": "persistence",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     },
     {
       "description": "PSTAKE Liquid-Staked ATOM",
@@ -43,7 +43,7 @@
       "name": "PSTAKE staked ATOM",
       "display": "stkatom",
       "symbol": "stkATOM",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     },
     {
       "description": "PSTAKE Liquid-Staked OSMO",
@@ -67,7 +67,7 @@
       "name": "PSTAKE staked OSMO",
       "display": "stkosmo",
       "symbol": "stkOSMO",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     },
     {
       "description": "PSTAKE Liquid-Staked DV4TNT",
@@ -91,7 +91,7 @@
       "name": "PSTAKE staked DV4TNT",
       "display": "stkdv4tnt",
       "symbol": "stkDV4TNT",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

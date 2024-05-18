@@ -18,7 +18,7 @@
       "name": "LUMEN",
       "display": "lumen",
       "symbol": "LUMEN",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

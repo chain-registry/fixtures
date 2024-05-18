@@ -19,7 +19,7 @@
       "display": "nom",
       "symbol": "NOM",
       "coingeckoId": "onomy-protocol",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

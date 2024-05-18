@@ -19,7 +19,7 @@
       "display": "dvpn",
       "symbol": "DVPN",
       "coingeckoId": "sentinel",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

@@ -19,7 +19,7 @@
       "display": "dydx",
       "symbol": "DYDX",
       "coingeckoId": "dydx-chain",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     },
     {
       "description": "Noble USDC on dYdX Protocol.",

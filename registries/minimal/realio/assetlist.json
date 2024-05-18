@@ -19,7 +19,7 @@
       "display": "rio",
       "symbol": "RIO",
       "coingeckoId": "realio-network",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     },
     {
       "description": "A hybrid equity token that represent ownership of the Realio Ecosystem and provides utility functions on the Network.",
@@ -38,7 +38,7 @@
       "display": "rst",
       "symbol": "RST",
       "coingeckoId": "",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

@@ -19,7 +19,7 @@
       "display": "sei",
       "symbol": "SEI",
       "coingeckoId": "sei-network",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     },
     {
       "description": "OIN Token ($OIN) is a groundbreaking digital asset developed on the $SEI Blockchain. It transcends being merely a cryptocurrency; $OIN stands as a robust store of value, symbolizing the future of decentralized finance and its potential to reshape the crypto landscape.",
@@ -39,7 +39,7 @@
       "display": "oin",
       "symbol": "OIN",
       "coingeckoId": "",
-      "assetType": "sdk.Factory"
+      "assetType": "sdk.factory"
     },
     {
       "description": "ERIS liquid staked SEI",
@@ -57,7 +57,7 @@
       "name": "ERIS Amplified SEI",
       "display": "ampSEI",
       "symbol": "ampSEI",
-      "assetType": "sdk.Factory"
+      "assetType": "sdk.factory"
     },
     {
       "description": "Popeye the Seilor",
@@ -75,7 +75,7 @@
       "name": "Popeye",
       "display": "popeye",
       "symbol": "POPEYE",
-      "assetType": "sdk.Factory"
+      "assetType": "sdk.factory"
     },
     {
       "description": "A wise dog and a marshal arts master",
@@ -93,7 +93,7 @@
       "name": "Sensei Dog",
       "display": "sensei",
       "symbol": "SENSEI",
-      "assetType": "sdk.Factory"
+      "assetType": "sdk.factory"
     },
     {
       "description": "The first memecoin on osmosis.",
@@ -143,7 +143,7 @@
       "name": "Oozaru",
       "display": "oozaru",
       "symbol": "OOZARU",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     },
     {
       "description": "The Original Meme Coin of SEI Network",

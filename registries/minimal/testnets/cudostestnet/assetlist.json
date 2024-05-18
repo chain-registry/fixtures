@@ -24,7 +24,7 @@
       "name": "Cudos",
       "display": "cudos",
       "symbol": "CUDOS",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

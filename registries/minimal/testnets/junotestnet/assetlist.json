@@ -19,7 +19,7 @@
       "display": "junox",
       "symbol": "JUNOX",
       "coingeckoId": "juno-network",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     },
     {
       "description": "The native token of NEXX GEN AI",
@@ -37,7 +37,7 @@
       "name": "NEXX GEN AI",
       "display": "nexx",
       "symbol": "NEXX",
-      "assetType": "sdk.Factory"
+      "assetType": "sdk.factory"
     },
     {
       "assetType": "sdk.coin",

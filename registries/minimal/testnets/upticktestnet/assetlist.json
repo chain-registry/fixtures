@@ -19,7 +19,7 @@
       "display": "uptick",
       "symbol": "UPTICK",
       "coingeckoId": "",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

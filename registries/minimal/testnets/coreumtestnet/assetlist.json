@@ -19,7 +19,7 @@
       "display": "testcore",
       "symbol": "TESTCORE",
       "coingeckoId": "coreum",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

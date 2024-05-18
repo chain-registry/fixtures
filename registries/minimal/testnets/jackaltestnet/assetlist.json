@@ -19,7 +19,7 @@
       "display": "jkl",
       "symbol": "JKL",
       "coingeckoId": "jackal",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

@@ -19,7 +19,7 @@
       "display": "neutaro",
       "symbol": "NTMPI",
       "coingeckoId": "neutaro",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

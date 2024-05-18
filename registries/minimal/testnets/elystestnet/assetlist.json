@@ -32,7 +32,7 @@
       "display": "elys",
       "symbol": "ELYS",
       "coingeckoId": "elys",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     },
     {
       "description": "Eden token definition",
@@ -63,7 +63,7 @@
       "name": "Eden",
       "display": "eden",
       "symbol": "EDEN",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     },
     {
       "description": "USDC from Noble",

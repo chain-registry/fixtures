@@ -19,7 +19,7 @@
       "display": "ixo",
       "symbol": "IXO",
       "coingeckoId": "ixo",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

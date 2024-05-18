@@ -28,7 +28,7 @@
           "provider": "SGE"
         }
       ],
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

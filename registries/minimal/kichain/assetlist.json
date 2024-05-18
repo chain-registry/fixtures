@@ -19,7 +19,7 @@
       "display": "xki",
       "symbol": "XKI",
       "coingeckoId": "ki",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     },
     {
       "description": "ELEVENPARIS loyalty token on KiChain",

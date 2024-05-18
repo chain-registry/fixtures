@@ -19,7 +19,7 @@
       "display": "core",
       "symbol": "COREUM",
       "coingeckoId": "coreum",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     },
     {
       "description": "XRP bridged from XRPL",
@@ -50,7 +50,7 @@
           "provider": "Coreum"
         }
       ],
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

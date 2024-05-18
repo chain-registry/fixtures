@@ -24,7 +24,7 @@
       "name": "IDEP",
       "display": "IDEP",
       "symbol": "IDEP",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

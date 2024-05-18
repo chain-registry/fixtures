@@ -18,7 +18,7 @@
       "name": "Evmos Testnet",
       "display": "tevmos",
       "symbol": "TEVMOS",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

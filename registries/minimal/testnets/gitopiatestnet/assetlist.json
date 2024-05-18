@@ -18,7 +18,7 @@
       "name": "TLORE",
       "display": "tlore",
       "symbol": "TLORE",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

@@ -19,7 +19,7 @@
       "display": "evmos",
       "symbol": "EVMOS",
       "coingeckoId": "evmos",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     },
     {
       "description": "Tether USDt on Evmos",

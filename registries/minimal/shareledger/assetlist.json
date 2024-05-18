@@ -19,7 +19,7 @@
       "display": "shr",
       "symbol": "SHR",
       "coingeckoId": "shareledger",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

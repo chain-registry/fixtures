@@ -19,7 +19,7 @@
       "display": "WFX",
       "symbol": "FX",
       "coingeckoId": "fx-coin",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     },
     {
       "description": "The cross chain token of the Function X",
@@ -44,7 +44,7 @@
       "name": "Pundi X Token",
       "symbol": "PUNDIX",
       "coingeckoId": "pundi-x-2",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

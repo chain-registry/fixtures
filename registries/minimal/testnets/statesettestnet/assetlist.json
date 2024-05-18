@@ -24,7 +24,7 @@
       "name": "Stateset",
       "display": "state",
       "symbol": "STATE",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

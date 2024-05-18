@@ -39,7 +39,7 @@
       "name": "titan tkx",
       "symbol": "TKX",
       "coingeckoId": "tokenize-xchange",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

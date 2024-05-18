@@ -18,7 +18,7 @@
       "name": "Kuji",
       "display": "kuji",
       "symbol": "KUJI",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     },
     {
       "description": "The testnet token of Fuzion",
@@ -36,7 +36,7 @@
       "name": "Fuzion",
       "display": "fuzn",
       "symbol": "FUZN",
-      "assetType": "sdk.Factory"
+      "assetType": "sdk.factory"
     }
   ]
 }

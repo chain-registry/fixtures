@@ -19,7 +19,7 @@
       "display": "nls",
       "symbol": "NLS",
       "coingeckoId": "nolus",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     },
     {
       "description": "axlUSDC transferred from the Osmosis mainnet that is supported on the Nolus chain",

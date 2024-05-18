@@ -19,7 +19,7 @@
       "display": "xprt",
       "symbol": "XPRT",
       "coingeckoId": "persistence",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     },
     {
       "description": "PSTAKE Liquid-Staked ATOM",
@@ -54,7 +54,7 @@
         }
       ],
       "coingeckoId": "stkatom",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     },
     {
       "description": "pSTAKE is a liquid staking protocol unlocking the liquidity of staked assets.",
@@ -276,7 +276,7 @@
         }
       ],
       "coingeckoId": "pstake-staked-osmo",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     },
     {
       "description": "PSTAKE Liquid-Staked DYDX",
@@ -310,7 +310,7 @@
           "provider": "pSTAKE"
         }
       ],
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     },
     {
       "description": "PSTAKE Liquid-Staked STARS",
@@ -344,7 +344,7 @@
           "provider": "pSTAKE"
         }
       ],
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     },
     {
       "denomUnits": [
@@ -449,7 +449,7 @@
           "provider": "pSTAKE"
         }
       ],
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     },
     {
       "denomUnits": [
@@ -517,7 +517,7 @@
           "provider": "pSTAKE"
         }
       ],
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

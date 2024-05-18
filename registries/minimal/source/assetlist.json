@@ -19,7 +19,7 @@
       "display": "source",
       "symbol": "SOURCE",
       "coingeckoId": "source",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     },
     {
       "description": "Source Protocol's SRCX Token Bridged from BNB Through Planq",

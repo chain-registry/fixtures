@@ -18,7 +18,7 @@
       "name": "Сascadia Testnet",
       "display": "tCC",
       "symbol": "TCC",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

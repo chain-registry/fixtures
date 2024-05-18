@@ -19,7 +19,7 @@
       "display": "saga",
       "symbol": "SAGA",
       "coingeckoId": "saga-2",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

@@ -18,7 +18,7 @@
       "name": "self",
       "display": "self",
       "symbol": "SELF",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

@@ -18,7 +18,7 @@
       "name": "Dear Doge Testnet",
       "display": "dear",
       "symbol": "DEAR",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

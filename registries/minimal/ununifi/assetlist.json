@@ -18,7 +18,7 @@
       "name": "UnUniFi",
       "display": "guu",
       "symbol": "GUU",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

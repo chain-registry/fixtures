@@ -21,7 +21,7 @@
       "name": "Stake",
       "display": "stake",
       "symbol": "STAKE",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     },
     {
       "description": "Love is a test tokenfactory asset controlled by the Strangelove Team",
@@ -42,7 +42,7 @@
       "display": "love",
       "name": "Love",
       "symbol": "LOVE",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     },
     {
       "description": "USD Coin",
@@ -73,7 +73,7 @@
           "provider": "Circle"
         }
       ],
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     },
     {
       "description": "USDLR is a fiat-backed stablecoin issued by Stable. Stable pays DeFi protocols who distribute USDLR.",
@@ -104,7 +104,7 @@
           "provider": "Stable"
         }
       ],
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

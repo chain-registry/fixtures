@@ -29,7 +29,7 @@
           "provider": "Picasso"
         }
       ],
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     },
     {
       "description": "The native staking and governance token of Kusama Relay Chain.",

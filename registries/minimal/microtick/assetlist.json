@@ -19,7 +19,7 @@
       "name": "Microtick",
       "symbol": "TICK",
       "coingeckoId": "microtick",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

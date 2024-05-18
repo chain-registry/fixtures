@@ -19,7 +19,7 @@
       "display": "FUND",
       "symbol": "FUND",
       "coingeckoId": "unification",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

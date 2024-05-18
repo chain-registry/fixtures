@@ -24,7 +24,7 @@
       "name": "Quasar",
       "display": "qsr",
       "symbol": "QSR",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     },
     {
       "denomUnits": [
@@ -41,7 +41,7 @@
       "name": "AYY",
       "display": "ayy",
       "symbol": "AYY",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     },
     {
       "denomUnits": [
@@ -58,7 +58,7 @@
       "name": "oro",
       "display": "oro",
       "symbol": "ORO",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

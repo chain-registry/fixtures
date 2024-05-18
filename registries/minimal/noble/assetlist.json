@@ -21,7 +21,7 @@
       "name": "Stake",
       "display": "stake",
       "symbol": "STAKE",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     },
     {
       "description": "Frienzies are an IBC token redeemable exclusively for a physical asset issued by the Noble entity.",
@@ -42,7 +42,7 @@
       "display": "frienzies",
       "name": "Frienzies",
       "symbol": "FRNZ",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     },
     {
       "description": "ATOM token on Noble",
@@ -109,7 +109,7 @@
           "provider": "Circle"
         }
       ],
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     },
     {
       "description": "USDLR is a fiat-backed stablecoin issued by Stable. Stable pays DeFi protocols who distribute USDLR.",
@@ -130,7 +130,7 @@
       "display": "usdlr",
       "name": "USDLR by Stable",
       "symbol": "USDLR",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

@@ -19,7 +19,7 @@
       "display": "mun",
       "symbol": "MUN",
       "coingeckoId": "",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

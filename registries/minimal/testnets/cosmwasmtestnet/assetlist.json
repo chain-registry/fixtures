@@ -18,7 +18,7 @@
       "name": "Malaga",
       "display": "umlg",
       "symbol": "MLG",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     },
     {
       "description": "Staking Token",
@@ -36,7 +36,7 @@
       "name": "Malaga Stake",
       "display": "uand",
       "symbol": "AND",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

@@ -19,7 +19,7 @@
       "display": "sge",
       "symbol": "SGE",
       "coingeckoId": "six-sigma",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

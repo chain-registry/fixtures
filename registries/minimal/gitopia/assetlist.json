@@ -19,7 +19,7 @@
       "display": "LORE",
       "symbol": "LORE",
       "coingeckoId": "gitopia",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

@@ -18,7 +18,7 @@
       "name": "CoolCat",
       "display": "ccat",
       "symbol": "CCAT",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

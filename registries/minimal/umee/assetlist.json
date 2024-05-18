@@ -19,7 +19,7 @@
       "display": "umee",
       "symbol": "UMEE",
       "coingeckoId": "umee",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

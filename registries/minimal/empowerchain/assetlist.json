@@ -18,7 +18,7 @@
       "name": "MPWR",
       "display": "mpwr",
       "symbol": "MPWR",
-      "assetType": "sdk.Coin"
+      "assetType": "sdk.coin"
     }
   ]
 }
