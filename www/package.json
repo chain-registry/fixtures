@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "build": "next build",
-    "deploy:all": "npm run export && npm run deploy && ./src/seo/prepare.sh",
+    "deploy:all": "npm run export && npm run deploy && ./seo/prepare.sh",
     "deploy": "AWS_PROFILE=webinc aws s3 sync out/ s3://chainregistry.org",
     "dev": "next dev",
     "export": "next build",
