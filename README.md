@@ -33,6 +33,10 @@ A minimal chain registry, using `camelCase` for properties.
 
 The full chain registry, using `camelCase` for properties.
 
+#### [@chain-registry/original](registries/original)
+
+The original chain registry, using original (unconventional) casing for properties.
+
 ## Developing
 
 Checkout the repository run yarn to initialize the workspace:
