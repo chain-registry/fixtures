@@ -298,17 +298,17 @@
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
-"@chain-registry/interfaces@^0.38.0":
-  version "0.38.0"
-  resolved "https://registry.yarnpkg.com/@chain-registry/interfaces/-/interfaces-0.38.0.tgz#9b3e80054f7c57e334100ba3030a2df8a3e5191f"
-  integrity sha512-K9HkVN87ewfDTrDYUcWpTD2NxjpXXb8hUDYrVrbmymR8klYlw7OAcaL8XmJebn1RjeY8MtH2Re48OW31JxnNkg==
+"@chain-registry/interfaces@^0.44.0":
+  version "0.44.0"
+  resolved "https://registry.yarnpkg.com/@chain-registry/interfaces/-/interfaces-0.44.0.tgz#0adbbf3dc852fc395fdb91ac46c9f7c74cbab572"
+  integrity sha512-Fgnudkg069djVhRVt07cMSXg+UVlBTL6MoBT8897tq7PijRI9nARmxepeGtijIUynGd7j8D8OJfTwKC+vQkYFQ==
 
-"@chain-registry/workflows@^1.39.0":
-  version "1.39.0"
-  resolved "https://registry.yarnpkg.com/@chain-registry/workflows/-/workflows-1.39.0.tgz#a09d729ef2edc0d60af12ebe3bf9d2df97c32665"
-  integrity sha512-lyBSRvv6KmS6bD7cRmrGwjn3n1EBEz9qWs2mYUo2EQKUW5cpcMgq55obzIVqD2LzgQi/aZcsgTw++0LEV1C81w==
+"@chain-registry/workflows@^1.45.0":
+  version "1.45.0"
+  resolved "https://registry.yarnpkg.com/@chain-registry/workflows/-/workflows-1.45.0.tgz#647b3c477c2c2a5229e1a320e7fa20faf9d77854"
+  integrity sha512-+BOGeJXYPEAgTqJXKl1AtqKKI5kjKfqCTudCtrZQCO1PM8KbaCJdOVvnQCzrZN8rMNe9b9M4uAIkIzKuqpOQFQ==
   dependencies:
-    "@chain-registry/interfaces" "^0.38.0"
+    "@chain-registry/interfaces" "^0.44.0"
     ajv "^8.12.0"
     ajv-formats "^3.0.1"
     bignumber.js "9.1.2"
@@ -320,6 +320,7 @@
     mkdirp "3.0.1"
     schema-typescript "^0.5.0"
     sha.js "^2.4.11"
+    strfy-js "^3.0.0"
 
 "@cspotcode/source-map-support@^0.8.0":
   version "0.8.1"

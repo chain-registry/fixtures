@@ -1,0 +1,83 @@
+{
+  "$schema": "../../chain.schema.json",
+  "chainName": "kyvedevnet",
+  "chainId": "korellia-2",
+  "prettyName": "KYVE Korellia",
+  "status": "live",
+  "networkType": "devnet",
+  "bech32Prefix": "kyve",
+  "daemonName": "chaind",
+  "nodeHome": "$HOME/.kyve",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "tkyve",
+        "fixedMinGasPrice": 0
+      }
+    ]
+  },
+  "codebase": {
+    "gitRepo": "https://github.com/KYVENetwork/chain",
+    "recommendedVersion": "v0.6.3",
+    "compatibleVersions": [
+      "v0.6.3"
+    ],
+    "binaries": {
+      "linux/amd64": "https://github.com/KYVENetwork/chain/releases/download/v0.6.3/chain_linux_amd64.tar.gz"
+    },
+    "genesis": {
+      "genesisUrl": "https://github.com/KYVENetwork/chain/releases/download/v0.0.1/genesis.json"
+    },
+    "versions": [
+      {
+        "name": "v0.6.3",
+        "recommendedVersion": "v0.6.3",
+        "compatibleVersions": [
+          "v0.6.3"
+        ],
+        "binaries": {
+          "linux/amd64": "https://github.com/KYVENetwork/chain/releases/download/v0.6.3/chain_linux_amd64.tar.gz"
+        }
+      }
+    ]
+  },
+  "peers": {
+    "seeds": [
+      {
+        "id": "02dd2c26948ea758a25d3dbc91744f8897681652",
+        "address": "3.73.27.185:26656"
+      }
+    ],
+    "persistentPeers": [
+      {
+        "id": "70556c82352b9919fb6f339b9da0ebc587e9148c",
+        "address": "3.68.232.117:26656"
+      }
+    ]
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc.korellia.kyve.network",
+        "provider": "kyve"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://api.korellia.kyve.network",
+        "provider": "kyve"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "explorers.guru",
+      "url": "https://kyve.explorers.guru/",
+      "txPage": "https://kyve.explorers.guru/transaction/${txHash}"
+    }
+  ]
+}

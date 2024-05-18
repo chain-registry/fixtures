@@ -1,0 +1,31 @@
+{
+  "$schema": "../ibc_data.schema.json",
+  "chain1": {
+    "chainName": "celestia",
+    "clientId": "07-tendermint-86",
+    "connectionId": "connection-56"
+  },
+  "chain2": {
+    "chainName": "stargaze",
+    "clientId": "07-tendermint-359",
+    "connectionId": "connection-296"
+  },
+  "channels": [
+    {
+      "chain1": {
+        "channelId": "channel-33",
+        "portId": "transfer"
+      },
+      "chain2": {
+        "channelId": "channel-291",
+        "portId": "transfer"
+      },
+      "ordering": "unordered",
+      "version": "ics20-1",
+      "tags": {
+        "status": "live",
+        "preferred": true
+      }
+    }
+  ]
+}

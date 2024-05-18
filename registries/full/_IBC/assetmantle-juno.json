@@ -1,0 +1,31 @@
+{
+  "$schema": "../ibc_data.schema.json",
+  "chain1": {
+    "chainName": "assetmantle",
+    "clientId": "07-tendermint-22",
+    "connectionId": "connection-4"
+  },
+  "chain2": {
+    "chainName": "juno",
+    "clientId": "07-tendermint-167",
+    "connectionId": "connection-113"
+  },
+  "channels": [
+    {
+      "chain1": {
+        "channelId": "channel-2",
+        "portId": "transfer"
+      },
+      "chain2": {
+        "channelId": "channel-83",
+        "portId": "transfer"
+      },
+      "ordering": "unordered",
+      "version": "ics20-1",
+      "tags": {
+        "status": "live",
+        "preferred": true
+      }
+    }
+  ]
+}

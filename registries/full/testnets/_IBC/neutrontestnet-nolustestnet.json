@@ -1,0 +1,30 @@
+{
+  "$schema": "../../ibc_data.schema.json",
+  "chain1": {
+    "chainName": "neutrontestnet",
+    "clientId": "07-tendermint-143",
+    "connectionId": "connection-130"
+  },
+  "chain2": {
+    "chainName": "nolustestnet",
+    "clientId": "07-tendermint-2",
+    "connectionId": "connection-1"
+  },
+  "channels": [
+    {
+      "chain1": {
+        "channelId": "channel-208",
+        "portId": "transfer"
+      },
+      "chain2": {
+        "channelId": "channel-1990",
+        "portId": "transfer"
+      },
+      "ordering": "unordered",
+      "version": "ics20-1",
+      "tags": {
+        "status": "live"
+      }
+    }
+  ]
+}

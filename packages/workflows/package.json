@@ -16,12 +16,16 @@
   "scripts": {
     "minimal": "ts-node ./src/minimal.ts",
     "original": "ts-node ./src/original.ts",
-    "full": "ts-node ./src/full.ts"
+    "full": "ts-node ./src/full.ts",
+    "build": "npm run minimal && npm run original && npm run full"
   },
   "keywords": [],
   "devDependencies": {
-    "@chain-registry/workflows": "^1.39.0",
+    "@chain-registry/workflows": "^1.45.0",
     "json-schema-patch": "^1.0.1",
     "strfy-js": "^3.0.0"
+  },
+  "dependencies": {
+    "mkdirp": "3.0.0"
   }
 }

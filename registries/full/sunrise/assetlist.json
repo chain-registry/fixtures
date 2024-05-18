@@ -1,0 +1,41 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "sunrise",
+  "assets": [
+    {
+      "description": "The native token of the Sunrise blockchain.",
+      "denomUnits": [
+        {
+          "denom": "usr",
+          "exponent": 0,
+          "aliases": [
+            "microsr"
+          ]
+        },
+        {
+          "denom": "sr",
+          "exponent": 6
+        }
+      ],
+      "base": "usr",
+      "name": "Sunrise",
+      "display": "sr",
+      "symbol": "SR",
+      "logoURIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sunrise/images/sunrise.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sunrise/images/sunrise.svg"
+      },
+      "images": [
+        {
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sunrise/images/sunrise.svg",
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sunrise/images/sunrise.png"
+        }
+      ],
+      "socials": {
+        "website": "https://sunriselayer.io/",
+        "twitter": "https://twitter.com/SunriseLayer"
+      },
+      "assetType": "sdk.coin"
+    }
+  ]
+}

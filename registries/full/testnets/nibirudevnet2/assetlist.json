@@ -1,0 +1,34 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "nibirudevnet2",
+  "assets": [
+    {
+      "description": "The native token of Nibiru network",
+      "denomUnits": [
+        {
+          "denom": "unibi",
+          "exponent": 0
+        },
+        {
+          "denom": "nibi",
+          "exponent": 6
+        }
+      ],
+      "base": "unibi",
+      "name": "Nibiru",
+      "display": "nibi",
+      "symbol": "NIBI",
+      "logoURIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nibiru/images/nibiru.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nibiru/images/nibiru.svg"
+      },
+      "images": [
+        {
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nibiru/images/nibiru.png",
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nibiru/images/nibiru.svg"
+        }
+      ],
+      "assetType": "sdk.coin"
+    }
+  ]
+}

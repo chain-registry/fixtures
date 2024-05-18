@@ -1,0 +1,259 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "xpla",
+  "status": "live",
+  "website": "https://xpla.io",
+  "networkType": "mainnet",
+  "prettyName": "XPLA",
+  "chainId": "dimension_37-1",
+  "bech32Prefix": "xpla",
+  "daemonName": "xplad",
+  "nodeHome": "$HOME/.xpla",
+  "keyAlgos": [
+    "ethsecp256k1"
+  ],
+  "slip44": 60,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "axpla",
+        "fixedMinGasPrice": 850000000000,
+        "lowGasPrice": 850000000000,
+        "averageGasPrice": 1147500000000,
+        "highGasPrice": 1487500000000
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "axpla"
+      }
+    ]
+  },
+  "codebase": {
+    "gitRepo": "https://github.com/xpladev/xpla",
+    "recommendedVersion": "v1.4.0",
+    "compatibleVersions": [
+      "v1.4.0"
+    ],
+    "cosmosSdkVersion": "xpladev/cosmos-sdk v0.45.20-xpla",
+    "consensus": {
+      "type": "cometbft",
+      "version": "0.34.29"
+    },
+    "ibcGoVersion": "v4.5.1",
+    "cosmwasmVersion": "v0.33.0",
+    "genesis": {
+      "genesisUrl": "https://raw.githubusercontent.com/xpladev/mainnet/main/dimension_37-1/genesis.json"
+    },
+    "versions": [
+      {
+        "name": "evm",
+        "recommendedVersion": "v1.2.1",
+        "compatibleVersions": [
+          "v1.2.1"
+        ],
+        "cosmosSdkVersion": "0.45.9",
+        "consensus": {
+          "type": "tendermint",
+          "version": "0.34.21"
+        },
+        "cosmwasmVersion": "0.28.0",
+        "nextVersionName": "Volunteer"
+      },
+      {
+        "name": "volunteer",
+        "recommendedVersion": "v1.3.0",
+        "compatibleVersions": [
+          "v1.3.0"
+        ],
+        "cosmosSdkVersion": "0.45.16",
+        "consensus": {
+          "type": "cometbft",
+          "version": "0.34.27"
+        },
+        "cosmwasmVersion": "0.33.0",
+        "nextVersionName": "v1_4"
+      },
+      {
+        "name": "v1_4",
+        "recommendedVersion": "v1.4.0",
+        "compatibleVersions": [
+          "v1.4.0"
+        ],
+        "cosmosSdkVersion": "xpladev/cosmos-sdk v0.45.20-xpla",
+        "consensus": {
+          "type": "cometbft",
+          "version": "0.34.29"
+        },
+        "ibcGoVersion": "v4.5.1",
+        "cosmwasmVersion": "v0.33.0",
+        "nextVersionName": ""
+      }
+    ]
+  },
+  "logoURIs": {
+    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/xpla/images/xpla.png",
+    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/xpla/images/xpla.svg"
+  },
+  "peers": {
+    "seeds": [
+      {
+        "id": "e7b6016ce5663a69ba71a982072315545eb0d5f6",
+        "address": "seed.xpla.delightlabs.io:26656",
+        "provider": "DELIGHT"
+      },
+      {
+        "id": "20e1000e88125698264454a884812746c2eb4807",
+        "address": "seeds.lavenderfive.com:20157",
+        "provider": "Lavender.Five Nodes 🐝"
+      },
+      {
+        "id": "466c9c2e8b128389059bf4e7e68888fdde8cbebc",
+        "address": "xpla.seed.stavr.tech:2066",
+        "provider": "🔥STAVR🔥"
+      },
+      {
+        "id": "8542cd7e6bf9d260fef543bc49e59be5a3fa9074",
+        "address": "seed.publicnode.com:26656",
+        "provider": "Allnodes ⚡️ Nodes & Staking"
+      }
+    ],
+    "persistentPeers": [
+      {
+        "id": "7364858f416c1890c85a83afedf1afecccb9a9de",
+        "address": "34.86.128.71:26656",
+        "provider": "Holdings"
+      },
+      {
+        "id": "d5c5908a5390b2278180ce975d94d4a43da4952b",
+        "address": "34.89.191.254:26656",
+        "provider": "Com2verse"
+      },
+      {
+        "id": "fa9585ef51316cda0125bb9bed1d35f59d7448b9",
+        "address": "104.196.250.63:26656",
+        "provider": "Com2us"
+      },
+      {
+        "id": "e6d30a1d191c64ff301c44f9ddd9d0b3d1f9ee7a",
+        "address": "35.230.121.77:26656",
+        "provider": "Com2us"
+      },
+      {
+        "id": "88c62eea9c6229c26cd45d1f58cf48bfc1463b31",
+        "address": "130.211.121.170:26656",
+        "provider": "Hive Platform Lab"
+      },
+      {
+        "id": "6592da1bfd8bea853b89946d4c502586e2712b4e",
+        "address": "34.87.100.83:26656",
+        "provider": "Crossnode Labs"
+      },
+      {
+        "id": "15efa0a83dff372752369cc984492d9ee72f332b",
+        "address": "cdif46gvol8ecmg7jpqg.bdnodes.net:26656",
+        "provider": "DELIGHT"
+      },
+      {
+        "id": "15d365ce8bfaff27ad4260e5db3fba480d334c39",
+        "address": "52.28.248.241:26656",
+        "provider": "Blockdaemon"
+      }
+    ]
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://dimension-rpc.xpla.dev",
+        "provider": "Holdings"
+      },
+      {
+        "address": "https://xpla.rpc.m.stavr.tech",
+        "provider": "🔥STAVR🔥"
+      },
+      {
+        "address": "https://xpla-rpc.lavenderfive.com:443",
+        "provider": "Lavender.Five Nodes 🐝"
+      },
+      {
+        "address": "https://xpla-rpc.publicnode.com:443",
+        "provider": "Allnodes ⚡️ Nodes & Staking"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://dimension-lcd.xpla.io",
+        "provider": "ZenaAD"
+      },
+      {
+        "address": "https://dimension-lcd.xpla.dev",
+        "provider": "Holdings"
+      },
+      {
+        "address": "https://xpla.api.m.stavr.tech",
+        "provider": "🔥STAVR🔥"
+      },
+      {
+        "address": "https://xpla-api.lavenderfive.com:443",
+        "provider": "Lavender.Five Nodes 🐝"
+      },
+      {
+        "address": "https://xpla-rest.publicnode.com",
+        "provider": "Allnodes ⚡️ Nodes & Staking"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "xpla-grpc.publicnode.com:443",
+        "provider": "Allnodes ⚡️ Nodes & Staking"
+      }
+    ],
+    "evmHttpJsonrpc": [
+      {
+        "address": "https://dimension-evm-rpc.xpla.dev",
+        "provider": "Holdings"
+      },
+      {
+        "address": "https://xpla-evm-rpc.publicnode.com",
+        "provider": "Allnodes ⚡️ Nodes & Staking"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "explorer.xpla",
+      "url": "https://explorer.xpla.io",
+      "txPage": "https://explorer.xpla.io/mainnet/tx/${txHash}"
+    },
+    {
+      "kind": "finder",
+      "url": "https://finder.xpla.io",
+      "txPage": "https://finder.xpla.io/mainnet/tx/${txHash}"
+    },
+    {
+      "kind": "🔥STAVR🔥",
+      "url": "https://explorer.stavr.tech/Xpla-Mainnet",
+      "txPage": "https://explorer.stavr.tech/Xpla-Mainnet/tx/${txHash}"
+    },
+    {
+      "kind": "mintscan",
+      "url": "https://www.mintscan.io/xpla",
+      "txPage": "https://www.mintscan.io/xpla/transactions/${txHash}",
+      "accountPage": "https://www.mintscan.io/xpla/accounts/${accountAddress}"
+    },
+    {
+      "kind": "ezstaking",
+      "url": "https://ezstaking.app/xpla",
+      "txPage": "https://ezstaking.app/xpla/txs/${txHash}",
+      "accountPage": "https://ezstaking.app/xpla/account/${accountAddress}"
+    }
+  ],
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/xpla/images/xpla.png",
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/xpla/images/xpla.svg"
+    }
+  ]
+}

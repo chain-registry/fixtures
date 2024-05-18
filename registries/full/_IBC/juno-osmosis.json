@@ -1,0 +1,49 @@
+{
+  "$schema": "../ibc_data.schema.json",
+  "chain1": {
+    "chainName": "juno",
+    "clientId": "07-tendermint-0",
+    "connectionId": "connection-0"
+  },
+  "chain2": {
+    "chainName": "osmosis",
+    "clientId": "07-tendermint-1457",
+    "connectionId": "connection-1142"
+  },
+  "channels": [
+    {
+      "chain1": {
+        "channelId": "channel-0",
+        "portId": "transfer"
+      },
+      "chain2": {
+        "channelId": "channel-42",
+        "portId": "transfer"
+      },
+      "ordering": "unordered",
+      "version": "ics20-1",
+      "tags": {
+        "status": "live",
+        "preferred": true,
+        "dex": "osmosis"
+      }
+    },
+    {
+      "chain1": {
+        "channelId": "channel-47",
+        "portId": "wasm.juno1v4887y83d6g28puzvt8cl0f3cdhd3y6y9mpysnsp3k8krdm7l6jqgm0rkn"
+      },
+      "chain2": {
+        "channelId": "channel-169",
+        "portId": "transfer"
+      },
+      "ordering": "unordered",
+      "version": "ics20-1",
+      "tags": {
+        "status": "live",
+        "preferred": true,
+        "dex": "osmosis"
+      }
+    }
+  ]
+}

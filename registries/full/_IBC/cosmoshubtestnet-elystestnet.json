@@ -1,0 +1,30 @@
+{
+  "$schema": "../ibc_data.schema.json",
+  "chain1": {
+    "chainName": "cosmoshubtestnet",
+    "clientId": "07-tendermint-2522",
+    "connectionId": "connection-2881"
+  },
+  "chain2": {
+    "chainName": "elystestnet",
+    "clientId": "07-tendermint-19",
+    "connectionId": "connection-17"
+  },
+  "channels": [
+    {
+      "chain1": {
+        "channelId": "channel-3302",
+        "portId": "transfer"
+      },
+      "chain2": {
+        "channelId": "channel-16",
+        "portId": "transfer"
+      },
+      "ordering": "unordered",
+      "version": "ics20-1",
+      "tags": {
+        "status": "live"
+      }
+    }
+  ]
+}

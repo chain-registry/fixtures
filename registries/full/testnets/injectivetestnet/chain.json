@@ -1,0 +1,182 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "injectivetestnet",
+  "status": "live",
+  "networkType": "testnet",
+  "website": "https://injective.com",
+  "prettyName": "Injective",
+  "chainId": "injective-888",
+  "bech32Prefix": "inj",
+  "extraCodecs": [
+    "injective"
+  ],
+  "slip44": 60,
+  "daemonName": "injectived",
+  "nodeHome": "$HOME/.injectived",
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "inj",
+        "fixedMinGasPrice": 500000000,
+        "lowGasPrice": 500000000,
+        "averageGasPrice": 700000000,
+        "highGasPrice": 900000000
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "inj"
+      }
+    ]
+  },
+  "codebase": {
+    "gitRepo": "https://github.com/InjectiveLabs/testnet",
+    "recommendedVersion": "v1.11.1",
+    "compatibleVersions": [
+      "v1.11.1"
+    ],
+    "binaries": {
+      "linux/amd64": "https://github.com/InjectiveLabs/testnet/releases/download/v1.11.1-1685205489/linux-amd64.zip",
+      "darwin/amd64": "https://github.com/InjectiveLabs/testnet/releases/download/v1.11.1-1685205489/darwin-amd64.zip"
+    },
+    "genesis": {
+      "genesisUrl": "https://injective-snapshots.s3.amazonaws.com/testnet/genesis.json"
+    },
+    "versions": [
+      {
+        "name": "v1.10.2",
+        "recommendedVersion": "v1.10.2",
+        "compatibleVersions": [
+          "v1.10.2"
+        ],
+        "binaries": {
+          "linux/amd64": "https://github.com/InjectiveLabs/testnet/releases/download/v1.10.2-1678712142/linux-amd64.zip",
+          "darwin/amd64": "https://github.com/InjectiveLabs/testnet/releases/download/v1.10.2-1678712142/darwin-amd64.zip"
+        },
+        "nextVersionName": "v1.11.1"
+      },
+      {
+        "name": "v1.11.1",
+        "recommendedVersion": "v1.11.1",
+        "compatibleVersions": [
+          "v1.11.1"
+        ],
+        "binaries": {
+          "linux/amd64": "https://github.com/InjectiveLabs/testnet/releases/download/v1.11.1-1685205489/linux-amd64.zip",
+          "darwin/amd64": "https://github.com/InjectiveLabs/testnet/releases/download/v1.11.1-1685205489/darwin-amd64.zip"
+        }
+      }
+    ]
+  },
+  "peers": {
+    "seeds": [
+      {
+        "id": "ade4d8bc8cbe014af6ebdf3cb7b1e9ad36f412c0",
+        "address": "testnet-seeds.polkachu.com:14356",
+        "provider": "polkachu"
+      },
+      {
+        "id": "8542cd7e6bf9d260fef543bc49e59be5a3fa9074",
+        "address": "seed.publicnode.com:26656",
+        "provider": "Allnodes ⚡️ Nodes & Staking"
+      }
+    ],
+    "persistentPeers": [
+      {
+        "id": "e5cc63a9117e6f372169f15774ea4f7c5177da25",
+        "address": "34.23.245.175:26656",
+        "provider": "injectivelabs.org"
+      },
+      {
+        "id": "5bf72750f7e015ccfd65246c9f16185144867aff",
+        "address": "35.231.107.231:26656",
+        "provider": "injectivelabs.org"
+      },
+      {
+        "id": "588dd6d1e1a338d1524efcfbd1c2a9bfc5df33d2",
+        "address": "104.196.43.6:26656",
+        "provider": "injectivelabs.org"
+      },
+      {
+        "id": "8a05cc5bc466169a7332287ddce4cd8995684d1a",
+        "address": "34.73.247.128:26656",
+        "provider": "injectivelabs.org"
+      },
+      {
+        "id": "0a2af0f999b08ccaf8825198d9aafb8b947c003f",
+        "address": "34.73.57.164:26656",
+        "provider": "injectivelabs.org"
+      },
+      {
+        "id": "d0c2407f4b1cef137d9d3ada69478234ad2a28f4",
+        "address": "34.73.57.164:26656",
+        "provider": "injectivelabs.org"
+      }
+    ]
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://injective-testnet-rpc.polkachu.com",
+        "provider": "Polkachu"
+      },
+      {
+        "address": "https://testnet.sentry.tm.injective.network:443",
+        "provider": "injectiveLabs"
+      },
+      {
+        "address": "https://testnet.tm.injective.network",
+        "provider": "injectiveLabs"
+      },
+      {
+        "address": "https://injective-testnet-rpc.publicnode.com:443",
+        "provider": "Allnodes ⚡️ Nodes & Staking"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://injective-testnet-api.polkachu.com",
+        "provider": "Polkachu"
+      },
+      {
+        "address": "https://testnet.sentry.lcd.injective.network:443",
+        "provider": "injectiveLabs"
+      },
+      {
+        "address": "https://testnet.lcd.injective.network",
+        "provider": "injectiveLabs"
+      },
+      {
+        "address": "https://injective-testnet-rest.publicnode.com",
+        "provider": "Allnodes ⚡️ Nodes & Staking"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "injective-testnet-grpc.polkachu.com:14390",
+        "provider": "Polkachu"
+      },
+      {
+        "address": "testnet.sentry.chain.grpc.injective.network:443",
+        "provider": "injectiveLabs"
+      },
+      {
+        "address": "https://testnet.grpc.injective.network",
+        "provider": "injectiveLabs"
+      },
+      {
+        "address": "injective-testnet-grpc.publicnode.com:443",
+        "provider": "Allnodes ⚡️ Nodes & Staking"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "injectiveprotocol",
+      "url": "https://testnet.explorer.injective.network/",
+      "txPage": "https://testnet.explorer.injective.network/transaction/${txHash}"
+    }
+  ]
+}

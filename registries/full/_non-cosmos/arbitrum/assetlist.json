@@ -1,0 +1,66 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "arbitrum",
+  "assets": [
+    {
+      "description": "The governance token of Arbitrum",
+      "assetType": "erc20",
+      "address": "0x912CE59144191C1204E64559FE8253a0e49E6548",
+      "denomUnits": [
+        {
+          "denom": "0x912CE59144191C1204E64559FE8253a0e49E6548",
+          "exponent": 0,
+          "aliases": [
+            "arb-wei"
+          ]
+        },
+        {
+          "denom": "arb",
+          "exponent": 18
+        }
+      ],
+      "base": "0x912CE59144191C1204E64559FE8253a0e49E6548",
+      "name": "Arbitrum",
+      "display": "arb",
+      "symbol": "ARB",
+      "logoURIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/arbitrum/images/arb.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/arbitrum/images/arb.svg"
+      },
+      "coingeckoId": "arbitrum",
+      "images": [
+        {
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/arbitrum/images/arb.png",
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/arbitrum/images/arb.svg"
+        }
+      ]
+    },
+    {
+      "assetType": "evm-base",
+      "denomUnits": [
+        {
+          "denom": "wei",
+          "exponent": 0
+        }
+      ],
+      "base": "wei",
+      "display": "wei",
+      "name": "Ether",
+      "symbol": "ETH"
+    },
+    {
+      "assetType": "erc20",
+      "denomUnits": [
+        {
+          "denom": "0xab19bdaeb37242fa0f30486195f45b9cf5361b78",
+          "exponent": 0
+        }
+      ],
+      "address": "0xab19bdaeb37242fa0f30486195f45b9cf5361b78",
+      "base": "0xab19bdaeb37242fa0f30486195f45b9cf5361b78",
+      "display": "0xab19bdaeb37242fa0f30486195f45b9cf5361b78",
+      "name": "cGLP",
+      "symbol": "cGLP"
+    }
+  ]
+}

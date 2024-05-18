@@ -1,0 +1,31 @@
+{
+  "$schema": "../ibc_data.schema.json",
+  "chain1": {
+    "chainName": "dymension",
+    "clientId": "07-tendermint-31",
+    "connectionId": "connection-22"
+  },
+  "chain2": {
+    "chainName": "evmos",
+    "clientId": "07-tendermint-138",
+    "connectionId": "connection-85"
+  },
+  "channels": [
+    {
+      "chain1": {
+        "channelId": "channel-37",
+        "portId": "transfer"
+      },
+      "chain2": {
+        "channelId": "channel-109",
+        "portId": "transfer"
+      },
+      "ordering": "unordered",
+      "version": "ics20-1",
+      "tags": {
+        "status": "live",
+        "preferred": true
+      }
+    }
+  ]
+}

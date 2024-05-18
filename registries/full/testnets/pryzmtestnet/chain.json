@@ -1,0 +1,137 @@
+{
+  "$schema": "../../chain.schema.json",
+  "chainName": "pryzmtestnet",
+  "status": "live",
+  "networkType": "testnet",
+  "prettyName": "Pryzm Testnet",
+  "chainId": "indigo-1",
+  "bech32Prefix": "pryzm",
+  "daemonName": "pryzmd",
+  "nodeHome": "$HOME/.pryzm",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "upryzm",
+        "fixedMinGasPrice": 0,
+        "lowGasPrice": 0.015,
+        "averageGasPrice": 0.025,
+        "highGasPrice": 0.04
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "upryzm"
+      }
+    ]
+  },
+  "codebase": {
+    "gitRepo": "https://github.com/pryzm-finance/pryzm-core",
+    "recommendedVersion": "v0.9.0",
+    "compatibleVersions": [
+      "v0.9.0"
+    ],
+    "cosmosSdkVersion": "0.47",
+    "consensus": {
+      "type": "tendermint",
+      "version": "0.37"
+    },
+    "ibcGoVersion": "7.3.1",
+    "genesis": {
+      "genesisUrl": "https://storage.googleapis.com/pryzm-resources/indigo-1/genesis.json"
+    },
+    "versions": [
+      {
+        "name": "v0.9.0",
+        "recommendedVersion": "v0.9.0",
+        "compatibleVersions": [
+          "v0.9.0"
+        ],
+        "cosmosSdkVersion": "0.47",
+        "consensus": {
+          "type": "tendermint",
+          "version": "0.37"
+        },
+        "ibcGoVersion": "7.3.1"
+      }
+    ]
+  },
+  "peers": {
+    "seeds": [
+      {
+        "id": "ff17ca4f46230306412ff5c0f5e85439ee5136f0",
+        "address": "testnet-seed.pryzm.zone:26656",
+        "provider": "PRYZM"
+      },
+      {
+        "id": "fbfd48af73cd1f6de7f9102a0086ac63f46fb911",
+        "address": "pryzm-testnet-seed.itrocket.net:41656",
+        "provider": "ITRocket"
+      }
+    ],
+    "persistentPeers": [
+
+    ]
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://testnet-rpc.pryzm.zone",
+        "provider": "PRYZM"
+      },
+      {
+        "address": "https://pryzm-testnet-rpc.itrocket.net",
+        "provider": "ITRocket"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://testnet-api.pryzm.zone",
+        "provider": "PRYZM"
+      },
+      {
+        "address": "https://pryzm-testnet-api.itrocket.net",
+        "provider": "ITRocket"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "https://testnet-grpc.pryzm.zone",
+        "provider": "PRYZM"
+      },
+      {
+        "address": "http://pryzm-testnet-grpc.itrocket.net:41090",
+        "provider": "ITRocket"
+      }
+    ]
+  },
+  "logoURIs": {
+    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/pryzmtestnet/images/pryzm-logo.png",
+    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/pryzmtestnet/images/pryzm-logo.svg"
+  },
+  "explorers": [
+    {
+      "kind": "PingPub",
+      "url": "https://testnets.cosmosrun.info/pryzm-indigo-1",
+      "txPage": "https://testnets.cosmosrun.info/pryzm-indigo-1/tx/${txHash}",
+      "accountPage": "https://testnets.cosmosrun.info/pryzm-indigo-1/account/${accountAddress}"
+    },
+    {
+      "kind": "ITRocket",
+      "url": "https://testnet.itrocket.net/pryzm",
+      "txPage": "https://testnet.itrocket.net/pryzm/tx/${txHash}",
+      "accountPage": "https://testnet.itrocket.net/pryzm/account/${accountAddress}"
+    }
+  ],
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/pryzmtestnet/images/pryzm-logo.png",
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/pryzmtestnet/images/pryzm-logo.svg"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "$schema": "../ibc_data.schema.json",
+  "chain1": {
+    "chainName": "doravota",
+    "clientId": "07-tendermint-15",
+    "connectionId": "connection-9"
+  },
+  "chain2": {
+    "chainName": "injective",
+    "clientId": "07-tendermint-245",
+    "connectionId": "connection-239"
+  },
+  "channels": [
+    {
+      "chain1": {
+        "channelId": "channel-5",
+        "portId": "transfer"
+      },
+      "chain2": {
+        "channelId": "channel-182",
+        "portId": "transfer"
+      },
+      "ordering": "unordered",
+      "version": "ics20-1",
+      "tags": {
+        "status": "live",
+        "preferred": true,
+        "dex": "osmosis"
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "$schema": "../ibc_data.schema.json",
+  "chain1": {
+    "chainName": "gravitybridge",
+    "clientId": "07-tendermint-225",
+    "connectionId": "connection-189"
+  },
+  "chain2": {
+    "chainName": "kujira",
+    "clientId": "07-tendermint-69",
+    "connectionId": "connection-45"
+  },
+  "channels": [
+    {
+      "chain1": {
+        "channelId": "channel-107",
+        "portId": "transfer"
+      },
+      "chain2": {
+        "channelId": "channel-50",
+        "portId": "transfer"
+      },
+      "ordering": "unordered",
+      "version": "ics20-1",
+      "tags": {
+        "status": "live",
+        "preferred": true
+      }
+    }
+  ]
+}

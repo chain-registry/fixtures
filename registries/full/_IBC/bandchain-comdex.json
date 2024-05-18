@@ -1,0 +1,31 @@
+{
+  "$schema": "../ibc_data.schema.json",
+  "chain1": {
+    "chainName": "bandchain",
+    "clientId": "07-tendermint-124",
+    "connectionId": "connection-107"
+  },
+  "chain2": {
+    "chainName": "comdex",
+    "clientId": "07-tendermint-81",
+    "connectionId": "connection-48"
+  },
+  "channels": [
+    {
+      "chain1": {
+        "channelId": "channel-96",
+        "portId": "oracle"
+      },
+      "chain2": {
+        "channelId": "channel-43",
+        "portId": "bandoracleV1"
+      },
+      "ordering": "unordered",
+      "version": "bandchain-1",
+      "tags": {
+        "status": "live",
+        "preferred": true
+      }
+    }
+  ]
+}

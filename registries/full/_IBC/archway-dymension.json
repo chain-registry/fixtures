@@ -1,0 +1,31 @@
+{
+  "$schema": "../ibc_data.schema.json",
+  "chain1": {
+    "chainName": "archway",
+    "clientId": "07-tendermint-91",
+    "connectionId": "connection-89"
+  },
+  "chain2": {
+    "chainName": "dymension",
+    "clientId": "07-tendermint-39",
+    "connectionId": "connection-30"
+  },
+  "channels": [
+    {
+      "chain1": {
+        "channelId": "channel-123",
+        "portId": "transfer"
+      },
+      "chain2": {
+        "channelId": "channel-45",
+        "portId": "transfer"
+      },
+      "ordering": "unordered",
+      "version": "ics20-1",
+      "tags": {
+        "status": "live",
+        "preferred": true
+      }
+    }
+  ]
+}

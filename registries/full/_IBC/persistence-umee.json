@@ -1,0 +1,31 @@
+{
+  "$schema": "../ibc_data.schema.json",
+  "chain1": {
+    "chainName": "persistence",
+    "clientId": "07-tendermint-105",
+    "connectionId": "connection-144"
+  },
+  "chain2": {
+    "chainName": "umee",
+    "clientId": "07-tendermint-179",
+    "connectionId": "connection-119"
+  },
+  "channels": [
+    {
+      "chain1": {
+        "channelId": "channel-81",
+        "portId": "transfer"
+      },
+      "chain2": {
+        "channelId": "channel-51",
+        "portId": "transfer"
+      },
+      "ordering": "unordered",
+      "version": "ics20-1",
+      "tags": {
+        "status": "live",
+        "preferred": true
+      }
+    }
+  ]
+}

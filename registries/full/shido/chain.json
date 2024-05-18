@@ -1,0 +1,212 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "shido",
+  "status": "live",
+  "networkType": "mainnet",
+  "website": "https://shido.io/",
+  "prettyName": "Shido",
+  "chainId": "shido_9008-1",
+  "bech32Prefix": "shido",
+  "nodeHome": "$HOME/.shidod",
+  "daemonName": "shidod",
+  "keyAlgos": [
+    "ethsecp256k1"
+  ],
+  "extraCodecs": [
+    "ethermint"
+  ],
+  "slip44": 60,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "shido",
+        "fixedMinGasPrice": 250000000,
+        "lowGasPrice": 20000000000,
+        "averageGasPrice": 25000000000,
+        "highGasPrice": 40000000000
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "shido"
+      }
+    ]
+  },
+  "codebase": {
+    "gitRepo": "https://github.com/ShidoGlobal/shidochain",
+    "recommendedVersion": "v1.0.0",
+    "compatibleVersions": [
+      "v1.0.0"
+    ],
+    "cosmosSdkVersion": "v0.47.4",
+    "consensus": {
+      "type": "cometbft",
+      "version": "v0.37.2"
+    },
+    "cosmwasmVersion": "v0.45.0",
+    "cosmwasmEnabled": true,
+    "ibcGoVersion": "v7.3.0",
+    "binaries": {
+      "linux/amd64": "https://github.com/ShidoGlobal/mainnetShidoNodeSync/releases/download/v1.0.0/ubuntu_22.04.tar.gz"
+    },
+    "genesis": {
+      "genesisUrl": "https://raw.githubusercontent.com/ShidoGlobal/mainnetShidoNodeSync/main/genesis.json"
+    },
+    "versions": [
+      {
+        "name": "v1.0.0",
+        "tag": "v1.0.0",
+        "recommendedVersion": "v1.0.0",
+        "compatibleVersions": [
+          "v1.0.0"
+        ],
+        "cosmosSdkVersion": "v0.47.4",
+        "consensus": {
+          "type": "cometbft",
+          "version": "v0.37.2"
+        },
+        "ibcGoVersion": "v7.3.0",
+        "binaries": {
+          "linux/amd64": "https://github.com/ShidoGlobal/mainnetShidoNodeSync/releases/download/v1.0.0/ubuntu_22.04.tar.gz"
+        }
+      }
+    ]
+  },
+  "logoURIs": {
+    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/shido/images/shido.png",
+    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/shido/images/shido.svg"
+  },
+  "description": "Developers use Shido as the Ethereum and Wasm Chain to deploy applications of the future. Get all the functionalities of Ethereum and Wasm with the power of IBC and Interchain composability.",
+  "peers": {
+    "seeds": [
+      {
+        "id": "181fcc5672fee87751eb369491744e85ba0651f5",
+        "address": "18.153.233.126:26656",
+        "provider": "SHIDO"
+      },
+      {
+        "id": "8d46e292347951d651486611abac77825a0c83f8",
+        "address": "18.199.25.117:26656",
+        "provider": "SHIDO"
+      },
+      {
+        "id": "cdf19a7234ee8ec12519f6ad066408f09e1b73e0",
+        "address": "15.157.50.94:26656",
+        "provider": "SHIDO"
+      },
+      {
+        "id": "8793ad6de6efdb6919d31e74e61a1be57a6d6d32",
+        "address": "3.97.121.236:26656",
+        "provider": "SHIDO"
+      }
+    ],
+    "persistentPeers": [
+      {
+        "id": "181fcc5672fee87751eb369491744e85ba0651f5",
+        "address": "18.153.233.126:26656",
+        "provider": "SHIDO"
+      },
+      {
+        "id": "8d46e292347951d651486611abac77825a0c83f8",
+        "address": "18.199.25.117:26656",
+        "provider": "SHIDO"
+      },
+      {
+        "id": "cdf19a7234ee8ec12519f6ad066408f09e1b73e0",
+        "address": "15.157.50.94:26656",
+        "provider": "SHIDO"
+      },
+      {
+        "id": "8793ad6de6efdb6919d31e74e61a1be57a6d6d32",
+        "address": "3.97.121.236:26656",
+        "provider": "SHIDO"
+      }
+    ]
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://tendermint.shidoscan.com",
+        "provider": "Shido"
+      },
+      {
+        "address": "https://shidochain_mainnet_rpc.chain.whenmoonwhenlambo.money",
+        "provider": "🚀 WHEN MOON 🌕 WHEN LAMBO 🔥"
+      },
+      {
+        "address": "https://shido-rpc.applejuice.256x25.tech:443",
+        "provider": "Apple juice 🧃"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://swagger.shidoscan.com",
+        "provider": "Shido"
+      },
+      {
+        "address": "https://shidochain_mainnet_api.chain.whenmoonwhenlambo.money",
+        "provider": "🚀 WHEN MOON 🌕 WHEN LAMBO 🔥"
+      },
+      {
+        "address": "https://shido-api.applejuice.256x25.tech:443",
+        "provider": "Apple juice 🧃"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "https://grpc.shidoscan.com",
+        "provider": "shido.io"
+      },
+      {
+        "address": "https://grpc-web.shidoscan.com",
+        "provider": "shido.io"
+      }
+    ],
+    "evmHttpJsonrpc": [
+      {
+        "address": "https://rpc-nodes.shidoscan.com",
+        "provider": "Shido"
+      },
+      {
+        "address": "https://rpc-delta-nodes.shidoscan.com",
+        "provider": "Shido"
+      },
+      {
+        "address": "https://shidochain_mainnet_evm.chain.whenmoonwhenlambo.money",
+        "provider": "🚀 WHEN MOON 🌕 WHEN LAMBO 🔥"
+      },
+      {
+        "address": "https://shido-evm.applejuice.256x25.tech:443",
+        "provider": "Apple juice 🧃"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "shido",
+      "url": "https://shidoscan.com",
+      "txPage": "https://shidoscan.com/tx/${txHash}",
+      "accountPage": "https://shidoscan.com/address/${accountAddress}"
+    },
+    {
+      "kind": "🚀 WHEN MOON 🌕 WHEN LAMBO 🔥",
+      "url": "https://explorer.whenmoonwhenlambo.money/shido",
+      "txPage": "https://explorer.whenmoonwhenlambo.money/shido/tx/${txHash}",
+      "accountPage": "https://explorer.whenmoonwhenlambo.money/shido/account/${accountAddress}"
+    },
+    {
+      "kind": "Apple juice 🧃",
+      "url": "https://explorer.256x25.tech/shido",
+      "txPage": "https://explorer.256x25.tech/shido/tx/${txHash}",
+      "accountPage": "https://explorer.256x25.tech//shido/account/${accountAddress}"
+    }
+  ],
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/shido/images/shido.png",
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/shido/images/shido.svg"
+    }
+  ]
+}

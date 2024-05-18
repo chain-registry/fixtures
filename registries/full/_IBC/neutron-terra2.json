@@ -1,0 +1,63 @@
+{
+  "$schema": "../ibc_data.schema.json",
+  "chain1": {
+    "chainName": "neutron",
+    "clientId": "07-tendermint-12",
+    "connectionId": "connection-9"
+  },
+  "chain2": {
+    "chainName": "terra2",
+    "clientId": "07-tendermint-274",
+    "connectionId": "connection-192"
+  },
+  "channels": [
+    {
+      "chain1": {
+        "channelId": "channel-25",
+        "portId": "transfer"
+      },
+      "chain2": {
+        "channelId": "channel-229",
+        "portId": "transfer"
+      },
+      "ordering": "unordered",
+      "version": "ics20-1",
+      "tags": {
+        "status": "live",
+        "preferred": true
+      }
+    },
+    {
+      "chain1": {
+        "channelId": "channel-5",
+        "portId": "transfer"
+      },
+      "chain2": {
+        "channelId": "channel-167",
+        "portId": "wasm.terra1jhfjnm39y3nn9l4520mdn4k5mw23nz0674c4gsvyrcr90z9tqcvst22fce"
+      },
+      "ordering": "unordered",
+      "version": "ics20-1",
+      "tags": {
+        "status": "live",
+        "preferred": true
+      }
+    },
+    {
+      "chain1": {
+        "channelId": "channel-2112",
+        "portId": "wasm.neutron1ffus553eet978k024lmssw0czsxwr97mggyv85lpcsdkft8v9ufsz3sa07"
+      },
+      "chain2": {
+        "channelId": "channel-396",
+        "portId": "wasm.terra1k9j8rcyk87v5jvfla2m9wp200azegjz0eshl7n2pwv852a7ssceqsnn7pq"
+      },
+      "ordering": "unordered",
+      "version": "astroport-ibc-v1",
+      "tags": {
+        "status": "live",
+        "preferred": true
+      }
+    }
+  ]
+}

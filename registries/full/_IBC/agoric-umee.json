@@ -1,0 +1,31 @@
+{
+  "$schema": "../ibc_data.schema.json",
+  "chain1": {
+    "chainName": "agoric",
+    "clientId": "07-tendermint-18",
+    "connectionId": "connection-18"
+  },
+  "chain2": {
+    "chainName": "umee",
+    "clientId": "07-tendermint-152",
+    "connectionId": "connection-101"
+  },
+  "channels": [
+    {
+      "chain1": {
+        "channelId": "channel-11",
+        "portId": "transfer"
+      },
+      "chain2": {
+        "channelId": "channel-42",
+        "portId": "transfer"
+      },
+      "ordering": "unordered",
+      "version": "ics20-1",
+      "tags": {
+        "status": "live",
+        "preferred": true
+      }
+    }
+  ]
+}

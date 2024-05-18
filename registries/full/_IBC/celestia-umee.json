@@ -1,0 +1,30 @@
+{
+  "$schema": "../ibc_data.schema.json",
+  "chain1": {
+    "chainName": "celestia",
+    "clientId": "07-tendermint-58",
+    "connectionId": "connection-18"
+  },
+  "chain2": {
+    "chainName": "umee",
+    "clientId": "07-tendermint-245",
+    "connectionId": "connection-209"
+  },
+  "channels": [
+    {
+      "chain1": {
+        "channelId": "channel-19",
+        "portId": "transfer"
+      },
+      "chain2": {
+        "channelId": "channel-119",
+        "portId": "transfer"
+      },
+      "ordering": "unordered",
+      "version": "ics20-1",
+      "tags": {
+        "status": "live"
+      }
+    }
+  ]
+}

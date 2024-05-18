@@ -1,0 +1,154 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "konstellation",
+  "status": "live",
+  "networkType": "mainnet",
+  "website": "https://konstellation.tech/",
+  "prettyName": "Konstellation",
+  "chainId": "darchub",
+  "bech32Prefix": "darc",
+  "daemonName": "knstld",
+  "nodeHome": "$HOME/.knstld",
+  "slip44": 118,
+  "codebase": {
+    "gitRepo": "https://github.com/knstl/konstellation",
+    "recommendedVersion": "v0.6.2",
+    "compatibleVersions": [
+      "v0.6.2"
+    ],
+    "genesis": {
+      "genesisUrl": "https://raw.githubusercontent.com/Konstellation/konstellation/master/config/genesis.json"
+    },
+    "versions": [
+      {
+        "name": "v0.6.2",
+        "recommendedVersion": "v0.6.2",
+        "compatibleVersions": [
+          "v0.6.2"
+        ]
+      }
+    ]
+  },
+  "logoURIs": {
+    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/konstellation/images/Konstellation-dark.png"
+  },
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "udarc",
+        "fixedMinGasPrice": 0,
+        "lowGasPrice": 0.0001,
+        "averageGasPrice": 0.001,
+        "highGasPrice": 0.01
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "udarc"
+      }
+    ]
+  },
+  "peers": {
+    "seeds": [
+      {
+        "id": "1bd4b89e05e5d7ea5d2dba89c799c2e624cb35d7",
+        "address": "node1.konstellation.tech:26656"
+      },
+      {
+        "id": "ade4d8bc8cbe014af6ebdf3cb7b1e9ad36f412c0",
+        "address": "seeds.polkachu.com:13356",
+        "provider": "Polkachu"
+      },
+      {
+        "id": "ebc272824924ea1a27ea3183dd0b9ba713494f83",
+        "address": "konstellation-mainnet-seed.autostake.com:26826",
+        "provider": "AutoStake 🛡️ Slash Protected"
+      },
+      {
+        "id": "df949a46ae6529ae1e09b034b49716468d5cc7e9",
+        "address": "seeds.stakerhouse.com:10856",
+        "provider": "StakerHouse"
+      },
+      {
+        "id": "8542cd7e6bf9d260fef543bc49e59be5a3fa9074",
+        "address": "seed.publicnode.com:26656",
+        "provider": "Allnodes ⚡️ Nodes & Staking"
+      }
+    ],
+    "persistentPeers": [
+      {
+        "id": "1bd4b89e05e5d7ea5d2dba89c799c2e624cb35d7",
+        "address": "node1.konstellation.tech:26656"
+      },
+      {
+        "id": "ebc272824924ea1a27ea3183dd0b9ba713494f83",
+        "address": "konstellation-mainnet-peer.autostake.com:26826",
+        "provider": "AutoStake 🛡️ Slash Protected"
+      },
+      {
+        "id": "5a10c5f0a2d981037a0a3e5ecc825901ae0d416c",
+        "address": "65.109.0.135:26656",
+        "provider": "[NODERS]TEAM"
+      }
+    ]
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc-konstellation-ia.cosmosia.notional.ventures/",
+        "provider": "Notional"
+      },
+      {
+        "address": "https://konstellation-rpc.stakerhouse.com",
+        "provider": "StakerHouse"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://api-konstellation-ia.cosmosia.notional.ventures/",
+        "provider": "Notional"
+      },
+      {
+        "address": "https://konstellation-rest.stakerhouse.com",
+        "provider": "StakerHouse"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "grpc-konstellation-ia.cosmosia.notional.ventures:443",
+        "provider": "Notional"
+      },
+      {
+        "address": "konstellation-grpc.polkachu.com:13390",
+        "provider": "Polkachu"
+      },
+      {
+        "address": "konstellation-mainnet-grpc.autostake.com:443",
+        "provider": "AutoStake 🛡️ Slash Protected"
+      },
+      {
+        "address": "konstellation-grpc.stakerhouse.com:443",
+        "provider": "StakerHouse"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "konstellation",
+      "url": "https://explorer.konstellation.tech/",
+      "txPage": "https://explorer.konstellation.tech/tx/${txHash}"
+    },
+    {
+      "kind": "cosmotracker",
+      "url": "https://cosmotracker.com/konstellation",
+      "txPage": "https://cosmotracker.com/konstellation/tx/${txHash}"
+    }
+  ],
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/konstellation/images/Konstellation-dark.png"
+    }
+  ]
+}

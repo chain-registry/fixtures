@@ -1,0 +1,31 @@
+{
+  "$schema": "../ibc_data.schema.json",
+  "chain1": {
+    "chainName": "coreum",
+    "clientId": "07-tendermint-28",
+    "connectionId": "connection-19"
+  },
+  "chain2": {
+    "chainName": "kujira",
+    "clientId": "07-tendermint-163",
+    "connectionId": "connection-126"
+  },
+  "channels": [
+    {
+      "chain1": {
+        "channelId": "channel-17",
+        "portId": "transfer"
+      },
+      "chain2": {
+        "channelId": "channel-122",
+        "portId": "transfer"
+      },
+      "ordering": "unordered",
+      "version": "ics20-1",
+      "tags": {
+        "status": "live",
+        "preferred": true
+      }
+    }
+  ]
+}

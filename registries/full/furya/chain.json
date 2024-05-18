@@ -1,0 +1,143 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "furya",
+  "status": "live",
+  "networkType": "mainnet",
+  "website": "https://furya.xyz/",
+  "prettyName": "furya",
+  "chainId": "furya-1",
+  "daemonName": "furyad",
+  "nodeHome": "$HOME/.furyad",
+  "bech32Prefix": "furya",
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "ufury",
+        "lowGasPrice": 0,
+        "averageGasPrice": 0.25,
+        "highGasPrice": 0.5
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "ufury"
+      }
+    ]
+  },
+  "codebase": {
+    "gitRepo": "https://github.com/furysport/furya-chain",
+    "recommendedVersion": "v1.0.0",
+    "compatibleVersions": [
+      "v1.0.0"
+    ],
+    "genesis": {
+      "genesisUrl": "https://github.com/furysport/furya-chain/blob/main/network/mainnet/genesis.json"
+    },
+    "versions": [
+      {
+        "name": "v1.0.0",
+        "recommendedVersion": "v1.0.0",
+        "compatibleVersions": [
+          "v1.0.0"
+        ]
+      }
+    ]
+  },
+  "logoURIs": {
+    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/furya/images/chain.png",
+    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/furya/images/chain.svg"
+  },
+  "peers": {
+    "seeds": [
+      {
+        "id": "38f40db17cdae23ba3c2b0f7d5738b9d31d077aa",
+        "address": "34.32.247.201:26656",
+        "provider": "Furya"
+      }
+    ],
+    "persistentPeers": [
+      {
+        "id": "38f40db17cdae23ba3c2b0f7d5738b9d31d077aa",
+        "address": "34.32.247.201:26656",
+        "provider": "Furya"
+      },
+      {
+        "id": "906ba6fd7cc9349d63c26608736ac91fe09437fb",
+        "address": "85.215.65.44:26656",
+        "provider": "Starsquid"
+      },
+      {
+        "id": "637077d431f618181597706810a65c826524fd74",
+        "address": "furya.rpc.nodeshub.online:26956",
+        "provider": "Nodes Hub 🛡️ 100% Slash Protected 🛡️ | Restake ✅"
+      }
+    ]
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc.furya.xyz",
+        "provider": "Furya Genesis Validator"
+      },
+      {
+        "address": "https://furya-rpc.synergynodes.com",
+        "provider": "synergynodes"
+      },
+      {
+        "address": "https://furya.rpc.nodeshub.online:443",
+        "provider": "nodeshub"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://api.furya.xyz",
+        "provider": "Furya Genesis Validator"
+      },
+      {
+        "address": "https://furya.api.nodeshub.online",
+        "provider": "synergynodes"
+      },
+      {
+        "address": "https://furya.api.nodeshub.online",
+        "provider": "Furya Genesis Validator"
+      },
+      {
+        "address": "https://furya.api.nodeshub.online:443",
+        "provider": "Nodes Hub 🛡️ 100% Slash Protected 🛡️ | Restake ✅"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "grpc.furya.xyz:443",
+        "provider": "Furya Genesis Validator"
+      },
+      {
+        "address": "https://furya.grpc.nodeshub.online",
+        "provider": "Nodes Hub"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "Furya Explorer",
+      "url": "https://explorer.furya.xyz/",
+      "txPage": "https://explorer.furya.xyz/furya/tx/${txHash}",
+      "accountPage": "https://explorer.furya.xyz/furya/account/${accountAddress}"
+    },
+    {
+      "kind": "Nodeshub Explorer",
+      "url": "https://explorer.nodeshub.online/furya",
+      "txPage": "https://explorer.nodeshub.online/furya/txs/${txHash}",
+      "accountPage": "https://explorer.nodeshub.online/furya/account/${accountAddress}"
+    }
+  ],
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/furya/images/chain.png",
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/furya/images/chain.svg"
+    }
+  ]
+}

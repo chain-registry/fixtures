@@ -8,6 +8,7 @@ import { JSStringifyPropertyReplacerOptions, JSStringifyReplacer, JSStringifySet
 export const rootDir = resolve(join(__dirname, '/../../../'));
 export const sourceDir = join(rootDir, '/repos/chain-registry');
 export const registriesDir = join(rootDir, '/registries');
+export const publicDir = join(rootDir, '/www/public/schemas');
 export const registry = new Registry(sourceDir);
 
 type ValueReplacer = { [path: string]: JSStringifyReplacer };

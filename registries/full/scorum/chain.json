@@ -1,0 +1,124 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "scorum",
+  "status": "live",
+  "networkType": "mainnet",
+  "website": "https://scorum.com/",
+  "prettyName": "Scorum Network",
+  "chainId": "scorum-1",
+  "bech32Prefix": "scorum",
+  "daemonName": "scorumd",
+  "nodeHome": "$HOME/.scorum",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "gas",
+        "fixedMinGasPrice": 1,
+        "lowGasPrice": 1,
+        "averageGasPrice": 1,
+        "highGasPrice": 1
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "nsp"
+      }
+    ]
+  },
+  "codebase": {
+    "gitRepo": "https://github.com/scorum/cosmos-network",
+    "recommendedVersion": "v1.0.0",
+    "compatibleVersions": [
+      "v1.0.0"
+    ],
+    "genesis": {
+      "genesisUrl": "https://raw.githubusercontent.com/scorum/cosmos-network/main/genesis/mainnet/genesis.json"
+    },
+    "versions": [
+      {
+        "name": "v1.0.0",
+        "recommendedVersion": "v1.0.0",
+        "compatibleVersions": [
+          "v1.0.0"
+        ]
+      }
+    ]
+  },
+  "logoURIs": {
+    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/scorum/images/scorum.png",
+    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/scorum/images/scorum.svg"
+  },
+  "peers": {
+    "seeds": [
+
+    ],
+    "persistentPeers": [
+      {
+        "id": "7c0008a9d13cbfc2672bc241547b3219b9fa6cca",
+        "address": "scorum-blockchain-mainnet-p2p-1.scorum.com:26656",
+        "provider": "scorum"
+      },
+      {
+        "id": "68e34a95b67f28d4b9c25a1fe3d2bdde4b921187",
+        "address": "scorum-blockchain-mainnet-p2p-2.scorum.com:26656",
+        "provider": "scorum"
+      },
+      {
+        "id": "0f97a484fcd027cf57243b21c3ebe21d02605657",
+        "address": "scorum-blockchain-mainnet-p2p-3.scorum.com:26656",
+        "provider": "scorum"
+      },
+      {
+        "id": "a75acca4c04f05b62a323c6492870cb988b1505f",
+        "address": "scorum-blockchain-mainnet-p2p-4.scorum.com:26656",
+        "provider": "scorum"
+      }
+    ]
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://scorum-blockchain-mainnet-rpc.scorum.com",
+        "provider": "scorum"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://scorum-blockchain-mainnet-api.scorum.com",
+        "provider": "scorum"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "https://scorum-blockchain-mainnet-grpc.scorum.com",
+        "provider": "scorum"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "ezstaking",
+      "url": "https://ezstaking.app/scorum",
+      "txPage": "https://ezstaking.app/scorum/txs/${txHash}",
+      "accountPage": "https://ezstaking.app/scorum/account/${accountAddress}"
+    },
+    {
+      "kind": "bigdipper",
+      "url": "https://cosmos.scorum.com/scorum",
+      "txPage": "https://cosmos.scorum.com/scorum/transactions/${txHash}",
+      "accountPage": "https://cosmos.scorum.com/scorum/accounts/${accountAddress}"
+    }
+  ],
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/scorum/images/scorum.png",
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/scorum/images/scorum.svg"
+    }
+  ]
+}

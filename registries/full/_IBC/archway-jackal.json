@@ -1,0 +1,54 @@
+{
+  "$schema": "../ibc_data.schema.json",
+  "chain1": {
+    "chainName": "archway",
+    "clientId": "07-tendermint-17",
+    "connectionId": "connection-18"
+  },
+  "chain2": {
+    "chainName": "jackal",
+    "clientId": "07-tendermint-61",
+    "connectionId": "connection-50"
+  },
+  "channels": [
+    {
+      "chain1": {
+        "channelId": "channel-14",
+        "portId": "transfer"
+      },
+      "chain2": {
+        "channelId": "channel-41",
+        "portId": "transfer"
+      },
+      "ordering": "unordered",
+      "version": "ics20-1",
+      "tags": {
+        "status": "live"
+      }
+    }
+  ],
+  "operators": [
+    {
+      "chain1": {
+        "address": "archway16l5ls4ajah6hethh374tpgn42r5q4sqeuw8udj"
+      },
+      "chain2": {
+        "address": "jkl134a4es94hjqqej732cymf0w3988zh3c4yuqtf8"
+      },
+      "memo": "by AM Solutions | https://www.theamsolutions.info",
+      "name": "AM Solutions",
+      "discordHandle": "AlexeyM#5409"
+    },
+    {
+      "chain1": {
+        "address": "archway1nms20r7jzaa4ms9exv90ckl2xfn0rd3rmqh7zm"
+      },
+      "chain2": {
+        "address": "jkl1nms20r7jzaa4ms9exv90ckl2xfn0rd3rh49t3n"
+      },
+      "memo": "Relayed by NodeStake",
+      "name": "NodeStake",
+      "discordHandle": "nodestake"
+    }
+  ]
+}

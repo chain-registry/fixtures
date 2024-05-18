@@ -1,0 +1,103 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "six",
+  "status": "live",
+  "networkType": "mainnet",
+  "prettyName": "SIX Protocol",
+  "chainId": "sixnet",
+  "bech32Prefix": "6x",
+  "daemonName": "sixd",
+  "nodeHome": "$HOME/.six",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "usix",
+        "fixedMinGasPrice": 1.25,
+        "lowGasPrice": 1.25,
+        "averageGasPrice": 1.5,
+        "highGasPrice": 1.75
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "usix"
+      }
+    ]
+  },
+  "codebase": {
+    "gitRepo": "https://github.com/thesixnetwork/six-protocol",
+    "recommendedVersion": "v3.1.1-fn",
+    "compatibleVersions": [
+      "v3.1.1-fn"
+    ],
+    "cosmosSdkVersion": "0.45",
+    "consensus": {
+      "type": "tendermint",
+      "version": "0.34"
+    },
+    "genesis": {
+      "genesisUrl": "https://github.com/thesixnetwork/chain-info/genesis.json"
+    },
+    "versions": [
+      {
+        "name": "v3.1.1-fn",
+        "recommendedVersion": "v3.1.1-fn",
+        "compatibleVersions": [
+          "v3.1.1-fn"
+        ],
+        "cosmosSdkVersion": "0.45",
+        "consensus": {
+          "type": "tendermint",
+          "version": "0.34"
+        }
+      }
+    ]
+  },
+  "peers": {
+    "seeds": [
+      {
+        "id": "b1ea86f31de4e38c9b6b2b5a62404c59fadcf82e",
+        "address": "34.143.194.56:26656",
+        "provider": ""
+      },
+      {
+        "id": "8542cd7e6bf9d260fef543bc49e59be5a3fa9074",
+        "address": "seed.publicnode.com:26656",
+        "provider": "Allnodes ⚡️ Nodes & Staking"
+      }
+    ]
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://sixnet-rpc.sixprotocol.net:443",
+        "provider": ""
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://sixnet-api.sixprotocol.net:443",
+        "provider": ""
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "sixscan",
+      "url": "https://sixscan.io/sixnet",
+      "txPage": "https://sixscan.io/sixnet/tx/${txHash}"
+    }
+  ],
+  "keywords": [
+    "sixprotocol",
+    "sixnetwork",
+    "sixnet",
+    "six"
+  ]
+}

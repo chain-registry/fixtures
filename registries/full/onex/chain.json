@@ -1,0 +1,135 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "onex",
+  "status": "live",
+  "website": "https://app.onomy.io/",
+  "networkType": "mainnet",
+  "prettyName": "ONEX",
+  "chainId": "onex-mainnet-1",
+  "bech32Prefix": "onomy",
+  "daemonName": "onexd",
+  "nodeHome": "$HOME/.onomy_onex",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "aonex",
+        "fixedMinGasPrice": 0,
+        "lowGasPrice": 0,
+        "averageGasPrice": 0.025,
+        "highGasPrice": 0.04
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "aonex"
+      }
+    ]
+  },
+  "codebase": {
+    "gitRepo": "https://github.com/onomyprotocol/onex",
+    "recommendedVersion": "v1.1.0",
+    "compatibleVersions": [
+      "v1.1.0"
+    ],
+    "cosmosSdkVersion": "0.45.16",
+    "consensus": {
+      "type": "cometbft",
+      "version": "0.34.28"
+    },
+    "genesis": {
+      "name": "v1",
+      "genesisUrl": "https://raw.githubusercontent.com/onomyprotocol/onex/main/chain/onex-mainnet-1/genesis-with-ccv.json"
+    },
+    "versions": [
+      {
+        "name": "v1.1.0",
+        "tag": "v1.1.0",
+        "recommendedVersion": "v1.1.0",
+        "compatibleVersions": [
+          "v1.1.0"
+        ],
+        "cosmosSdkVersion": "0.45.16",
+        "consensus": {
+          "type": "cometbft",
+          "version": "0.34.28"
+        },
+        "height": 0,
+        "nextVersionName": "v1.2.0"
+      }
+    ]
+  },
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/onex/images/onex.png",
+      "theme": {
+        "primaryColorHex": "#000000"
+      }
+    }
+  ],
+  "peers": {
+    "seeds": [
+      {
+        "id": "fdbeb23dab3a697751edcc723480723e8e788431",
+        "address": "141.95.85.153:17400",
+        "provider": "cosmostation"
+      },
+      {
+        "id": "41caa4106f68977e3a5123e56f57934a2d34a1c1",
+        "address": "95.214.53.20:27386",
+        "provider": "autostake"
+      }
+    ],
+    "persistentPeers": [
+      {
+        "id": "2f96d16645fd52dba217fb477a66c7b637fbb3c7",
+        "address": "52.79.199.137:26656",
+        "provider": "cosmostation"
+      },
+      {
+        "id": "2bd4696ae55870d031ff355460a57c8770b8747e",
+        "address": "149.102.128.71:26756",
+        "provider": "stakecito"
+      }
+    ]
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc.mainnet.onex.onomy.io",
+        "provider": "pendulum"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://rest.mainnet.onex.onomy.io",
+        "provider": "pendulum"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "a.node.mainnet.onomy.io:19091",
+        "provider": "pendulum"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "Dexplorer - must enter rpc link provided above",
+      "url": "https://dexplorer.cakralabs.site",
+      "txPage": "https://dexplorer.cakralabs.site/txs/${txHash}",
+      "accountPage": "https://dexplorer.cakralabs.site/${accountAddress}"
+    }
+  ],
+  "keywords": [
+    "dex"
+  ],
+  "logoURIs": {
+    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/onex/images/onex.png"
+  }
+}

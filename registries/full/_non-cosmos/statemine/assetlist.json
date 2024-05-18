@@ -1,0 +1,24 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "statemine",
+  "assets": [
+    {
+      "denomUnits": [
+        {
+          "denom": "130",
+          "exponent": 0
+        },
+        {
+          "denom": "usdt",
+          "exponent": 6
+        }
+      ],
+      "assetType": "substrate",
+      "base": "130",
+      "name": "Statemine",
+      "display": "usdt",
+      "symbol": "USDT",
+      "coingeckoId": "tether"
+    }
+  ]
+}

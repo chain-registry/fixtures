@@ -1,0 +1,405 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "sei",
+  "status": "live",
+  "website": "https://www.sei.io/",
+  "networkType": "mainnet",
+  "prettyName": "Sei",
+  "chainId": "pacific-1",
+  "bech32Prefix": "sei",
+  "daemonName": "seid",
+  "nodeHome": "$HOME/.sei",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "usei",
+        "fixedMinGasPrice": 0.02,
+        "lowGasPrice": 0.02,
+        "averageGasPrice": 0.02,
+        "highGasPrice": 0.04
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "usei"
+      }
+    ]
+  },
+  "codebase": {
+    "gitRepo": "https://github.com/sei-protocol/sei-chain",
+    "recommendedVersion": "v3.9.0",
+    "compatibleVersions": [
+      "v3.9.0"
+    ],
+    "ibcGoVersion": "sei-ibc-go/v3 v3.3.0",
+    "cosmosSdkVersion": "sei-cosmos v0.2.83",
+    "consensus": {
+      "type": "sei-tendermint",
+      "version": "v0.2.40"
+    },
+    "cosmwasmVersion": "sei-wasmd v0.1.1",
+    "cosmwasmEnabled": true,
+    "cosmwasmPath": "$HOME/.sei/wasm",
+    "genesis": {
+      "genesisUrl": "https://raw.githubusercontent.com/sei-protocol/testnet/main/pacific-1/genesis.json"
+    },
+    "versions": [
+      {
+        "name": "",
+        "recommendedVersion": "3.0.8",
+        "compatibleVersions": [
+          "3.0.8"
+        ],
+        "ibcGoVersion": "v3.0.0",
+        "cosmosSdkVersion": "v0.45.10",
+        "cosmwasmVersion": "v0.27.0",
+        "cosmwasmEnabled": true,
+        "cosmwasmPath": "$HOME/.sei/wasm",
+        "nextVersionName": "v3.0.9"
+      },
+      {
+        "name": "v3.0.9",
+        "recommendedVersion": "v3.0.9",
+        "compatibleVersions": [
+          "v3.0.9"
+        ],
+        "proposal": 24,
+        "height": 25259000,
+        "ibcGoVersion": "v3.1.0",
+        "cosmosSdkVersion": "v0.45.10",
+        "cosmwasmVersion": "v0.27.0",
+        "cosmwasmEnabled": true,
+        "cosmwasmPath": "$HOME/.sei/wasm",
+        "nextVersionName": "v3.1.1"
+      },
+      {
+        "name": "v3.1.1",
+        "recommendedVersion": "v3.1.1",
+        "compatibleVersions": [
+          "v3.1.1"
+        ],
+        "proposal": 32,
+        "height": 29772820,
+        "ibcGoVersion": "v3.2.0",
+        "cosmosSdkVersion": "v0.45.10",
+        "cosmwasmVersion": "v0.27.0",
+        "cosmwasmEnabled": true,
+        "cosmwasmPath": "$HOME/.sei/wasm",
+        "nextVersionName": "v3.2.1"
+      },
+      {
+        "name": "v3.2.1",
+        "recommendedVersion": "v3.2.1",
+        "compatibleVersions": [
+          "v3.2.1"
+        ],
+        "proposal": 42,
+        "height": 34078260,
+        "ibcGoVersion": "v3.2.0",
+        "cosmosSdkVersion": "v0.45.10",
+        "cosmwasmVersion": "v0.27.0",
+        "cosmwasmEnabled": true,
+        "cosmwasmPath": "$HOME/.sei/wasm",
+        "nextVersionName": "v3.3.0"
+      },
+      {
+        "name": "v3.3.0",
+        "recommendedVersion": "v3.3.4",
+        "compatibleVersions": [
+          "v3.3.1",
+          "v3.3.2",
+          "v3.3.3",
+          "v3.3.4"
+        ],
+        "ibcGoVersion": "sei-ibc-go/v3 v3.3.0",
+        "cosmosSdkVersion": "sei-cosmos v0.2.63",
+        "consensus": {
+          "type": "sei-tendermint",
+          "version": "v0.2.28"
+        },
+        "cosmwasmVersion": "sei-wasmd v0.0.2",
+        "cosmwasmEnabled": true,
+        "cosmwasmPath": "$HOME/.sei/wasm",
+        "nextVersionName": "v3.5.0"
+      },
+      {
+        "name": "v3.5.0",
+        "recommendedVersion": "v3.5.1",
+        "compatibleVersions": [
+          "v3.5.0",
+          "V3.5.1"
+        ],
+        "ibcGoVersion": "sei-ibc-go/v3 v3.3.0",
+        "cosmosSdkVersion": "sei-cosmos v0.2.63",
+        "consensus": {
+          "type": "sei-tendermint",
+          "version": "v0.2.35"
+        },
+        "cosmwasmVersion": "sei-wasmd v0.0.4",
+        "cosmwasmEnabled": true,
+        "cosmwasmPath": "$HOME/.sei/wasm",
+        "nextVersionName": "v3.6.1"
+      },
+      {
+        "name": "v3.6.1",
+        "proposal": 49,
+        "height": 53894102,
+        "recommendedVersion": "v3.6.1",
+        "compatibleVersions": [
+          "v3.6.1"
+        ],
+        "ibcGoVersion": "sei-ibc-go/v3 v3.3.0",
+        "cosmosSdkVersion": "sei-cosmos v0.2.72",
+        "consensus": {
+          "type": "sei-tendermint",
+          "version": "v0.2.37"
+        },
+        "cosmwasmVersion": "sei-wasmd v0.0.4",
+        "cosmwasmEnabled": true,
+        "cosmwasmPath": "$HOME/.sei/wasm",
+        "nextVersionName": "v3.7.0"
+      },
+      {
+        "name": "v3.7.0",
+        "proposal": 51,
+        "height": 60622970,
+        "recommendedVersion": "v3.7.0",
+        "compatibleVersions": [
+          "v3.7.0"
+        ],
+        "ibcGoVersion": "sei-ibc-go/v3 v3.3.0",
+        "cosmosSdkVersion": "sei-cosmos v0.2.74",
+        "consensus": {
+          "type": "sei-tendermint",
+          "version": "v0.2.37"
+        },
+        "cosmwasmVersion": "sei-wasmd v0.0.4",
+        "cosmwasmEnabled": true,
+        "cosmwasmPath": "$HOME/.sei/wasm",
+        "nextVersionName": "v3.8.0"
+      },
+      {
+        "name": "v3.8.0",
+        "proposal": 53,
+        "height": 64851894,
+        "recommendedVersion": "v3.8.2",
+        "compatibleVersions": [
+          "v3.8.0",
+          "v3.8.2"
+        ],
+        "ibcGoVersion": "sei-ibc-go/v3 v3.3.0",
+        "cosmosSdkVersion": "sei-cosmos v0.2.77",
+        "consensus": {
+          "type": "sei-tendermint",
+          "version": "v0.2.39"
+        },
+        "cosmwasmVersion": "sei-wasmd v0.0.8",
+        "cosmwasmEnabled": true,
+        "cosmwasmPath": "$HOME/.sei/wasm",
+        "nextVersionName": "v3.9.0"
+      },
+      {
+        "name": "v3.9.0",
+        "proposal": 54,
+        "height": 73290488,
+        "recommendedVersion": "v3.9.0",
+        "compatibleVersions": [
+          "v3.9.0"
+        ],
+        "ibcGoVersion": "sei-ibc-go/v3 v3.3.0",
+        "cosmosSdkVersion": "sei-cosmos v0.2.83",
+        "consensus": {
+          "type": "sei-tendermint",
+          "version": "v0.2.40"
+        },
+        "cosmwasmVersion": "sei-wasmd v0.1.1",
+        "cosmwasmEnabled": true,
+        "cosmwasmPath": "$HOME/.sei/wasm",
+        "nextVersionName": ""
+      }
+    ]
+  },
+  "logoURIs": {
+    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sei/images/sei.png",
+    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sei/images/sei.svg"
+  },
+  "description": "Sei is the fastest Layer 1 blockchain, designed to scale with the industry.",
+  "peers": {
+    "seeds": [
+      {
+        "id": "20e1000e88125698264454a884812746c2eb4807",
+        "address": "seeds.lavenderfive.com:11956",
+        "provider": "Lavender.Five Nodes 🐝"
+      },
+      {
+        "id": "ebc272824924ea1a27ea3183dd0b9ba713494f83",
+        "address": "sei-mainnet-seed.autostake.com:26806",
+        "provider": "AutoStake 🛡️ Slash Protected"
+      },
+      {
+        "id": "c28827cb96c14c905b127b92065a3fb4cd77d7f6",
+        "address": "seeds.whispernode.com:11956",
+        "provider": "WhisperNode 🤐"
+      },
+      {
+        "id": "400f3d9e30b69e78a7fb891f60d76fa3c73f0ecc",
+        "address": "sei.rpc.kjnodes.com:16859",
+        "provider": "kjnodes"
+      },
+      {
+        "id": "8542cd7e6bf9d260fef543bc49e59be5a3fa9074",
+        "address": "seed.publicnode.com:26656",
+        "provider": "Allnodes ⚡️ Nodes & Staking"
+      }
+    ],
+    "persistentPeers": [
+      {
+        "id": "20e1000e88125698264454a884812746c2eb4807",
+        "address": "seeds.lavenderfive.com:11956",
+        "provider": "Lavender.Five Nodes 🐝"
+      },
+      {
+        "id": "ebc272824924ea1a27ea3183dd0b9ba713494f83",
+        "address": "sei-mainnet-peer.autostake.com:26806",
+        "provider": "AutoStake 🛡️ Slash Protected"
+      },
+      {
+        "id": "d9bfa29e0cf9c4ce0cc9c26d98e5d97228f93b0b",
+        "address": "sei.rpc.kjnodes.com:16856",
+        "provider": "kjnodes"
+      }
+    ]
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://sei-rpc.lavenderfive.com:443",
+        "provider": "Lavender.Five Nodes 🐝"
+      },
+      {
+        "address": "https://sei-rpc.polkachu.com/",
+        "provider": "polkachu.com"
+      },
+      {
+        "address": "https://sei-rpc.brocha.in/",
+        "provider": "Brochain"
+      },
+      {
+        "address": "https://rpc-sei.stingray.plus/",
+        "provider": "StingRay"
+      },
+      {
+        "address": "https://rpc-sei.whispernode.com:443",
+        "provider": "WhisperNode 🤐"
+      },
+      {
+        "address": "https://sei.rpc.kjnodes.com",
+        "provider": "kjnodes"
+      },
+      {
+        "address": "https://sei-rpc.publicnode.com:443",
+        "provider": "Allnodes ⚡️ Nodes & Staking"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://sei-api.lavenderfive.com:443",
+        "provider": "Lavender.Five Nodes 🐝"
+      },
+      {
+        "address": "https://sei-api.polkachu.com/",
+        "provider": "polkachu.com"
+      },
+      {
+        "address": "https://sei-rest.brocha.in/",
+        "provider": "Brochain"
+      },
+      {
+        "address": "https://api-sei.stingray.plus/",
+        "provider": "StingRay"
+      },
+      {
+        "address": "https://lcd-sei.whispernode.com:443",
+        "provider": "WhisperNode 🤐"
+      },
+      {
+        "address": "https://sei.api.kjnodes.com",
+        "provider": "kjnodes"
+      },
+      {
+        "address": "https://sei-rest.publicnode.com",
+        "provider": "Allnodes ⚡️ Nodes & Staking"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "https://sei-grpc.lavenderfive.com:443",
+        "provider": "Lavender.Five Nodes 🐝"
+      },
+      {
+        "address": "https://sei-grpc.polkachu.com:11990/",
+        "provider": "polkachu.com"
+      },
+      {
+        "address": "sei-mainnet-grpc.autostake.com:443",
+        "provider": "AutoStake 🛡️ Slash Protected"
+      },
+      {
+        "address": "grpc-sei.whispernode.com:443",
+        "provider": "WhisperNode 🤐"
+      },
+      {
+        "address": "sei.grpc.kjnodes.com:443",
+        "provider": "kjnodes"
+      },
+      {
+        "address": "sei-grpc.publicnode.com:443",
+        "provider": "Allnodes ⚡️ Nodes & Staking"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "ping.pub",
+      "url": "https://ping.pub/sei",
+      "txPage": "https://ping.pub/sei/tx/${txHash}",
+      "accountPage": "https://ping.pub/sei/account/${accountAddress}"
+    },
+    {
+      "kind": "mintscan",
+      "url": "https://www.mintscan.io/sei",
+      "txPage": "https://www.mintscan.io/sei/transactions/${txHash}",
+      "accountPage": "https://www.mintscan.io/sei/accounts/${accountAddress}"
+    },
+    {
+      "kind": "ezstaking",
+      "url": "https://ezstaking.app/sei",
+      "txPage": "https://ezstaking.app/sei/txs/${txHash}",
+      "accountPage": "https://ezstaking.app/sei/account/${accountAddress}"
+    },
+    {
+      "kind": "seiscan",
+      "url": "https://www.seiscan.app/pacific-1",
+      "txPage": "https://www.seiscan.app/pacific-1/txs/${txHash}",
+      "accountPage": "https://www.seiscan.app/pacific-1/accounts/${accountAddress}"
+    },
+    {
+      "kind": "WhisperNode 🤐",
+      "url": "https://mainnet.whispernode.com/sei",
+      "txPage": "https://mainnet.whispernode.com/sei/tx/${txHash}",
+      "accountPage": "https://mainnet.whispernode.com/sei/account/${accountAddress}"
+    }
+  ],
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sei/images/sei.png",
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sei/images/sei.svg"
+    }
+  ]
+}

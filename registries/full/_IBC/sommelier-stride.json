@@ -1,0 +1,31 @@
+{
+  "$schema": "../ibc_data.schema.json",
+  "chain1": {
+    "chainName": "sommelier",
+    "clientId": "07-tendermint-60",
+    "connectionId": "connection-75"
+  },
+  "chain2": {
+    "chainName": "stride",
+    "clientId": "07-tendermint-131",
+    "connectionId": "connection-122"
+  },
+  "channels": [
+    {
+      "chain1": {
+        "channelId": "channel-71",
+        "portId": "transfer"
+      },
+      "chain2": {
+        "channelId": "channel-150",
+        "portId": "transfer"
+      },
+      "ordering": "unordered",
+      "version": "ics20-1",
+      "tags": {
+        "status": "live",
+        "preferred": true
+      }
+    }
+  ]
+}

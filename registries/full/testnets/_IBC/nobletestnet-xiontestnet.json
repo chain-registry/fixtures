@@ -1,0 +1,30 @@
+{
+  "$schema": "../../ibc_data.schema.json",
+  "chain1": {
+    "chainName": "nobletestnet",
+    "clientId": "07-tendermint-224",
+    "connectionId": "connection-176"
+  },
+  "chain2": {
+    "chainName": "xiontestnet",
+    "clientId": "07-tendermint-120",
+    "connectionId": "connection-56"
+  },
+  "channels": [
+    {
+      "chain1": {
+        "channelId": "channel-147",
+        "portId": "transfer"
+      },
+      "chain2": {
+        "channelId": "channel-489",
+        "portId": "transfer"
+      },
+      "ordering": "unordered",
+      "version": "ics20-1",
+      "tags": {
+        "status": "live"
+      }
+    }
+  ]
+}

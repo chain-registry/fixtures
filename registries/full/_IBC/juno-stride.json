@@ -1,0 +1,99 @@
+{
+  "$schema": "../ibc_data.schema.json",
+  "chain1": {
+    "chainName": "juno",
+    "clientId": "07-tendermint-263",
+    "connectionId": "connection-205"
+  },
+  "chain2": {
+    "chainName": "stride",
+    "clientId": "07-tendermint-31",
+    "connectionId": "connection-19"
+  },
+  "channels": [
+    {
+      "chain1": {
+        "channelId": "channel-139",
+        "portId": "transfer"
+      },
+      "chain2": {
+        "channelId": "channel-24",
+        "portId": "transfer"
+      },
+      "ordering": "unordered",
+      "version": "ics20-1",
+      "tags": {
+        "status": "live",
+        "preferred": true
+      }
+    },
+    {
+      "chain1": {
+        "channelId": "channel-202",
+        "portId": "icahost"
+      },
+      "chain2": {
+        "channelId": "channel-48",
+        "portId": "icacontroller-juno-1.DELEGATION"
+      },
+      "ordering": "ordered",
+      "version": "ics27-1",
+      "tags": {
+        "status": "live",
+        "preferred": true,
+        "properties": "liquid staking"
+      }
+    },
+    {
+      "chain1": {
+        "channelId": "channel-143",
+        "portId": "icahost"
+      },
+      "chain2": {
+        "channelId": "channel-26",
+        "portId": "icacontroller-juno-1.FEE"
+      },
+      "ordering": "ordered",
+      "version": "ics27-1",
+      "tags": {
+        "status": "live",
+        "preferred": true,
+        "properties": "liquid staking"
+      }
+    },
+    {
+      "chain1": {
+        "channelId": "channel-142",
+        "portId": "icahost"
+      },
+      "chain2": {
+        "channelId": "channel-27",
+        "portId": "icacontroller-juno-1.WITHDRAWAL"
+      },
+      "ordering": "ordered",
+      "version": "ics27-1",
+      "tags": {
+        "status": "live",
+        "preferred": true,
+        "properties": "liquid staking"
+      }
+    },
+    {
+      "chain1": {
+        "channelId": "channel-140",
+        "portId": "icahost"
+      },
+      "chain2": {
+        "channelId": "channel-28",
+        "portId": "icacontroller-juno-1.REDEMPTION"
+      },
+      "ordering": "ordered",
+      "version": "ics27-1",
+      "tags": {
+        "status": "live",
+        "preferred": true,
+        "properties": "liquid staking"
+      }
+    }
+  ]
+}

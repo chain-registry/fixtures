@@ -1,0 +1,213 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "stafihub",
+  "chainId": "stafihub-1",
+  "website": "https://stafihub.io/",
+  "prettyName": "StaFi Hub",
+  "status": "live",
+  "networkType": "mainnet",
+  "bech32Prefix": "stafi",
+  "daemonName": "stafihubd",
+  "nodeHome": "$HOME/.stafihub",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "ufis",
+        "fixedMinGasPrice": 0,
+        "lowGasPrice": 0,
+        "averageGasPrice": 0.025,
+        "highGasPrice": 0.04
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "ufis"
+      }
+    ],
+    "lockDuration": {
+      "time": "1209600s"
+    }
+  },
+  "codebase": {
+    "gitRepo": "https://github.com/stafihub/stafihub",
+    "recommendedVersion": "v0.5.0",
+    "compatibleVersions": [
+      "v0.5.0"
+    ],
+    "cosmosSdkVersion": "0.46",
+    "consensus": {
+      "type": "tendermint",
+      "version": "0.34"
+    },
+    "ibcGoVersion": "5.2.1",
+    "icsEnabled": [
+      "ics20-1"
+    ],
+    "genesis": {
+      "genesisUrl": "https://raw.githubusercontent.com/stafihub/network/main/mainnets/stafihub-1(dragonberry)/genesis.json"
+    },
+    "versions": [
+      {
+        "name": "v020",
+        "tag": "v0.2.3",
+        "height": 0,
+        "nextVersionName": "v030"
+      },
+      {
+        "name": "v030",
+        "tag": "v0.3.0",
+        "height": 2626590,
+        "proposal": 1,
+        "nextVersionName": "v040"
+      },
+      {
+        "name": "v040",
+        "tag": "v0.4.0",
+        "height": 3766566,
+        "proposal": 2,
+        "nextVersionName": "v050"
+      },
+      {
+        "name": "v050",
+        "tag": "v0.5.0",
+        "height": 5868372,
+        "proposal": 4,
+        "recommendedVersion": "v0.5.0",
+        "compatibleVersions": [
+          "v0.5.0"
+        ],
+        "cosmosSdkVersion": "0.46",
+        "consensus": {
+          "type": "tendermint",
+          "version": "0.34"
+        },
+        "ibcGoVersion": "5.2.1",
+        "icsEnabled": [
+          "ics20-1"
+        ],
+        "nextVersionName": "v060"
+      }
+    ]
+  },
+  "peers": {
+    "seeds": [
+      {
+        "id": "8542cd7e6bf9d260fef543bc49e59be5a3fa9074",
+        "address": "seed.publicnode.com:26656",
+        "provider": "Allnodes ⚡️ Nodes & Staking"
+      }
+    ],
+    "persistentPeers": [
+      {
+        "id": "bed296dfadd972ed07cab82c87a0ee5c182dea43",
+        "address": "18.136.189.120:26656"
+      },
+      {
+        "id": "045fe6e054a5abe35f5433bd333f0a1b18aa28cf",
+        "address": "45.136.28.11:26656"
+      },
+      {
+        "id": "20c0b45c47426c51b3187aa5dca82d9900c2fb36",
+        "address": "5.161.88.157:26656"
+      },
+      {
+        "id": "70230067eb1e668d2566329e727c72c930e54de3",
+        "address": "116.202.30.7:26656"
+      },
+      {
+        "id": "03f3cb61c7c472044c37aeededde2ffe8884fa02",
+        "address": "159.69.108.86:26656"
+      }
+    ]
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://public-rpc1.stafihub.io:443",
+        "provider": "StaFiHub"
+      },
+      {
+        "address": "https://public-rpc2.stafihub.io:443",
+        "provider": "StaFiHub"
+      },
+      {
+        "address": "https://rpc.stafihub.nodestake.top:443",
+        "provider": "NodeStake"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://public-rest-rpc1.stafihub.io",
+        "provider": "StaFiHub"
+      },
+      {
+        "address": "https://public-rest-rpc2.stafihub.io",
+        "provider": "StaFiHub"
+      },
+      {
+        "address": "https://api.stafihub.nodestake.top",
+        "provider": "NodeStake"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "public-grpc-rpc1.stafihub.io:443",
+        "provider": "StaFiHub"
+      },
+      {
+        "address": "public-grpc-rpc2.stafihub.io:443",
+        "provider": "StaFiHub"
+      },
+      {
+        "address": "grpc.stafihub.nodestake.top:443",
+        "provider": "NodeStake"
+      },
+      {
+        "address": "stafihub.nodejumper.io:9090",
+        "provider": "NODEJUMPER"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "mintscan",
+      "url": "https://www.mintscan.io/stafi",
+      "txPage": "https://www.mintscan.io/stafi/transactions/${txHash}",
+      "accountPage": "https://www.mintscan.io/stafi/accounts/${accountAddress}"
+    },
+    {
+      "kind": "ezstaking",
+      "url": "https://ezstaking.app/stafihub",
+      "txPage": "https://ezstaking.app/stafihub/txs/${txHash}",
+      "accountPage": "https://ezstaking.app/stafihub/account/${accountAddress}"
+    },
+    {
+      "kind": "ping-pub",
+      "url": "https://ping.pub/stafihub",
+      "txPage": "https://ping.pub/stafihub/tx/${txHash}"
+    },
+    {
+      "kind": "atomscan",
+      "url": "https://atomscan.com/stafihub",
+      "txPage": "https://atomscan.com/stafihub/transactions/${txHash}",
+      "accountPage": "https://atomscan.com/stafihub/accounts/${accountAddress}"
+    }
+  ],
+  "logoURIs": {
+    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stafihub/images/stafihub-chain-logo.png"
+  },
+  "keywords": [
+    "liquid staking"
+  ],
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stafihub/images/stafihub-chain-logo.png"
+    }
+  ]
+}

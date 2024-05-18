@@ -1,7 +1,9 @@
-import { RegistryBuilder, RegistryBuilderOptions } from '@chain-registry/workflows';
-import { join } from "path";
+import { Registry, RegistryBuilder, RegistryBuilderOptions } from '@chain-registry/workflows';
+import { writeFileSync } from 'fs';
+import { mkdirpSync as mkdirp } from 'mkdirp';
+import { basename, dirname, join } from "path";
 
-import { assetListDefaultValuesSetter, assetListOperations, assetListPropertyRenameMap, assetListValueReplacer, chainPropertyRenameMap,registriesDir, registry } from './config';
+import { assetListDefaultValuesSetter, assetListOperations, assetListPropertyRenameMap, assetListValueReplacer, chainPropertyRenameMap,publicDir,registriesDir, registry } from './config';
 import { camelCaseTransform, isValidIdentifierCamelized } from './utils';
 
 const registryDir = join(registriesDir, 'minimal')
@@ -158,3 +160,19 @@ const builder = new RegistryBuilder(registry, options);
 
 builder.build(registryDir);
 builder.buildSchemas(registryDir, camelCaseTransform, isValidIdentifierCamelized);
+
+const which = 'minimal'
+const newReg = new Registry(registryDir);
+newReg.forEachSchemas(([title, schema])=>{
+  const filename = basename(schema.path);
+  const $id = `https://chainregistry.org/schemas/${which}/${filename}`;
+  delete schema.content.$id
+  const s = {
+    $id,
+    ...schema.content
+  }
+  const folderName = join(publicDir, which);
+  const out = join(folderName, filename)
+  mkdirp(dirname(out));
+  writeFileSync(out, JSON.stringify(s, null, 2));
+});

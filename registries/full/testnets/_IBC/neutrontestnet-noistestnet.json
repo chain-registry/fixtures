@@ -1,0 +1,47 @@
+{
+  "$schema": "../ibc_data.schema.json",
+  "chain1": {
+    "chainName": "neutrontestnet",
+    "clientId": "07-tendermint-102",
+    "connectionId": "connection-93"
+  },
+  "chain2": {
+    "chainName": "noistestnet",
+    "clientId": "07-tendermint-30",
+    "connectionId": "connection-17"
+  },
+  "channels": [
+    {
+      "chain1": {
+        "channelId": "channel-133",
+        "portId": "transfer"
+      },
+      "chain2": {
+        "channelId": "channel-40",
+        "portId": "transfer"
+      },
+      "ordering": "unordered",
+      "version": "ics20-1",
+      "tags": {
+        "status": "live",
+        "preferred": true
+      }
+    },
+    {
+      "chain1": {
+        "channelId": "channel-135",
+        "portId": "wasm.neutron1tw9sg9e4l09l5rjglf4qfvcft470ljk5grdq3luagysyk83nzfusw2sxgq"
+      },
+      "chain2": {
+        "channelId": "channel-42",
+        "portId": "wasm.nois1xwde9rzqk5u36fke0r9ddmtwvh43n4fv53c5vc462wz8xlnqjhls6d90xc"
+      },
+      "ordering": "unordered",
+      "version": "nois-v7",
+      "tags": {
+        "status": "live",
+        "preferred": true
+      }
+    }
+  ]
+}

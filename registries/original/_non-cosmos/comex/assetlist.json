@@ -1,0 +1,19 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chain_name": "comex",
+  "assets": [
+    {
+      "asset_type": "unknown",
+      "denom_units": [
+        {
+          "denom": "XAU",
+          "exponent": 0
+        }
+      ],
+      "base": "XAU",
+      "display": "XAU",
+      "name": "Gold",
+      "symbol": "XAU"
+    }
+  ]
+}

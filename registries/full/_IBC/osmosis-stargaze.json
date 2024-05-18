@@ -1,0 +1,48 @@
+{
+  "$schema": "../ibc_data.schema.json",
+  "chain1": {
+    "chainName": "osmosis",
+    "clientId": "07-tendermint-1562",
+    "connectionId": "connection-1223"
+  },
+  "chain2": {
+    "chainName": "stargaze",
+    "clientId": "07-tendermint-0",
+    "connectionId": "connection-0"
+  },
+  "channels": [
+    {
+      "chain1": {
+        "channelId": "channel-75",
+        "portId": "transfer"
+      },
+      "chain2": {
+        "channelId": "channel-0",
+        "portId": "transfer"
+      },
+      "ordering": "unordered",
+      "version": "ics20-1",
+      "tags": {
+        "status": "live",
+        "preferred": true,
+        "dex": "osmosis"
+      }
+    },
+    {
+      "chain1": {
+        "channelId": "channel-39535",
+        "portId": "wasm.osmo10vzkd8pyme67z38epdr3gf027y03dxq7t8vau5fp3r28vxks7mwse02j8f"
+      },
+      "chain2": {
+        "channelId": "channel-309",
+        "portId": "wasm.stars1r0a8ygvnjfaegy4n5z9325e0ew9uy2s7rn4vt7qf4ltv49fj4tnsk6pvtv"
+      },
+      "ordering": "unordered",
+      "version": "ics721-1",
+      "tags": {
+        "status": "live",
+        "preferred": true
+      }
+    }
+  ]
+}

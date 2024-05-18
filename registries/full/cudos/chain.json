@@ -1,0 +1,234 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "cudos",
+  "status": "live",
+  "networkType": "mainnet",
+  "prettyName": "Cudos",
+  "chainId": "cudos-1",
+  "bech32Prefix": "cudos",
+  "daemonName": "cudos-noded",
+  "website": "https://www.cudos.org/",
+  "nodeHome": "$HOME/cudos-data",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "acudos",
+        "lowGasPrice": 5000000000000,
+        "averageGasPrice": 10000000000000,
+        "highGasPrice": 20000000000000
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "acudos"
+      }
+    ]
+  },
+  "codebase": {
+    "gitRepo": "https://github.com/CudoVentures/cudos-node",
+    "recommendedVersion": "v1.1.0",
+    "compatibleVersions": [
+      "v1.0.1",
+      "v1.1.0"
+    ],
+    "genesis": {
+      "genesisUrl": "https://raw.githubusercontent.com/CudoVentures/cudos-builders/v1.0.0/docker/config/genesis.mainnet.json"
+    },
+    "versions": [
+      {
+        "name": "v1.1.0",
+        "recommendedVersion": "v1.1.0",
+        "compatibleVersions": [
+          "v1.0.1",
+          "v1.1.0"
+        ]
+      }
+    ]
+  },
+  "logoURIs": {
+    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cudos/images/cudos.png",
+    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cudos/images/cudos.svg"
+  },
+  "peers": {
+    "seeds": [
+      {
+        "id": "ff3f0f7b1eecc6844e6512428ef4c7a9448452a8",
+        "address": "cluster-1-seed-1.hosts.cudos.org:26656",
+        "provider": "cudo"
+      },
+      {
+        "id": "6d9beb4d44a530a4a10ebe78ed7717f6083d0c4b",
+        "address": "cluster-2-seed-1.hosts.cudos.org:26656",
+        "provider": "cudo"
+      },
+      {
+        "id": "e0f3bcc574ef66ae4561fad0772a4fd1959969af",
+        "address": "cluster-3-seed-1.hosts.cudos.org:26656",
+        "provider": "cudo"
+      },
+      {
+        "id": "ebc272824924ea1a27ea3183dd0b9ba713494f83",
+        "address": "cudos-mainnet-seed.autostake.com:27256",
+        "provider": "AutoStake 🛡️ Slash Protected"
+      },
+      {
+        "id": "20e1000e88125698264454a884812746c2eb4807",
+        "address": "seeds.lavenderfive.com:12356",
+        "provider": "Lavender.Five Nodes 🐝"
+      },
+      {
+        "id": "8542cd7e6bf9d260fef543bc49e59be5a3fa9074",
+        "address": "seed.publicnode.com:26656",
+        "provider": "Allnodes ⚡️ Nodes & Staking"
+      }
+    ],
+    "persistentPeers": [
+      {
+        "id": "f196d7cc811a5ab99e4c5dd5c7f3c0135509d1c4",
+        "address": "cluster-1-sentry-1.hosts.cudos.org:26656",
+        "provider": "cudo"
+      },
+      {
+        "id": "2cc0a12ff1038509b2ed64719fcddfdded9a04ad",
+        "address": "cluster-2-sentry-1.hosts.cudos.org:26656",
+        "provider": "cudo"
+      },
+      {
+        "id": "ab1ec4fb29afc9c0f5a04b7cbd1220b8b30ffea4",
+        "address": "cluster-3-sentry-1.hosts.cudos.org:26656",
+        "provider": "cudo"
+      },
+      {
+        "id": "2958b15e9102cb556cc0f1f1bbbfdfc922a16069",
+        "address": "mainnet-full-node-01.hosts.cudos.org:26656",
+        "provider": "cudo"
+      },
+      {
+        "id": "eb14f9142ad313297653f84754b1caf60efe75ac",
+        "address": "mainnet-full-node-02.hosts.cudos.org:26656",
+        "provider": "cudo"
+      },
+      {
+        "id": "ebc272824924ea1a27ea3183dd0b9ba713494f83",
+        "address": "cudos-mainnet-peer.autostake.com:27256",
+        "provider": "AutoStake 🛡️ Slash Protected"
+      }
+    ]
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "http://mainnet-full-node-01.hosts.cudos.org:26657",
+        "provider": "cudo"
+      },
+      {
+        "address": "https://mainnet-full-node-02.hosts.cudos.org:36657",
+        "provider": "cudo"
+      },
+      {
+        "address": "https://cudos-rpc.kleomedes.network",
+        "provider": "Kleomedes"
+      },
+      {
+        "address": "https://cudos-mainnet-rpc.autostake.com:443",
+        "provider": "AutoStake 🛡️ Slash Protected"
+      },
+      {
+        "address": "https://cudos-rpc.lavenderfive.com",
+        "provider": "Lavender.Five Nodes 🐝"
+      },
+      {
+        "address": "https://cudos-rpc.publicnode.com:443",
+        "provider": "Allnodes ⚡️ Nodes & Staking"
+      }
+    ],
+    "rest": [
+      {
+        "address": "http://mainnet-full-node-01.hosts.cudos.org:1317",
+        "provider": "cudo"
+      },
+      {
+        "address": "https://mainnet-full-node-02.hosts.cudos.org:31317",
+        "provider": "cudo"
+      },
+      {
+        "address": "https://cudos-api.kleomedes.network",
+        "provider": "Kleomedes"
+      },
+      {
+        "address": "https://cudos-mainnet-lcd.autostake.com:443",
+        "provider": "AutoStake 🛡️ Slash Protected"
+      },
+      {
+        "address": "https://cudos-api.lavenderfive.com/",
+        "provider": "Lavender.Five Nodes 🐝"
+      },
+      {
+        "address": "https://cudos-rest.publicnode.com",
+        "provider": "Allnodes ⚡️ Nodes & Staking"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "mainnet-full-node-01.hosts.cudos.org:9090",
+        "provider": "cudo"
+      },
+      {
+        "address": "cudos-mainnet-grpc.autostake.com:443",
+        "provider": "AutoStake 🛡️ Slash Protected"
+      },
+      {
+        "address": "cudos-grpc.lavenderfive.com:443",
+        "provider": "Lavender.Five Nodes 🐝"
+      },
+      {
+        "address": "cudos-grpc.publicnode.com:443",
+        "provider": "Allnodes ⚡️ Nodes & Staking"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "bigdipper",
+      "url": "https://explorer.cudos.org/",
+      "txPage": "https://explorer.cudos.org/transactions/${txHash}",
+      "accountPage": "https://explorer.cudos.org/accounts/${accountAddress}"
+    },
+    {
+      "kind": "cudos-dashboard",
+      "url": "https://dashboard.cudos.org/",
+      "txPage": "https://explorer.cudos.org/transactions/${txHash}",
+      "accountPage": "https://explorer.cudos.org/accounts/${accountAddress}"
+    },
+    {
+      "kind": "mintscan",
+      "url": "https://www.mintscan.io/cudos",
+      "txPage": "https://www.mintscan.io/cudos/transactions/${txHash}",
+      "accountPage": "https://www.mintscan.io/cudos/accounts/${accountAddress}"
+    },
+    {
+      "kind": "atomscan",
+      "url": "https://atomscan.com/cudos",
+      "txPage": "https://atomscan.com/cudos/transactions/${txHash}",
+      "accountPage": "https://atomscan.com/cudos/accounts/${accountAddress}"
+    },
+    {
+      "kind": "ezstaking",
+      "url": "https://ezstaking.app/cudos",
+      "txPage": "https://ezstaking.app/cudos/txs/${txHash}",
+      "accountPage": "https://ezstaking.app/cudos/account/${accountAddress}"
+    }
+  ],
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cudos/images/cudos.png",
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cudos/images/cudos.svg"
+    }
+  ]
+}

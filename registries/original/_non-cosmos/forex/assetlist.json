@@ -1,0 +1,19 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chain_name": "forex",
+  "assets": [
+    {
+      "asset_type": "unknown",
+      "denom_units": [
+        {
+          "denom": "USD",
+          "exponent": 0
+        }
+      ],
+      "base": "USD",
+      "display": "USD",
+      "name": "United States Dollar",
+      "symbol": "USD"
+    }
+  ]
+}
