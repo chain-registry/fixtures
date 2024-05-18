@@ -1,0 +1,24 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "loyal",
+  "assets": [
+    {
+      "description": "The native token of Loyal",
+      "denomUnits": [
+        {
+          "denom": "ulyl",
+          "exponent": 0
+        },
+        {
+          "denom": "lyl",
+          "exponent": 6
+        }
+      ],
+      "base": "ulyl",
+      "name": "Loyal",
+      "display": "lyl",
+      "symbol": "LYL",
+      "assetType": "sdk.Coin"
+    }
+  ]
+}

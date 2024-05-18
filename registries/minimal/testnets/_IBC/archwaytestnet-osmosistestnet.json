@@ -1,0 +1,30 @@
+{
+  "$schema": "../ibc_data.schema.json",
+  "chain1": {
+    "chainName": "archwaytestnet",
+    "clientId": "07-tendermint-77",
+    "connectionId": "connection-73"
+  },
+  "chain2": {
+    "chainName": "osmosistestnet",
+    "clientId": "07-tendermint-1195",
+    "connectionId": "connection-1101"
+  },
+  "channels": [
+    {
+      "chain1": {
+        "channelId": "channel-58",
+        "portId": "transfer"
+      },
+      "chain2": {
+        "channelId": "channel-3938",
+        "portId": "transfer"
+      },
+      "ordering": "unordered",
+      "version": "ics20-1",
+      "tags": {
+        "status": "live"
+      }
+    }
+  ]
+}

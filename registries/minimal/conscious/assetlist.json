@@ -1,0 +1,25 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "conscious",
+  "assets": [
+    {
+      "description": "Cvn is a Layer-1 blockchain built to deliver on the promise of DeFi",
+      "denomUnits": [
+        {
+          "denom": "acvnt",
+          "exponent": 0
+        },
+        {
+          "denom": "cvnt",
+          "exponent": 18
+        }
+      ],
+      "base": "acvnt",
+      "name": "Cvn",
+      "display": "cvnt",
+      "symbol": "CVN",
+      "coingeckoId": "consciousdao",
+      "assetType": "unknown"
+    }
+  ]
+}

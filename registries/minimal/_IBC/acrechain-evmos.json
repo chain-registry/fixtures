@@ -1,0 +1,31 @@
+{
+  "$schema": "../ibc_data.schema.json",
+  "chain1": {
+    "chainName": "acrechain",
+    "clientId": "07-tendermint-18",
+    "connectionId": "connection-16"
+  },
+  "chain2": {
+    "chainName": "evmos",
+    "clientId": "07-tendermint-97",
+    "connectionId": "connection-55"
+  },
+  "channels": [
+    {
+      "chain1": {
+        "channelId": "channel-14",
+        "portId": "transfer"
+      },
+      "chain2": {
+        "channelId": "channel-40",
+        "portId": "transfer"
+      },
+      "ordering": "unordered",
+      "version": "ics20-1",
+      "tags": {
+        "status": "live",
+        "preferred": true
+      }
+    }
+  ]
+}

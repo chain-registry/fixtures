@@ -1,0 +1,44 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "realio",
+  "assets": [
+    {
+      "description": "The native currency of the Realio Network.",
+      "denomUnits": [
+        {
+          "denom": "ario",
+          "exponent": 0
+        },
+        {
+          "denom": "rio",
+          "exponent": 18
+        }
+      ],
+      "base": "ario",
+      "name": "Realio Network",
+      "display": "rio",
+      "symbol": "RIO",
+      "coingeckoId": "realio-network",
+      "assetType": "sdk.Coin"
+    },
+    {
+      "description": "A hybrid equity token that represent ownership of the Realio Ecosystem and provides utility functions on the Network.",
+      "denomUnits": [
+        {
+          "denom": "arst",
+          "exponent": 0
+        },
+        {
+          "denom": "rst",
+          "exponent": 18
+        }
+      ],
+      "base": "arst",
+      "name": "Realio Security Token",
+      "display": "rst",
+      "symbol": "RST",
+      "coingeckoId": "",
+      "assetType": "sdk.Coin"
+    }
+  ]
+}

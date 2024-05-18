@@ -1,0 +1,69 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "tgrade",
+  "networkType": "mainnet",
+  "website": "https://tgrade.finance/",
+  "prettyName": "Tgrade",
+  "chainId": "tgrade-mainnet-1",
+  "bech32Prefix": "tgrade",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "utgd",
+        "fixedMinGasPrice": 0.05,
+        "lowGasPrice": 0.05,
+        "averageGasPrice": 0.075,
+        "highGasPrice": 0.1
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "utgd"
+      }
+    ]
+  },
+  "codebase": {
+    "cosmwasmEnabled": true
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc.mainnet-1.tgrade.confio.run"
+      },
+      {
+        "address": "https://rpc.tgrade.posthuman.digital"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://api.mainnet-1.tgrade.confio.run"
+      },
+      {
+        "address": "https://lcd.tgrade.posthuman.digital"
+      }
+    ],
+    "grpc": [
+
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "aneka",
+      "url": "https://tgrade.aneka.io",
+      "txPage": "https://tgrade.aneka.io/txs/${txHash}",
+      "accountPage": "https://tgrade.aneka.io/accounts/${accountAddress}"
+    }
+  ],
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/tgrade/images/tgrade-logo-gradient_h.png",
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/tgrade/images/tgrade-symbol-gradient.svg"
+    }
+  ]
+}

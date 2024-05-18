@@ -1,0 +1,25 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "0l",
+  "assets": [
+    {
+      "description": "The native token of 0L Network",
+      "denomUnits": [
+        {
+          "denom": "microlibra",
+          "exponent": 0
+        },
+        {
+          "denom": "libra",
+          "exponent": 6
+        }
+      ],
+      "assetType": "unknown",
+      "base": "microlibra",
+      "name": "Libra Coin",
+      "display": "libra",
+      "symbol": "LIBRA",
+      "coingeckoId": "libra-3"
+    }
+  ]
+}

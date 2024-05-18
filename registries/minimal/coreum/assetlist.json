@@ -1,0 +1,56 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "coreum",
+  "assets": [
+    {
+      "description": "The native token of Coreum",
+      "denomUnits": [
+        {
+          "denom": "ucore",
+          "exponent": 0
+        },
+        {
+          "denom": "core",
+          "exponent": 6
+        }
+      ],
+      "base": "ucore",
+      "name": "Coreum",
+      "display": "core",
+      "symbol": "COREUM",
+      "coingeckoId": "coreum",
+      "assetType": "sdk.Coin"
+    },
+    {
+      "description": "XRP bridged from XRPL",
+      "denomUnits": [
+        {
+          "denom": "drop-core1zhs909jp9yktml6qqx9f0ptcq2xnhhj99cja03j3lfcsp2pgm86studdrz",
+          "exponent": 0,
+          "aliases": [
+            "drop"
+          ]
+        },
+        {
+          "denom": "xrp",
+          "exponent": 6
+        }
+      ],
+      "base": "drop-core1zhs909jp9yktml6qqx9f0ptcq2xnhhj99cja03j3lfcsp2pgm86studdrz",
+      "name": "Ripple",
+      "display": "xrp",
+      "symbol": "XRP",
+      "traces": [
+        {
+          "type": "bridge",
+          "counterparty": {
+            "chainName": "xrpl",
+            "baseDenom": "drop"
+          },
+          "provider": "Coreum"
+        }
+      ],
+      "assetType": "sdk.Coin"
+    }
+  ]
+}

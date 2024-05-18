@@ -1,0 +1,24 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "mythos",
+  "assets": [
+    {
+      "description": "The native token of Mythos",
+      "denomUnits": [
+        {
+          "denom": "aMYT",
+          "exponent": 0
+        },
+        {
+          "denom": "MYT",
+          "exponent": 18
+        }
+      ],
+      "base": "aMYT",
+      "name": "MYT",
+      "display": "MYT",
+      "symbol": "MYT",
+      "assetType": "unknown"
+    }
+  ]
+}

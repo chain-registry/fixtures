@@ -1,0 +1,47 @@
+{
+  "$schema": "../ibc_data.schema.json",
+  "chain1": {
+    "chainName": "archway",
+    "clientId": "07-tendermint-22",
+    "connectionId": "connection-20"
+  },
+  "chain2": {
+    "chainName": "nois",
+    "clientId": "07-tendermint-15",
+    "connectionId": "connection-9"
+  },
+  "channels": [
+    {
+      "chain1": {
+        "channelId": "channel-17",
+        "portId": "transfer"
+      },
+      "chain2": {
+        "channelId": "channel-21",
+        "portId": "transfer"
+      },
+      "ordering": "unordered",
+      "version": "ics20-1",
+      "tags": {
+        "status": "live",
+        "preferred": true
+      }
+    },
+    {
+      "chain1": {
+        "channelId": "channel-19",
+        "portId": "wasm.archway10f3aasgsnpv84ymjyld50jayc4ecu267sdpjamauwm8nvxlzex9qj4dkwr"
+      },
+      "chain2": {
+        "channelId": "channel-22",
+        "portId": "wasm.nois1acyc05v6fgcdgj88nmz2t40aex9nlnptqpwp5hf8hwg7rhce9uuqgqz5wp"
+      },
+      "ordering": "unordered",
+      "version": "nois-v7",
+      "tags": {
+        "status": "live",
+        "preferred": true
+      }
+    }
+  ]
+}

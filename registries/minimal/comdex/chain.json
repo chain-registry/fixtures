@@ -1,0 +1,222 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "comdex",
+  "networkType": "mainnet",
+  "website": "https://comdex.one/",
+  "prettyName": "Comdex",
+  "chainId": "comdex-1",
+  "bech32Prefix": "comdex",
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "ucmdx",
+        "fixedMinGasPrice": 0,
+        "lowGasPrice": 0,
+        "averageGasPrice": 0.025,
+        "highGasPrice": 0.04
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "ucmdx"
+      }
+    ]
+  },
+  "codebase": {
+    "cosmosSdkVersion": "v0.47.5",
+    "cosmwasmVersion": "v0.41.0",
+    "cosmwasmEnabled": true
+  },
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc.comdex.one"
+      },
+      {
+        "address": "https://comdex-rpc.polkachu.com"
+      },
+      {
+        "address": "https://comdex.rpc.m.stavr.tech"
+      },
+      {
+        "address": "https://rpc.comdex.chaintools.tech/"
+      },
+      {
+        "address": "https://comdex-rpc.lavenderfive.com/"
+      },
+      {
+        "address": "https://rpc-comdex.cosmos-spaces.cloud"
+      },
+      {
+        "address": "https://rpc-comdex.whispernode.com:443"
+      },
+      {
+        "address": "https://comdex-mainnet-rpc.autostake.com:443"
+      },
+      {
+        "address": "https://comdex-rpc.w3coins.io"
+      },
+      {
+        "address": "https://comdex-rpc.stakerhouse.com"
+      },
+      {
+        "address": "https://comdex-rpc.publicnode.com:443"
+      },
+      {
+        "address": "https://rpc-comdex-01.stakeflow.io"
+      },
+      {
+        "address": "https://comdex-rpc.validatornode.com"
+      },
+      {
+        "address": "https://rpc-comdex.blockval.io"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://rest.comdex.one"
+      },
+      {
+        "address": "https://api.comdex.chaintools.tech/"
+      },
+      {
+        "address": "https://comdex-api.polkachu.com"
+      },
+      {
+        "address": "https://comdex.api.m.stavr.tech"
+      },
+      {
+        "address": "https://comdex-api.lavenderfive.com/"
+      },
+      {
+        "address": "https://api-comdex.cosmos-spaces.cloud"
+      },
+      {
+        "address": "https://comdex-mainnet-lcd.autostake.com:443"
+      },
+      {
+        "address": "https://lcd-comdex.whispernode.com:443"
+      },
+      {
+        "address": "https://comdex-api.w3coins.io"
+      },
+      {
+        "address": "https://comdex-rest.stakerhouse.com"
+      },
+      {
+        "address": "https://comdex-rest.publicnode.com"
+      },
+      {
+        "address": "https://api-comdex-01.stakeflow.io"
+      },
+      {
+        "address": "https://comdex-api.validatornode.com"
+      },
+      {
+        "address": "https://api-comdex.blockval.io"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "grpc-comdex-ia.cosmosia.notional.ventures:443"
+      },
+      {
+        "address": "comdex.grpcui.chaintools.host:443"
+      },
+      {
+        "address": "comdex-grpc.polkachu.com:13190"
+      },
+      {
+        "address": "comdex.grpc.m.stavr.tech:104"
+      },
+      {
+        "address": "grpc-comdex.cosmos-spaces.cloud:2300"
+      },
+      {
+        "address": "comdex-grpc.lavenderfive.com:443"
+      },
+      {
+        "address": "comdex-mainnet-lcd.autostake.com:443"
+      },
+      {
+        "address": "comdex-grpc.w3coins.io:13190"
+      },
+      {
+        "address": "comdex-grpc.publicnode.com:443"
+      },
+      {
+        "address": "grpc-comdex-01.stakeflow.io:10002"
+      },
+      {
+        "address": "comdex-grpc.stakerhouse.com:443"
+      },
+      {
+        "address": "https://grpc-comdex.blockval.io:443"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "ezstaking",
+      "url": "https://ezstaking.app/comdex",
+      "txPage": "https://ezstaking.app/comdex/txs/${txHash}",
+      "accountPage": "https://ezstaking.app/comdex/account/${accountAddress}"
+    },
+    {
+      "kind": "mintscan",
+      "url": "https://www.mintscan.io/comdex",
+      "txPage": "https://www.mintscan.io/comdex/transactions/${txHash}",
+      "accountPage": "https://www.mintscan.io/comdex/accounts/${accountAddress}"
+    },
+    {
+      "kind": "🔥STAVR🔥",
+      "url": "https://explorer.stavr.tech/Comdex-Mainnet",
+      "txPage": "https://explorer.stavr.tech/Comdex-Mainnet/txs/${txHash}",
+      "accountPage": "https://explorer.stavr.tech/Comdex-Mainnet/accounts/${accountAddress}"
+    },
+    {
+      "kind": "aneka",
+      "url": "https://comdex.aneka.io/",
+      "txPage": "https://comdex.aneka.io/txs/${txHash}"
+    },
+    {
+      "kind": "ping.pub",
+      "url": "https://ping.pub/comdex",
+      "txPage": "https://ping.pub/comdex/tx/${txHash}"
+    },
+    {
+      "kind": "atomscan",
+      "url": "https://atomscan.com/comdex",
+      "txPage": "https://atomscan.com/comdex/transactions/${txHash}",
+      "accountPage": "https://atomscan.com/comdex/accounts/${accountAddress}"
+    },
+    {
+      "kind": "Stakeflow",
+      "url": "https://stakeflow.io/comdex",
+      "accountPage": "https://stakeflow.io/comdex/accounts/${accountAddress}"
+    },
+    {
+      "kind": "ValidatorNode",
+      "url": "https://explorer.validatornode.com/comdex",
+      "txPage": "https://explorer.validatornode.com/comdex/tx/${txHash}"
+    },
+    {
+      "kind": "WhisperNode 🤐",
+      "url": "https://mainnet.whispernode.com/comdex",
+      "txPage": "https://mainnet.whispernode.com/comdex/tx/${txHash}",
+      "accountPage": "https://mainnet.whispernode.com/comdex/account/${accountAddress}"
+    }
+  ],
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/comdex/images/cmdx.png",
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/comdex/images/cmdx.svg"
+    }
+  ]
+}

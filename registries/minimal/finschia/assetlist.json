@@ -1,0 +1,25 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "finschia",
+  "assets": [
+    {
+      "description": "The native token of Finschia",
+      "denomUnits": [
+        {
+          "denom": "cony",
+          "exponent": 0
+        },
+        {
+          "denom": "fnsa",
+          "exponent": 6
+        }
+      ],
+      "assetType": "sdk.coin",
+      "base": "cony",
+      "name": "Finschia",
+      "display": "fnsa",
+      "symbol": "FNSA",
+      "coingeckoId": "link"
+    }
+  ]
+}

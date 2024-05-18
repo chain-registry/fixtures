@@ -1,0 +1,24 @@
+{
+  "$schema": "../../assetlist.schema.json",
+  "chainName": "pryzmtestnet",
+  "assets": [
+    {
+      "description": "The native token of PRYZM",
+      "denomUnits": [
+        {
+          "denom": "upryzm",
+          "exponent": 0
+        },
+        {
+          "denom": "pryzm",
+          "exponent": 6
+        }
+      ],
+      "base": "upryzm",
+      "name": "Pryzm",
+      "display": "pryzm",
+      "symbol": "PRYZM",
+      "assetType": "sdk.Coin"
+    }
+  ]
+}

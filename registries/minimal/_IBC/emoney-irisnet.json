@@ -1,0 +1,30 @@
+{
+  "$schema": "../ibc_data.schema.json",
+  "chain1": {
+    "chainName": "emoney",
+    "clientId": "07-tendermint-10",
+    "connectionId": "connection-4"
+  },
+  "chain2": {
+    "chainName": "irisnet",
+    "clientId": "07-tendermint-46",
+    "connectionId": "connection-34"
+  },
+  "channels": [
+    {
+      "chain1": {
+        "channelId": "channel-2",
+        "portId": "transfer"
+      },
+      "chain2": {
+        "channelId": "channel-23",
+        "portId": "transfer"
+      },
+      "ordering": "unordered",
+      "version": "ics20-1",
+      "tags": {
+
+      }
+    }
+  ]
+}

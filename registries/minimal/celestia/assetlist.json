@@ -1,0 +1,25 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "celestia",
+  "assets": [
+    {
+      "description": "The native token of the Celestia blockchain.",
+      "denomUnits": [
+        {
+          "denom": "utia",
+          "exponent": 0
+        },
+        {
+          "denom": "tia",
+          "exponent": 6
+        }
+      ],
+      "base": "utia",
+      "name": "Celestia",
+      "display": "tia",
+      "symbol": "TIA",
+      "coingeckoId": "celestia",
+      "assetType": "sdk.Coin"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "$schema": "../../chain.schema.json",
+  "chainName": "osmosistestnet4",
+  "networkType": "testnet",
+  "prettyName": "Osmosis Testnet",
+  "chainId": "osmo-test-4",
+  "bech32Prefix": "osmo",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "uosmo",
+        "fixedMinGasPrice": 0,
+        "lowGasPrice": 0,
+        "averageGasPrice": 0.025,
+        "highGasPrice": 0.04
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "uosmo"
+      }
+    ]
+  },
+  "codebase": {
+    "cosmosSdkVersion": "0.45",
+    "cosmwasmVersion": "0.29",
+    "cosmwasmEnabled": true
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc.osmo-test.ccvalidators.com/"
+      },
+      {
+        "address": "https://osmosistest-rpc.quickapi.com/"
+      },
+      {
+        "address": "https://rpc.testnet.osmosis.zone/"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://osmosistest-lcd.quickapi.com/"
+      },
+      {
+        "address": "https://lcd.osmo-test.ccvalidators.com/"
+      },
+      {
+        "address": "https://testnet-rest.osmosis.zone/"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "https://grpc-test.osmosis.zone:443"
+      }
+    ]
+  },
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmosis-chain-logo.png"
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "coreum",
+  "networkType": "mainnet",
+  "website": "https://www.coreum.com",
+  "prettyName": "Coreum",
+  "chainId": "coreum-mainnet-1",
+  "bech32Prefix": "core",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "slip44": 990,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "ucore",
+        "fixedMinGasPrice": 0.03125,
+        "lowGasPrice": 0.0625,
+        "averageGasPrice": 0.0625,
+        "highGasPrice": 62.5
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "ucore"
+      }
+    ],
+    "lockDuration": {
+      "time": "168h"
+    }
+  },
+  "codebase": {
+    "cosmosSdkVersion": "0.47",
+    "cosmwasmVersion": "0.44",
+    "cosmwasmEnabled": true
+  },
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/coreum.png",
+      "theme": {
+        "primaryColorHex": "#25d695"
+      }
+    },
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/coreum.png",
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/coreum.svg"
+    }
+  ],
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://full-node.mainnet-1.coreum.dev:26657"
+      },
+      {
+        "address": "https://full-node-californium.mainnet-1.coreum.dev:26657"
+      },
+      {
+        "address": "https://full-node-curium.mainnet-1.coreum.dev:26657"
+      },
+      {
+        "address": "https://full-node-uranium.mainnet-1.coreum.dev:26657"
+      },
+      {
+        "address": "https://rpc-coreum.ecostake.com"
+      },
+      {
+        "address": "https://coreum.rpc.silknodes.io"
+      },
+      {
+        "address": "https://coreum-rpc.publicnode.com:443"
+      },
+      {
+        "address": "https://rpc.m.core.solonation.io"
+      },
+      {
+        "address": "https://coreum-rpc.genznodes.dev"
+      },
+      {
+        "address": "https://coreum-rpc.ibs.team"
+      },
+      {
+        "address": "https://public.stakewolle.com/cosmos/coreum/rpc"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "https://full-node.mainnet-1.coreum.dev:9090"
+      },
+      {
+        "address": "https://full-node-californium.mainnet-1.coreum.dev:9090"
+      },
+      {
+        "address": "https://full-node-curium.mainnet-1.coreum.dev:9090"
+      },
+      {
+        "address": "https://full-node-uranium.mainnet-1.coreum.dev:9090"
+      },
+      {
+        "address": "https://grpc.coreum.nodexcapital.com:444"
+      },
+      {
+        "address": "coreum-grpc.publicnode.com:443"
+      },
+      {
+        "address": "coreum-grpc.genznodes.dev:35090"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://rest-coreum.ecostake.com"
+      },
+      {
+        "address": "https://coreum.api.silknodes.io"
+      },
+      {
+        "address": "https://full-node.mainnet-1.coreum.dev:1317"
+      },
+      {
+        "address": "https://coreum-rest.publicnode.com"
+      },
+      {
+        "address": "https://api.m.core.solonation.io"
+      },
+      {
+        "address": "https://coreum-api.genznodes.dev"
+      },
+      {
+        "address": "https://coreum-api.ibs.team"
+      },
+      {
+        "address": "https://public.stakewolle.com/cosmos/coreum/rest"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "Coreum",
+      "url": "https://explorer.coreum.com/coreum",
+      "txPage": "https://explorer.coreum.com/coreum/transactions/${txHash}",
+      "accountPage": "https://explorer.coreum.com/coreum/account/${accountAddress}"
+    },
+    {
+      "kind": "mintscan",
+      "url": "https://www.mintscan.io/coreum",
+      "txPage": "https://www.mintscan.io/coreum/transactions/${txHash}",
+      "accountPage": "https://www.mintscan.io/coreum/accounts/${accountAddress}"
+    },
+    {
+      "kind": "NODEXPLORER",
+      "url": "https://explorer.nodexcapital.com/coreum",
+      "txPage": "https://explorer.nodexcapital.com/coreum/txs/${txHash}",
+      "accountPage": "https://explorer.nodexcapital.com/coreum/account/${accountAddress}"
+    },
+    {
+      "kind": "Silk Nodes",
+      "url": "https://explorer.silknodes.io/coreum",
+      "txPage": "https://explorer.silknodes.io/coreum/tx/${txHash}",
+      "accountPage": "https://explorer.silknodes.io/coreum/account/${accountAddress}"
+    },
+    {
+      "kind": "#SoloNation",
+      "url": "https://explorer.solonation.io/core-main",
+      "txPage": "https://explorer.solonation.io/core-main/tx/${txHash}",
+      "accountPage": "https://explorer.solonation.io/core-main/account/${accountAddress}"
+    },
+    {
+      "kind": "TC Network",
+      "url": "https://explorer.tcnetwork.io/coreum",
+      "txPage": "https://explorer.tcnetwork.io/coreum/transaction/${txHash}",
+      "accountPage": "https://explorer.tcnetwork.io/coreum/account/${accountAddress}"
+    },
+    {
+      "kind": "ezstaking",
+      "url": "https://ezstaking.app/coreum",
+      "txPage": "https://ezstaking.app/coreum/txs/${txHash}",
+      "accountPage": "https://ezstaking.app/coreum/account/${accountAddress}"
+    }
+  ]
+}

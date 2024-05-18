@@ -1,0 +1,47 @@
+{
+  "$schema": "../ibc_data.schema.json",
+  "chain1": {
+    "chainName": "chihuahua",
+    "clientId": "07-tendermint-191",
+    "connectionId": "connection-127"
+  },
+  "chain2": {
+    "chainName": "neutron",
+    "clientId": "07-tendermint-74",
+    "connectionId": "connection-53"
+  },
+  "channels": [
+    {
+      "chain1": {
+        "channelId": "channel-76",
+        "portId": "transfer"
+      },
+      "chain2": {
+        "channelId": "channel-51",
+        "portId": "transfer"
+      },
+      "ordering": "unordered",
+      "version": "ics20-1",
+      "tags": {
+        "status": "live",
+        "preferred": true
+      }
+    },
+    {
+      "chain1": {
+        "channelId": "channel-77",
+        "portId": "wasm.chihuahua1jwkag4yvhyj9fuddtkygvavya8hmdjuzmgxwg9vp3lw9twv6lrcq9mgl52"
+      },
+      "chain2": {
+        "channelId": "channel-52",
+        "portId": "transfer"
+      },
+      "ordering": "unordered",
+      "version": "ics20-1",
+      "tags": {
+        "status": "live",
+        "preferred": true
+      }
+    }
+  ]
+}

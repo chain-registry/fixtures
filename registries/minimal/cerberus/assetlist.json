@@ -1,0 +1,25 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "cerberus",
+  "assets": [
+    {
+      "description": "The native token of Cerberus Chain",
+      "denomUnits": [
+        {
+          "denom": "ucrbrus",
+          "exponent": 0
+        },
+        {
+          "denom": "crbrus",
+          "exponent": 6
+        }
+      ],
+      "base": "ucrbrus",
+      "name": "Cerberus",
+      "display": "crbrus",
+      "symbol": "CRBRUS",
+      "coingeckoId": "cerberus-2",
+      "assetType": "sdk.Coin"
+    }
+  ]
+}

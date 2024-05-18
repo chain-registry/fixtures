@@ -1,0 +1,25 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "lambda",
+  "assets": [
+    {
+      "description": "The native token of Lambda",
+      "denomUnits": [
+        {
+          "denom": "ulamb",
+          "exponent": 0
+        },
+        {
+          "denom": "lamb",
+          "exponent": 18
+        }
+      ],
+      "base": "ulamb",
+      "name": "Lambda",
+      "display": "lamb",
+      "symbol": "LAMB",
+      "coingeckoId": "lambda",
+      "assetType": "unknown"
+    }
+  ]
+}

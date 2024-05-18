@@ -1,0 +1,31 @@
+{
+  "$schema": "../ibc_data.schema.json",
+  "chain1": {
+    "chainName": "axelar",
+    "clientId": "07-tendermint-168",
+    "connectionId": "connection-150"
+  },
+  "chain2": {
+    "chainName": "impacthub",
+    "clientId": "07-tendermint-54",
+    "connectionId": "connection-40"
+  },
+  "channels": [
+    {
+      "chain1": {
+        "channelId": "channel-114",
+        "portId": "transfer"
+      },
+      "chain2": {
+        "channelId": "channel-23",
+        "portId": "transfer"
+      },
+      "ordering": "unordered",
+      "version": "ics20-1",
+      "tags": {
+        "status": "live",
+        "preferred": true
+      }
+    }
+  ]
+}

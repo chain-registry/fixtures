@@ -1,0 +1,90 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "binancesmartchaintestnet",
+  "assets": [
+    {
+      "description": "BNB powers the BNB Chain ecosystem and is the native coin of the BNB Beacon Chain and BNB Smart Chain.",
+      "denomUnits": [
+        {
+          "denom": "wei",
+          "exponent": 0
+        },
+        {
+          "denom": "bnb",
+          "exponent": 18
+        }
+      ],
+      "base": "wei",
+      "name": "Binance Coin",
+      "display": "bnb",
+      "symbol": "BNB",
+      "coingeckoId": "binancecoin",
+      "assetType": "unknown"
+    },
+    {
+      "description": "Wrapped BNB. As the native coin of Binance Chain, BNB has multiple use cases: fueling transactions on the Chain, paying for transaction fees on Binance Exchange, making in-store payments, and many more.",
+      "denomUnits": [
+        {
+          "denom": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+          "exponent": 0
+        },
+        {
+          "denom": "wbnb",
+          "exponent": 18
+        }
+      ],
+      "assetType": "erc20",
+      "address": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "base": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "name": "Wrapped BNB",
+      "display": "wbnb",
+      "symbol": "WBNB",
+      "traces": [
+        {
+          "type": "wrapped",
+          "counterparty": {
+            "chainName": "binancesmartchaintestnet",
+            "baseDenom": "wei"
+          },
+          "chain": {
+            "contract": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd"
+          },
+          "provider": "Binance"
+        }
+      ],
+      "coingeckoId": "wbnb"
+    },
+    {
+      "description": "USDC is a fully collateralized US Dollar stablecoin developed by CENTRE, the open source project with Circle being the first of several forthcoming issuers.",
+      "assetType": "erc20",
+      "address": "0xc2fA98faB811B785b81c64Ac875b31CC9E40F9D2",
+      "denomUnits": [
+        {
+          "denom": "0xc2fA98faB811B785b81c64Ac875b31CC9E40F9D2",
+          "exponent": 0,
+          "aliases": [
+            "uausdc"
+          ]
+        },
+        {
+          "denom": "axlusdc",
+          "exponent": 6
+        }
+      ],
+      "base": "0xc2fA98faB811B785b81c64Ac875b31CC9E40F9D2",
+      "name": "Axelar Wrapped USDC",
+      "display": "axlusdc",
+      "symbol": "axlUSDC",
+      "traces": [
+        {
+          "type": "bridge",
+          "counterparty": {
+            "chainName": "axelartestnet",
+            "baseDenom": "uausdc"
+          },
+          "provider": "Axelar"
+        }
+      ]
+    }
+  ]
+}

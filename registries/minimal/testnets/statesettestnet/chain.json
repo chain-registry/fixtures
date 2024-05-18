@@ -1,0 +1,42 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "statesettestnet",
+  "networkType": "testnet",
+  "prettyName": "Stateset Testnet",
+  "chainId": "stateset-1-testnet",
+  "bech32Prefix": "stateset",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "ustate",
+        "fixedMinGasPrice": 0
+      }
+    ]
+  },
+  "codebase": {
+
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc.stateset.zone/"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://rest-api.stateset.zone"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "bigdipper",
+      "url": "https://explore.stateset.zone",
+      "txPage": "https://explore.stateset.zone/transactions/${txHash}"
+    }
+  ]
+}

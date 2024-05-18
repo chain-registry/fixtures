@@ -1,0 +1,25 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "furya",
+  "assets": [
+    {
+      "description": "The native token of Furya",
+      "denomUnits": [
+        {
+          "denom": "ufury",
+          "exponent": 0
+        },
+        {
+          "denom": "fury",
+          "exponent": 6
+        }
+      ],
+      "base": "ufury",
+      "name": "Furya",
+      "display": "fury",
+      "symbol": "FURY",
+      "coingeckoId": "fanfury",
+      "assetType": "sdk.Coin"
+    }
+  ]
+}

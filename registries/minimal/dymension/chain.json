@@ -1,0 +1,373 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "dymension",
+  "networkType": "mainnet",
+  "website": "https://portal.dymension.xyz",
+  "prettyName": "Dymension Hub",
+  "chainId": "dymension_1100-1",
+  "bech32Prefix": "dym",
+  "slip44": 60,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "adym",
+        "lowGasPrice": 5000000000,
+        "averageGasPrice": 5000000000,
+        "highGasPrice": 20000000000
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "adym"
+      }
+    ]
+  },
+  "description": "Dymension is a network of easily deployable and lightning fast modular blockchains called RollApps.",
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dymension/images/dymension-logo.png",
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dymension/images/dymension-logo.svg"
+    }
+  ],
+  "codebase": {
+
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://dym-m-rpc.agoranodes.com"
+      },
+      {
+        "address": "https://rpc.dymension.nodestake.org"
+      },
+      {
+        "address": "http://dymension.mainnet.rpc.noders.team:42657"
+      },
+      {
+        "address": "https://dymension-mainnet-rpc.autostake.com:443"
+      },
+      {
+        "address": "https://dymension-rpc.lavenderfive.com:443"
+      },
+      {
+        "address": "https://dymension-rpc.kynraze.com"
+      },
+      {
+        "address": "https://m-dymension.rpc.utsa.tech"
+      },
+      {
+        "address": "https://rpc-dymension.nodeist.net"
+      },
+      {
+        "address": "https://dym.rpc.m.stavr.tech:443"
+      },
+      {
+        "address": "https://dym.rpc-archive.m.stavr.tech:443"
+      },
+      {
+        "address": "https://rpc.dymension.hexnodes.co"
+      },
+      {
+        "address": "https://dymension.rpc.kjnodes.com:443"
+      },
+      {
+        "address": "https://dymension-rpc.stakeandrelax.net"
+      },
+      {
+        "address": "https://dymension-rpc.takeshi.team"
+      },
+      {
+        "address": "https://dymension-rpc.publicnode.com:443"
+      },
+      {
+        "address": "https://rpc.dymension.silentvalidator.com:443"
+      },
+      {
+        "address": "https://rpc-dymension.whispernode.com:443"
+      },
+      {
+        "address": "https://community.nuxian-node.ch:6797/dymension/trpc"
+      },
+      {
+        "address": "https://dymension-rpc.enigma-validator.com"
+      },
+      {
+        "address": "https://dymension-rpc.ibs.team"
+      },
+      {
+        "address": "https://dymension.nodejumper.io:443"
+      },
+      {
+        "address": "https://rpc-dymension.hoodrun.io:443"
+      },
+      {
+        "address": "https://dymension.0xwave.com:2053"
+      },
+      {
+        "address": "https://archive.rpc.dym.cumulo.com.es:443"
+      },
+      {
+        "address": "https://rpc.dymension.posthuman.digital"
+      },
+      {
+        "address": "https://rpc.dymension.node75.org"
+      },
+      {
+        "address": "https://rpc.dymension.bronbro.io:443"
+      },
+      {
+        "address": "https://dymension-rpc.noders.services"
+      },
+      {
+        "address": "https://rpc.mainnet.dymension.aviaone.com"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://dym-m-api.agoranodes.com"
+      },
+      {
+        "address": "https://api.dymension.nodestake.org"
+      },
+      {
+        "address": "http://dymension.mainnet.api.noders.team:42317"
+      },
+      {
+        "address": "https://dymension-mainnet-lcd.autostake.com:443"
+      },
+      {
+        "address": "https://dymension-api.lavenderfive.com:443"
+      },
+      {
+        "address": "https://dymension-api.kynraze.com"
+      },
+      {
+        "address": "https://m-dymension.api.utsa.tech"
+      },
+      {
+        "address": "https://api-dymension.nodeist.net"
+      },
+      {
+        "address": "https://dymension.api.m.stavr.tech"
+      },
+      {
+        "address": "https://dym.api-archive.m.stavr.tech"
+      },
+      {
+        "address": "https://lcd.dymension.hexnodes.co"
+      },
+      {
+        "address": "https://dymension.api.kjnodes.com:443"
+      },
+      {
+        "address": "https://dymension-api.stakeandrelax.net"
+      },
+      {
+        "address": "https://dymension-api.takeshi.team"
+      },
+      {
+        "address": "https://dymension-rest.publicnode.com"
+      },
+      {
+        "address": "https://api.dymension.silentvalidator.com:443"
+      },
+      {
+        "address": "https://api-dymension.whispernode.com:443"
+      },
+      {
+        "address": "https://community.nuxian-node.ch:6797/dymension/crpc"
+      },
+      {
+        "address": "https://dymension-lcd.enigma-validator.com"
+      },
+      {
+        "address": "https://dymension-api.ibs.team"
+      },
+      {
+        "address": "https://dymension.nodejumper.io:1317"
+      },
+      {
+        "address": "https://lcd-dymension.hoodrun.io"
+      },
+      {
+        "address": "https://dymension.0xwave.com"
+      },
+      {
+        "address": "https://api.dym.cumulo.com.es"
+      },
+      {
+        "address": "https://rest.dymension.posthuman.digital"
+      },
+      {
+        "address": "https://api.dymension.node75.org"
+      },
+      {
+        "address": "https://lcd.dymension.bronbro.io:443"
+      },
+      {
+        "address": "https://dymension-api.noders.services"
+      },
+      {
+        "address": "https://api.mainnet.dymension.aviaone.com"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "https://dym-m-grpc.agoranodes.com"
+      },
+      {
+        "address": "grpc.dymension.nodestake.org:443"
+      },
+      {
+        "address": "dymension-mainnet-grpc.autostake.com:443"
+      },
+      {
+        "address": "dymension.mainnet.grpc.noders.team:42090"
+      },
+      {
+        "address": "https://dymension-grpc.lavenderfive.com:443"
+      },
+      {
+        "address": "dymension-grpc.kynraze.com:77"
+      },
+      {
+        "address": "https://grpc-dymension.nodeist.net"
+      },
+      {
+        "address": "dymension.grpc.m.stavr.tech:7119"
+      },
+      {
+        "address": "dymension.grpc.kjnodes.com:443"
+      },
+      {
+        "address": "http://dymension-grpc.stakeandrelax.net:20590"
+      },
+      {
+        "address": "https://dymension-grpc.takeshi.team"
+      },
+      {
+        "address": "dymension-grpc.publicnode.com:443"
+      },
+      {
+        "address": "grpc.dymension.silentvalidator.com:443"
+      },
+      {
+        "address": "https://grpc-dymension.whispernode.com:443"
+      },
+      {
+        "address": "dymension.nodejumper.io:9090"
+      },
+      {
+        "address": "grpc-dymension.hoodrun.io:9095"
+      },
+      {
+        "address": "https://dymension.0xwave.com:2083"
+      },
+      {
+        "address": "grpc.dym.cumulo.com.es:443"
+      },
+      {
+        "address": "https://grpc.dymension.posthuman.digital"
+      },
+      {
+        "address": "https://grpc.dymension.bronbro.io:443"
+      },
+      {
+        "address": "dymension-grpc.noders.services:12090"
+      },
+      {
+        "address": "https://grpc.mainnet.dymension.aviaone.com:9092"
+      }
+    ],
+    "evmHttpJsonrpc": [
+      {
+        "address": "https://dym-m-json.agoranodes.com"
+      },
+      {
+        "address": "https://dymension-jsonrpc.ibs.team"
+      },
+      {
+        "address": "https://evm-dymension.hoodrun.io:8547"
+      },
+      {
+        "address": "https://dymension.0xwave.com:2087"
+      },
+      {
+        "address": "https://evm-rpc.dym.cumulo.com.es:443"
+      },
+      {
+        "address": "https://evm-rpc.dymension.node75.org"
+      },
+      {
+        "address": "https://evm-rpc.dymension.posthuman.digital"
+      },
+      {
+        "address": "https://dymension-jsonrpc.noders.services"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "mintscan",
+      "url": "https://www.mintscan.io/dymension",
+      "txPage": "https://www.mintscan.io/dymension/tx/${txHash}",
+      "accountPage": "https://www.mintscan.io/dymension/account/${accountAddress}"
+    },
+    {
+      "kind": "ezstaking",
+      "url": "https://ezstaking.app/dymension",
+      "txPage": "https://ezstaking.app/dymension/txs/${txHash}",
+      "accountPage": "https://ezstaking.app/dymension/account/${accountAddress}"
+    },
+    {
+      "kind": "NodeStake",
+      "url": "https://explorer.nodestake.org/dymension",
+      "txPage": "https://explorer.nodestake.org/dymension/tx/${txHash}",
+      "accountPage": "https://explorer.nodestake.org/dymension/account/${accountAddress}"
+    },
+    {
+      "kind": "Kynraze",
+      "url": "https://explorer.kynraze.com/dymension",
+      "txPage": "https://explorer.kynraze.com/dymension/tx/${txHash}",
+      "accountPage": "https://explorer.kynraze.com/dymension/account/${accountAddress}"
+    },
+    {
+      "kind": "Nodeist Explorer",
+      "url": "https://explorer.ist/dymension",
+      "txPage": "https://explorer.ist/dymension/tx/${txHash}",
+      "accountPage": "https://explorer.ist/dymension/account/${accountAddress}"
+    },
+    {
+      "kind": "🔥STAVR🔥",
+      "url": "https://explorer.stavr.tech/Dymension-Mainnet",
+      "txPage": "https://explorer.stavr.tech/Dymension-Mainnet/tx/${txHash}",
+      "accountPage": "https://explorer.stavr.tech/Dymension-Mainnet/account/${accountAddress}"
+    },
+    {
+      "kind": "HoodScan",
+      "url": "https://hoodscan.io/dymension",
+      "txPage": "https://hoodscan.io/dymension/transactions/${txHash}",
+      "accountPage": "https://hoodscan.io/dymension/accounts/${accountAddress}"
+    },
+    {
+      "kind": "posthuman",
+      "url": "https://explorer.posthuman.digital/dymension",
+      "txPage": "https://explorer.posthuman.digital/dymension/tx/${txHash}",
+      "accountPage": "https://explorer.posthuman.digital/dymension/account/${accountAddress}"
+    },
+    {
+      "kind": "AVIAONE 🟢",
+      "url": "https://mainnet.explorer.aviaone.com/dymension",
+      "txPage": "https://mainnet.explorer.aviaone.com/dymension/tx/${txHash}",
+      "accountPage": "https://mainnet.explorer.aviaone.com/dymension/account/${accountAddress}"
+    },
+    {
+      "kind": "WhisperNode 🤐",
+      "url": "https://mainnet.whispernode.com/dymension",
+      "txPage": "https://mainnet.whispernode.com/dymension/tx/${txHash}",
+      "accountPage": "https://mainnet.whispernode.com/dymension/account/${accountAddress}"
+    }
+  ]
+}

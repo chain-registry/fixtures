@@ -1,0 +1,25 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "tgrade",
+  "assets": [
+    {
+      "description": "The native token of Tgrade",
+      "denomUnits": [
+        {
+          "denom": "utgd",
+          "exponent": 0
+        },
+        {
+          "denom": "tgd",
+          "exponent": 6
+        }
+      ],
+      "base": "utgd",
+      "name": "Tgrade",
+      "display": "tgd",
+      "symbol": "TGD",
+      "coingeckoId": "tgrade",
+      "assetType": "sdk.Coin"
+    }
+  ]
+}

@@ -1,0 +1,262 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "source",
+  "networkType": "mainnet",
+  "website": "https://www.sourceprotocol.io/",
+  "prettyName": "Source",
+  "chainId": "source-1",
+  "bech32Prefix": "source",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "usource",
+        "fixedMinGasPrice": 0.05,
+        "lowGasPrice": 0.05,
+        "averageGasPrice": 0.075,
+        "highGasPrice": 0.1
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "usource"
+      }
+    ]
+  },
+  "codebase": {
+    "cosmosSdkVersion": "0.45",
+    "cosmwasmVersion": "0.30",
+    "cosmwasmEnabled": true
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc.source.nodestake.top"
+      },
+      {
+        "address": "https://source.rpc.moonbridge.team/"
+      },
+      {
+        "address": "https://source.rpc.m.stavr.tech"
+      },
+      {
+        "address": "https://rpc-source.nodeist.net"
+      },
+      {
+        "address": "https://source-mainnet-rpc.autostake.com:443"
+      },
+      {
+        "address": "https://source-mainnet-rpc.itrocket.net:443"
+      },
+      {
+        "address": "https://rpc-source.sr20de.xyz:443"
+      },
+      {
+        "address": "https://source-rpc.stake-town.com"
+      },
+      {
+        "address": "https://rpc.source.tcnetwork.io"
+      },
+      {
+        "address": "https://rpc.source.indonode.net"
+      },
+      {
+        "address": "https://source.rpc.skynodejs.net/"
+      },
+      {
+        "address": "https://source.rpc.nodeshub.online/"
+      },
+      {
+        "address": "https://rpc.source.roomit.xyz/"
+      },
+      {
+        "address": "https://rpc.source.posthuman.digital"
+      },
+      {
+        "address": "https://source.declab.pro:26604"
+      },
+      {
+        "address": "https://rpc.source.stakeup.tech"
+      },
+      {
+        "address": "https://source_mainnet_rpc.chain.whenmoonwhenlambo.money"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://api.source.nodestake.top"
+      },
+      {
+        "address": "https://api-source.nodeist.net"
+      },
+      {
+        "address": "https://source.api.m.stavr.tech"
+      },
+      {
+        "address": "https://source-mainnet-api.itrocket.net:443"
+      },
+      {
+        "address": "https://source-mainnet-lcd.autostake.com:443"
+      },
+      {
+        "address": "https://source.api.moonbridge.team/"
+      },
+      {
+        "address": "https://api-source.sr20de.xyz"
+      },
+      {
+        "address": "https://source-api.stake-town.com"
+      },
+      {
+        "address": "https://rest.source.tcnetwork.io"
+      },
+      {
+        "address": "https://api.source.indonode.net"
+      },
+      {
+        "address": "https://source.api.nodeshub.online/"
+      },
+      {
+        "address": "https://api.source.validatus.com"
+      },
+      {
+        "address": "https://api.source.roomit.xyz"
+      },
+      {
+        "address": "https://rest.source.posthuman.digital"
+      },
+      {
+        "address": "http://source.api.staking-explorer.com"
+      },
+      {
+        "address": "https://source.declab.pro:443"
+      },
+      {
+        "address": "https://api.source.stakeup.tech"
+      },
+      {
+        "address": "https://source_mainnet_api.chain.whenmoonwhenlambo.money"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "source-mainnet-grpc.itrocket.net:32090"
+      },
+      {
+        "address": "http://source.grpc.m.stavr.tech:9590"
+      },
+      {
+        "address": "https://grpc-source.nodeist.net:443"
+      },
+      {
+        "address": "https://grpc.source.nodestake.top:443"
+      },
+      {
+        "address": "https://grpc-source.sr20de.xyz:443"
+      },
+      {
+        "address": "source-mainnet-grpc.autostake.com:443"
+      },
+      {
+        "address": "source-grpc.stake-town.com:443"
+      },
+      {
+        "address": "https://source.grpc.skynodejs.net"
+      },
+      {
+        "address": "https://source.grpc.nodeshub.online"
+      },
+      {
+        "address": "https://grpc.source.validatus.com"
+      },
+      {
+        "address": "grpc.source.roomit.xyz:8443"
+      },
+      {
+        "address": "https://source.declab.pro:9003"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "🔥STAVR🔥",
+      "url": "https://explorer.stavr.tech/Source-Mainnet/",
+      "txPage": "https://explorer.stavr.tech/Source-Mainnet/tx/${txHash}",
+      "accountPage": "https://explorer.stavr.tech/Source-Mainnet/accounts/${accountAddress}"
+    },
+    {
+      "kind": "Nodeist",
+      "url": "https://exp.nodeist.net/source/",
+      "txPage": "https://exp.nodeist.net/source/tx/${txHash}",
+      "accountPage": "https://exp.nodeist.net/source/accounts/${accountAddress}"
+    },
+    {
+      "kind": "MoonBridge",
+      "url": "https://explorer.moonbridge.team/source",
+      "txPage": "https://explorer.moonbridge.team/source/tx/${txHash}",
+      "accountPage": "https://explorer.moonbridge.team/source/accounts/${accountAddress}"
+    },
+    {
+      "kind": "NodeStake",
+      "url": "https://explorer.nodestake.top/source",
+      "txPage": "https://explorer.nodestake.top/source/tx/${txHash}",
+      "accountPage": "https://explorer.nodestake.top/source/accounts/${accountAddress}"
+    },
+    {
+      "kind": "Sr20de",
+      "url": "https://explorer.sr20de.xyz/Source-mainnet",
+      "txPage": "https://explorer.sr20de.xyz/Source-mainnet/tx/${txHash}",
+      "accountPage": "https://explorer.sr20de.xyz/Source-mainnet/accounts/${accountAddress}"
+    },
+    {
+      "kind": "TC Network",
+      "url": "https://explorer.tcnetwork.io/source",
+      "txPage": "https://explorer.tcnetwork.io/source/transaction/${txHash}"
+    },
+    {
+      "kind": "Indonode",
+      "url": "https://explorer.indonode.net/source",
+      "txPage": "https://explorer.indonode.net/source/tx/${txHash}"
+    },
+    {
+      "kind": "RoomIT",
+      "url": "https://explorer.tendermint.roomit.xyz/source-mainnet/",
+      "txPage": "https://explorer.tendermint.roomit.xyz/source-mainnet/tx/${txHash}"
+    },
+    {
+      "kind": "posthuman",
+      "url": "https://explorer.posthuman.digital/source",
+      "txPage": "https://explorer.posthuman.digital/source/tx/${txHash}",
+      "accountPage": "https://explorer.posthuman.digital/source/account/${accountAddress}"
+    },
+    {
+      "kind": "Decloud Nodes Lab",
+      "url": "https://explorer.declab.pro/Source",
+      "txPage": "https://explorer.declab.pro/Source/tx/${txHash}",
+      "accountPage": "https://explorer.declab.pro/Source/account/${accountAddress}"
+    },
+    {
+      "kind": "🚀 WHEN MOON 🌕 WHEN LAMBO 🔥",
+      "url": "https://explorer.whenmoonwhenlambo.money/source",
+      "txPage": "https://explorer.whenmoonwhenlambo.money/source/tx/${txHash}",
+      "accountPage": "https://explorer.whenmoonwhenlambo.money/source/account/${accountAddress}"
+    },
+    {
+      "kind": "Nodes Hub 🛡️ 100% Slash Protected 🛡️ | Restake ✅",
+      "url": "https://explorer.nodeshub.online/source/",
+      "txPage": "https://explorer.nodeshub.online/source/tx/${txHash}",
+      "accountPage": "https://explorer.nodeshub.online/source/accounts/${accountAddress}"
+    }
+  ],
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/source/images/source.png",
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/source/images/source.svg"
+    }
+  ]
+}

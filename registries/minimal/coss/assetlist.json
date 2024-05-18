@@ -1,0 +1,63 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "coss",
+  "assets": [
+    {
+      "description": "The native staking and governance token of the COSS.",
+      "denomUnits": [
+        {
+          "denom": "ucgas",
+          "exponent": 0
+        },
+        {
+          "denom": "cgas",
+          "exponent": 6
+        }
+      ],
+      "base": "ucgas",
+      "name": "CGAS",
+      "display": "cgas",
+      "symbol": "CGAS",
+      "coingeckoId": "",
+      "assetType": "sdk.Coin"
+    },
+    {
+      "description": "The inscription token of the COSS.",
+      "denomUnits": [
+        {
+          "denom": "ucoss",
+          "exponent": 0
+        },
+        {
+          "denom": "coss",
+          "exponent": 6
+        }
+      ],
+      "base": "ucoss",
+      "name": "COSS",
+      "display": "coss",
+      "symbol": "COSS",
+      "coingeckoId": "coss-2",
+      "assetType": "sdk.Coin"
+    },
+    {
+      "description": "The inscription token of the CIAS.",
+      "denomUnits": [
+        {
+          "denom": "ucias",
+          "exponent": 0
+        },
+        {
+          "denom": "cias",
+          "exponent": 6
+        }
+      ],
+      "base": "ucias",
+      "name": "CIAS",
+      "display": "cias",
+      "symbol": "CIAS",
+      "coingeckoId": "cias",
+      "assetType": "sdk.Coin"
+    }
+  ]
+}

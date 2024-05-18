@@ -1,0 +1,25 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "bandchain",
+  "assets": [
+    {
+      "description": "The native token of BandChain",
+      "denomUnits": [
+        {
+          "denom": "uband",
+          "exponent": 0
+        },
+        {
+          "denom": "band",
+          "exponent": 6
+        }
+      ],
+      "base": "uband",
+      "display": "band",
+      "name": "Band Protocol",
+      "symbol": "BAND",
+      "coingeckoId": "band-protocol",
+      "assetType": "sdk.coin"
+    }
+  ]
+}

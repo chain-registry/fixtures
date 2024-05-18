@@ -1,0 +1,25 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "microtick",
+  "assets": [
+    {
+      "description": "TICK coin is the token for the Microtick Price Discovery & Oracle App",
+      "denomUnits": [
+        {
+          "denom": "utick",
+          "exponent": 0
+        },
+        {
+          "denom": "tick",
+          "exponent": 6
+        }
+      ],
+      "base": "utick",
+      "display": "tick",
+      "name": "Microtick",
+      "symbol": "TICK",
+      "coingeckoId": "microtick",
+      "assetType": "sdk.Coin"
+    }
+  ]
+}

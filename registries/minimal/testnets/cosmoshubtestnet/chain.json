@@ -1,0 +1,101 @@
+{
+  "$schema": "../../chain.schema.json",
+  "chainName": "cosmoshubtestnet",
+  "chainId": "theta-testnet-001",
+  "prettyName": "Cosmos Hub Public Testnet",
+  "networkType": "testnet",
+  "bech32Prefix": "cosmos",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "uatom",
+        "fixedMinGasPrice": 0.005,
+        "lowGasPrice": 0.01,
+        "averageGasPrice": 0.025,
+        "highGasPrice": 0.03
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "uatom"
+      }
+    ]
+  },
+  "codebase": {
+
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc.sentry-01.theta-testnet.polypore.xyz"
+      },
+      {
+        "address": "https://rpc.sentry-02.theta-testnet.polypore.xyz"
+      },
+      {
+        "address": "https://rpc.state-sync-01.theta-testnet.polypore.xyz"
+      },
+      {
+        "address": "https://rpc.state-sync-02.theta-testnet.polypore.xyz"
+      },
+      {
+        "address": "https://public-cosmos-theta.w3node.com"
+      },
+      {
+        "address": "https://rpc-theta.osmotest5.osmosis.zone/"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://rest.sentry-01.theta-testnet.polypore.xyz"
+      },
+      {
+        "address": "https://rest.sentry-02.theta-testnet.polypore.xyz"
+      },
+      {
+        "address": "https://rest.state-sync-01.theta-testnet.polypore.xyz"
+      },
+      {
+        "address": "https://rest.state-sync-02.theta-testnet.polypore.xyz"
+      },
+      {
+        "address": "https://public-cosmos-theta.w3node.com/rest/"
+      },
+      {
+        "address": "https://lcd-theta.osmotest5.osmosis.zone/"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "https://grpc.sentry-01.theta-testnet.polypore.xyz"
+      },
+      {
+        "address": "https://grpc.sentry-02.theta-testnet.polypore.xyz"
+      },
+      {
+        "address": "https://grpc.state-sync-01.theta-testnet.polypore.xyz"
+      },
+      {
+        "address": "https://grpc.state-sync-02.theta-testnet.polypore.xyz"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "Mintscan",
+      "url": "https://mintscan.io/cosmoshub-testnet",
+      "txPage": "https://mintscan.io/cosmoshub-testnet/txs/${txHash}"
+    },
+    {
+      "kind": "Big Dipper",
+      "url": "https://explorer.theta-testnet.polypore.xyz/",
+      "txPage": "https://explorer.theta-testnet.polypore.xyz/transactions/${txHash}"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "govgen",
+  "assets": [
+    {
+      "description": "The native staking and governance token of GovGen",
+      "denomUnits": [
+        {
+          "denom": "ugovgen",
+          "exponent": 0
+        },
+        {
+          "denom": "govgen",
+          "exponent": 6
+        }
+      ],
+      "base": "ugovgen",
+      "name": "GovGen",
+      "display": "govgen",
+      "symbol": "GOVGEN",
+      "assetType": "sdk.Coin"
+    }
+  ]
+}

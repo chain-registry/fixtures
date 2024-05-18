@@ -1,0 +1,188 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "empowerchain",
+  "chainId": "empowerchain-1",
+  "prettyName": "EmpowerChain",
+  "networkType": "mainnet",
+  "bech32Prefix": "empower",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "umpwr",
+        "fixedMinGasPrice": 0,
+        "lowGasPrice": 0.025,
+        "averageGasPrice": 0.025,
+        "highGasPrice": 0.03
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "umpwr"
+      }
+    ]
+  },
+  "codebase": {
+    "cosmwasmVersion": "0.45",
+    "cosmwasmEnabled": true
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc-empowerchain.ecostake.com:443"
+      },
+      {
+        "address": "https://empowerchain-mainnet-rpc.autostake.com:443"
+      },
+      {
+        "address": "https://empower.rpc.liveraven.net"
+      },
+      {
+        "address": "http://empw.rpc.m.stavr.tech:22057"
+      },
+      {
+        "address": "https://rpc-empower.whispernode.com:443"
+      },
+      {
+        "address": "https://rpc-empowerchain.mzonder.com:443"
+      },
+      {
+        "address": "https://empower-rpc.w3coins.io"
+      },
+      {
+        "address": "https://rpc-empower.vinjan.xyz:443"
+      },
+      {
+        "address": "https://rpc.empower.nodestake.top"
+      },
+      {
+        "address": "https://mainnet-empower-rpc.konsortech.xyz"
+      },
+      {
+        "address": "https://empower.rpc.stakevillage.net:443"
+      },
+      {
+        "address": "https://rpc.empowerchain.bronbro.io:443"
+      },
+      {
+        "address": "https://empower.declab.pro:26607"
+      },
+      {
+        "address": "https://empower-rpc.noders.services"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://rest-empowerchain.ecostake.com:443"
+      },
+      {
+        "address": "https://empowerchain-mainnet-lcd.autostake.com:443"
+      },
+      {
+        "address": "https://empower.api.liveraven.net"
+      },
+      {
+        "address": "https://empw.api.m.stavr.tech"
+      },
+      {
+        "address": "https://empower-api.w3coins.io"
+      },
+      {
+        "address": "https://lcd-empower.whispernode.com:443"
+      },
+      {
+        "address": "https://api-empower.vinjan.xyz:443"
+      },
+      {
+        "address": "https://api.empower.nodestake.top"
+      },
+      {
+        "address": "https://mainnet-empower-api.konsortech.xyz"
+      },
+      {
+        "address": "https://empower.api.stakevillage.net"
+      },
+      {
+        "address": "https://lcd.empowerchain.bronbro.io:443"
+      },
+      {
+        "address": "https://empower.declab.pro:443"
+      },
+      {
+        "address": "https://empower-api.noders.services"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "empowerchain-mainnet-grpc.autostake.com:443"
+      },
+      {
+        "address": "https://empower.grpc.liveraven.net"
+      },
+      {
+        "address": "empower-grpc.w3coins.io:17390"
+      },
+      {
+        "address": "grpc-empowerchain.mzonder.com:443"
+      },
+      {
+        "address": "http://empw.grpc.m.stavr.tech:9141"
+      },
+      {
+        "address": "grpc-empower.vinjan.xyz"
+      },
+      {
+        "address": "https://grpc.empower.nodestake.top:443"
+      },
+      {
+        "address": "empower.grpc.stakevillage.net:16890"
+      },
+      {
+        "address": "https://grpc.empowerchain.bronbro.io:443"
+      },
+      {
+        "address": "https://empower.declab.pro:9005"
+      },
+      {
+        "address": "empower-grpc.noders.services:25090"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "🔥STAVR🔥",
+      "url": "https://explorer.stavr.tech/Empower-Mainnet",
+      "txPage": "https://explorer.stavr.tech/Empower-Mainnet/txs/${txHash}",
+      "accountPage": "https://explorer.stavr.tech/Empower-Mainnet/account/${accountAddress}"
+    },
+    {
+      "kind": "NodeStake Explorer",
+      "url": "https://explorer.nodestake.top/empower",
+      "txPage": "https://explorer.nodestake.top/empower/tx/${txHash}",
+      "accountPage": "https://explorer.nodestake.top/empower/account/{$accountAddress}"
+    },
+    {
+      "kind": "Stake Village",
+      "url": "https://exp.stakevillage.net/empower",
+      "txPage": "https://exp.stakevillage.net/empower/tx/${txHash}",
+      "accountPage": "https://exp.stakevillage.net/empower/account/${accountAddress}"
+    },
+    {
+      "kind": "Decloud Nodes Lab",
+      "url": "https://explorer.declab.pro/Empower",
+      "txPage": "https://explorer.declab.pro/Empower/tx/${txHash}",
+      "accountPage": "https://explorer.declab.pro/Empower/account/{$accountAddress}"
+    },
+    {
+      "kind": "WhisperNode 🤐",
+      "url": "https://mainnet.whispernode.com/empowerchain",
+      "txPage": "https://mainnet.whispernode.com/empowerchain/tx/${txHash}",
+      "accountPage": "https://mainnet.whispernode.com/empowerchain/account/${accountAddress}"
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "cheqd",
+  "networkType": "mainnet",
+  "website": "https://www.cheqd.io/",
+  "prettyName": "Cheqd",
+  "chainId": "cheqd-mainnet-1",
+  "bech32Prefix": "cheqd",
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "ncheq",
+        "fixedMinGasPrice": 25,
+        "lowGasPrice": 50,
+        "averageGasPrice": 75,
+        "highGasPrice": 100
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "ncheq"
+      }
+    ]
+  },
+  "codebase": {
+    "cosmosSdkVersion": "cheqd/cosmos-sdk v0.47.10-height-mismatch",
+    "ibcGoVersion": "v7.4.0"
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc.cheqd.net"
+      },
+      {
+        "address": "https://cheqd-rpc.lavenderfive.com:443"
+      },
+      {
+        "address": "https://cheqd.rpc.m.stavr.tech:443"
+      },
+      {
+        "address": "https://rpc-cheqd-ia.cosmosia.notional.ventures/"
+      },
+      {
+        "address": "https://rpc.cheqd.nodestake.top"
+      },
+      {
+        "address": "https://rpc-cheqd.whispernode.com:443"
+      },
+      {
+        "address": "https://cheqd-mainnet-rpc.autostake.com:443"
+      },
+      {
+        "address": "https://rpc-cheqd.blockval.io"
+      },
+      {
+        "address": "https://public.stakewolle.com/cosmos/cheqd/rpc"
+      },
+      {
+        "address": "https://cheq-rpc.kleomedes.network"
+      },
+      {
+        "address": "https://cheqd-rpc.publicnode.com:443"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://api.cheqd.net"
+      },
+      {
+        "address": "https://cheqd-api.lavenderfive.com:443"
+      },
+      {
+        "address": "https://cheqd.api.m.stavr.tech"
+      },
+      {
+        "address": "https://api-cheqd-ia.cosmosia.notional.ventures/"
+      },
+      {
+        "address": "https://cheqd-mainnet-lcd.autostake.com:443"
+      },
+      {
+        "address": "https://api.cheqd.nodestake.top"
+      },
+      {
+        "address": "https://lcd-cheqd.whispernode.com:443"
+      },
+      {
+        "address": "https://api-cheqd.blockval.io"
+      },
+      {
+        "address": "https://public.stakewolle.com/cosmos/cheqd/rest"
+      },
+      {
+        "address": "https://cheq-api.kleomedes.network"
+      },
+      {
+        "address": "https://cheqd-rest.publicnode.com"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "grpc.cheqd.net:443"
+      },
+      {
+        "address": "cheqd.grpc.m.stavr.tech:9337"
+      },
+      {
+        "address": "cheqd-grpc.lavenderfive.com:443"
+      },
+      {
+        "address": "cheqd-mainnet-grpc.autostake.com:443"
+      },
+      {
+        "address": "grpc-cheqd-ia.cosmosia.notional.ventures:443"
+      },
+      {
+        "address": "grpc.cheqd.nodestake.top:443"
+      },
+      {
+        "address": "grpc-cheqd.blockval.io:9290"
+      },
+      {
+        "address": "cheqd-grpc.publicnode.com:443"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "bigdipper",
+      "url": "https://bigdipper.live/cheqd",
+      "txPage": "https://bigdipper.live/cheqd/transactions/${txHash}",
+      "accountPage": "https://bigdipper.live/cheqd/accounts/${accountAddress}"
+    },
+    {
+      "kind": "ping.pub",
+      "url": "https://ping.pub/cheqd",
+      "txPage": "https://ping.pub/cheqd/tx/${txHash}"
+    },
+    {
+      "kind": "🔥STAVR🔥",
+      "url": "https://explorer.stavr.tech/Cheqd-Mainnet",
+      "txPage": "https://explorer.stavr.tech/Cheqd-Mainnet/tx/${txHash}"
+    },
+    {
+      "kind": "atomscan",
+      "url": "https://atomscan.com/cheqd",
+      "txPage": "https://atomscan.com/cheqd/transactions/${txHash}",
+      "accountPage": "https://atomscan.com/cheqd/accounts/${accountAddress}"
+    },
+    {
+      "kind": "ezstaking",
+      "url": "https://ezstaking.app/cheqd",
+      "txPage": "https://ezstaking.app/cheqd/txs/${txHash}",
+      "accountPage": "https://ezstaking.app/cheqd/account/${accountAddress}"
+    },
+    {
+      "kind": "ping.pub",
+      "url": "https://look.chillvalidation.com/cheqd",
+      "txPage": "https://look.chillvalidation.com/cheqd/tx/${txHash}"
+    },
+    {
+      "kind": "ping.pub",
+      "url": "https://ping.wildsage.io/cheqd",
+      "txPage": "https://ping.wildsage.io/cheqd/tx/${txHash}"
+    },
+    {
+      "kind": "WhisperNode 🤐",
+      "url": "https://mainnet.whispernode.com/cheqd",
+      "txPage": "https://mainnet.whispernode.com/cheqd/tx/${txHash}",
+      "accountPage": "https://mainnet.whispernode.com/cheqd/account/${accountAddress}"
+    }
+  ],
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cheqd/images/cheq.png",
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cheqd/images/cheq.svg"
+    }
+  ]
+}

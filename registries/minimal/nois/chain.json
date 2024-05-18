@@ -1,0 +1,232 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "nois",
+  "networkType": "mainnet",
+  "website": "https://nois.network",
+  "prettyName": "Nois",
+  "chainId": "nois-1",
+  "bech32Prefix": "nois",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "unois",
+        "fixedMinGasPrice": 0.05,
+        "lowGasPrice": 0.05,
+        "averageGasPrice": 0.05,
+        "highGasPrice": 0.1
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "unois"
+      }
+    ],
+    "lockDuration": {
+      "time": "1814400s"
+    }
+  },
+  "codebase": {
+    "cosmosSdkVersion": "v0.45.15",
+    "cosmwasmVersion": "v0.31.0",
+    "cosmwasmEnabled": true
+  },
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nois/images/nois.png",
+      "theme": {
+        "primaryColorHex": "#0C0914"
+      }
+    },
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nois/images/nois.png",
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nois/images/nois.svg"
+    }
+  ],
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://nois-rpc.nysa.network"
+      },
+      {
+        "address": "https://nois.rpc.bccnodes.com"
+      },
+      {
+        "address": "https://nois-rpc.lavenderfive.com:443"
+      },
+      {
+        "address": "https://rpc-nois.mib.tech/"
+      },
+      {
+        "address": "https://m-nois.rpc.utsa.tech"
+      },
+      {
+        "address": "http://nois.rpc.m.stavr.tech"
+      },
+      {
+        "address": "https://rpc-nois.ezstaking.dev"
+      },
+      {
+        "address": "https://nois-mainnet-rpc.itrocket.net"
+      },
+      {
+        "address": "https://rpc-nois.d-stake.xyz"
+      },
+      {
+        "address": "https://rpc-nois.sr20de.xyz"
+      },
+      {
+        "address": "https://nois-mainnet-rpc.autostake.com"
+      },
+      {
+        "address": "https://nois-rpc.polkachu.com"
+      },
+      {
+        "address": "https://nois-rpc.kingnodes.com"
+      },
+      {
+        "address": "https://nois.rpc.kjnodes.com"
+      },
+      {
+        "address": "https://rpc.nois.silentvalidator.com"
+      },
+      {
+        "address": "https://nois-rpc.stakeandrelax.net"
+      },
+      {
+        "address": "https://rpc.nois.cumulo.org.es"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "https://nois-grpc.nysa.network"
+      },
+      {
+        "address": "nois.grpc.bccnodes.com:443"
+      },
+      {
+        "address": "https://nois-grpc.lavenderfive.com:443"
+      },
+      {
+        "address": "https://grpc.noismain.mcbnode.online"
+      },
+      {
+        "address": "http://nois.grpc.m.stavr.tech:191"
+      },
+      {
+        "address": "nois-mainnet-grpc.itrocket.net:36090"
+      },
+      {
+        "address": "nois-mainnet-grpc.itrocket.net:36090"
+      },
+      {
+        "address": "https://grpc.nois.nodestake.top"
+      },
+      {
+        "address": "https://grpc-nois.d-stake.xyz"
+      },
+      {
+        "address": "https://grpc.nois.hexnodes.co"
+      },
+      {
+        "address": "https://grpc-nois.sr20de.xyz"
+      },
+      {
+        "address": "https://nois-testnet-grpc.autostake.com"
+      },
+      {
+        "address": "nois-grpc.polkachu.com:17390"
+      },
+      {
+        "address": "https://nois-grpc.kingnodes.com"
+      },
+      {
+        "address": "nois.grpc.kjnodes.com:15190"
+      },
+      {
+        "address": "grpc.nois.silentvalidator.com:443"
+      },
+      {
+        "address": "nois-grpc.stakeandrelax.net:17390"
+      },
+      {
+        "address": "grpc.nois.cumulo.org.es:443"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://m-nois.api.utsa.tech"
+      },
+      {
+        "address": "https://nois-api.lavenderfive.com:443"
+      },
+      {
+        "address": "https://lcd-nois.ezstaking.dev"
+      },
+      {
+        "address": "https://lcd-nois.mib.tech/"
+      },
+      {
+        "address": "https://nois.api.m.stavr.tech"
+      },
+      {
+        "address": "https://nois-mainnet-api.itrocket.net"
+      },
+      {
+        "address": "https://api-nois.d-stake.xyz"
+      },
+      {
+        "address": "https://api-nois.sr20de.xyz"
+      },
+      {
+        "address": "https://nois-api.polkachu.com"
+      },
+      {
+        "address": "https://nois-rest.kingnodes.com"
+      },
+      {
+        "address": "https://nois.api.kjnodes.com"
+      },
+      {
+        "address": "https://api.nois.silentvalidator.com"
+      },
+      {
+        "address": "https://nois-api.stakeandrelax.net"
+      },
+      {
+        "address": "https://api.nois.cumulo.org.es"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "ezstaking",
+      "url": "https://ezstaking.app/nois",
+      "txPage": "https://ezstaking.app/nois/txs/${txHash}",
+      "accountPage": "https://ezstaking.app/nois/account/${accountAddress}"
+    },
+    {
+      "kind": "🔥STAVR🔥",
+      "url": "https://explorer.stavr.tech/nois-mainnet",
+      "txPage": "https://explorer.stavr.tech/nois-mainnet/txs/${txHash}",
+      "accountPage": "https://explorer.stavr.tech/nois-mainnet/account/${accountAddress}"
+    },
+    {
+      "kind": "BccNodes",
+      "url": "https://explorer.stavr.tech/nois-mainnet",
+      "txPage": "https://explorer.bccnodes.com/nois-M/txs/${txHash}",
+      "accountPage": "https://explorer.bccnodes.com/nois-M/account/${accountAddress}"
+    },
+    {
+      "kind": "explorers.guru",
+      "url": "https://nois.explorers.guru",
+      "txPage": "https://nois.explorers.guru/transaction/${txHash}",
+      "accountPage": "https://nois.explorers.guru/account/${accountAddress}"
+    }
+  ]
+}

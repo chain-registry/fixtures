@@ -1,0 +1,25 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "aura",
+  "assets": [
+    {
+      "description": "The native token of Aura Network",
+      "denomUnits": [
+        {
+          "denom": "uaura",
+          "exponent": 0
+        },
+        {
+          "denom": "aura",
+          "exponent": 6
+        }
+      ],
+      "base": "uaura",
+      "name": "Aura",
+      "display": "aura",
+      "symbol": "AURA",
+      "coingeckoId": "aura-network",
+      "assetType": "sdk.coin"
+    }
+  ]
+}

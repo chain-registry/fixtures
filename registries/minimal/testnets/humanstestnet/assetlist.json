@@ -1,0 +1,24 @@
+{
+  "$schema": "../../assetlist.schema.json",
+  "chainName": "humanstestnet",
+  "assets": [
+    {
+      "description": "The native staking and governance token of the testnet version of Humans AI.",
+      "denomUnits": [
+        {
+          "denom": "uheart",
+          "exponent": 0
+        },
+        {
+          "denom": "heart",
+          "exponent": 6
+        }
+      ],
+      "base": "uheart",
+      "name": "HEART",
+      "display": "heart",
+      "symbol": "HEART",
+      "assetType": "sdk.Coin"
+    }
+  ]
+}

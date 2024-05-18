@@ -1,0 +1,33 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "composablepolkadot",
+  "assets": [
+    {
+      "denomUnits": [
+        {
+          "denom": "79228162514264337593543950342",
+          "exponent": 0
+        },
+        {
+          "denom": "dot",
+          "exponent": 10
+        }
+      ],
+      "assetType": "substrate",
+      "base": "79228162514264337593543950342",
+      "name": "Polkadot",
+      "display": "dot",
+      "symbol": "DOT",
+      "traces": [
+        {
+          "type": "bridge",
+          "counterparty": {
+            "chainName": "polkadot",
+            "baseDenom": "Planck"
+          },
+          "provider": "Polkadot Relay"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "$schema": "../../chain.schema.json",
+  "chainName": "babylontestnet",
+  "website": "https://www.babylonchain.io",
+  "networkType": "testnet",
+  "prettyName": "Babylon Testnet 3",
+  "chainId": "bbn-test3",
+  "bech32Prefix": "bbn",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "ubbn"
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "ubbn"
+      }
+    ]
+  },
+  "codebase": {
+
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "rpc.testnet3.babylonchain.io:443"
+      }
+    ],
+    "rest": [
+      {
+        "address": "lcd.testnet3.babylonchain.io:443"
+      }
+    ],
+    "grpc": [
+
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "babylonscan",
+      "url": "https://babylonscan.io"
+    },
+    {
+      "kind": "explorers.guru",
+      "url": "https://testnet.babylon.explorers.guru",
+      "txPage": "https://testnet.babylon.explorers.guru/transaction/${txHash}"
+    }
+  ],
+  "images": [
+    {
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/babylontestnet/images/logo.svg"
+    }
+  ]
+}

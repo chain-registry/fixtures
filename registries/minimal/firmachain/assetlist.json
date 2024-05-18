@@ -1,0 +1,25 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "firmachain",
+  "assets": [
+    {
+      "description": "The native token of FirmaChain",
+      "denomUnits": [
+        {
+          "denom": "ufct",
+          "exponent": 0
+        },
+        {
+          "denom": "fct",
+          "exponent": 6
+        }
+      ],
+      "base": "ufct",
+      "name": "FirmaChain",
+      "display": "fct",
+      "symbol": "FCT",
+      "coingeckoId": "firmachain",
+      "assetType": "unknown"
+    }
+  ]
+}

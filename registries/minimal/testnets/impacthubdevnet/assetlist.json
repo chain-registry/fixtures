@@ -1,0 +1,25 @@
+{
+  "$schema": "../../assetlist.schema.json",
+  "chainName": "impacthubdevnet",
+  "assets": [
+    {
+      "description": "The native token of IXO Chain",
+      "denomUnits": [
+        {
+          "denom": "uixo",
+          "exponent": 0
+        },
+        {
+          "denom": "ixo",
+          "exponent": 6
+        }
+      ],
+      "base": "uixo",
+      "name": "IXO",
+      "display": "ixo",
+      "symbol": "IXO",
+      "coingeckoId": "ixo",
+      "assetType": "sdk.Coin"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "$schema": "../ibc_data.schema.json",
+  "chain1": {
+    "chainName": "chihuahua",
+    "clientId": "07-tendermint-86",
+    "connectionId": "connection-55"
+  },
+  "chain2": {
+    "chainName": "stafihub",
+    "clientId": "07-tendermint-2",
+    "connectionId": "connection-2"
+  },
+  "channels": [
+    {
+      "chain1": {
+        "channelId": "channel-25",
+        "portId": "transfer"
+      },
+      "chain2": {
+        "channelId": "channel-4",
+        "portId": "transfer"
+      },
+      "ordering": "unordered",
+      "version": "ics20-1",
+      "tags": {
+        "status": "live",
+        "preferred": true
+      }
+    }
+  ]
+}

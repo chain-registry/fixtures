@@ -1,0 +1,25 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "akiro",
+  "assets": [
+    {
+      "description": "AKIRO meme token",
+      "denomUnits": [
+        {
+          "denom": "uakiro",
+          "exponent": 0
+        },
+        {
+          "denom": "akiro",
+          "exponent": 6
+        }
+      ],
+      "base": "uakiro",
+      "name": "AKIRO",
+      "display": "akiro",
+      "symbol": "AKIRO",
+      "coingeckoId": "",
+      "assetType": "sdk.coin"
+    }
+  ]
+}

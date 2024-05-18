@@ -1,0 +1,32 @@
+{
+  "$schema": "../ibc_data.schema.json",
+  "chain1": {
+    "chainName": "osmosis",
+    "clientId": "07-tendermint-1899",
+    "connectionId": "connection-1472"
+  },
+  "chain2": {
+    "chainName": "provenance",
+    "clientId": "07-tendermint-31",
+    "connectionId": "connection-9"
+  },
+  "channels": [
+    {
+      "chain1": {
+        "channelId": "channel-222",
+        "portId": "transfer"
+      },
+      "chain2": {
+        "channelId": "channel-7",
+        "portId": "transfer"
+      },
+      "ordering": "unordered",
+      "version": "ics20-1",
+      "tags": {
+        "status": "live",
+        "preferred": true,
+        "dex": "osmosis"
+      }
+    }
+  ]
+}

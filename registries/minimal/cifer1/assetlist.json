@@ -1,0 +1,25 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "cifer1",
+  "assets": [
+    {
+      "description": "Decentralized Federated Learning",
+      "denomUnits": [
+        {
+          "denom": "ucif",
+          "exponent": 0
+        },
+        {
+          "denom": "cif",
+          "exponent": 6
+        }
+      ],
+      "base": "ucif",
+      "name": "Cifer",
+      "display": "cif",
+      "symbol": "CIF",
+      "coingeckoId": "",
+      "assetType": "sdk.Coin"
+    }
+  ]
+}

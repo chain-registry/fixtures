@@ -1,0 +1,25 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "lumnetwork",
+  "assets": [
+    {
+      "description": "Native token of the Lum Network",
+      "denomUnits": [
+        {
+          "denom": "ulum",
+          "exponent": 0
+        },
+        {
+          "denom": "lum",
+          "exponent": 6
+        }
+      ],
+      "base": "ulum",
+      "name": "Lum",
+      "display": "lum",
+      "symbol": "LUM",
+      "coingeckoId": "lum-network",
+      "assetType": "sdk.Coin"
+    }
+  ]
+}

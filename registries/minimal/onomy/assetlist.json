@@ -1,0 +1,25 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "onomy",
+  "assets": [
+    {
+      "description": "The native token of Onomy Protocol",
+      "denomUnits": [
+        {
+          "denom": "anom",
+          "exponent": 0
+        },
+        {
+          "denom": "nom",
+          "exponent": 18
+        }
+      ],
+      "base": "anom",
+      "name": "Nom",
+      "display": "nom",
+      "symbol": "NOM",
+      "coingeckoId": "onomy-protocol",
+      "assetType": "sdk.Coin"
+    }
+  ]
+}

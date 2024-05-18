@@ -1,0 +1,25 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "sge",
+  "assets": [
+    {
+      "description": "The native token of SGE Network",
+      "denomUnits": [
+        {
+          "denom": "usge",
+          "exponent": 0
+        },
+        {
+          "denom": "sge",
+          "exponent": 6
+        }
+      ],
+      "base": "usge",
+      "name": "SGE",
+      "display": "sge",
+      "symbol": "SGE",
+      "coingeckoId": "six-sigma",
+      "assetType": "sdk.Coin"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "8ball",
+  "assets": [
+    {
+      "description": "The native staking token of 8ball.",
+      "denomUnits": [
+        {
+          "denom": "uebl",
+          "exponent": 0
+        },
+        {
+          "denom": "ebl",
+          "exponent": 6
+        }
+      ],
+      "base": "uebl",
+      "name": "8ball",
+      "display": "ebl",
+      "symbol": "EBL",
+      "coingeckoId": "",
+      "assetType": "sdk.coin"
+    }
+  ]
+}

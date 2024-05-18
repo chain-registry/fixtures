@@ -1,0 +1,71 @@
+{
+  "$schema": "../../chain.schema.json",
+  "chainName": "marstestnet",
+  "networkType": "testnet",
+  "prettyName": "Mars Hub Testnet",
+  "chainId": "ares-1",
+  "bech32Prefix": "mars",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "umars",
+        "fixedMinGasPrice": 0,
+        "lowGasPrice": 0,
+        "averageGasPrice": 0,
+        "highGasPrice": 0.025
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "umars"
+      }
+    ]
+  },
+  "codebase": {
+    "icsEnabled": [
+      "ics20-1"
+    ]
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://testnet-rpc.marsprotocol.io/"
+      },
+      {
+        "address": "https://rpc-mars.nodeist.net/"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://testnet-rest.marsprotocol.io/"
+      },
+      {
+        "address": "https://api-mars.nodeist.net/"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "Mars Protocol",
+      "url": "https://testnet-explorer.marsprotocol.io",
+      "txPage": "https://testnet-explorer.marsprotocol.io/transactions/${txHash}"
+    },
+    {
+      "kind": "Nodeist Explorer",
+      "url": "https://exp.nodeist.net/t-mars/",
+      "txPage": "https://exp.nodeist.net/t-mars/transactions/${txHash}"
+    }
+  ],
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/mars/images/mars-icon.png",
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/mars/images/mars-icon.svg"
+    }
+  ]
+}

@@ -1,0 +1,347 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "cosmoshub",
+  "chainId": "cosmoshub-4",
+  "website": "https://cosmos.network/",
+  "prettyName": "Cosmos Hub",
+  "networkType": "mainnet",
+  "bech32Prefix": "cosmos",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "uatom",
+        "fixedMinGasPrice": 0.005,
+        "lowGasPrice": 0.01,
+        "averageGasPrice": 0.025,
+        "highGasPrice": 0.03
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "uatom"
+      }
+    ]
+  },
+  "codebase": {
+    "cosmosSdkVersion": "v0.47.13-ics-lsm",
+    "ibcGoVersion": "v7.4.0"
+  },
+  "description": "In a nutshell, Cosmos Hub bills itself as a project that solves some of the hardest problems facing the blockchain industry. It aims to offer an antidote to slow, expensive, unscalable and environmentally harmful proof-of-work protocols, like those used by Bitcoin, by offering an ecosystem of connected blockchains.\n\nThe project’s other goals include making blockchain technology less complex and difficult for developers thanks to a modular framework that demystifies decentralized apps. Last but not least, an Inter-blockchain Communication protocol makes it easier for blockchain networks to communicate with each other — preventing fragmentation in the industry.\n\nCosmos Hub's origins can be dated back to 2014, when Tendermint, a core contributor to the network, was founded. In 2016, a white paper for Cosmos was published — and a token sale was held the following year. ATOM tokens are earned through a hybrid proof-of-stake algorithm, and they help to keep the Cosmos Hub, the project’s flagship blockchain, secure. This cryptocurrency also has a role in the network’s governance.",
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://cosmos-rpc.quickapi.com:443"
+      },
+      {
+        "address": "https://cosmos-rpc.onivalidator.com"
+      },
+      {
+        "address": "https://rpc-cosmoshub.whispernode.com:443"
+      },
+      {
+        "address": "https://cosmoshub-rpc.lavenderfive.com:443"
+      },
+      {
+        "address": "https://rpc.cosmoshub.strange.love"
+      },
+      {
+        "address": "https://rpc-cosmoshub.ecostake.com"
+      },
+      {
+        "address": "https://rpc-cosmoshub.pupmos.network"
+      },
+      {
+        "address": "https://rpc-cosmoshub.cosmos-spaces.cloud"
+      },
+      {
+        "address": "https://cosmos-rpc.polkachu.com"
+      },
+      {
+        "address": "https://cosmos-rpc.staketab.org:443"
+      },
+      {
+        "address": "https://rpc-cosmoshub-ia.cosmosia.notional.ventures/"
+      },
+      {
+        "address": "https://rpc-cosmoshub.architectnodes.com"
+      },
+      {
+        "address": "https://rpc.cosmos.dragonstake.io"
+      },
+      {
+        "address": "https://cosmoshub.rpc.stakin-nodes.com"
+      },
+      {
+        "address": "https://rpc.cosmos.bh.rocks"
+      },
+      {
+        "address": "https://cosmos-rpc.rockrpc.net"
+      },
+      {
+        "address": "http://rpc-cosmoshub.freshstaking.com:26657"
+      },
+      {
+        "address": "https://cosmos-rpc.easy2stake.com/"
+      },
+      {
+        "address": "https://rpc.cosmos.nodestake.top"
+      },
+      {
+        "address": "https://cosmos.rpc.silknodes.io"
+      },
+      {
+        "address": "https://cosmos-rpc.publicnode.com:443"
+      },
+      {
+        "address": "https://cosmoshub.rpc.kjnodes.com"
+      },
+      {
+        "address": "https://rpc.cosmoshub.goldenratiostaking.net"
+      },
+      {
+        "address": "https://rpc-cosmos-hub-01.stakeflow.io"
+      },
+      {
+        "address": "https://cosmos-rpc.w3coins.io"
+      },
+      {
+        "address": "https://rpc-cosmoshub.mms.team"
+      },
+      {
+        "address": "https://cosmos-rpc.tienthuattoan.ventures"
+      },
+      {
+        "address": "https://community.nuxian-node.ch:6797/gaia/trpc"
+      },
+      {
+        "address": "https://cosmos-rpc.highstakes.ch"
+      },
+      {
+        "address": "https://cosmoshub-rpc.cosmosrescue.dev"
+      },
+      {
+        "address": "https://cosmos.interstellar-lounge.org"
+      },
+      {
+        "address": "https://public.stakewolle.com/cosmos/cosmoshub/rpc"
+      },
+      {
+        "address": "https://rpc-cosmos.kewrnode.com"
+      },
+      {
+        "address": "https://rpc.cosmoshub-4.citizenweb3.com"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://cosmos-lcd.quickapi.com:443"
+      },
+      {
+        "address": "https://rest.cosmoshub.goldenratiostaking.net"
+      },
+      {
+        "address": "https://cosmoshub-api.lavenderfive.com:443"
+      },
+      {
+        "address": "https://api-cosmoshub.pupmos.network"
+      },
+      {
+        "address": "https://api-cosmoshub.cosmos-spaces.cloud"
+      },
+      {
+        "address": "https://api-cosmoshub-ia.cosmosia.notional.ventures/"
+      },
+      {
+        "address": "https://cosmos-rest.staketab.org"
+      },
+      {
+        "address": "https://lcd.cosmos.dragonstake.io"
+      },
+      {
+        "address": "https://cosmoshub.rest.stakin-nodes.com"
+      },
+      {
+        "address": "https://rest-cosmoshub.architectnodes.com"
+      },
+      {
+        "address": "https://rest-cosmoshub.ecostake.com"
+      },
+      {
+        "address": "https://lcd-cosmoshub.whispernode.com:443"
+      },
+      {
+        "address": "https://cosmos-lcd.easy2stake.com"
+      },
+      {
+        "address": "https://api.cosmos.nodestake.top"
+      },
+      {
+        "address": "https://cosmos.api.silknodes.io"
+      },
+      {
+        "address": "https://cosmos-rest.publicnode.com"
+      },
+      {
+        "address": "https://cosmoshub.api.kjnodes.com"
+      },
+      {
+        "address": "https://api-cosmos-hub-01.stakeflow.io"
+      },
+      {
+        "address": "https://cosmos-api.w3coins.io"
+      },
+      {
+        "address": "https://api-cosmoshub.mms.team"
+      },
+      {
+        "address": "https://cosmos-api.tienthuattoan.ventures"
+      },
+      {
+        "address": "https://community.nuxian-node.ch:6797/gaia/crpc"
+      },
+      {
+        "address": "https://cosmos-api.highstakes.ch"
+      },
+      {
+        "address": "https://cosmoshub-api.cosmosrescue.dev"
+      },
+      {
+        "address": "https://cosmos-rest.interstellar-lounge.org"
+      },
+      {
+        "address": "https://public.stakewolle.com/cosmos/cosmoshub/rest"
+      },
+      {
+        "address": "https://rest-cosmos.kewrnode.com"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "cosmoshub-grpc.lavenderfive.com:443"
+      },
+      {
+        "address": "grpc-cosmoshub-ia.cosmosia.notional.ventures:443"
+      },
+      {
+        "address": "cosmos-grpc.polkachu.com:14990"
+      },
+      {
+        "address": "grpc.cosmos.interbloc.org:443"
+      },
+      {
+        "address": "services.staketab.com:9030"
+      },
+      {
+        "address": "grpc.cosmos.dragonstake.io:443"
+      },
+      {
+        "address": "cosmoshub.grpc.stakin-nodes.com:443"
+      },
+      {
+        "address": "https://grpc.cosmos.nodestake.top"
+      },
+      {
+        "address": "cosmos-grpc.publicnode.com:443"
+      },
+      {
+        "address": "grpc-cosmoshub.cosmos-spaces.cloud:3910"
+      },
+      {
+        "address": "cosmoshub.grpc.kjnodes.com:11390"
+      },
+      {
+        "address": "grpc-cosmos-hub-01.stakeflow.io:9090"
+      },
+      {
+        "address": "grpc-cosmoshub.whispernode.com:443"
+      },
+      {
+        "address": "cosmos-grpc.w3coins.io:14990"
+      },
+      {
+        "address": "grpc-cosmoshub.mms.team:443"
+      },
+      {
+        "address": "cosmos-grpc.tienthuattoan.ventures:9090"
+      },
+      {
+        "address": "cosmoshub-mainnet.grpc.l0vd.com:80"
+      },
+      {
+        "address": "https://grpc-cosmos.nodeist.net"
+      },
+      {
+        "address": "cosmos-grpc.stakeandrelax.net:14990"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "mintscan",
+      "url": "https://www.mintscan.io/cosmos",
+      "txPage": "https://www.mintscan.io/cosmos/transactions/${txHash}",
+      "accountPage": "https://www.mintscan.io/cosmos/accounts/${accountAddress}"
+    },
+    {
+      "kind": "ezstaking",
+      "url": "https://ezstaking.app/cosmoshub",
+      "txPage": "https://ezstaking.app/cosmoshub/txs/${txHash}",
+      "accountPage": "https://ezstaking.app/cosmoshub/account/${accountAddress}"
+    },
+    {
+      "kind": "ping.pub",
+      "url": "https://ping.pub/cosmos",
+      "txPage": "https://ping.pub/cosmos/tx/${txHash}"
+    },
+    {
+      "kind": "atomscan",
+      "url": "https://atomscan.com",
+      "txPage": "https://atomscan.com/transactions/${txHash}",
+      "accountPage": "https://atomscan.com/accounts/${accountAddress}"
+    },
+    {
+      "kind": "unichain",
+      "url": "https://unicha.in/cosmos",
+      "txPage": "https://unicha.in/cosmos/transaction/${txHash}"
+    },
+    {
+      "kind": "TC Network",
+      "url": "https://explorer.tcnetwork.io/cosmoshub",
+      "txPage": "https://explorer.tcnetwork.io/cosmoshub/transaction/${txHash}"
+    },
+    {
+      "kind": "Stakeflow",
+      "url": "https://stakeflow.io/cosmos",
+      "accountPage": "https://stakeflow.io/cosmos/accounts/${accountAddress}"
+    },
+    {
+      "kind": "Nodeist Explorer",
+      "url": "https://exp.nodeist.net/cosmos",
+      "txPage": "https://exp.nodeist.net/cosmos/tx/${txHash}"
+    },
+    {
+      "kind": "Inbloc",
+      "url": "https://inbloc.org",
+      "txPage": "https://inbloc.org/transactions/${txHash}",
+      "accountPage": "https://inbloc.org/account/${accountAddress}"
+    },
+    {
+      "kind": "WhisperNode 🤐",
+      "url": "https://mainnet.whispernode.com/cosmos",
+      "txPage": "https://mainnet.whispernode.com/cosmos/tx/${txHash}",
+      "accountPage": "https://mainnet.whispernode.com/cosmos/account/${accountAddress}"
+    }
+  ],
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png",
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg"
+    }
+  ]
+}

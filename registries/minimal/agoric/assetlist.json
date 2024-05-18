@@ -1,0 +1,44 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "agoric",
+  "assets": [
+    {
+      "description": "BLD is the token used to secure the Agoric chain through staking and to backstop Inter Protocol.",
+      "denomUnits": [
+        {
+          "denom": "ubld",
+          "exponent": 0
+        },
+        {
+          "denom": "bld",
+          "exponent": 6
+        }
+      ],
+      "base": "ubld",
+      "name": "Agoric",
+      "display": "bld",
+      "symbol": "BLD",
+      "coingeckoId": "agoric",
+      "assetType": "unknown"
+    },
+    {
+      "description": "IST is the stable token used by the Agoric chain for execution fees and commerce.",
+      "denomUnits": [
+        {
+          "denom": "uist",
+          "exponent": 0
+        },
+        {
+          "denom": "ist",
+          "exponent": 6
+        }
+      ],
+      "base": "uist",
+      "name": "Inter Stable Token",
+      "display": "ist",
+      "symbol": "IST",
+      "coingeckoId": "inter-stable-token",
+      "assetType": "unknown"
+    }
+  ]
+}

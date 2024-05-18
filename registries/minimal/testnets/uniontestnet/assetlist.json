@@ -1,0 +1,31 @@
+{
+  "$schema": "../../assetlist.schema.json",
+  "chainName": "uniontestnet",
+  "assets": [
+    {
+      "description": "Union native token",
+      "denomUnits": [
+        {
+          "denom": "muno",
+          "exponent": 0,
+          "aliases": [
+
+          ]
+        },
+        {
+          "denom": "uno",
+          "exponent": 6,
+          "aliases": [
+
+          ]
+        }
+      ],
+      "base": "muno",
+      "name": "Union",
+      "display": "uno",
+      "symbol": "UNO",
+      "coingeckoId": "",
+      "assetType": "sdk.Coin"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "humans",
+  "assets": [
+    {
+      "description": "The native staking and governance token of Humans.ai.",
+      "denomUnits": [
+        {
+          "denom": "aheart",
+          "exponent": 0
+        },
+        {
+          "denom": "heart",
+          "exponent": 18
+        }
+      ],
+      "base": "aheart",
+      "name": "HEART",
+      "display": "heart",
+      "symbol": "HEART",
+      "coingeckoId": "humans-ai",
+      "assetType": "sdk.Coin"
+    }
+  ]
+}

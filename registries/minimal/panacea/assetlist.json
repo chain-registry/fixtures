@@ -1,0 +1,25 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "panacea",
+  "assets": [
+    {
+      "description": "Panacea is a public blockchain launched by MediBloc, which is the key infrastructure for reinventing the patient-centered healthcare data ecosystem",
+      "denomUnits": [
+        {
+          "denom": "umed",
+          "exponent": 0
+        },
+        {
+          "denom": "med",
+          "exponent": 6
+        }
+      ],
+      "base": "umed",
+      "name": "MediBloc",
+      "display": "med",
+      "symbol": "MED",
+      "coingeckoId": "medibloc",
+      "assetType": "unknown"
+    }
+  ]
+}

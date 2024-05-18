@@ -1,0 +1,146 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "sommelier",
+  "networkType": "mainnet",
+  "website": "https://sommelier.finance/",
+  "prettyName": "Sommelier",
+  "chainId": "sommelier-3",
+  "bech32Prefix": "somm",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "usomm",
+        "lowGasPrice": 0.01,
+        "averageGasPrice": 0.025,
+        "highGasPrice": 0.04
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "usomm"
+      }
+    ]
+  },
+  "codebase": {
+    "cosmosSdkVersion": "v0.46.14",
+    "ibcGoVersion": "v6.2.0"
+  },
+  "description": "Automated vaults find best-in-class yields while mitigating risk.",
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://sommelier-rpc.polkachu.com"
+      },
+      {
+        "address": "https://rpc-sommelier.pupmos.network"
+      },
+      {
+        "address": "https://somm.rpc.m.stavr.tech"
+      },
+      {
+        "address": "https://sommelier-rpc.lavenderfive.com/"
+      },
+      {
+        "address": "https://sommelier-mainnet-rpc.autostake.com:443"
+      },
+      {
+        "address": "https://somm-rpc.kleomedes.network"
+      },
+      {
+        "address": "https://sommelier-rpc.w3coins.io"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://api-sommelier.pupmos.network"
+      },
+      {
+        "address": "https://sommelier-api.polkachu.com"
+      },
+      {
+        "address": "https://som.api.m.stavr.tech"
+      },
+      {
+        "address": "https://sommelier-api.lavenderfive.com/"
+      },
+      {
+        "address": "https://sommelier-mainnet-lcd.autostake.com:443"
+      },
+      {
+        "address": "https://somm-api.kleomedes.network"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "sommelier-grpc.polkachu.com:14190"
+      },
+      {
+        "address": "somm.grpc.m.stavr.tech:114"
+      },
+      {
+        "address": "sommelier-grpc.lavenderfive.com:443"
+      },
+      {
+        "address": "sommelier-mainnet-grpc.autostake.com:443"
+      },
+      {
+        "address": "https://grpc.sommelier.nodexcapital.com"
+      },
+      {
+        "address": "sommelier-grpc.w3coins.io:14190"
+      },
+      {
+        "address": "grpc.sommelier.validatus.com"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "sommscan",
+      "url": "https://sommscan.io",
+      "txPage": "https://sommscan.io"
+    },
+    {
+      "kind": "mintscan",
+      "url": "https://www.mintscan.io/sommelier",
+      "txPage": "https://www.mintscan.io/sommelier/transactions/${txHash}",
+      "accountPage": "https://www.mintscan.io/sommelier/accounts/${accountAddress}"
+    },
+    {
+      "kind": "ezstaking",
+      "url": "https://ezstaking.app/sommelier",
+      "txPage": "https://ezstaking.app/sommelier/txs/${txHash}",
+      "accountPage": "https://ezstaking.app/sommelier/account/${accountAddress}"
+    },
+    {
+      "kind": "🔥STAVR🔥",
+      "url": "https://explorer.stavr.tech/Sommelier-Mainnet",
+      "txPage": "https://explorer.stavr.tech/Sommelier-Mainnet/tx/${txHash}",
+      "accountPage": "https://explorer.stavr.tech/Sommelier-Mainnet/account/${accountAddress}"
+    },
+    {
+      "kind": "NODEXPLORER",
+      "url": "https://explorer.nodexcapital.com/sommelier",
+      "txPage": "https://explorer.nodexcapital.com/sommelier/tx/${txHash}",
+      "accountPage": "https://explorer.nodexcapital.com/sommelier/account/${accountAddress}"
+    },
+    {
+      "kind": "atomscan",
+      "url": "https://atomscan.com/sommelier",
+      "txPage": "https://atomscan.com/sommelier/transactions/${txHash}",
+      "accountPage": "https://atomscan.com/sommelier/accounts/${accountAddress}"
+    }
+  ],
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sommelier/images/somm.png",
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sommelier/images/somm.svg"
+    }
+  ]
+}

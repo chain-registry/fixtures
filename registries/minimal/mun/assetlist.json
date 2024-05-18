@@ -1,0 +1,25 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "mun",
+  "assets": [
+    {
+      "description": "The native token of Mun",
+      "denomUnits": [
+        {
+          "denom": "umun",
+          "exponent": 0
+        },
+        {
+          "denom": "mun",
+          "exponent": 6
+        }
+      ],
+      "base": "umun",
+      "name": "Mun",
+      "display": "mun",
+      "symbol": "MUN",
+      "coingeckoId": "",
+      "assetType": "sdk.Coin"
+    }
+  ]
+}

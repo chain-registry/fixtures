@@ -1,0 +1,384 @@
+{
+  "$id": "https://sikka.tech/chain.schema.json",
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "title": "Chain",
+  "description": "Chain.json is a metadata file that contains information about a blockchain.",
+  "type": "object",
+  "required": [
+    "chainName",
+    "chainId",
+    "bech32Prefix"
+  ],
+  "properties": {
+    "$schema": {
+      "type": "string",
+      "pattern": "^(\\.\\./)+chain\\.schema\\.json$"
+    },
+    "website": {
+      "type": "string",
+      "format": "uri"
+    },
+    "slip44": {
+      "type": "number"
+    },
+    "fees": {
+      "type": "object",
+      "required": [
+        "feeTokens"
+      ],
+      "properties": {
+        "feeTokens": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/feeToken"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "staking": {
+      "type": "object",
+      "required": [
+        "stakingTokens"
+      ],
+      "properties": {
+        "stakingTokens": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/stakingToken"
+          }
+        },
+        "lockDuration": {
+          "type": "object",
+          "properties": {
+            "blocks": {
+              "type": "number",
+              "description": "The number of blocks for which the staked tokens are locked."
+            },
+            "time": {
+              "type": "string",
+              "description": "The approximate time for which the staked tokens are locked."
+            }
+          },
+          "additionalProperties": false,
+          "minProperties": 1
+        }
+      },
+      "additionalProperties": false
+    },
+    "codebase": {
+      "type": "object",
+      "properties": {
+        "cosmosSdkVersion": {
+          "type": "string"
+        },
+        "cosmwasmVersion": {
+          "type": "string"
+        },
+        "cosmwasmEnabled": {
+          "type": "boolean"
+        },
+        "ibcGoVersion": {
+          "type": "string"
+        },
+        "icsEnabled": {
+          "type": "array",
+          "description": "List of IBC apps (usually corresponding to a ICS standard) which have been enabled on the network.",
+          "items": {
+            "type": "string",
+            "description": "IBC app or ICS standard.",
+            "enum": [
+              "ics20-1",
+              "ics27-1",
+              "mauth"
+            ]
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "images": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "png": {
+            "type": "string",
+            "format": "uri-reference",
+            "pattern": "^https://raw\\.githubusercontent\\.com/cosmos/chain-registry/master/(|testnets/|_non-cosmos/)[a-z0-9]+/images/.+\\.png$"
+          },
+          "svg": {
+            "type": "string",
+            "format": "uri-reference",
+            "pattern": "^https://raw\\.githubusercontent\\.com/cosmos/chain-registry/master/(|testnets/|_non-cosmos/)[a-z0-9]+/images/.+\\.svg$"
+          },
+          "theme": {
+            "type": "object",
+            "properties": {
+              "circle": {
+                "type": "boolean"
+              },
+              "primaryColorHex": {
+                "type": "string",
+                "pattern": "^#[0-9a-fA-F]{6}$"
+              },
+              "darkMode": {
+                "type": "boolean"
+              }
+            },
+            "minProperties": 1,
+            "additionalProperties": false
+          },
+          "layout": {
+            "type": "string",
+            "enum": [
+              "logo",
+              "logomark",
+              "logotype"
+            ],
+            "description": "logomark == icon only; logotype == text only; logo == icon + text."
+          },
+          "imageSync": {
+            "$ref": "#/$defs/pointer"
+          },
+          "textPosition": {
+            "type": "string",
+            "enum": [
+              "top",
+              "bottom",
+              "left",
+              "right",
+              "integrated"
+            ],
+            "description": "Indicates in which position the text is placed, in case the layout is 'icon' type, it's required only in this case."
+          }
+        },
+        "anyOf": [
+          {
+            "required": [
+              "png"
+            ]
+          },
+          {
+            "required": [
+              "svg"
+            ]
+          }
+        ],
+        "additionalProperties": false
+      }
+    },
+    "description": {
+      "type": "string",
+      "maxLength": 3000
+    },
+    "apis": {
+      "type": "object",
+      "properties": {
+        "rpc": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/endpoint"
+          }
+        },
+        "rest": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/endpoint"
+          }
+        },
+        "grpc": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/endpoint"
+          }
+        },
+        "wss": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/endpoint"
+          }
+        },
+        "grpcWeb": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/endpoint"
+          }
+        },
+        "evmHttpJsonrpc": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/endpoint"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "explorers": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/explorer"
+      }
+    },
+    "keywords": {
+      "type": "array",
+      "maxContains": 20,
+      "items": {
+        "type": "string"
+      }
+    },
+    "chainName": {
+      "type": "string",
+      "pattern": "[a-z0-9]+"
+    },
+    "chainId": {
+      "type": "string"
+    },
+    "preForkChainName": {
+      "type": "string",
+      "pattern": "[a-z0-9]+"
+    },
+    "prettyName": {
+      "type": "string"
+    },
+    "networkType": {
+      "enum": [
+        "mainnet",
+        "testnet",
+        "devnet"
+      ]
+    },
+    "bech32Prefix": {
+      "type": "string",
+      "description": "The default prefix for the human-readable part of addresses that identifies the coin type. Must be registered with SLIP-0173. E.g., 'cosmos'"
+    },
+    "nodeHome": {
+      "type": "string"
+    },
+    "keyAlgos": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "secp256k1",
+          "ethsecp256k1",
+          "ed25519",
+          "sr25519",
+          "bn254"
+        ],
+        "uniqueItems": true
+      }
+    },
+    "extraCodecs": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "ethermint",
+          "injective"
+        ],
+        "uniqueItems": true
+      }
+    }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "endpoint": {
+      "type": "object",
+      "required": [
+        "address"
+      ],
+      "properties": {
+        "address": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "explorer": {
+      "type": "object",
+      "properties": {
+        "kind": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string"
+        },
+        "txPage": {
+          "type": "string"
+        },
+        "accountPage": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "pointer": {
+      "type": "object",
+      "description": "The (primary) key used to identify an object within the Chain Registry.",
+      "required": [
+        "chainName"
+      ],
+      "properties": {
+        "chainName": {
+          "type": "string",
+          "description": "The chain name or platform from which the object resides. E.g., 'cosmoshub', 'ethereum', 'forex', or 'nasdaq'"
+        },
+        "baseDenom": {
+          "type": "string",
+          "description": "The base denom of the asset from which the object originates. E.g., when describing ATOM from Cosmos Hub, specify 'uatom', NOT 'atom' nor 'ATOM'; base units are unique per platform."
+        }
+      },
+      "additionalProperties": false
+    },
+    "feeToken": {
+      "type": "object",
+      "required": [
+        "denom"
+      ],
+      "properties": {
+        "denom": {
+          "type": "string"
+        },
+        "fixedMinGasPrice": {
+          "type": "number"
+        },
+        "lowGasPrice": {
+          "type": "number"
+        },
+        "averageGasPrice": {
+          "type": "number"
+        },
+        "highGasPrice": {
+          "type": "number"
+        },
+        "gasCosts": {
+          "type": "object",
+          "properties": {
+            "cosmosSend": {
+              "type": "number"
+            },
+            "ibcTransfer": {
+              "type": "number"
+            }
+          },
+          "additionalProperties": false,
+          "minProperties": 1
+        }
+      },
+      "additionalProperties": false
+    },
+    "stakingToken": {
+      "type": "object",
+      "required": [
+        "denom"
+      ],
+      "properties": {
+        "denom": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}

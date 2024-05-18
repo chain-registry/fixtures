@@ -1,0 +1,113 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "shido",
+  "networkType": "mainnet",
+  "website": "https://shido.io/",
+  "prettyName": "Shido",
+  "chainId": "shido_9008-1",
+  "bech32Prefix": "shido",
+  "keyAlgos": [
+    "ethsecp256k1"
+  ],
+  "extraCodecs": [
+    "ethermint"
+  ],
+  "slip44": 60,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "shido",
+        "fixedMinGasPrice": 250000000,
+        "lowGasPrice": 20000000000,
+        "averageGasPrice": 25000000000,
+        "highGasPrice": 40000000000
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "shido"
+      }
+    ]
+  },
+  "codebase": {
+    "cosmosSdkVersion": "v0.47.4",
+    "cosmwasmVersion": "v0.45.0",
+    "cosmwasmEnabled": true,
+    "ibcGoVersion": "v7.3.0"
+  },
+  "description": "Developers use Shido as the Ethereum and Wasm Chain to deploy applications of the future. Get all the functionalities of Ethereum and Wasm with the power of IBC and Interchain composability.",
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://tendermint.shidoscan.com"
+      },
+      {
+        "address": "https://shidochain_mainnet_rpc.chain.whenmoonwhenlambo.money"
+      },
+      {
+        "address": "https://shido-rpc.applejuice.256x25.tech:443"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://swagger.shidoscan.com"
+      },
+      {
+        "address": "https://shidochain_mainnet_api.chain.whenmoonwhenlambo.money"
+      },
+      {
+        "address": "https://shido-api.applejuice.256x25.tech:443"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "https://grpc.shidoscan.com"
+      },
+      {
+        "address": "https://grpc-web.shidoscan.com"
+      }
+    ],
+    "evmHttpJsonrpc": [
+      {
+        "address": "https://rpc-nodes.shidoscan.com"
+      },
+      {
+        "address": "https://rpc-delta-nodes.shidoscan.com"
+      },
+      {
+        "address": "https://shidochain_mainnet_evm.chain.whenmoonwhenlambo.money"
+      },
+      {
+        "address": "https://shido-evm.applejuice.256x25.tech:443"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "shido",
+      "url": "https://shidoscan.com",
+      "txPage": "https://shidoscan.com/tx/${txHash}",
+      "accountPage": "https://shidoscan.com/address/${accountAddress}"
+    },
+    {
+      "kind": "🚀 WHEN MOON 🌕 WHEN LAMBO 🔥",
+      "url": "https://explorer.whenmoonwhenlambo.money/shido",
+      "txPage": "https://explorer.whenmoonwhenlambo.money/shido/tx/${txHash}",
+      "accountPage": "https://explorer.whenmoonwhenlambo.money/shido/account/${accountAddress}"
+    },
+    {
+      "kind": "Apple juice 🧃",
+      "url": "https://explorer.256x25.tech/shido",
+      "txPage": "https://explorer.256x25.tech/shido/tx/${txHash}",
+      "accountPage": "https://explorer.256x25.tech//shido/account/${accountAddress}"
+    }
+  ],
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/shido/images/shido.png",
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/shido/images/shido.svg"
+    }
+  ]
+}

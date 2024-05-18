@@ -1,0 +1,31 @@
+{
+  "$schema": "../ibc_data.schema.json",
+  "chain1": {
+    "chainName": "bandchain",
+    "clientId": "07-tendermint-162",
+    "connectionId": "connection-141"
+  },
+  "chain2": {
+    "chainName": "coreum",
+    "clientId": "07-tendermint-33",
+    "connectionId": "connection-22"
+  },
+  "channels": [
+    {
+      "chain1": {
+        "channelId": "channel-159",
+        "portId": "transfer"
+      },
+      "chain2": {
+        "channelId": "channel-20",
+        "portId": "transfer"
+      },
+      "ordering": "unordered",
+      "version": "ics20-1",
+      "tags": {
+        "status": "live",
+        "preferred": true
+      }
+    }
+  ]
+}

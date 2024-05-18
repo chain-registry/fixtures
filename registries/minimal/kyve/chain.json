@@ -1,0 +1,190 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "kyve",
+  "chainId": "kyve-1",
+  "prettyName": "KYVE",
+  "networkType": "mainnet",
+  "bech32Prefix": "kyve",
+  "website": "https://www.kyve.network/",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "ukyve",
+        "fixedMinGasPrice": 0.02,
+        "lowGasPrice": 0.02,
+        "averageGasPrice": 0.03,
+        "highGasPrice": 0.06
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "ukyve"
+      }
+    ]
+  },
+  "codebase": {
+    "cosmosSdkVersion": "v0.47.6-kyve-rc0",
+    "ibcGoVersion": "v7.3.0"
+  },
+  "description": "Revolutionizing data reliability in the Web3 space, KYVE Network provides fast and easy tooling for data validation, immutability, and retrieval, ensuring trustless data for seamless scalability and eliminating data risks and roadblocks.",
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc-eu-1.kyve.network"
+      },
+      {
+        "address": "https://rpc-kyve.ecostake.com"
+      },
+      {
+        "address": "https://kyve-rpc.lavenderfive.com:443"
+      },
+      {
+        "address": "http://kyve.rpc.m.stavr.tech:12357"
+      },
+      {
+        "address": "https://rpc-kyve.imperator.co"
+      },
+      {
+        "address": "https://kyve-rpc.ibs.team"
+      },
+      {
+        "address": "https://rpc.kyve.nodestake.top"
+      },
+      {
+        "address": "https://kyve.rpc.liveraven.net"
+      },
+      {
+        "address": "https://rpc-kyve.mms.team"
+      },
+      {
+        "address": "https://kyve.declab.pro:26616"
+      },
+      {
+        "address": "https://kyve-rpc.noders.services"
+      },
+      {
+        "address": "https://kyve_mainnet_rpc.chain.whenmoonwhenlambo.money"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://api-eu-1.kyve.network"
+      },
+      {
+        "address": "https://kyve-api.lavenderfive.com:443"
+      },
+      {
+        "address": "https://rest-kyve.ecostake.com"
+      },
+      {
+        "address": "https://lcd-kyve.imperator.co"
+      },
+      {
+        "address": "https://kyve.api.m.stavr.tech"
+      },
+      {
+        "address": "https://kyve-api.ibs.team"
+      },
+      {
+        "address": "https://api.kyve.nodestake.top"
+      },
+      {
+        "address": "https://kyve.api.liveraven.net"
+      },
+      {
+        "address": "https://api-kyve.mms.team"
+      },
+      {
+        "address": "https://kyve.declab.pro:443"
+      },
+      {
+        "address": "https://kyve-api.noders.services"
+      },
+      {
+        "address": "https://kyve_mainnet_api.chain.whenmoonwhenlambo.money"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "https://grpc.kyve.nodestake.top"
+      },
+      {
+        "address": "https://kyve-grpc.lavenderfive.com:443"
+      },
+      {
+        "address": "https://grpc-kyve.nodeist.net"
+      },
+      {
+        "address": "http://kyve.grpc.stavr.tech:7106"
+      },
+      {
+        "address": "https://kyve.grpc.liveraven.net"
+      },
+      {
+        "address": "grpc-kyve.mms.team:443"
+      },
+      {
+        "address": "https://kyve.declab.pro:9011"
+      },
+      {
+        "address": "kyve-grpc.noders.services:15090"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "ezstaking",
+      "url": "https://ezstaking.app/kyve",
+      "txPage": "https://ezstaking.app/kyve/txs/${txHash}",
+      "accountPage": "https://ezstaking.app/kyve/account/${accountAddress}"
+    },
+    {
+      "kind": "mintscan",
+      "url": "https://www.mintscan.io/kyve",
+      "txPage": "https://www.mintscan.io/kyve/txs/${txHash}",
+      "accountPage": "https://www.mintscan.io/kyve/account/${accountAddress}"
+    },
+    {
+      "kind": "NodeStake Explorer",
+      "url": "https://explorer.nodestake.top/kyve",
+      "txPage": "https://explorer.nodestake.top/kyve/txs/${txHash}",
+      "accountPage": "https://explorer.nodestake.top/kyve/account/${accountAddress}"
+    },
+    {
+      "kind": "🔥STAVR🔥",
+      "url": "https://explorer.stavr.tech/Kyve",
+      "txPage": "https://explorer.stavr.tech/Kyve/txs/${txHash}",
+      "accountPage": "https://explorer.stavr.tech/Kyve/account/${accountAddress}"
+    },
+    {
+      "kind": "Stake-Take",
+      "url": "https://explorer.stake-take.com/kyve",
+      "txPage": "https://explorer.stake-take.com/kyve/txs/${txHash}",
+      "accountPage": "https://explorer.stake-take.com/kyve/account/${accountAddress}"
+    },
+    {
+      "kind": "Decloud Nodes Lab",
+      "url": "https://explorer.declab.pro/Kyve",
+      "txPage": "https://explorer.declab.pro/Kyve/txs/${txHash}",
+      "accountPage": "https://explorer.declab.pro/Kyve/account/${accountAddress}"
+    },
+    {
+      "kind": "🚀 WHEN MOON 🌕 WHEN LAMBO 🔥",
+      "url": "https://explorer.whenmoonwhenlambo.money/kyve",
+      "txPage": "https://explorer.whenmoonwhenlambo.money/kyve/txs/${txHash}",
+      "accountPage": "https://explorer.whenmoonwhenlambo.money/kyve/account/${accountAddress}"
+    }
+  ],
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kyve/images/kyve.png",
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kyve/images/kyve.svg"
+    }
+  ]
+}

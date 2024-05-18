@@ -1,0 +1,25 @@
+{
+  "$schema": "../../assetlist.schema.json",
+  "chainName": "swisstroniktestnet",
+  "assets": [
+    {
+      "description": "The native currency of Swisstronik.",
+      "denomUnits": [
+        {
+          "denom": "uswtr",
+          "exponent": 0
+        },
+        {
+          "denom": "swtr",
+          "exponent": 18
+        }
+      ],
+      "base": "uswtr",
+      "name": "Swisstronik Testnet",
+      "display": "swtr",
+      "symbol": "SWTR",
+      "coingeckoId": "",
+      "assetType": "sdk.Coin"
+    }
+  ]
+}

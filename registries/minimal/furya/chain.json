@@ -1,0 +1,85 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "furya",
+  "networkType": "mainnet",
+  "website": "https://furya.xyz/",
+  "prettyName": "furya",
+  "chainId": "furya-1",
+  "bech32Prefix": "furya",
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "ufury",
+        "lowGasPrice": 0,
+        "averageGasPrice": 0.25,
+        "highGasPrice": 0.5
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "ufury"
+      }
+    ]
+  },
+  "codebase": {
+
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc.furya.xyz"
+      },
+      {
+        "address": "https://furya-rpc.synergynodes.com"
+      },
+      {
+        "address": "https://furya.rpc.nodeshub.online:443"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://api.furya.xyz"
+      },
+      {
+        "address": "https://furya.api.nodeshub.online"
+      },
+      {
+        "address": "https://furya.api.nodeshub.online"
+      },
+      {
+        "address": "https://furya.api.nodeshub.online:443"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "grpc.furya.xyz:443"
+      },
+      {
+        "address": "https://furya.grpc.nodeshub.online"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "Furya Explorer",
+      "url": "https://explorer.furya.xyz/",
+      "txPage": "https://explorer.furya.xyz/furya/tx/${txHash}",
+      "accountPage": "https://explorer.furya.xyz/furya/account/${accountAddress}"
+    },
+    {
+      "kind": "Nodeshub Explorer",
+      "url": "https://explorer.nodeshub.online/furya",
+      "txPage": "https://explorer.nodeshub.online/furya/txs/${txHash}",
+      "accountPage": "https://explorer.nodeshub.online/furya/account/${accountAddress}"
+    }
+  ],
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/furya/images/chain.png",
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/furya/images/chain.svg"
+    }
+  ]
+}

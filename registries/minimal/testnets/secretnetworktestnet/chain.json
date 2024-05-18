@@ -1,0 +1,56 @@
+{
+  "$schema": "../../chain.schema.json",
+  "chainName": "secretnetworktestnet",
+  "networkType": "testnet",
+  "prettyName": "Secret Network",
+  "chainId": "pulsar-3",
+  "bech32Prefix": "secret",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "slip44": 529,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "uscrt",
+        "fixedMinGasPrice": 0.1
+      }
+    ]
+  },
+  "codebase": {
+
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc.testnet.secretsaturn.net"
+      },
+      {
+        "address": "https://rpc.pulsar.scrttestnet.com"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://lcd.testnet.secretsaturn.net"
+      },
+      {
+        "address": "https://api.pulsar.scrttestnet.com"
+      }
+    ],
+    "grpcWeb": [
+      {
+        "address": "https://grpc.testnet.secretsaturn.net"
+      },
+      {
+        "address": "https://grpc.pulsar.scrttestnet.com"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "ping.pub",
+      "url": "https://testnet.ping.pub/secret",
+      "txPage": "https://testnet.ping.pub/secret/tx/${txHash}"
+    }
+  ]
+}

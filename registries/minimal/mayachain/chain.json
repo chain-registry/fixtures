@@ -1,0 +1,32 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "mayachain",
+  "networkType": "mainnet",
+  "website": "https://mayaprotocol.com/",
+  "prettyName": "Maya Protocol",
+  "chainId": "mayachain-mainnet-v1",
+  "bech32Prefix": "maya",
+  "slip44": 931,
+  "codebase": {
+
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://tendermint.mayachain.info"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://mayanode.mayachain.info"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "Maya Protocol explorer",
+      "url": "https://www.explorer.mayachain.info",
+      "txPage": "https://www.explorer.mayachain.info/#/txs/${txHash}"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "$schema": "../../assetlist.schema.json",
+  "chainName": "kichaintestnet",
+  "assets": [
+    {
+      "description": "The native token of Ki Chain",
+      "denomUnits": [
+        {
+          "denom": "utki",
+          "exponent": 0
+        },
+        {
+          "denom": "tki",
+          "exponent": 6
+        }
+      ],
+      "base": "utki",
+      "name": "Ki",
+      "display": "tki",
+      "symbol": "TKI",
+      "coingeckoId": "ki",
+      "assetType": "sdk.Coin"
+    }
+  ]
+}

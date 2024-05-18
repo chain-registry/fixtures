@@ -1,0 +1,24 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "auratestnet",
+  "assets": [
+    {
+      "description": "The native token of Aura Test Network",
+      "denomUnits": [
+        {
+          "denom": "ueaura",
+          "exponent": 0
+        },
+        {
+          "denom": "eaura",
+          "exponent": 6
+        }
+      ],
+      "base": "ueaura",
+      "name": "EAura",
+      "display": "eaura",
+      "symbol": "EAURA",
+      "assetType": "sdk.Coin"
+    }
+  ]
+}

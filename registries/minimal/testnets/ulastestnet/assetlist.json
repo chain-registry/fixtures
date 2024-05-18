@@ -1,0 +1,25 @@
+{
+  "$schema": "../../assetlist.schema.json",
+  "chainName": "ulastestnet",
+  "assets": [
+    {
+      "description": "WEB3 twitter",
+      "denomUnits": [
+        {
+          "denom": "uulas",
+          "exponent": 0
+        },
+        {
+          "denom": "ulas",
+          "exponent": 6
+        }
+      ],
+      "base": "uulas",
+      "name": "ULAS Network",
+      "display": "ulas",
+      "symbol": "ULAS",
+      "coingeckoId": "ulas",
+      "assetType": "unknown"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "$schema": "../../assetlist.schema.json",
+  "chainName": "stridetestnet",
+  "assets": [
+    {
+      "description": "The native token of Stride",
+      "denomUnits": [
+        {
+          "denom": "ustrd",
+          "exponent": 0
+        },
+        {
+          "denom": "strd",
+          "exponent": 6
+        }
+      ],
+      "base": "ustrd",
+      "name": "Stride",
+      "display": "strd",
+      "symbol": "STRD",
+      "assetType": "sdk.Coin"
+    }
+  ]
+}

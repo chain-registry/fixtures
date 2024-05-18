@@ -1,0 +1,25 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "qwoyn",
+  "assets": [
+    {
+      "description": "The native governance token for Qwoyn Network",
+      "denomUnits": [
+        {
+          "denom": "uqwoyn",
+          "exponent": 0
+        },
+        {
+          "denom": "qwoyn",
+          "exponent": 6
+        }
+      ],
+      "base": "uqwoyn",
+      "name": "Qwoyn Network",
+      "display": "qwoyn",
+      "symbol": "QWOYN",
+      "coingeckoId": "qwoyn",
+      "assetType": "sdk.Coin"
+    }
+  ]
+}

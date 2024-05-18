@@ -1,0 +1,52 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "nomic",
+  "assets": [
+    {
+      "description": "Nomic's native token.",
+      "denomUnits": [
+        {
+          "denom": "unom",
+          "exponent": 0
+        },
+        {
+          "denom": "nom",
+          "exponent": 6
+        }
+      ],
+      "base": "unom",
+      "name": "Nomic",
+      "display": "nom",
+      "symbol": "NOM",
+      "assetType": "sdk.Coin"
+    },
+    {
+      "description": "Bitcoin. On Cosmos.",
+      "denomUnits": [
+        {
+          "denom": "usat",
+          "exponent": 0
+        },
+        {
+          "denom": "nbtc",
+          "exponent": 14
+        }
+      ],
+      "base": "usat",
+      "name": "Nomic Bitcoin",
+      "display": "nbtc",
+      "symbol": "nBTC",
+      "traces": [
+        {
+          "type": "bridge",
+          "counterparty": {
+            "chainName": "bitcoin",
+            "baseDenom": "sat"
+          },
+          "provider": "Nomic"
+        }
+      ],
+      "assetType": "sdk.Coin"
+    }
+  ]
+}

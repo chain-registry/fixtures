@@ -1,0 +1,24 @@
+{
+  "$schema": "../../assetlist.schema.json",
+  "chainName": "sixtestnet",
+  "assets": [
+    {
+      "description": "The native staking token of the SIX Protocol.",
+      "denomUnits": [
+        {
+          "denom": "usix",
+          "exponent": 0
+        },
+        {
+          "denom": "six",
+          "exponent": 6
+        }
+      ],
+      "base": "usix",
+      "name": "Six token",
+      "display": "six",
+      "symbol": "six",
+      "assetType": "sdk.Coin"
+    }
+  ]
+}

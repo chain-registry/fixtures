@@ -1,0 +1,35 @@
+{
+  "$schema": "../../chain.schema.json",
+  "chainName": "ulastestnet",
+  "networkType": "testnet",
+  "prettyName": "ULAS",
+  "chainId": "ulas",
+  "bech32Prefix": "ulas",
+  "codebase": {
+
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "http://65.49.204.199:26657"
+      }
+    ],
+    "rest": [
+      {
+        "address": "http://65.49.204.199:1317"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "http://65.49.204.199:9090"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "ulas-scan",
+      "url": "https://testnet-explorer.ulas.network",
+      "txPage": "https://testnet-explorer.ulas.network/ulas/tx/${txHash}"
+    }
+  ]
+}

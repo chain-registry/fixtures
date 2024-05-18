@@ -1,0 +1,25 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "desmos",
+  "assets": [
+    {
+      "description": "The native token of Desmos",
+      "denomUnits": [
+        {
+          "denom": "udsm",
+          "exponent": 0
+        },
+        {
+          "denom": "dsm",
+          "exponent": 6
+        }
+      ],
+      "base": "udsm",
+      "name": "Desmos",
+      "display": "dsm",
+      "symbol": "DSM",
+      "coingeckoId": "desmos",
+      "assetType": "sdk.Coin"
+    }
+  ]
+}

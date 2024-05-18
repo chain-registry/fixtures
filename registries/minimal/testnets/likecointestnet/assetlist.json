@@ -1,0 +1,24 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "likecointestnet",
+  "assets": [
+    {
+      "description": "EKIL is the native token for LikeCoin Testnet",
+      "denomUnits": [
+        {
+          "denom": "nanoekil",
+          "exponent": 0
+        },
+        {
+          "denom": "ekil",
+          "exponent": 9
+        }
+      ],
+      "base": "nanoekil",
+      "name": "LikeCoin",
+      "display": "ekil",
+      "symbol": "EKIL",
+      "assetType": "sdk.Coin"
+    }
+  ]
+}

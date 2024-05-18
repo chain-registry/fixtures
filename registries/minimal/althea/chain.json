@@ -1,0 +1,68 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "althea",
+  "networkType": "mainnet",
+  "website": "https://althea.net/",
+  "prettyName": "Althea",
+  "chainId": "althea_258432-1",
+  "bech32Prefix": "althea",
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "aalthea",
+        "fixedMinGasPrice": 100000000000,
+        "lowGasPrice": 100000000000,
+        "averageGasPrice": 100000000000,
+        "highGasPrice": 300000000000
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "aalthea"
+      }
+    ]
+  },
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/althea/images/althea.png"
+    },
+    {
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/althea/images/althea.svg"
+    }
+  ],
+  "codebase": {
+
+  },
+  "apis": {
+    "rest": [
+      {
+        "address": "https://nodes.chandrastation.com/api/althea/"
+      },
+      {
+        "address": "https://althea.api.m.stavr.tech"
+      },
+      {
+        "address": "https://althea-api.lavenderfive.com:443"
+      }
+    ],
+    "rpc": [
+      {
+        "address": "https://nodes.chandrastation.com/rpc/althea/"
+      },
+      {
+        "address": "https://althea.rpc.m.stavr.tech"
+      },
+      {
+        "address": "https://althea-rpc.lavenderfive.com:443"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "https://althea-grpc.lavenderfive.com:443"
+      }
+    ]
+  }
+}

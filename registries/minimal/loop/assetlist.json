@@ -1,0 +1,39 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "loop",
+  "assets": [
+    {
+      "description": "The native token of Loop",
+      "denomUnits": [
+        {
+          "denom": "token",
+          "exponent": 0
+        }
+      ],
+      "assetType": "sdk.coin",
+      "base": "token",
+      "name": "Token",
+      "display": "token",
+      "symbol": "TOKEN",
+      "coingeckoId": ""
+    },
+    {
+      "denomUnits": [
+        {
+          "denom": "upoa",
+          "exponent": 0
+        },
+        {
+          "denom": "poa",
+          "exponent": 6
+        }
+      ],
+      "assetType": "sdk.coin",
+      "base": "upoa",
+      "name": "POA",
+      "display": "poa",
+      "symbol": "POA",
+      "coingeckoId": ""
+    }
+  ]
+}

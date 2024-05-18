@@ -1,0 +1,25 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "xrpl",
+  "assets": [
+    {
+      "description": "Native token of Ripple XRP Ledger",
+      "denomUnits": [
+        {
+          "denom": "drop",
+          "exponent": 0
+        },
+        {
+          "denom": "xrp",
+          "exponent": 6
+        }
+      ],
+      "assetType": "unknown",
+      "base": "drop",
+      "name": "Ripple",
+      "display": "xrp",
+      "symbol": "XRP",
+      "coingeckoId": "ripple"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "quicksilvertestnet",
+  "assets": [
+    {
+      "description": "QCK - native token of Quicksilver",
+      "denomUnits": [
+        {
+          "denom": "uqck",
+          "exponent": 0,
+          "aliases": [
+
+          ]
+        },
+        {
+          "denom": "qck",
+          "exponent": 6,
+          "aliases": [
+
+          ]
+        }
+      ],
+      "base": "uqck",
+      "name": "Quicksilver",
+      "display": "qck",
+      "symbol": "QCK",
+      "coingeckoId": "quicksilver",
+      "assetType": "sdk.Coin"
+    }
+  ]
+}

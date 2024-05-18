@@ -1,0 +1,28 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "sui",
+  "assets": [
+    {
+      "description": "Sui’s native asset is called SUI.",
+      "denomUnits": [
+        {
+          "denom": "0x2::sui::SUI",
+          "exponent": 0,
+          "aliases": [
+            "MIST"
+          ]
+        },
+        {
+          "denom": "SUI",
+          "exponent": 9
+        }
+      ],
+      "assetType": "unknown",
+      "base": "0x2::sui::SUI",
+      "name": "Sui",
+      "display": "SUI",
+      "symbol": "SUI",
+      "coingeckoId": "sui"
+    }
+  ]
+}

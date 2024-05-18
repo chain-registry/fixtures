@@ -1,0 +1,74 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "onomy",
+  "networkType": "mainnet",
+  "website": "https://onomy.io/",
+  "prettyName": "Onomy",
+  "chainId": "onomy-mainnet-1",
+  "bech32Prefix": "onomy",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "anom",
+        "lowGasPrice": 0,
+        "averageGasPrice": 0.03,
+        "highGasPrice": 0.06
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "anom"
+      }
+    ]
+  },
+  "codebase": {
+    "cosmosSdkVersion": "onomyprotocol/onomy-sdk v0.45.16-onomy-dev",
+    "ibcGoVersion": "v4.4.2"
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc-mainnet.onomy.io"
+      },
+      {
+        "address": "https://onomy-mainnet-rpc.autostake.com:443"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://rest-mainnet.onomy.io"
+      },
+      {
+        "address": "https://onomy-mainnet-lcd.autostake.com:443"
+      }
+    ],
+    "grpc": [
+
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "mintscan",
+      "url": "https://www.mintscan.io/onomy-protocol",
+      "txPage": "https://www.mintscan.io/onomy-protocol/transactions/${txHash}",
+      "accountPage": "https://www.mintscan.io/onomy-protocol/accounts/${accountAddress}"
+    },
+    {
+      "kind": "ezstaking",
+      "url": "https://ezstaking.app/onomy",
+      "txPage": "https://ezstaking.app/onomy/txs/${txHash}",
+      "accountPage": "https://ezstaking.app/onomy/account/${accountAddress}"
+    }
+  ],
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/onomy/images/nom.png"
+    }
+  ]
+}

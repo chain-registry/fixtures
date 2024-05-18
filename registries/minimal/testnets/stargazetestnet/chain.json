@@ -1,0 +1,58 @@
+{
+  "$schema": "../../chain.schema.json",
+  "chainName": "stargazetestnet",
+  "networkType": "testnet",
+  "website": "https://stargaze.zone/",
+  "prettyName": "Stargaze Testnet",
+  "chainId": "elgafar-1",
+  "bech32Prefix": "stars",
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "ustars",
+        "lowGasPrice": 0.03,
+        "averageGasPrice": 0.04,
+        "highGasPrice": 0.05
+      }
+    ]
+  },
+  "codebase": {
+    "cosmosSdkVersion": "0.45",
+    "cosmwasmVersion": "0.28",
+    "cosmwasmEnabled": true
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc.elgafar-1.stargaze-apis.com"
+      },
+      {
+        "address": "https://stargaze-testnet-rpc.ibs.team:443"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://rest.elgafar-1.stargaze-apis.com"
+      },
+      {
+        "address": "https://stargaze-testnet-api.ibs.team:443"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "http://grpc-1.elgafar-1.stargaze-apis.com:26660"
+      },
+      {
+        "address": "http://grpc-2.elgafar-1.stargaze-apis.com:26660"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "ping.pub",
+      "url": "https://testnet-explorer.publicawesome.dev/stargaze",
+      "txPage": "https://testnet-explorer.publicawesome.dev/stargaze/tx/${txHash}"
+    }
+  ]
+}

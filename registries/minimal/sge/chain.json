@@ -1,0 +1,215 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "sge",
+  "networkType": "mainnet",
+  "prettyName": "SGE",
+  "chainId": "sgenet-1",
+  "bech32Prefix": "sge",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "usge",
+        "fixedMinGasPrice": 0.001,
+        "lowGasPrice": 0.1,
+        "averageGasPrice": 0.25,
+        "highGasPrice": 0.5
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "usge"
+      }
+    ]
+  },
+  "codebase": {
+    "cosmosSdkVersion": "sge-network/cosmos-sdk v0.46.17-0.20240430064306-1b044d03d56c",
+    "ibcGoVersion": "v5.3.1"
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://sge-rpc.lavenderfive.com/"
+      },
+      {
+        "address": "https://sge-rpc.polkachu.com/"
+      },
+      {
+        "address": "https://rpc.sge.nodestake.top/"
+      },
+      {
+        "address": "https://rpc.sge.roomit.xyz/"
+      },
+      {
+        "address": "https://sge.rpc.m.stavr.tech:443"
+      },
+      {
+        "address": "https://rpc-sge.nodeist.net/"
+      },
+      {
+        "address": "https://sge-rpc.ramuchi.tech"
+      },
+      {
+        "address": "https://sge-rpc.stakerhouse.com"
+      },
+      {
+        "address": "https://rpc.sge.tcnetwork.io"
+      },
+      {
+        "address": "https://sge-rpc.sr20de.xyz"
+      },
+      {
+        "address": "https://rpc.sge.safeblock.space"
+      },
+      {
+        "address": "https://mainnet-sge-rpc.konsortech.xyz"
+      },
+      {
+        "address": "https://sge-rpc.genznodes.dev"
+      },
+      {
+        "address": "https://sge_mainnet_rpc.chain.whenmoonwhenlambo.money"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://sge-api.lavenderfive.com/"
+      },
+      {
+        "address": "https://sge-api.polkachu.com/"
+      },
+      {
+        "address": "https://api.sge.nodestake.top/"
+      },
+      {
+        "address": "https://api-sge.nodeist.net/"
+      },
+      {
+        "address": "https://sge.api.m.stavr.tech"
+      },
+      {
+        "address": "https://sge-api.ramuchi.tech/"
+      },
+      {
+        "address": "https://sge-rest.stakerhouse.com"
+      },
+      {
+        "address": "https://rest.sge.tcnetwork.io"
+      },
+      {
+        "address": "https://sge-api.sr20de.xyz"
+      },
+      {
+        "address": "https://api.sge.safeblock.space"
+      },
+      {
+        "address": "https://mainnet-sge-api.konsortech.xyz"
+      },
+      {
+        "address": "https://sge-api.genznodes.dev"
+      },
+      {
+        "address": "https://api.sge.roomit.xyz/"
+      },
+      {
+        "address": "https://sge_mainnet_api.chain.whenmoonwhenlambo.money"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "sge-grpc.lavenderfive.com:443"
+      },
+      {
+        "address": "https://grpc.sge.nodestake.top/"
+      },
+      {
+        "address": "https://grpc-sge.nodeist.net/"
+      },
+      {
+        "address": "https://sge-grpc.ramuchi.tech:443"
+      },
+      {
+        "address": "http://sge.grpc.m.stavr.tech:543"
+      },
+      {
+        "address": "sge-grpc.stakerhouse.com:443"
+      },
+      {
+        "address": "https://sge-grpc.sr20de.xyz"
+      },
+      {
+        "address": "mainnet-sge.konsortech.xyz:22090"
+      },
+      {
+        "address": "sge-grpc.genznodes.dev:5090"
+      },
+      {
+        "address": "grpc.sge.roomit.xyz:8443"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "ping.pub",
+      "url": "https://blockexplorer.sgenetwork.io/sge",
+      "txPage": "https://blockexplorer.sgenetwork.io/sge/tx/${txHash}"
+    },
+    {
+      "kind": "nodestake.top",
+      "url": "https://explorer.nodestake.top/sge",
+      "txPage": "https://explorer.nodestake.top/sge/tx/${txHash}"
+    },
+    {
+      "kind": "stakerhouse",
+      "url": "https://cosmotracker.com/sge",
+      "txPage": "https://cosmotracker.com/sge/tx/${txHash}"
+    },
+    {
+      "kind": "🔥STAVR🔥",
+      "url": "https://explorer.stavr.tech/Sge-Mainnet",
+      "txPage": "https://explorer.stavr.tech/Sge-Mainnet/transaction/${txHash}",
+      "accountPage": "https://explorer.stavr.tech/Sge-Mainnet/account/${accountAddress}"
+    },
+    {
+      "kind": "TC Network",
+      "url": "https://explorer.tcnetwork.io/sge",
+      "txPage": "https://explorer.tcnetwork.io/sge/transaction/${txHash}",
+      "accountPage": "https://explorer.tcnetwork.io/sge/account/${accountAddress}"
+    },
+    {
+      "kind": "Safe Block",
+      "url": "https://explorer.safeblock.space/sge",
+      "txPage": "https://explorer.safeblock.space/sge/tx/${txHash}",
+      "accountPage": "https://explorer.safeblock.space/sge/account/${accountAddress}"
+    },
+    {
+      "kind": "KonsorTech",
+      "url": "https://explorer.konsortech.xyz/sge",
+      "txPage": "https://explorer.konsortech.xyz/sge/tx/${txHash}",
+      "accountPage": "https://explorer.konsortech.xyz/sge/account/${accountAddress}"
+    },
+    {
+      "kind": "RoomIT",
+      "url": "https://explorer.tendermint.roomit.xyz/sge-mainnet",
+      "txPage": "https://explorer.tendermint.roomit.xyz/sge-mainnet/tx/${txHash}",
+      "accountPage": "https://explorer.tendermint.roomit.xyz/sge-mainnet/account/${accountAddress}"
+    },
+    {
+      "kind": "🚀 WHEN MOON 🌕 WHEN LAMBO 🔥",
+      "url": "https://explorer.whenmoonwhenlambo.money/sge",
+      "txPage": "https://explorer.whenmoonwhenlambo.money/sge/tx/${txHash}",
+      "accountPage": "https://explorer.whenmoonwhenlambo.money/sge/account/${accountAddress}"
+    }
+  ],
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sge/images/sge.png",
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sge/images/sge.svg"
+    }
+  ]
+}

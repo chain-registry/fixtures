@@ -1,0 +1,415 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "stride",
+  "assets": [
+    {
+      "description": "The native token of Stride",
+      "denomUnits": [
+        {
+          "denom": "ustrd",
+          "exponent": 0
+        },
+        {
+          "denom": "strd",
+          "exponent": 6
+        }
+      ],
+      "base": "ustrd",
+      "name": "Stride",
+      "display": "strd",
+      "symbol": "STRD",
+      "coingeckoId": "stride",
+      "assetType": "sdk.Coin"
+    },
+    {
+      "denomUnits": [
+        {
+          "denom": "stuatom",
+          "exponent": 0
+        },
+        {
+          "denom": "statom",
+          "exponent": 6
+        }
+      ],
+      "base": "stuatom",
+      "name": "Stride Staked ATOM",
+      "display": "statom",
+      "symbol": "stATOM",
+      "traces": [
+        {
+          "type": "liquid-stake",
+          "counterparty": {
+            "chainName": "cosmoshub",
+            "baseDenom": "uatom"
+          },
+          "provider": "Stride"
+        }
+      ],
+      "coingeckoId": "stride-staked-atom",
+      "assetType": "sdk.Coin"
+    },
+    {
+      "denomUnits": [
+        {
+          "denom": "stustars",
+          "exponent": 0
+        },
+        {
+          "denom": "ststars",
+          "exponent": 6
+        }
+      ],
+      "base": "stustars",
+      "name": "Stride Staked STARS",
+      "display": "ststars",
+      "symbol": "stSTARS",
+      "traces": [
+        {
+          "type": "liquid-stake",
+          "counterparty": {
+            "chainName": "stargaze",
+            "baseDenom": "ustars"
+          },
+          "provider": "Stride"
+        }
+      ],
+      "coingeckoId": "stride-staked-stars",
+      "assetType": "sdk.Coin"
+    },
+    {
+      "denomUnits": [
+        {
+          "denom": "stuosmo",
+          "exponent": 0
+        },
+        {
+          "denom": "stosmo",
+          "exponent": 6
+        }
+      ],
+      "base": "stuosmo",
+      "name": "Stride Staked OSMO",
+      "display": "stosmo",
+      "symbol": "stOSMO",
+      "traces": [
+        {
+          "type": "liquid-stake",
+          "counterparty": {
+            "chainName": "osmosis",
+            "baseDenom": "uosmo"
+          },
+          "provider": "Stride"
+        }
+      ],
+      "coingeckoId": "stride-staked-osmo",
+      "assetType": "sdk.Coin"
+    },
+    {
+      "denomUnits": [
+        {
+          "denom": "stujuno",
+          "exponent": 0
+        },
+        {
+          "denom": "stjuno",
+          "exponent": 6
+        }
+      ],
+      "base": "stujuno",
+      "name": "Stride Staked JUNO",
+      "display": "stjuno",
+      "symbol": "stJUNO",
+      "traces": [
+        {
+          "type": "liquid-stake",
+          "counterparty": {
+            "chainName": "juno",
+            "baseDenom": "ujuno"
+          },
+          "provider": "Stride"
+        }
+      ],
+      "coingeckoId": "stride-staked-juno",
+      "assetType": "sdk.Coin"
+    },
+    {
+      "denomUnits": [
+        {
+          "denom": "stuluna",
+          "exponent": 0
+        },
+        {
+          "denom": "stluna",
+          "exponent": 6
+        }
+      ],
+      "base": "stuluna",
+      "name": "Stride Staked LUNA",
+      "display": "stluna",
+      "symbol": "stLUNA",
+      "traces": [
+        {
+          "type": "liquid-stake",
+          "counterparty": {
+            "chainName": "terra2",
+            "baseDenom": "uluna"
+          },
+          "provider": "Stride"
+        }
+      ],
+      "coingeckoId": "stride-staked-luna",
+      "assetType": "sdk.Coin"
+    },
+    {
+      "denomUnits": [
+        {
+          "denom": "stinj",
+          "exponent": 0
+        },
+        {
+          "denom": "stINJ",
+          "exponent": 18
+        }
+      ],
+      "base": "stinj",
+      "name": "Stride Staked INJ",
+      "display": "stINJ",
+      "symbol": "stINJ",
+      "traces": [
+        {
+          "type": "liquid-stake",
+          "counterparty": {
+            "chainName": "injective",
+            "baseDenom": "inj"
+          },
+          "provider": "Stride"
+        }
+      ],
+      "assetType": "sdk.Coin"
+    },
+    {
+      "denomUnits": [
+        {
+          "denom": "staevmos",
+          "exponent": 0
+        },
+        {
+          "denom": "stevmos",
+          "exponent": 18
+        }
+      ],
+      "base": "staevmos",
+      "name": "Stride Staked EVMOS",
+      "display": "stevmos",
+      "symbol": "stEVMOS",
+      "traces": [
+        {
+          "type": "liquid-stake",
+          "counterparty": {
+            "chainName": "evmos",
+            "baseDenom": "aevmos"
+          },
+          "provider": "Stride"
+        }
+      ],
+      "coingeckoId": "stride-staked-evmos",
+      "assetType": "sdk.Coin"
+    },
+    {
+      "description": "Stride's liquid staked DYDX",
+      "denomUnits": [
+        {
+          "denom": "stadydx",
+          "exponent": 0
+        },
+        {
+          "denom": "stDYDX",
+          "exponent": 18
+        }
+      ],
+      "base": "stadydx",
+      "name": "Stride Staked DYDX",
+      "display": "stDYDX",
+      "symbol": "stDYDX",
+      "traces": [
+        {
+          "type": "liquid-stake",
+          "counterparty": {
+            "chainName": "dydx",
+            "baseDenom": "adydx"
+          },
+          "provider": "Stride"
+        }
+      ],
+      "assetType": "sdk.Coin"
+    },
+    {
+      "description": "Stride's liquid staked TIA",
+      "denomUnits": [
+        {
+          "denom": "stutia",
+          "exponent": 0
+        },
+        {
+          "denom": "stTIA",
+          "exponent": 6
+        }
+      ],
+      "base": "stutia",
+      "name": "Stride Staked TIA",
+      "display": "stTIA",
+      "symbol": "stTIA",
+      "traces": [
+        {
+          "type": "liquid-stake",
+          "counterparty": {
+            "chainName": "celestia",
+            "baseDenom": "utia"
+          },
+          "provider": "Stride"
+        }
+      ],
+      "assetType": "sdk.Coin"
+    },
+    {
+      "description": "Stride's liquid staked DYM",
+      "denomUnits": [
+        {
+          "denom": "stadym",
+          "exponent": 0
+        },
+        {
+          "denom": "stDYM",
+          "exponent": 18
+        }
+      ],
+      "base": "stadym",
+      "name": "Stride Staked DYM",
+      "display": "stDYM",
+      "symbol": "stDYM",
+      "traces": [
+        {
+          "type": "liquid-stake",
+          "counterparty": {
+            "chainName": "dymension",
+            "baseDenom": "adym"
+          },
+          "provider": "Stride"
+        }
+      ],
+      "assetType": "sdk.Coin"
+    },
+    {
+      "denomUnits": [
+        {
+          "denom": "stuumee",
+          "exponent": 0
+        },
+        {
+          "denom": "stumee",
+          "exponent": 6
+        }
+      ],
+      "base": "stuumee",
+      "name": "Stride Staked UMEE",
+      "display": "stumee",
+      "symbol": "stUMEE",
+      "traces": [
+        {
+          "type": "liquid-stake",
+          "counterparty": {
+            "chainName": "umee",
+            "baseDenom": "uumee"
+          },
+          "provider": "Stride"
+        }
+      ],
+      "coingeckoId": "stride-staked-umee",
+      "assetType": "sdk.Coin"
+    },
+    {
+      "denomUnits": [
+        {
+          "denom": "stucmdx",
+          "exponent": 0
+        },
+        {
+          "denom": "stcmdx",
+          "exponent": 6
+        }
+      ],
+      "base": "stucmdx",
+      "name": "Stride Staked CMDX",
+      "display": "stcmdx",
+      "symbol": "stCMDX",
+      "traces": [
+        {
+          "type": "liquid-stake",
+          "counterparty": {
+            "chainName": "comdex",
+            "baseDenom": "ucmdx"
+          },
+          "provider": "Stride"
+        }
+      ],
+      "assetType": "sdk.Coin"
+    },
+    {
+      "denomUnits": [
+        {
+          "denom": "stusomm",
+          "exponent": 0
+        },
+        {
+          "denom": "stsomm",
+          "exponent": 6
+        }
+      ],
+      "base": "stusomm",
+      "name": "Stride Staked SOMM",
+      "display": "stsomm",
+      "symbol": "stSOMM",
+      "traces": [
+        {
+          "type": "liquid-stake",
+          "counterparty": {
+            "chainName": "sommelier",
+            "baseDenom": "usomm"
+          },
+          "provider": "Stride"
+        }
+      ],
+      "coingeckoId": "stride-staked-sommelier",
+      "assetType": "sdk.Coin"
+    },
+    {
+      "description": "Stride's liquid staked SAGA",
+      "denomUnits": [
+        {
+          "denom": "stusaga",
+          "exponent": 0
+        },
+        {
+          "denom": "stSAGA",
+          "exponent": 6
+        }
+      ],
+      "base": "stusaga",
+      "name": "Stride Staked SAGA",
+      "display": "stSAGA",
+      "symbol": "stSAGA",
+      "traces": [
+        {
+          "type": "liquid-stake",
+          "counterparty": {
+            "chainName": "saga",
+            "baseDenom": "usaga"
+          },
+          "provider": "Stride"
+        }
+      ],
+      "assetType": "sdk.Coin"
+    }
+  ]
+}

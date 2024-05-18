@@ -1,0 +1,49 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "chimbatestnet",
+  "networkType": "testnet",
+  "website": "https://chimba.ooo/",
+  "prettyName": "Chimba",
+  "chainId": "chimba-testnet",
+  "bech32Prefix": "chimba",
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "ucmba",
+        "fixedMinGasPrice": 0.25,
+        "lowGasPrice": 1,
+        "averageGasPrice": 5,
+        "highGasPrice": 10
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "ucmba"
+      }
+    ]
+  },
+  "codebase": {
+
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc.testnet.chimba.ooo"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://testnet.chimba.ooo"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "bigdipper",
+      "url": "https://explorer.testnet.chimba.ooo/",
+      "txPage": "https://explorer.testnet.chimba.ooo/transactions/${txHash}"
+    }
+  ]
+}

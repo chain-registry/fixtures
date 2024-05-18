@@ -1,0 +1,25 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "sentinel",
+  "assets": [
+    {
+      "description": "DVPN is the native token of the Sentinel Hub.",
+      "denomUnits": [
+        {
+          "denom": "udvpn",
+          "exponent": 0
+        },
+        {
+          "denom": "dvpn",
+          "exponent": 6
+        }
+      ],
+      "base": "udvpn",
+      "name": "Sentinel",
+      "display": "dvpn",
+      "symbol": "DVPN",
+      "coingeckoId": "sentinel",
+      "assetType": "sdk.Coin"
+    }
+  ]
+}

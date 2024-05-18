@@ -1,0 +1,35 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "sommelier",
+  "assets": [
+    {
+      "description": "Somm Token (SOMM) is the native staking token of the Sommelier Chain",
+      "denomUnits": [
+        {
+          "denom": "usomm",
+          "exponent": 0,
+          "aliases": [
+            "microsomm"
+          ]
+        },
+        {
+          "denom": "msomm",
+          "exponent": 3,
+          "aliases": [
+            "millisomm"
+          ]
+        },
+        {
+          "denom": "somm",
+          "exponent": 6
+        }
+      ],
+      "base": "usomm",
+      "name": "Sommelier",
+      "display": "somm",
+      "symbol": "SOMM",
+      "coingeckoId": "sommelier",
+      "assetType": "sdk.Coin"
+    }
+  ]
+}

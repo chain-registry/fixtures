@@ -1,0 +1,25 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "decentr",
+  "assets": [
+    {
+      "description": "The native token of Decentr",
+      "denomUnits": [
+        {
+          "denom": "udec",
+          "exponent": 0
+        },
+        {
+          "denom": "dec",
+          "exponent": 6
+        }
+      ],
+      "base": "udec",
+      "name": "Decentr",
+      "display": "dec",
+      "symbol": "DEC",
+      "coingeckoId": "decentr",
+      "assetType": "sdk.Coin"
+    }
+  ]
+}

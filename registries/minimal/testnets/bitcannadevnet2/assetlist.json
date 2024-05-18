@@ -1,0 +1,25 @@
+{
+  "$schema": "../../assetlist.schema.json",
+  "chainName": "bitcannadevnet2",
+  "assets": [
+    {
+      "description": "The BCNA coin is the transactional token within the BitCanna network, serving the legal cannabis industry through its payment network, supply chain and trust network.",
+      "denomUnits": [
+        {
+          "denom": "ubcna",
+          "exponent": 0
+        },
+        {
+          "denom": "bcna",
+          "exponent": 6
+        }
+      ],
+      "base": "ubcna",
+      "display": "bcna",
+      "name": "BitCanna",
+      "symbol": "BCNA",
+      "coingeckoId": "bitcanna",
+      "assetType": "sdk.Coin"
+    }
+  ]
+}

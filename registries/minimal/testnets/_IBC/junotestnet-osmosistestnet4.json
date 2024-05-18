@@ -1,0 +1,32 @@
+{
+  "$schema": "../ibc_data.schema.json",
+  "chain1": {
+    "chainName": "junotestnet",
+    "clientId": "07-tendermint-135",
+    "connectionId": "connection-151"
+  },
+  "chain2": {
+    "chainName": "osmosistestnet4",
+    "clientId": "07-tendermint-4413",
+    "connectionId": "connection-3814"
+  },
+  "channels": [
+    {
+      "chain1": {
+        "channelId": "channel-140",
+        "portId": "transfer"
+      },
+      "chain2": {
+        "channelId": "channel-3316",
+        "portId": "transfer"
+      },
+      "ordering": "unordered",
+      "version": "ics20-1",
+      "tags": {
+        "status": "live",
+        "preferred": true,
+        "dex": "osmosis"
+      }
+    }
+  ]
+}

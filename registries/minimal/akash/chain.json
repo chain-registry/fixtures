@@ -1,0 +1,230 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "akash",
+  "networkType": "mainnet",
+  "website": "https://akash.network/",
+  "prettyName": "Akash",
+  "chainId": "akashnet-2",
+  "bech32Prefix": "akash",
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "uakt",
+        "fixedMinGasPrice": 0,
+        "lowGasPrice": 0.00025,
+        "averageGasPrice": 0.0025,
+        "highGasPrice": 0.025
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "uakt"
+      }
+    ]
+  },
+  "codebase": {
+    "cosmosSdkVersion": "v0.45.16",
+    "ibcGoVersion": "v4.6.0"
+  },
+  "description": "Akash is open-source Supercloud that lets users buy and sell computing resources securely and efficiently. Purpose-built for public utility.",
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc.akash.forbole.com:443"
+      },
+      {
+        "address": "https://rpc-akash.ecostake.com:443"
+      },
+      {
+        "address": "https://akash-rpc.lavenderfive.com:443"
+      },
+      {
+        "address": "https://akash-rpc.polkachu.com"
+      },
+      {
+        "address": "https://rpc-akash.cosmos-spaces.cloud"
+      },
+      {
+        "address": "https://rpc-akash-ia.cosmosia.notional.ventures:443"
+      },
+      {
+        "address": "http://akash.c29r3.xyz:80/rpc"
+      },
+      {
+        "address": "https://akash-mainnet-rpc.autostake.com:443"
+      },
+      {
+        "address": "https://akash-rpc.kleomedes.network"
+      },
+      {
+        "address": "https://rpc-akash-01.stakeflow.io"
+      },
+      {
+        "address": "https://akash-mainnet-rpc.cosmonautstakes.com:443"
+      },
+      {
+        "address": "https://akash-rpc.w3coins.io"
+      },
+      {
+        "address": "https://akash-rpc.publicnode.com:443"
+      },
+      {
+        "address": "https://akash-rpc.validatornode.com"
+      },
+      {
+        "address": "https://rpc-akash.whispernode.com:443"
+      },
+      {
+        "address": "https://public.stakewolle.com/cosmos/akash/rpc"
+      },
+      {
+        "address": "https://akash.declab.pro:26601"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://api.akash.forbole.com:443"
+      },
+      {
+        "address": "https://rest-akash.ecostake.com"
+      },
+      {
+        "address": "https://akash-api.lavenderfive.com:443"
+      },
+      {
+        "address": "https://akash-api.polkachu.com"
+      },
+      {
+        "address": "https://api-akash.cosmos-spaces.cloud"
+      },
+      {
+        "address": "https://api-akash-ia.cosmosia.notional.ventures"
+      },
+      {
+        "address": "https://akash.c29r3.xyz:443/api"
+      },
+      {
+        "address": "https://akash-mainnet-lcd.autostake.com:443"
+      },
+      {
+        "address": "https://akash-api.kleomedes.network"
+      },
+      {
+        "address": "https://api-akash-01.stakeflow.io"
+      },
+      {
+        "address": "https://akash-mainnet-rest.cosmonautstakes.com:443"
+      },
+      {
+        "address": "https://akash-api.w3coins.io"
+      },
+      {
+        "address": "https://akash-rest.publicnode.com"
+      },
+      {
+        "address": "https://akash-api.validatornode.com"
+      },
+      {
+        "address": "https://api-akash.whispernode.com:443"
+      },
+      {
+        "address": "https://public.stakewolle.com/cosmos/akash/rest"
+      },
+      {
+        "address": "https://akash.declab.pro:443"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "grpc-akash-ia.cosmosia.notional.ventures:443"
+      },
+      {
+        "address": "akash-grpc.lavenderfive.com:443"
+      },
+      {
+        "address": "akash-grpc.polkachu.com:12890"
+      },
+      {
+        "address": "akash-mainnet-grpc.autostake.com:443"
+      },
+      {
+        "address": "grpc-akash.cosmos-spaces.cloud:1110"
+      },
+      {
+        "address": "grpc-akash-01.stakeflow.io:1502"
+      },
+      {
+        "address": "akash-grpc.w3coins.io:12890"
+      },
+      {
+        "address": "akash-grpc.publicnode.com:443"
+      },
+      {
+        "address": "https://akash.declab.pro:9001"
+      },
+      {
+        "address": "grpc-akash.whispernode.com:443"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "ezstaking",
+      "url": "https://ezstaking.app/akash",
+      "txPage": "https://ezstaking.app/akash/txs/${txHash}",
+      "accountPage": "https://ezstaking.app/akash/account/${accountAddress}"
+    },
+    {
+      "kind": "mintscan",
+      "url": "https://www.mintscan.io/akash",
+      "txPage": "https://www.mintscan.io/akash/transactions/${txHash}",
+      "accountPage": "https://www.mintscan.io/akash/accounts/${accountAddress}"
+    },
+    {
+      "kind": "ping.pub",
+      "url": "https://ping.pub/akash-network",
+      "txPage": "https://ping.pub/akash-network/tx/${txHash}"
+    },
+    {
+      "kind": "atomscan",
+      "url": "https://atomscan.com/akash",
+      "txPage": "https://atomscan.com/akash/transactions/${txHash}",
+      "accountPage": "https://atomscan.com/akash/accounts/${accountAddress}"
+    },
+    {
+      "kind": "cloudmos",
+      "url": "https://cloudmos.io/blocks",
+      "txPage": "https://cloudmos.io/transactions/${txHash}"
+    },
+    {
+      "kind": "Stakeflow",
+      "url": "https://stakeflow.io/akash",
+      "accountPage": "https://stakeflow.io/akash/accounts/${accountAddress}"
+    },
+    {
+      "kind": "ValidatorNode",
+      "url": "https://explorer.validatornode.com/akash-network",
+      "txPage": "https://explorer.validatornode.com/akash-network/tx/${txHash}"
+    },
+    {
+      "kind": "Decloud Nodes Lab",
+      "url": "https://explorer.declab.pro/Akash",
+      "txPage": "https://explorer.declab.pro/Akash/tx/${txHash}"
+    },
+    {
+      "kind": "WhisperNode 🤐",
+      "url": "https://mainnet.whispernode.com/akash",
+      "txPage": "https://mainnet.whispernode.com/akash/tx/${txHash}",
+      "accountPage": "https://mainnet.whispernode.com/akash/account/${accountAddress}"
+    }
+  ],
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/akash/images/akt.png",
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/akash/images/akt.svg"
+    }
+  ]
+}

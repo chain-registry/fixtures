@@ -1,0 +1,25 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "bitcoin",
+  "assets": [
+    {
+      "description": "Bitcoin",
+      "denomUnits": [
+        {
+          "denom": "sat",
+          "exponent": 0
+        },
+        {
+          "denom": "btc",
+          "exponent": 8
+        }
+      ],
+      "assetType": "bitcoin-like",
+      "base": "sat",
+      "name": "Bitcoin",
+      "display": "btc",
+      "symbol": "BTC",
+      "coingeckoId": "bitcoin"
+    }
+  ]
+}

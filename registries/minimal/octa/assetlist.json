@@ -1,0 +1,30 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "octa",
+  "assets": [
+    {
+      "description": "The native token of Octa Chain",
+      "denomUnits": [
+        {
+          "denom": "uocta",
+          "exponent": 0,
+          "aliases": [
+
+          ]
+        },
+        {
+          "denom": "octa",
+          "exponent": 6,
+          "aliases": [
+
+          ]
+        }
+      ],
+      "base": "uocta",
+      "display": "octa",
+      "name": "Octa",
+      "symbol": "OCTA",
+      "assetType": "sdk.Coin"
+    }
+  ]
+}

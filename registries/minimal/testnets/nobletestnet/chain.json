@@ -1,0 +1,77 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "nobletestnet",
+  "chainId": "grand-1",
+  "website": "https://nobleassets.xyz/",
+  "prettyName": "Noble",
+  "networkType": "testnet",
+  "bech32Prefix": "noble",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "uusdc",
+        "fixedMinGasPrice": 0,
+        "lowGasPrice": 0.01,
+        "averageGasPrice": 0.025,
+        "highGasPrice": 0.03
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "ustake"
+      }
+    ],
+    "lockDuration": {
+      "time": "1814400s"
+    }
+  },
+  "codebase": {
+    "cosmosSdkVersion": "v0.45",
+    "cosmwasmEnabled": false,
+    "ibcGoVersion": "v3.4.0",
+    "icsEnabled": [
+      "ics20-1"
+    ]
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://noble-testnet-rpc.polkachu.com"
+      },
+      {
+        "address": "https://rpc.testnet.noble.strange.love:443"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://noble-testnet-api.polkachu.com"
+      },
+      {
+        "address": "https://api.testnet.noble.strange.love"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "noble-testnet-grpc.polkachu.com:21590"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "mintscan",
+      "url": "https://mintscan.io/noble-testnet",
+      "txPage": "https://mintscan.io/noble-testnet/txs/${txHash}"
+    },
+    {
+      "kind": "ping.pub",
+      "url": "https://explore.strange.love/grand-1",
+      "txPage": "https://explore.strange.love/grand-1/tx/${txHash}"
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "stargaze",
+  "assets": [
+    {
+      "description": "The native token of Stargaze",
+      "denomUnits": [
+        {
+          "denom": "ustars",
+          "exponent": 0
+        },
+        {
+          "denom": "stars",
+          "exponent": 6
+        }
+      ],
+      "base": "ustars",
+      "name": "Stargaze",
+      "display": "stars",
+      "symbol": "STARS",
+      "coingeckoId": "stargaze",
+      "assetType": "sdk.Coin"
+    },
+    {
+      "description": "The native token of ohhNFT.",
+      "denomUnits": [
+        {
+          "denom": "factory/stars16da2uus9zrsy83h23ur42v3lglg5rmyrpqnju4/dust",
+          "exponent": 0
+        },
+        {
+          "denom": "strdst",
+          "exponent": 6
+        }
+      ],
+      "base": "factory/stars16da2uus9zrsy83h23ur42v3lglg5rmyrpqnju4/dust",
+      "name": "Stardust STRDST",
+      "display": "strdst",
+      "symbol": "STRDST",
+      "coingeckoId": "",
+      "assetType": "sdk.Factory"
+    },
+    {
+      "description": "The native meme token of stargaze.",
+      "denomUnits": [
+        {
+          "denom": "factory/stars16da2uus9zrsy83h23ur42v3lglg5rmyrpqnju4/mGAZE",
+          "exponent": 0
+        },
+        {
+          "denom": "GAZE",
+          "exponent": 6
+        }
+      ],
+      "base": "factory/stars16da2uus9zrsy83h23ur42v3lglg5rmyrpqnju4/mGAZE",
+      "name": "Gaze GAZE",
+      "display": "GAZE",
+      "symbol": "GAZE",
+      "coingeckoId": "",
+      "assetType": "sdk.Factory"
+    },
+    {
+      "description": "ohhNFT LP token.",
+      "denomUnits": [
+        {
+          "denom": "factory/stars16da2uus9zrsy83h23ur42v3lglg5rmyrpqnju4/uBRNCH",
+          "exponent": 0
+        },
+        {
+          "denom": "BRNCH",
+          "exponent": 6
+        }
+      ],
+      "base": "factory/stars16da2uus9zrsy83h23ur42v3lglg5rmyrpqnju4/uBRNCH",
+      "name": "Branch",
+      "display": "BRNCH",
+      "symbol": "BRNCH",
+      "coingeckoId": "",
+      "assetType": "sdk.Factory"
+    },
+    {
+      "description": "Social token for the ohhVAULT.",
+      "denomUnits": [
+        {
+          "denom": "factory/stars16da2uus9zrsy83h23ur42v3lglg5rmyrpqnju4/uOHH",
+          "exponent": 0
+        },
+        {
+          "denom": "OHH",
+          "exponent": 6
+        }
+      ],
+      "base": "factory/stars16da2uus9zrsy83h23ur42v3lglg5rmyrpqnju4/uOHH",
+      "name": "ohhVAULT ohh",
+      "display": "OHH",
+      "symbol": "OHH",
+      "coingeckoId": "",
+      "assetType": "sdk.Factory"
+    },
+    {
+      "description": "The native coin of Sneaky Productions.",
+      "denomUnits": [
+        {
+          "denom": "factory/stars1xx5976njvxpl9n4v8huvff6cudhx7yuu8e7rt4/usneaky",
+          "exponent": 0
+        },
+        {
+          "denom": "sneaky",
+          "exponent": 6
+        }
+      ],
+      "base": "factory/stars1xx5976njvxpl9n4v8huvff6cudhx7yuu8e7rt4/usneaky",
+      "name": "Sneaky Productions",
+      "display": "sneaky",
+      "symbol": "SNEAKY",
+      "coingeckoId": "",
+      "assetType": "sdk.Factory"
+    },
+    {
+      "description": "LAB - Everything is an Experiment",
+      "denomUnits": [
+        {
+          "denom": "ibc/93B1AE0AD5E88242745B245064A2A51DDA1319C18176A966D5F8F9E02ED5373E",
+          "exponent": 0
+        },
+        {
+          "denom": "LAB",
+          "exponent": 6
+        }
+      ],
+      "assetType": "ics20",
+      "base": "ibc/93B1AE0AD5E88242745B245064A2A51DDA1319C18176A966D5F8F9E02ED5373E",
+      "name": "LAB",
+      "display": "LAB",
+      "symbol": "LAB",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "osmosis",
+            "baseDenom": "factory/osmo17fel472lgzs87ekt9dvk0zqyh5gl80sqp4sk4n/LAB",
+            "channelId": "channel-75"
+          },
+          "chain": {
+            "channelId": "channel-0",
+            "path": "transfer/channel-0/factory/osmo17fel472lgzs87ekt9dvk0zqyh5gl80sqp4sk4n/LAB"
+          }
+        }
+      ]
+    }
+  ]
+}

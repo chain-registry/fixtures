@@ -1,0 +1,52 @@
+{
+  "$schema": "../../chain.schema.json",
+  "chainName": "sixtestnet",
+  "networkType": "testnet",
+  "prettyName": "SIX Fivenet",
+  "chainId": "fivenet",
+  "bech32Prefix": "6x",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "usix",
+        "fixedMinGasPrice": 1.25,
+        "lowGasPrice": 1.25,
+        "averageGasPrice": 1.5,
+        "highGasPrice": 1.75
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "usix"
+      }
+    ]
+  },
+  "codebase": {
+    "cosmosSdkVersion": "0.45"
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc1.fivenet.sixprotocol.net:443"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://api1.fivenet.sixprotocol.net:443"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "sixscan",
+      "url": "https://sixscan.io/fivenet",
+      "txPage": "https://sixscan.io/fivenet/tx/${txHash}"
+    }
+  ]
+}

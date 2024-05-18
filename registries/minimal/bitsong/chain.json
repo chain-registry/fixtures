@@ -1,0 +1,191 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "bitsong",
+  "networkType": "mainnet",
+  "website": "https://bitsong.io/",
+  "prettyName": "BitSong",
+  "chainId": "bitsong-2b",
+  "bech32Prefix": "bitsong",
+  "slip44": 639,
+  "codebase": {
+    "cosmosSdkVersion": "v0.45.16",
+    "cosmwasmVersion": "v0.33.0",
+    "cosmwasmEnabled": true,
+    "ibcGoVersion": "v4.4.2"
+  },
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "ubtsg",
+        "fixedMinGasPrice": 0,
+        "lowGasPrice": 3,
+        "averageGasPrice": 10,
+        "highGasPrice": 20
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "ubtsg"
+      }
+    ]
+  },
+  "description": "Artists, Fans, Managers and Labels in One Single Holistic Ecosystem: $BTSG. Earn real-time royalties, discover exclusive content, mint and trade Fantokens, buy & sell NFTs.",
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc-bitsong-ia.cosmosia.notional.ventures/"
+      },
+      {
+        "address": "https://rpc.explorebitsong.com"
+      },
+      {
+        "address": "https://bitsong-rpc.validatrium.club"
+      },
+      {
+        "address": "https://rpc.bitsong.chaintools.tech/"
+      },
+      {
+        "address": "https://rpc.bitsong.quokkastake.io"
+      },
+      {
+        "address": "https://bitsong-rpc.lavenderfive.com/"
+      },
+      {
+        "address": "https://rpc-bitsong.starsquid.io"
+      },
+      {
+        "address": "https://rpc-bitsong.architectnodes.com"
+      },
+      {
+        "address": "http://bitsong.statesync.nodersteam.com:11657"
+      },
+      {
+        "address": "https://rpc.bitsong.safeblock.space"
+      },
+      {
+        "address": "https://bitsong.tdrsys.com:2053"
+      },
+      {
+        "address": "https://bitsong-rpc.panthea.eu"
+      },
+      {
+        "address": "https://rpc.bitsong.mathnodes.com"
+      },
+      {
+        "address": "https://bitsong-rpc.noders.services"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://api-bitsong-ia.cosmosia.notional.ventures/"
+      },
+      {
+        "address": "https://lcd.explorebitsong.com/"
+      },
+      {
+        "address": "https://bitsong-api.validatrium.club"
+      },
+      {
+        "address": "https://api.bitsong.quokkastake.io"
+      },
+      {
+        "address": "http://bitsong.api.nodersteam.com:11017"
+      },
+      {
+        "address": "https://bitsong-api.lavenderfive.com/"
+      },
+      {
+        "address": "https://api-bitsong.starsquid.io"
+      },
+      {
+        "address": "https://rest-bitsong.architectnodes.com"
+      },
+      {
+        "address": "https://api.bitsong.safeblock.space"
+      },
+      {
+        "address": "https://bitsong.tdrsys.com"
+      },
+      {
+        "address": "https://bitsong-api.panthea.eu"
+      },
+      {
+        "address": "https://api.bitsong.mathnodes.com"
+      },
+      {
+        "address": "https://bitsong-api.noders.services"
+      },
+      {
+        "address": "https://bitsong.api.m.stavr.tech"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "grpc-bitsong-ia.cosmosia.notional.ventures:443"
+      },
+      {
+        "address": "bitsong-grpc.lavenderfive.com:443"
+      },
+      {
+        "address": "bitsong.grpc.nodersteam.com:9111/"
+      },
+      {
+        "address": "grpc.bitsong.safeblock.space:9090"
+      },
+      {
+        "address": "bitsong-grpc.panthea.eu:16750"
+      },
+      {
+        "address": "grpc.bitsong.mathnodes.com:9092"
+      },
+      {
+        "address": "bitsong-grpc.noders.services:20090"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "ezstaking",
+      "url": "https://ezstaking.app/bitsong",
+      "txPage": "https://ezstaking.app/bitsong/txs/${txHash}",
+      "accountPage": "https://ezstaking.app/bitsong/account/${accountAddress}"
+    },
+    {
+      "kind": "ping.pub",
+      "url": "https://ping.pub/bitsong",
+      "txPage": "https://ping.pub/bitsong/tx/${txHash}"
+    },
+    {
+      "kind": "mintscan",
+      "url": "https://www.mintscan.io/bitsong",
+      "txPage": "https://www.mintscan.io/bitsong/transactions/${txHash}",
+      "accountPage": "https://www.mintscan.io/bitsong/accounts/${accountAddress}"
+    },
+    {
+      "kind": "atomscan",
+      "url": "https://atomscan.com/bitsong",
+      "txPage": "https://atomscan.com/bitsong/transactions/${txHash}",
+      "accountPage": "https://atomscan.com/bitsong/accounts/${accountAddress}"
+    },
+    {
+      "kind": "Safe Block",
+      "url": "https://explorer.safeblok.space/bitsong",
+      "txPage": "https://explorer.safeblock.space/bitsong/tx/${txHash}",
+      "accountPage": "https://explorer.safeblock.space/bitsong/account/${accountAddress}"
+    },
+    {
+      "kind": "🔥STAVR🔥",
+      "url": "https://explorer.stavr.tech/Bitsong",
+      "txPage": "https://explorer.stavr.tech/Bitsong/tx/${txHash}",
+      "accountPage": "https://explorer.stavr.tech/Bitsong/account/${accountAddress}"
+    }
+  ],
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bitsong/images/btsg.png",
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bitsong/images/btsg.svg"
+    }
+  ]
+}

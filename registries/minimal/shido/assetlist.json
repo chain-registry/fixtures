@@ -1,0 +1,25 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "shido",
+  "assets": [
+    {
+      "description": "The native EVM and Wasm, governance and staking token of the Shido Chain",
+      "denomUnits": [
+        {
+          "denom": "shido",
+          "exponent": 0
+        },
+        {
+          "denom": "SHIDO",
+          "exponent": 18
+        }
+      ],
+      "base": "shido",
+      "name": "Shido",
+      "display": "SHIDO",
+      "symbol": "SHIDO",
+      "coingeckoId": "shido-2",
+      "assetType": "sdk.Coin"
+    }
+  ]
+}

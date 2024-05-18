@@ -1,0 +1,117 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "rizon",
+  "networkType": "mainnet",
+  "website": "https://rizon.world/",
+  "prettyName": "Rizon",
+  "chainId": "titan-1",
+  "bech32Prefix": "rizon",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "uatolo",
+        "lowGasPrice": 0.025,
+        "averageGasPrice": 0.025,
+        "highGasPrice": 0.035
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "uatolo"
+      }
+    ]
+  },
+  "codebase": {
+
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpcapi.rizon.world/"
+      },
+      {
+        "address": "https://rpc.rizon.chaintools.tech/"
+      },
+      {
+        "address": "https://rizon-rpc.ibs.team/"
+      },
+      {
+        "address": "https://rizon-rpc.publicnode.com:443"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://restapi.rizon.world/"
+      },
+      {
+        "address": "https://api.rizon.chaintools.tech/"
+      },
+      {
+        "address": "https://rizon-api.ibs.team/"
+      },
+      {
+        "address": "https://rizon-rest.publicnode.com"
+      },
+      {
+        "address": "https://rizon.api.m.stavr.tech"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "grpc-rizon.mms.team:443"
+      },
+      {
+        "address": "rizon-grpc.publicnode.com:443"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "ezstaking",
+      "url": "https://ezstaking.app/rizon",
+      "txPage": "https://ezstaking.app/rizon/txs/${txHash}",
+      "accountPage": "https://ezstaking.app/rizon/account/${accountAddress}"
+    },
+    {
+      "kind": "mintscan",
+      "url": "https://www.mintscan.io/rizon",
+      "txPage": "https://www.mintscan.io/rizon/transactions/${txHash}",
+      "accountPage": "https://www.mintscan.io/rizon/accounts/${accountAddress}"
+    },
+    {
+      "kind": "ping.pub",
+      "url": "https://ping.pub/rizon",
+      "txPage": "https://ping.pub/rizon/tx/${txHash}"
+    },
+    {
+      "kind": "atomscan",
+      "url": "https://atomscan.com/rizon",
+      "txPage": "https://atomscan.com/rizon/transactions/${txHash}",
+      "accountPage": "https://atomscan.com/rizon/accounts/${accountAddress}"
+    },
+    {
+      "kind": "bigdipper",
+      "url": "https://bigdipper.live/rizon",
+      "txPage": "https://bigdipper.live/rizon/transactions/${txHash}",
+      "accountPage": "https://bigdipper.live/rizon/accounts/${accountAddress}"
+    },
+    {
+      "kind": "🔥STAVR🔥",
+      "url": "https://explorer.stavr.tech/Rizon",
+      "txPage": "https://explorer.stavr.tech/Rizon/tx/${txHash}",
+      "accountPage": "https://explorer.stavr.tech/Rizon/accounts/${accountAddress}"
+    }
+  ],
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/rizon/images/atolo.png",
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/rizon/images/atolo.svg"
+    }
+  ]
+}

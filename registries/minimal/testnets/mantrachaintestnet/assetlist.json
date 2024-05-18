@@ -1,0 +1,31 @@
+{
+  "$schema": "../../assetlist.schema.json",
+  "chainName": "mantrachaintestnet",
+  "assets": [
+    {
+      "description": "The native token of MANTRA",
+      "denomUnits": [
+        {
+          "denom": "uom",
+          "exponent": 0,
+          "aliases": [
+
+          ]
+        },
+        {
+          "denom": "om",
+          "exponent": 6,
+          "aliases": [
+
+          ]
+        }
+      ],
+      "base": "uom",
+      "name": "MANTRA Chain",
+      "display": "om",
+      "symbol": "OM",
+      "coingeckoId": "",
+      "assetType": "sdk.Coin"
+    }
+  ]
+}

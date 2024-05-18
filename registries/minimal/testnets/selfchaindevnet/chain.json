@@ -1,0 +1,42 @@
+{
+  "$schema": "../../chain.schema.json",
+  "chainName": "selfchaindevnet",
+  "chainId": "self-dev-1",
+  "prettyName": "Devnet 1",
+  "networkType": "testnet",
+  "bech32Prefix": "self",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "uself",
+        "fixedMinGasPrice": 0
+      }
+    ]
+  },
+  "codebase": {
+
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc-devnet.selfchain.xyz"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://api-devnet.selfchain.xyz/"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "Selfchain",
+      "url": "https://explorer-devnet.selfchain.xyz",
+      "txPage": "https://explorer-devnet.selfchain.xyz/self/transactions/${txHash}"
+    }
+  ]
+}

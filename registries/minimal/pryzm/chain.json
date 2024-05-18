@@ -1,0 +1,89 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "pryzm",
+  "networkType": "mainnet",
+  "prettyName": "Pryzm",
+  "chainId": "pryzm-1",
+  "bech32Prefix": "pryzm",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "factory/pryzm1jnhcsa5ddjsjq2t97v6a82z542rduxvtw6wd9h/uauuu",
+        "fixedMinGasPrice": 0,
+        "lowGasPrice": 0.01,
+        "averageGasPrice": 0.01,
+        "highGasPrice": 0.01
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "upryzm"
+      }
+    ]
+  },
+  "codebase": {
+    "cosmosSdkVersion": "0.47.10",
+    "ibcGoVersion": "7.4.0"
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc.pryzm.zone"
+      },
+      {
+        "address": "https://pryzm-rpc.lavenderfive.com"
+      },
+      {
+        "address": "https://pryzm-mainnet-rpc.autostake.com:443"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://api.pryzm.zone"
+      },
+      {
+        "address": "https://pryzm-api.lavenderfive.com"
+      },
+      {
+        "address": "https://pryzm-mainnet-lcd.autostake.com:443"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "https://grpc.pryzm.zone"
+      },
+      {
+        "address": "https://pryzm-grpc.lavenderfive.com"
+      },
+      {
+        "address": "pryzm-mainnet-grpc.autostake.com:443"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "Chainscope",
+      "url": "https://chainsco.pe/pryzm",
+      "txPage": "https://chainsco.pe/pryzm/tx/${txHash}",
+      "accountPage": "https://chainsco.pe/pryzm/address/${accountAddress}"
+    },
+    {
+      "kind": "PingPub",
+      "url": "https://cosmosrun.info/pryzm",
+      "txPage": "https://cosmosrun.info/pryzm/tx/${txHash}",
+      "accountPage": "https://cosmosrun.info/pryzm/account/${accountAddress}"
+    }
+  ],
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pryzm-logo.png",
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pryzm-logo.svg"
+    }
+  ]
+}

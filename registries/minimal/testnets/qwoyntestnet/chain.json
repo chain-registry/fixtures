@@ -1,0 +1,65 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "qwoyntestnet",
+  "networkType": "testnet",
+  "website": "https://qwoyn.studio/",
+  "prettyName": "Qwoyn",
+  "chainId": "earendel-1",
+  "bech32Prefix": "qwoyn",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "uqwoyn"
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "uqwoyn"
+      }
+    ]
+  },
+  "codebase": {
+    "cosmosSdkVersion": "0.47.3",
+    "ibcGoVersion": "7.0.1",
+    "icsEnabled": [
+      "ics20-1",
+      "ics27-1"
+    ]
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://testnet-rpc.qwoyn.studio"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "http://66.42.74.12:9090"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://testnet-api.qwoyn.studio"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "pingfork",
+      "url": "https://explorer.theamsolutions.info/qwoyn-testnet/",
+      "txPage": "https://explorer.theamsolutions.info/qwoyn-testnet/tx/${txHash}",
+      "accountPage": "https://explorer.theamsolutions.info/qwoyn-testnet/account/${accountAddress}"
+    }
+  ],
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/qwoyntestnet/images/qwoyn.png"
+    }
+  ]
+}

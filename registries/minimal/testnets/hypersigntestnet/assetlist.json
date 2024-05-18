@@ -1,0 +1,25 @@
+{
+  "$schema": "../../assetlist.schema.json",
+  "chainName": "hypersigntestnet",
+  "assets": [
+    {
+      "description": "Native token for Hypersign Identity Network",
+      "denomUnits": [
+        {
+          "denom": "uhid",
+          "exponent": 0
+        },
+        {
+          "denom": "hid",
+          "exponent": 6
+        }
+      ],
+      "base": "uhid",
+      "display": "hid",
+      "name": "Hypersign",
+      "symbol": "HID",
+      "coingeckoId": "hypersign-identity-token",
+      "assetType": "sdk.Coin"
+    }
+  ]
+}

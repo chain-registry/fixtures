@@ -1,0 +1,65 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "loop",
+  "networkType": "mainnet",
+  "website": "https://www.loop.fans/",
+  "prettyName": "Loop",
+  "chainId": "loop-1",
+  "bech32Prefix": "loop",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "token",
+        "fixedMinGasPrice": 0,
+        "lowGasPrice": 0,
+        "averageGasPrice": 0,
+        "highGasPrice": 0
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "upoa"
+      }
+    ]
+  },
+  "codebase": {
+    "cosmwasmEnabled": true,
+    "ibcGoVersion": "v7.3.1",
+    "icsEnabled": [
+      "ics20-1"
+    ]
+  },
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/loop/images/loop.png",
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/loop/images/loop.svg",
+      "layout": "logomark"
+    }
+  ],
+  "description": "Empowering Artists and Superfans.",
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc.loop.pfc.zone/"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://api.loop.pfc.zone/"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "ping.pub",
+      "url": "https://ping.pfc.zone/loop",
+      "txPage": "https://ping.pfc.zone/loop/tx/${txHash}"
+    }
+  ]
+}

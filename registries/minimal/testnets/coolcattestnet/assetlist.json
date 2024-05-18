@@ -1,0 +1,24 @@
+{
+  "$schema": "../../assetlist.schema.json",
+  "chainName": "coolcattestnet",
+  "assets": [
+    {
+      "description": "CoolCat - The Interchain Gaming Hub. $CCAT is the native token for use in the CoolCat Network.",
+      "denomUnits": [
+        {
+          "denom": "uccat",
+          "exponent": 0
+        },
+        {
+          "denom": "ccat",
+          "exponent": 6
+        }
+      ],
+      "base": "uccat",
+      "name": "CoolCat",
+      "display": "ccat",
+      "symbol": "CCAT",
+      "assetType": "sdk.Coin"
+    }
+  ]
+}

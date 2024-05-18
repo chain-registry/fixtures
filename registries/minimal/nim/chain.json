@@ -1,0 +1,65 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "nim",
+  "networkType": "mainnet",
+  "website": "https://ai.nim.network",
+  "prettyName": "Nim Network",
+  "chainId": "nim_1122-1",
+  "bech32Prefix": "nim",
+  "slip44": 60,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "anim",
+        "lowGasPrice": 20000000000,
+        "averageGasPrice": 20000000000,
+        "highGasPrice": 20000000000
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "anim"
+      }
+    ],
+    "lockDuration": {
+      "time": "1209600s"
+    }
+  },
+  "description": "Nim Network is a highly-adoptable AI Gaming chain that will provide the ultimate ecosystem for exploration and development of games at the intersection of Web3 and AI.",
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nim/images/nim.png",
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nim/images/nim.svg"
+    }
+  ],
+  "codebase": {
+
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://nim-mainnet-tendermint.public.blastapi.io"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://nim-mainnet-rest.public.blastapi.io"
+      }
+    ],
+    "evmHttpJsonrpc": [
+      {
+        "address": "https://nim-mainnet.public.blastapi.io"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "FYI",
+      "url": "https://dym.fyi/r/nim",
+      "txPage": "https://dym.fyi/r/nim/tx/${txHash}",
+      "accountPage": "https://dym.fyi/r/nim/address/${accountAddress}"
+    }
+  ]
+}

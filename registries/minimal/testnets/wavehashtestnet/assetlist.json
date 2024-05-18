@@ -1,0 +1,25 @@
+{
+  "$schema": "../../assetlist.schema.json",
+  "chainName": "wavehashtestnet",
+  "assets": [
+    {
+      "description": "WaveHash A Permissioned Blockchain",
+      "denomUnits": [
+        {
+          "denom": "uwahax",
+          "exponent": 0
+        },
+        {
+          "denom": "wahax",
+          "exponent": 6
+        }
+      ],
+      "base": "uwahax",
+      "name": "WaveHash",
+      "display": "wahax",
+      "symbol": "WAHAX",
+      "coingeckoId": "",
+      "assetType": "sdk.Coin"
+    }
+  ]
+}

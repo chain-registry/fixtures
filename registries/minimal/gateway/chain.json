@@ -1,0 +1,83 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "gateway",
+  "networkType": "mainnet",
+  "website": "https://wormhole.com",
+  "prettyName": "Wormhole Gateway",
+  "chainId": "wormchain",
+  "bech32Prefix": "wormhole",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "utest",
+        "fixedMinGasPrice": 0,
+        "lowGasPrice": 0,
+        "averageGasPrice": 0,
+        "highGasPrice": 0
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "uworm"
+      }
+    ]
+  },
+  "codebase": {
+    "cosmosSdkVersion": "github.com/wormhole-foundation/cosmos-sdk@v0.45.9-wormhole-2",
+    "cosmwasmVersion": "github.com/wormhole-foundation/wasmd@v0.30.0-wormchain-2",
+    "cosmwasmEnabled": true,
+    "ibcGoVersion": "4.2.2",
+    "icsEnabled": [
+      "ics20-1"
+    ]
+  },
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/gateway/images/gateway_logo.png",
+      "theme": {
+        "primaryColorHex": "#0F0C48"
+      }
+    },
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/gateway/images/gateway_logo.png",
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/gateway/images/wormhole_logo.svg"
+    }
+  ],
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://tncnt-eu-wormchain-main-01.rpc.p2p.world/"
+      },
+      {
+        "address": "https://wormchain-rpc.quickapi.com/"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://tncnt-eu-wormchain-main-01.rpc.p2p.world/lcd/"
+      },
+      {
+        "address": "https://wormchain-lcd.quickapi.com/"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "tncnt-eu-wormchain-main-01-grpc.rpc.p2p.world:80"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "bigdipper",
+      "url": "https://bigdipper.live/wormhole",
+      "txPage": "https://bigdipper.live/wormhole/transactions/${txHash}",
+      "accountPage": "https://bigdipper.live/wormhole/accounts/${accountAddress}"
+    }
+  ]
+}

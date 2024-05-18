@@ -1,0 +1,25 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "dhealth",
+  "assets": [
+    {
+      "description": "The native token of dHealth",
+      "denomUnits": [
+        {
+          "denom": "udhp",
+          "exponent": 0
+        },
+        {
+          "denom": "dhp",
+          "exponent": 6
+        }
+      ],
+      "base": "udhp",
+      "name": "Digital Health Point",
+      "display": "dhp",
+      "symbol": "DHP",
+      "coingeckoId": "dhealth",
+      "assetType": "sdk.Coin"
+    }
+  ]
+}

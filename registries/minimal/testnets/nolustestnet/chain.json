@@ -1,0 +1,74 @@
+{
+  "$schema": "../../chain.schema.json",
+  "chainName": "nolustestnet",
+  "website": "https://nolus.io/",
+  "networkType": "testnet",
+  "prettyName": "Nolus Testnet",
+  "chainId": "rila-1",
+  "bech32Prefix": "nolus",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "unls",
+        "lowGasPrice": 0.01,
+        "averageGasPrice": 0.025,
+        "highGasPrice": 0.05
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "unls"
+      }
+    ],
+    "lockDuration": {
+      "time": "1814400s"
+    }
+  },
+  "codebase": {
+    "cosmosSdkVersion": "0.45",
+    "cosmwasmVersion": "0.31",
+    "cosmwasmEnabled": true,
+    "ibcGoVersion": "4.3.0",
+    "icsEnabled": [
+      "ics20-1",
+      "ics27-1"
+    ]
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rila-cl.nolus.network:26657"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://rila-cl.nolus.network:1317"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "https://rila-cl.nolus.network:9090"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "Nolus Explorer",
+      "url": "https://explorer-rila.nolus.io/rila-1/",
+      "txPage": "https://explorer-rila.nolus.io/rila-1/tx/${txHash}",
+      "accountPage": "https://explorer-rila.nolus.io/rila-1/account/${accountAddress}"
+    }
+  ],
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/nolustestnet/images/nolus.png",
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/nolustestnet/images/nolus.svg"
+    }
+  ]
+}

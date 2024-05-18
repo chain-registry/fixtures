@@ -1,0 +1,25 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "tinkernet",
+  "assets": [
+    {
+      "description": "The native fee, governance and staking token of the Tinkernet Parachain.",
+      "denomUnits": [
+        {
+          "denom": "Planck",
+          "exponent": 0
+        },
+        {
+          "denom": "TNKR",
+          "exponent": 12
+        }
+      ],
+      "base": "Planck",
+      "name": "Tinkernet",
+      "display": "TNKR",
+      "symbol": "TNKR",
+      "coingeckoId": "tinkernet",
+      "assetType": "unknown"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "vidulum",
+  "assets": [
+    {
+      "description": "The native token of Vidulum",
+      "denomUnits": [
+        {
+          "denom": "uvdl",
+          "exponent": 0
+        },
+        {
+          "denom": "vdl",
+          "exponent": 6
+        }
+      ],
+      "base": "uvdl",
+      "name": "Vidulum",
+      "display": "vdl",
+      "symbol": "VDL",
+      "coingeckoId": "vidulum",
+      "assetType": "unknown"
+    }
+  ]
+}

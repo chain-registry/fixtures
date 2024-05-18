@@ -1,0 +1,24 @@
+{
+  "$schema": "../../assetlist.schema.json",
+  "chainName": "galacticatestnet",
+  "assets": [
+    {
+      "description": "The native token of Galactica Protocol Testnet",
+      "denomUnits": [
+        {
+          "denom": "agnet",
+          "exponent": 0
+        },
+        {
+          "denom": "gnet",
+          "exponent": 18
+        }
+      ],
+      "base": "agnet",
+      "name": "Gnet",
+      "display": "gnet",
+      "symbol": "GNET",
+      "assetType": "sdk.Coin"
+    }
+  ]
+}

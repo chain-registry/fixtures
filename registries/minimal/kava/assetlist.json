@@ -1,0 +1,110 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "kava",
+  "assets": [
+    {
+      "description": "The native staking and governance token of Kava",
+      "denomUnits": [
+        {
+          "denom": "ukava",
+          "exponent": 0
+        },
+        {
+          "denom": "kava",
+          "exponent": 6
+        }
+      ],
+      "base": "ukava",
+      "name": "Kava",
+      "display": "kava",
+      "symbol": "KAVA",
+      "coingeckoId": "kava",
+      "assetType": "unknown"
+    },
+    {
+      "description": "Governance token of Kava Lend Protocol",
+      "denomUnits": [
+        {
+          "denom": "hard",
+          "exponent": 0
+        },
+        {
+          "denom": "HARD",
+          "exponent": 6
+        }
+      ],
+      "base": "hard",
+      "name": "Kava Hard",
+      "display": "HARD",
+      "symbol": "HARD",
+      "coingeckoId": "kava-lend",
+      "assetType": "unknown"
+    },
+    {
+      "description": "Governance token of Kava Swap Protocol",
+      "denomUnits": [
+        {
+          "denom": "swp",
+          "exponent": 0
+        },
+        {
+          "denom": "SWP",
+          "exponent": 6
+        }
+      ],
+      "base": "swp",
+      "name": "Kava Swap",
+      "display": "SWP",
+      "symbol": "SWP",
+      "coingeckoId": "kava-swap",
+      "assetType": "unknown"
+    },
+    {
+      "description": "The native stablecoin of Kava",
+      "denomUnits": [
+        {
+          "denom": "usdx",
+          "exponent": 0
+        },
+        {
+          "denom": "USDX",
+          "exponent": 6
+        }
+      ],
+      "base": "usdx",
+      "name": "Kava USDX",
+      "display": "USDX",
+      "symbol": "USDX",
+      "coingeckoId": "usdx",
+      "assetType": "unknown"
+    },
+    {
+      "denomUnits": [
+        {
+          "denom": "erc20/tether/usdt",
+          "exponent": 0
+        },
+        {
+          "denom": "usdt",
+          "exponent": 6
+        }
+      ],
+      "base": "erc20/tether/usdt",
+      "name": "Tether USD",
+      "display": "usdt",
+      "symbol": "USDT",
+      "coingeckoId": "tether",
+      "traces": [
+        {
+          "type": "additional-mintage",
+          "counterparty": {
+            "chainName": "ethereum",
+            "baseDenom": "0xdac17f958d2ee523a2206206994597c13d831ec7"
+          },
+          "provider": "Tether"
+        }
+      ],
+      "assetType": "erc20"
+    }
+  ]
+}

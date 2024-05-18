@@ -1,0 +1,24 @@
+{
+  "$schema": "../../assetlist.schema.json",
+  "chainName": "finschiatestnet",
+  "assets": [
+    {
+      "description": "The native token of Ebony",
+      "denomUnits": [
+        {
+          "denom": "tcony",
+          "exponent": 0
+        },
+        {
+          "denom": "tfnsa",
+          "exponent": 6
+        }
+      ],
+      "assetType": "sdk.coin",
+      "base": "tcony",
+      "name": "Test FINSCHIA",
+      "display": "tfnsa",
+      "symbol": "TFNSA"
+    }
+  ]
+}

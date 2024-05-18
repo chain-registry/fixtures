@@ -1,0 +1,77 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "nibirudevnet2",
+  "networkType": "devnet",
+  "website": "https://nibiru.fi/",
+  "prettyName": "Nibiru",
+  "chainId": "nibiru-devnet-2",
+  "bech32Prefix": "nibi",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "unibi",
+        "fixedMinGasPrice": 0.025,
+        "lowGasPrice": 0.025,
+        "averageGasPrice": 0.05,
+        "highGasPrice": 0.1
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "unibi"
+      }
+    ],
+    "lockDuration": {
+      "time": "1814400s"
+    }
+  },
+  "codebase": {
+    "cosmosSdkVersion": "v0.47.7",
+    "cosmwasmVersion": "v0.44.0",
+    "cosmwasmEnabled": true,
+    "ibcGoVersion": "v7.3.1"
+  },
+  "description": "A Web3 hub ushering in the next era of money",
+  "apis": {
+    "wss": [
+      {
+        "address": "wss://hm-graphql.devnet-2.nibiru.fi/query"
+      }
+    ],
+    "rpc": [
+      {
+        "address": "https://rpc.devnet-2.nibiru.fi"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://lcd.devnet-2.nibiru.fi"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "grpc.devnet-2.nibiru.fi:443"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "Nibiru Foundation",
+      "url": "https://explorer.nibiru.fi/nibiru-devnet-2",
+      "txPage": "https://explorer.nibiru.fi/nibiru-devnet-2/tx/${txHash}",
+      "accountPage": "https://explorer.nibiru.fi/nibiru-devnet-2/account/${accountAddress}"
+    }
+  ],
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nibiru/images/nibiru.png",
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nibiru/images/nibiru.svg"
+    }
+  ]
+}

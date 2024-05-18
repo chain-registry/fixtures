@@ -1,0 +1,46 @@
+{
+  "$schema": "../../chain.schema.json",
+  "chainName": "bitcannadevnet2",
+  "networkType": "devnet",
+  "prettyName": "BitCanna Devnet-6 SDK v0.46.x",
+  "chainId": "bitcanna-dev-6",
+  "bech32Prefix": "bcna",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "ubcna",
+        "fixedMinGasPrice": 0.001
+      }
+    ]
+  },
+  "codebase": {
+
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc-devnet-6.bitcanna.io/"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "http://devnet-6.bitcanna.io:9090"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://lcd-devnet-6.bitcanna.io/"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "url": "https://explorer-devnet-6.bitcanna.io",
+      "txPage": "https://explorer-devnet-6.bitcanna.io/tx/${txHash}"
+    }
+  ]
+}

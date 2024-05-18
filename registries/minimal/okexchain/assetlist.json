@@ -1,0 +1,25 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "okexchain",
+  "assets": [
+    {
+      "description": "The native token of OKExChain",
+      "denomUnits": [
+        {
+          "denom": "wei",
+          "exponent": 0
+        },
+        {
+          "denom": "okt",
+          "exponent": 18
+        }
+      ],
+      "base": "wei",
+      "name": "OKExChain",
+      "display": "okt",
+      "symbol": "OKT",
+      "coingeckoId": "oec-token",
+      "assetType": "unknown"
+    }
+  ]
+}

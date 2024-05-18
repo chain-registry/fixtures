@@ -1,0 +1,178 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "shentu",
+  "networkType": "mainnet",
+  "website": "https://www.shentu.technology/",
+  "prettyName": "Shentu",
+  "chainId": "shentu-2.2",
+  "bech32Prefix": "shentu",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "uctk",
+        "lowGasPrice": 0.01,
+        "averageGasPrice": 0.025,
+        "highGasPrice": 0.04
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "uctk"
+      }
+    ]
+  },
+  "codebase": {
+    "ibcGoVersion": "v4.2.1",
+    "icsEnabled": [
+      "ics20-1"
+    ]
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://shenturpc.noopsbycertik.com/"
+      },
+      {
+        "address": "https://shentu-rpc.polkachu.com"
+      },
+      {
+        "address": "https://shentu.rpc.m.stavr.tech:443"
+      },
+      {
+        "address": "https://shentu-rpc.ramuchi.tech"
+      },
+      {
+        "address": "https://rpc-shentu-01.stakeflow.io"
+      },
+      {
+        "address": "https://shentu-rpc.tienthuattoan.ventures"
+      },
+      {
+        "address": "https://shentu-rpc.publicnode.com:443"
+      },
+      {
+        "address": "https://shentu-rpc.highstakes.ch"
+      },
+      {
+        "address": "https://shentu-rpc.panthea.eu"
+      },
+      {
+        "address": "https://shentu-rpc.kleomedes.network"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://rest.noopsbycertik.com/"
+      },
+      {
+        "address": "https://shentu-api.polkachu.com"
+      },
+      {
+        "address": "https://shentu.api.m.stavr.tech"
+      },
+      {
+        "address": "https://shentu-api.ramuchi.tech"
+      },
+      {
+        "address": "https://api-shentu-01.stakeflow.io"
+      },
+      {
+        "address": "https://shentu-api.tienthuattoan.ventures"
+      },
+      {
+        "address": "https://shentu-rest.publicnode.com"
+      },
+      {
+        "address": "https://shentu-api.highstakes.ch"
+      },
+      {
+        "address": "https://shentu-api.panthea.eu"
+      },
+      {
+        "address": "https://shentu-api.kleomedes.network"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "shentu-grpc.polkachu.com:14090"
+      },
+      {
+        "address": "shentu.grpc.m.stavr.tech:9593"
+      },
+      {
+        "address": "https://shentu-grpc.ramuchi.tech:12090"
+      },
+      {
+        "address": "grpc-shentu-01.stakeflow.io:2402"
+      },
+      {
+        "address": "shentu-grpc.tienthuattoan.ventures:9490"
+      },
+      {
+        "address": "shentu-grpc.publicnode.com:443"
+      },
+      {
+        "address": "shentu-grpc.panthea.eu:16700"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "ezstaking",
+      "url": "https://ezstaking.app/shentu",
+      "txPage": "https://ezstaking.app/shentu/txs/${txHash}",
+      "accountPage": "https://ezstaking.app/shentu/account/${accountAddress}"
+    },
+    {
+      "kind": "🔥STAVR🔥",
+      "url": "https://explorer.stavr.tech/Shentu-Mainnet",
+      "txPage": "https://explorer.stavr.tech/Shentu-Mainnet/txs/${txHash}",
+      "accountPage": "https://explorer.stavr.tech/Shentu-Mainnet/account/${accountAddress}"
+    },
+    {
+      "kind": "mintscan",
+      "url": "https://www.mintscan.io/shentu",
+      "txPage": "https://www.mintscan.io/shentu/transactions/${txHash}",
+      "accountPage": "https://www.mintscan.io/shentu/accounts/${accountAddress}"
+    },
+    {
+      "kind": "Shentu Explorer",
+      "url": "https://explorer.shentu.technology/?net=shentu-2.2",
+      "txPage": "https://explorer.shentu.technology/transactions/${txHash}?net=shentu-2.2"
+    },
+    {
+      "kind": "ping.pub",
+      "url": "https://ping.pub/shentu",
+      "txPage": "https://ping.pub/shentu/tx/${txHash}"
+    },
+    {
+      "kind": "atomscan",
+      "url": "https://atomscan.com/shentu",
+      "txPage": "https://atomscan.com/shentu/transactions/${txHash}",
+      "accountPage": "https://atomscan.com/shentu/accounts/${accountAddress}"
+    },
+    {
+      "kind": "bigdipper",
+      "url": "https://bigdipper.live/shentu",
+      "txPage": "https://bigdipper.live/shentu/transactions/${txHash}",
+      "accountPage": "https://bigdipper.live/shentu/accounts/${accountAddress}"
+    },
+    {
+      "kind": "Stakeflow",
+      "url": "https://stakeflow.io/shentu",
+      "accountPage": "https://stakeflow.io/shentu/accounts/${accountAddress}"
+    }
+  ],
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/shentu/images/ctk.png",
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/shentu/images/ctk.svg"
+    }
+  ]
+}

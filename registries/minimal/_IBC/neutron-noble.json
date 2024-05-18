@@ -1,0 +1,31 @@
+{
+  "$schema": "../ibc_data.schema.json",
+  "chain1": {
+    "chainName": "neutron",
+    "clientId": "07-tendermint-40",
+    "connectionId": "connection-31"
+  },
+  "chain2": {
+    "chainName": "noble",
+    "clientId": "07-tendermint-25",
+    "connectionId": "connection-34"
+  },
+  "channels": [
+    {
+      "chain1": {
+        "channelId": "channel-30",
+        "portId": "transfer"
+      },
+      "chain2": {
+        "channelId": "channel-18",
+        "portId": "transfer"
+      },
+      "ordering": "unordered",
+      "version": "ics20-1",
+      "tags": {
+        "status": "live",
+        "preferred": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "imversed",
+  "assets": [
+    {
+      "description": "The native EVM, governance and staking token of the Imversed",
+      "denomUnits": [
+        {
+          "denom": "aimv",
+          "exponent": 0
+        },
+        {
+          "denom": "imv",
+          "exponent": 18
+        }
+      ],
+      "base": "aimv",
+      "name": "IMV",
+      "display": "imv",
+      "symbol": "IMV",
+      "coingeckoId": "imv",
+      "assetType": "unknown"
+    }
+  ]
+}

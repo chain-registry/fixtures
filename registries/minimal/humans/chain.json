@@ -1,0 +1,225 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "humans",
+  "networkType": "mainnet",
+  "website": "https://humans.ai/",
+  "prettyName": "Humans.ai",
+  "chainId": "humans_1089-1",
+  "bech32Prefix": "human",
+  "keyAlgos": [
+    "ethsecp256k1"
+  ],
+  "extraCodecs": [
+    "ethermint"
+  ],
+  "slip44": 60,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "aheart",
+        "fixedMinGasPrice": 250000000,
+        "lowGasPrice": 80000000000,
+        "averageGasPrice": 100000000000,
+        "highGasPrice": 160000000000
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "aheart"
+      }
+    ]
+  },
+  "codebase": {
+    "cosmosSdkVersion": "0.46.11"
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc.humans.nodestake.top"
+      },
+      {
+        "address": "https://humans.rpc.kjnodes.com"
+      },
+      {
+        "address": "https://humans.rpc.nodeshub.online"
+      },
+      {
+        "address": "https://humans-mainnet-rpc.itrocket.net"
+      },
+      {
+        "address": "https://humans-rpc.staketab.org:443"
+      },
+      {
+        "address": "https://rpc-humansai.thenop.io:443"
+      },
+      {
+        "address": "https://humans-rpc.stakeangle.com/"
+      },
+      {
+        "address": "https://humans-rpc.anyvalid.com:26627"
+      },
+      {
+        "address": "https://mainnet-humans-rpc.konsortech.xyz"
+      },
+      {
+        "address": "http://135.181.75.235:13657"
+      },
+      {
+        "address": "https://rpc.humans-mainnet.stake-take.com/"
+      },
+      {
+        "address": "https://rpc.humans.posthuman.digital"
+      },
+      {
+        "address": "https://humans-rpc.noders.services"
+      },
+      {
+        "address": "https://humans-mainnet-rpc.autostake.com:443"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://api.humans.nodestake.top"
+      },
+      {
+        "address": "https://humans.api.kjnodes.com"
+      },
+      {
+        "address": "https://humans.api.nodeshub.online"
+      },
+      {
+        "address": "https://humans-mainnet-api.itrocket.net"
+      },
+      {
+        "address": "https://humans-rest.staketab.org"
+      },
+      {
+        "address": "https://api-humansai.thenop.io:443"
+      },
+      {
+        "address": "http://humans-rpc.stakeangle.com:41417"
+      },
+      {
+        "address": "https://mainnet-humans-api.konsortech.xyz"
+      },
+      {
+        "address": "http://135.181.75.235:13317"
+      },
+      {
+        "address": "https://api.humans-mainnet.stake-take.com/"
+      },
+      {
+        "address": "https://rest.humans.posthuman.digital"
+      },
+      {
+        "address": "https://humans-api.noders.services"
+      },
+      {
+        "address": "https://humans-mainnet-lcd.autostake.com:443"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "https://grpc.humans.nodestake.top:443"
+      },
+      {
+        "address": "https://humans.grpc.kjnodes.com/"
+      },
+      {
+        "address": "https://grpc-humans.nodeist.net/"
+      },
+      {
+        "address": "humans-mainnet-grpc.itrocket.net:17090"
+      },
+      {
+        "address": "http://humans-rpc.stakeangle.com:41490/"
+      },
+      {
+        "address": "humans.grpc.nodersteam.com:9221"
+      },
+      {
+        "address": "http://135.181.75.235:13090"
+      },
+      {
+        "address": "https://grpc-humans.cosmos-spaces.cloud:1190"
+      },
+      {
+        "address": "humans-grpc.noders.services:21090"
+      },
+      {
+        "address": "humans-mainnet-grpc.autostake.com:443"
+      }
+    ],
+    "evmHttpJsonrpc": [
+      {
+        "address": "https://jsonrpc.humans.nodestake.top/"
+      },
+      {
+        "address": "https://humans-mainnet-evm.itrocket.net"
+      },
+      {
+        "address": "https://humans-evm-rpc.staketab.org:443"
+      },
+      {
+        "address": "https://evm.humans.stakepool.dev.br"
+      },
+      {
+        "address": "https://mainnet-humans-evm.konsortech.xyz"
+      },
+      {
+        "address": "https://evm.humans.posthuman.digital"
+      },
+      {
+        "address": "https://humans-jsonrpc.noders.services"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "mintscan",
+      "url": "https://mintscan.io/humans",
+      "txPage": "https://www.mintscan.io/humans/tx/${txHash}"
+    },
+    {
+      "kind": "ezstaking",
+      "url": "https://ezstaking.app/humans",
+      "txPage": "https://ezstaking.app/humans/txs/${txHash}",
+      "accountPage": "https://ezstaking.app/humans/account/${accountAddress}"
+    },
+    {
+      "kind": "ping.pub",
+      "url": "https://ping.pub/humans",
+      "txPage": "https://ping.pub/humans/tx/${txHash}"
+    },
+    {
+      "kind": "explorers.guru",
+      "url": "https://humans.explorers.guru",
+      "txPage": "https://humans.explorers.guru/transaction/${txHash}"
+    },
+    {
+      "kind": "exploreme",
+      "url": "https://humansai.exploreme.pro/",
+      "txPage": "https://humans.exploreme.pro/transaction/${txHash}"
+    },
+    {
+      "kind": "itrocket",
+      "url": "https://mainnet.itrocket.net/humans/staking",
+      "txPage": "https://mainnet.itrocket.net/humans/tx/${txHash}",
+      "accountPage": "https://mainnet.itrocket.net/humans/account/${accountAddress}"
+    },
+    {
+      "kind": "posthuman",
+      "url": "https://explorer.posthuman.digital/humans",
+      "txPage": "https://explorer.posthuman.digital/humans/tx/${txHash}",
+      "accountPage": "https://explorer.posthuman.digital/humans/account/${accountAddress}"
+    }
+  ],
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/humans/images/heart-dark-mode.png",
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/humans/images/heart-dark-mode.svg"
+    }
+  ]
+}

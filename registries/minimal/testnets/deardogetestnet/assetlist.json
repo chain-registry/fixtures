@@ -1,0 +1,24 @@
+{
+  "$schema": "../../assetlist.schema.json",
+  "chainName": "deardogetestnet",
+  "assets": [
+    {
+      "description": "The native staking and governance token of the Theta testnet version of the Dear Doge Testnet.",
+      "denomUnits": [
+        {
+          "denom": "udear",
+          "exponent": 0
+        },
+        {
+          "denom": "dear",
+          "exponent": 6
+        }
+      ],
+      "base": "udear",
+      "name": "Dear Doge Testnet",
+      "display": "dear",
+      "symbol": "DEAR",
+      "assetType": "sdk.Coin"
+    }
+  ]
+}

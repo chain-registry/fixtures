@@ -1,0 +1,71 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "auratestnet",
+  "networkType": "testnet",
+  "website": "https://aura.network/",
+  "prettyName": "Aura Euphoria Network",
+  "chainId": "aura_6321-3",
+  "bech32Prefix": "aura",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "ueaura",
+        "fixedMinGasPrice": 0.001,
+        "lowGasPrice": 0.001,
+        "averageGasPrice": 0.002,
+        "highGasPrice": 0.0025
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "ueaura"
+      }
+    ],
+    "lockDuration": {
+      "time": "172800s"
+    }
+  },
+  "codebase": {
+    "cosmosSdkVersion": "v0.47.8",
+    "ibcGoVersion": "v7.3.1",
+    "cosmwasmVersion": "0.42.0",
+    "cosmwasmEnabled": true
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc.euphoria.aura.network/"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://lcd.euphoria.aura.network/"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "http://grpc.euphoria.aura.network:9090"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "aurascan",
+      "url": "https://euphoria.aurascan.io",
+      "txPage": "https://euphoria.aurascan.io/tx/${txHash}",
+      "accountPage": "https://euphoria.aurascan.io/address/${accountAddress}"
+    }
+  ],
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/aura/images/Aura-logo-2.2.png",
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/aura/images/Aura-logo-2.2.svg"
+    }
+  ]
+}

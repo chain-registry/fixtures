@@ -1,0 +1,25 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "assetmantle",
+  "assets": [
+    {
+      "description": "The native token of Asset Mantle",
+      "denomUnits": [
+        {
+          "denom": "umntl",
+          "exponent": 0
+        },
+        {
+          "denom": "mntl",
+          "exponent": 6
+        }
+      ],
+      "base": "umntl",
+      "name": "AssetMantle",
+      "display": "mntl",
+      "symbol": "MNTL",
+      "coingeckoId": "assetmantle",
+      "assetType": "sdk.coin"
+    }
+  ]
+}

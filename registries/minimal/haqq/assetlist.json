@@ -1,0 +1,25 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "haqq",
+  "assets": [
+    {
+      "description": "The native EVM, governance and staking token of the Haqq Network",
+      "denomUnits": [
+        {
+          "denom": "aISLM",
+          "exponent": 0
+        },
+        {
+          "denom": "ISLM",
+          "exponent": 18
+        }
+      ],
+      "base": "aISLM",
+      "name": "Islamic Coin",
+      "display": "ISLM",
+      "symbol": "ISLM",
+      "coingeckoId": "islamic-coin",
+      "assetType": "sdk.Coin"
+    }
+  ]
+}

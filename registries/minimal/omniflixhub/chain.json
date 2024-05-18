@@ -1,0 +1,206 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "omniflixhub",
+  "networkType": "mainnet",
+  "website": "https://omniflix.network/",
+  "prettyName": "OmniFlix",
+  "chainId": "omniflixhub-1",
+  "bech32Prefix": "omniflix",
+  "slip44": 118,
+  "codebase": {
+    "cosmosSdkVersion": "v0.47.10",
+    "ibcGoVersion": "v7.4.0",
+    "cosmwasmVersion": "v0.45.0"
+  },
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "uflix",
+        "fixedMinGasPrice": 0,
+        "lowGasPrice": 0.001,
+        "averageGasPrice": 0.0025,
+        "highGasPrice": 0.025
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "uflix"
+      }
+    ]
+  },
+  "description": "Decentralized media and network layer for Creators & Sovereign Communities powered by NFTs and related distribution protocols.",
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://omniflix-rpc.kingnodes.com"
+      },
+      {
+        "address": "https://rpc.omniflix.nodestake.top"
+      },
+      {
+        "address": "https://rpc.omniflix.chaintools.tech/"
+      },
+      {
+        "address": "https://rpc-omniflixhub-ia.cosmosia.notional.ventures/"
+      },
+      {
+        "address": "https://omniflixhub-rpc.lavenderfive.com/"
+      },
+      {
+        "address": "https://rpc.omniflix.silentvalidator.com/"
+      },
+      {
+        "address": "https://omniflixhub-mainnet-rpc.autostake.com:443"
+      },
+      {
+        "address": "https://rpc-omniflix.architectnodes.com"
+      },
+      {
+        "address": "https://omniflix-rpc.staketab.org:443"
+      },
+      {
+        "address": "https://rpc-omniflixhub.cosmos-spaces.cloud"
+      },
+      {
+        "address": "https://omniflix-rpc.dakshavalidator.in"
+      },
+      {
+        "address": "https://rpc-omniflix.mzonder.com:443"
+      },
+      {
+        "address": "https://rpc.omniflix.stakeup.tech:443"
+      },
+      {
+        "address": "https://rpc.omniflix.bronbro.io:443"
+      },
+      {
+        "address": "https://omniflix-rpc.publicnode.com:443"
+      },
+      {
+        "address": "https://mainnet.omniflix.rpc.srv.stakr.space"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://api.omniflix.nodestake.top"
+      },
+      {
+        "address": "https://api-omniflixhub-ia.cosmosia.notional.ventures/"
+      },
+      {
+        "address": "https://omniflixhub-api.lavenderfive.com/"
+      },
+      {
+        "address": "https://api-omniflixhub.cosmos-spaces.cloud"
+      },
+      {
+        "address": "https://api.omniflix.silentvalidator.com/"
+      },
+      {
+        "address": "https://omniflix-rest.kingnodes.com"
+      },
+      {
+        "address": "https://omniflixhub-mainnet-lcd.autostake.com:443"
+      },
+      {
+        "address": "https://rest-omniflix.architectnodes.com"
+      },
+      {
+        "address": "https://omniflix-rest.staketab.org"
+      },
+      {
+        "address": "https://omniflix-api.dakshavalidator.in"
+      },
+      {
+        "address": "https://omniflix.api.staking-explorer.com"
+      },
+      {
+        "address": "https://api.omniflix.stakeup.tech"
+      },
+      {
+        "address": "https://lcd.omniflix.bronbro.io:443"
+      },
+      {
+        "address": "https://omniflix-rest.publicnode.com"
+      },
+      {
+        "address": "https://mainnet.omniflix.api.srv.stakr.space"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "https://omniflix-grpc.kingnodes.com:443"
+      },
+      {
+        "address": "grpc.omniflix.nodestake.top:443"
+      },
+      {
+        "address": "grpc-omniflixhub-ia.cosmosia.notional.ventures:443"
+      },
+      {
+        "address": "omniflixhub-grpc.lavenderfive.com:443"
+      },
+      {
+        "address": "grpc-omniflixhub.cosmos-spaces.cloud:2230"
+      },
+      {
+        "address": "omniflixhub-mainnet-grpc.autostake.com:443"
+      },
+      {
+        "address": "grpc-omniflix.architectnodes.com:1443"
+      },
+      {
+        "address": "services.staketab.com:9015"
+      },
+      {
+        "address": "grpc-omniflix.mzonder.com:443"
+      },
+      {
+        "address": "grpc.omniflix.stakeup.tech:443"
+      },
+      {
+        "address": "https://grpc.omniflix.bronbro.io:443"
+      },
+      {
+        "address": "omniflix-grpc.publicnode.com:443"
+      },
+      {
+        "address": "mainnet.omniflix.grpc.stakr.space:39090"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "ezstaking",
+      "url": "https://ezstaking.app/omniflixhub",
+      "txPage": "https://ezstaking.app/omniflixhub/txs/${txHash}",
+      "accountPage": "https://ezstaking.app/omniflixhub/account/${accountAddress}"
+    },
+    {
+      "kind": "mintscan",
+      "url": "https://www.mintscan.io/omniflix",
+      "txPage": "https://www.mintscan.io/omniflix/transactions/${txHash}",
+      "accountPage": "https://www.mintscan.io/omniflix/accounts/${accountAddress}"
+    },
+    {
+      "kind": "atomscan",
+      "url": "https://atomscan.com/omniflixhub",
+      "txPage": "https://atomscan.com/omniflixhub/transactions/${txHash}",
+      "accountPage": "https://atomscan.com/omniflixhub/accounts/${accountAddress}"
+    },
+    {
+      "kind": "STAKR.space explorer",
+      "url": "https://explorer.stakr.space/omniflix/",
+      "txPage": "https://explorer.stakr.space/omniflix/tx/${txHash}",
+      "accountPage": "https://explorer.stakr.space/omniflix/account/${accountAddress}"
+    }
+  ],
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/omniflixhub/images/flix.png",
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/omniflixhub/images/flix.svg"
+    }
+  ]
+}

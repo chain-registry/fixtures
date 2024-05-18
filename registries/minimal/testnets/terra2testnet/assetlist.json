@@ -1,0 +1,25 @@
+{
+  "$schema": "../../assetlist.schema.json",
+  "chainName": "terra2testnet",
+  "assets": [
+    {
+      "description": "The native staking token of Terra.",
+      "denomUnits": [
+        {
+          "denom": "uluna",
+          "exponent": 0
+        },
+        {
+          "denom": "luna",
+          "exponent": 6
+        }
+      ],
+      "base": "uluna",
+      "name": "Luna",
+      "display": "luna",
+      "symbol": "LUNA",
+      "coingeckoId": "terra-luna-2",
+      "assetType": "unknown"
+    }
+  ]
+}

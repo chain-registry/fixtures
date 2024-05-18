@@ -1,0 +1,102 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "noistestnet",
+  "networkType": "testnet",
+  "website": "https://nois.network",
+  "prettyName": "Nois",
+  "chainId": "nois-testnet-005",
+  "bech32Prefix": "nois",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "unois",
+        "fixedMinGasPrice": 0,
+        "lowGasPrice": 0.05,
+        "averageGasPrice": 0.05,
+        "highGasPrice": 0.1
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "unois"
+      }
+    ],
+    "lockDuration": {
+      "time": "1814400s"
+    }
+  },
+  "codebase": {
+    "cosmosSdkVersion": "0.45",
+    "cosmwasmVersion": "0.30",
+    "cosmwasmEnabled": true
+  },
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nois/images/nois.png",
+      "theme": {
+        "primaryColorHex": "#0C0914"
+      }
+    }
+  ],
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://nois-testnet-rpc.polkachu.com"
+      },
+      {
+        "address": "https://nois-testnet-rpc.itrocket.net:443"
+      },
+      {
+        "address": "https://rpc.nois.mcbnode.online:443"
+      },
+      {
+        "address": "https://nois-testnet.rpc.kjnodes.com:443"
+      },
+      {
+        "address": "https://tnois-rpc.systemd.run:443"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "tnois-grpc.systemd.run:443"
+      },
+      {
+        "address": "http://nois.grpc.t.stavr.tech:191"
+      },
+      {
+        "address": "nois-testnet-grpc.itrocket.net:21090"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://api.nois.mcbnode.online"
+      },
+      {
+        "address": "https://nois3.api.t.stavr.tech"
+      },
+      {
+        "address": "https://tnois-api.systemd.run:443"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "🔥STAVR🔥",
+      "url": "https://explorer.stavr.tech/Nois-Testnet",
+      "txPage": "https://explorer.stavr.tech/Nois-Testnet/tx/${txHash}",
+      "accountPage": "https://explorer.stavr.tech/Nois-Testnet/account/${accountAddress}"
+    },
+    {
+      "kind": "explorers.guru",
+      "url": "https://testnet.nois.explorers.guru",
+      "txPage": "https://testnet.nois.explorers.guru/transaction/${txHash}",
+      "accountPage": "https://testnet.nois.explorers.guru/account/${accountAddress}"
+    }
+  ]
+}

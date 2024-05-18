@@ -1,0 +1,110 @@
+{
+  "$schema": "../../chain.schema.json",
+  "chainName": "persistencetestnet2",
+  "chainId": "test-core-2",
+  "prettyName": "Persistence Testnet",
+  "networkType": "testnet",
+  "website": "https://persistence.one/",
+  "bech32Prefix": "persistence",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "uxprt",
+        "fixedMinGasPrice": 0,
+        "lowGasPrice": 0.05,
+        "averageGasPrice": 0.125,
+        "highGasPrice": 0.2
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "uxprt"
+      }
+    ],
+    "lockDuration": {
+      "time": "1814400s"
+    }
+  },
+  "codebase": {
+
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc-persistence-testnet-01.stakeflow.io/"
+      },
+      {
+        "address": "https://persistence-testnet-rpc.baryon.dev/"
+      },
+      {
+        "address": "https://persistence-testnet-rpc.cosmonautstakes.com/"
+      },
+      {
+        "address": "https://rpc.testnet2.persistence.one/"
+      },
+      {
+        "address": "https://persistence-testnet-rpc.polkachu.com/"
+      },
+      {
+        "address": "https://persistencecoretest-rpc.ytwofund.pro/"
+      },
+      {
+        "address": "http://persistence-testnet.paranorm.pro:24657/"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://api-persistence-testnet-01.stakeflow.io/"
+      },
+      {
+        "address": "https://persistence-testnet-api.baryon.dev/"
+      },
+      {
+        "address": "https://persistence-testnet-rest.cosmonautstakes.com/"
+      },
+      {
+        "address": "https://rest.testnet2.persistence.one/"
+      },
+      {
+        "address": "https://persistence-testnet-api.polkachu.com/"
+      },
+      {
+        "address": "https://persistenceCoreTest-rest.ytwofund.pro"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "persistence-testnet-grpc.polkachu.com:15490"
+      },
+      {
+        "address": "persistenceCoreTest-grpc.ytwofund.pro:9090"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "mintscan",
+      "url": "https://mintscan.io/persistence-testnet",
+      "txPage": "https://mintscan.io/persistence-testnet/txs/${txHash}",
+      "accountPage": "https://mintscan.io/persistence-testnet/account/${accountAddress}"
+    },
+    {
+      "kind": "StakeFlow",
+      "url": "https://stakeflow.io/persistence-testnet",
+      "txPage": "https://stakeflow.io/persistence-testnet/transactions/${txHash}",
+      "accountPage": "https://stakeflow.io/persistence-testnet/accounts/${accountAddress}"
+    },
+    {
+      "kind": "baryon",
+      "url": "https://testnet-explorer.baryon.dev/test-core-2",
+      "txPage": "https://testnet-explorer.baryon.dev/test-core-2/tx/{txHash}",
+      "accountPage": "https://testnet-explorer.baryon.dev/test-core-2/account/${accountAddress}"
+    }
+  ]
+}

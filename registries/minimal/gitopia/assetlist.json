@@ -1,0 +1,25 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "gitopia",
+  "assets": [
+    {
+      "description": "The native token of Gitopia",
+      "denomUnits": [
+        {
+          "denom": "ulore",
+          "exponent": 0
+        },
+        {
+          "denom": "LORE",
+          "exponent": 6
+        }
+      ],
+      "base": "ulore",
+      "name": "LORE",
+      "display": "LORE",
+      "symbol": "LORE",
+      "coingeckoId": "gitopia",
+      "assetType": "sdk.Coin"
+    }
+  ]
+}

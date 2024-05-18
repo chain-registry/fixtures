@@ -1,0 +1,31 @@
+{
+  "$schema": "../ibc_data.schema.json",
+  "chain1": {
+    "chainName": "kujira",
+    "clientId": "07-tendermint-95",
+    "connectionId": "connection-65"
+  },
+  "chain2": {
+    "chainName": "noble",
+    "clientId": "07-tendermint-2",
+    "connectionId": "connection-4"
+  },
+  "channels": [
+    {
+      "chain1": {
+        "channelId": "channel-62",
+        "portId": "transfer"
+      },
+      "chain2": {
+        "channelId": "channel-2",
+        "portId": "transfer"
+      },
+      "ordering": "unordered",
+      "version": "ics20-1",
+      "tags": {
+        "status": "live",
+        "preferred": true
+      }
+    }
+  ]
+}

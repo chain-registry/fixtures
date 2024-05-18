@@ -1,0 +1,25 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "umee",
+  "assets": [
+    {
+      "description": "The native token of Umee",
+      "denomUnits": [
+        {
+          "denom": "uumee",
+          "exponent": 0
+        },
+        {
+          "denom": "umee",
+          "exponent": 6
+        }
+      ],
+      "base": "uumee",
+      "name": "Umee",
+      "display": "umee",
+      "symbol": "UMEE",
+      "coingeckoId": "umee",
+      "assetType": "sdk.Coin"
+    }
+  ]
+}

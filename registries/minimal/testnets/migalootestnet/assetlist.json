@@ -1,0 +1,24 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "migalootestnet",
+  "assets": [
+    {
+      "description": "The native token of Migaloo Chain",
+      "denomUnits": [
+        {
+          "denom": "uwhale",
+          "exponent": 0
+        },
+        {
+          "denom": "whale",
+          "exponent": 6
+        }
+      ],
+      "base": "uwhale",
+      "name": "Whale",
+      "display": "whale",
+      "symbol": "WHALE",
+      "assetType": "sdk.Coin"
+    }
+  ]
+}

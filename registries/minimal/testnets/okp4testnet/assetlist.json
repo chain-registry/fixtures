@@ -1,0 +1,24 @@
+{
+  "$schema": "../../assetlist.schema.json",
+  "chainName": "okp4testnet",
+  "assets": [
+    {
+      "description": "The native token of ØKP4.",
+      "denomUnits": [
+        {
+          "denom": "uknow",
+          "exponent": 0
+        },
+        {
+          "denom": "know",
+          "exponent": 6
+        }
+      ],
+      "base": "uknow",
+      "name": "OKP4 Network",
+      "display": "know",
+      "symbol": "KNOW",
+      "assetType": "sdk.Coin"
+    }
+  ]
+}

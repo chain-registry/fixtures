@@ -1,0 +1,28 @@
+{
+  "$schema": "../../assetlist.schema.json",
+  "chainName": "penumbra",
+  "assets": [
+    {
+      "description": "The native token of Penumbra.",
+      "denomUnits": [
+        {
+          "denom": "penumbra",
+          "exponent": 6
+        },
+        {
+          "denom": "mpenumbra",
+          "exponent": 3
+        },
+        {
+          "denom": "upenumbra",
+          "exponent": 0
+        }
+      ],
+      "assetType": "unknown",
+      "base": "upenumbra",
+      "display": "penumbra",
+      "symbol": "UM",
+      "name": "Penumbra"
+    }
+  ]
+}

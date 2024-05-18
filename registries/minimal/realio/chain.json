@@ -1,0 +1,205 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "realio",
+  "networkType": "mainnet",
+  "website": "https://realio.network/",
+  "prettyName": "Realio Network",
+  "chainId": "realionetwork_3301-1",
+  "bech32Prefix": "realio",
+  "keyAlgos": [
+    "ethsecp256k1"
+  ],
+  "slip44": 60,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "ario",
+        "fixedMinGasPrice": 1000000000,
+        "lowGasPrice": 4000000000,
+        "averageGasPrice": 5000000000,
+        "highGasPrice": 8000000000
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "ario"
+      },
+      {
+        "denom": "arst"
+      }
+    ]
+  },
+  "codebase": {
+    "cosmosSdkVersion": "v0.46.12",
+    "ibcGoVersion": "v6.1.1"
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://realio-rpc.genznodes.dev"
+      },
+      {
+        "address": "https://realio.rpc.bccnodes.com/"
+      },
+      {
+        "address": "https://rpc-realio-network.nodeist.net"
+      },
+      {
+        "address": "http://realio.rpc.m.stavr.tech:21097"
+      },
+      {
+        "address": "https://rpc.realio.indonode.net"
+      },
+      {
+        "address": "https://rpc-realio.vinjan.xyz"
+      },
+      {
+        "address": "https://api-realio.sr20de.xyz"
+      },
+      {
+        "address": "https://rpc.realio.safeblock.space"
+      },
+      {
+        "address": "https://realio.declab.pro:26622"
+      },
+      {
+        "address": "https://realio-rpc.noders.services"
+      },
+      {
+        "address": "https://rpc-realio.blockval.io"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://realio-api.genznodes.dev"
+      },
+      {
+        "address": "https://realio.lcd.bccnodes.com/"
+      },
+      {
+        "address": "https://api-realio-network.nodeist.net"
+      },
+      {
+        "address": "https://realio.api.m.stavr.tech"
+      },
+      {
+        "address": "https://api.realio.indonode.net"
+      },
+      {
+        "address": "https://api-realio.vinjan.xyz"
+      },
+      {
+        "address": "https://rpc-realio.sr20de.xyz"
+      },
+      {
+        "address": "https://api.realio.safeblock.space"
+      },
+      {
+        "address": "https://realio.declab.pro:443"
+      },
+      {
+        "address": "https://realio-api.noders.services"
+      },
+      {
+        "address": "https://api-realio.blockval.io"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "realio-grpc.genznodes.dev:30090"
+      },
+      {
+        "address": "realio.grpc.bccnodes.com:10990"
+      },
+      {
+        "address": "http://realio.grpc.m.stavr.tech:9062"
+      },
+      {
+        "address": "https://grpc-realio.nodeist.net"
+      },
+      {
+        "address": "https://grpc.realio.nodestake.top:443"
+      },
+      {
+        "address": "https://grpc-realio.sr20de.xyz"
+      },
+      {
+        "address": "grpc.realio.safeblock.space:9090"
+      },
+      {
+        "address": "realio.grpc.skynodejs.net"
+      },
+      {
+        "address": "https://realio.declab.pro:9015"
+      },
+      {
+        "address": "realio-grpc.noders.services:22090"
+      },
+      {
+        "address": "https://grpc-realio.blockval.io"
+      }
+    ],
+    "evmHttpJsonrpc": [
+      {
+        "address": "https://realio-rpc-evm.genznodes.dev"
+      },
+      {
+        "address": "https://jsonrpc.realio.nodestake.top"
+      },
+      {
+        "address": "https://evm-realio.sr20de.xyz"
+      },
+      {
+        "address": "https://evm.realio.safeblock.space"
+      },
+      {
+        "address": "https://realio-jsonrpc.noders.services"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "🔥STAVR🔥 Explorer",
+      "url": "https://explorer.stavr.tech/realio-mainnet",
+      "txPage": "https://explorer.stavr.tech/realio-mainnet/tx/${txHash}",
+      "accountPage": "https://explorer.stavr.tech/realio-mainnet/account/{$accountAddress}"
+    },
+    {
+      "kind": "NodeStake Explorer",
+      "url": "https://explorer.nodestake.top/realio",
+      "txPage": "https://explorer.nodestake.top/realio/tx/${txHash}",
+      "accountPage": "https://explorer.nodestake.top/realio/account/{$accountAddress}"
+    },
+    {
+      "kind": "Sr20de Explorer",
+      "url": "https://explorer.sr20de.xyz/Realio",
+      "txPage": "https://explorer.sr20de.xyz/Realio/tx/${txHash}",
+      "accountPage": "https://explorer.sr20de.xyz/Realio/account/{$accountAddress}"
+    },
+    {
+      "kind": "TC Network",
+      "url": "https://explorer.tcnetwork.io/realio",
+      "txPage": "https://explorer.tcnetwork.io/realio/transaction/${txHash}",
+      "accountPage": "https://explorer.tcnetwork.io/realio/account/${accountAddress}"
+    },
+    {
+      "kind": "Safe Block",
+      "url": "https://explorer.safeblock.space/realio",
+      "txPage": "https://explorer.safeblock.space/realio/tx/${txHash}",
+      "accountPage": "https://explorer.safeblock.space/realio/account/${accountAddress}"
+    },
+    {
+      "kind": "Decloud Nodes Lab",
+      "url": "https://explorer.declab.pro/realio",
+      "txPage": "https://explorer.declab.pro/realio/tx/${txHash}",
+      "accountPage": "https://explorer.declab.pro/realio/account/{$accountAddress}"
+    }
+  ],
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/realio/images/rio.png"
+    }
+  ]
+}

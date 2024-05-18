@@ -1,0 +1,77 @@
+{
+  "$schema": "../../chain.schema.json",
+  "chainName": "neutrontestnet",
+  "networkType": "testnet",
+  "prettyName": "Neutron Testnet",
+  "chainId": "pion-1",
+  "bech32Prefix": "neutron",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "untrn",
+        "lowGasPrice": 0.02,
+        "averageGasPrice": 0.02,
+        "highGasPrice": 0.02
+      }
+    ]
+  },
+  "codebase": {
+    "cosmosSdkVersion": "0.47",
+    "cosmwasmVersion": "0.45",
+    "cosmwasmEnabled": true,
+    "ibcGoVersion": "7.3.2"
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc-falcron.pion-1.ntrn.tech"
+      },
+      {
+        "address": "https://neutron-testnet-rpc.polkachu.com/"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://rest-falcron.pion-1.ntrn.tech"
+      },
+      {
+        "address": "https://api.pion.remedy.tm.p2p.org"
+      },
+      {
+        "address": "https://rest.baryon-sentry-01.rs-testnet.polypore.xyz"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "grpc-falcron.pion-1.ntrn.tech:80"
+      },
+      {
+        "address": "grpc.baryon.remedy.tm.p2p.org:443"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "Ping.pub Explorer from Hypha",
+      "url": "https://explorer.rs-testnet.polypore.xyz/pion-1",
+      "txPage": "https://explorer.rs-testnet.polypore.xyz/pion-1/tx/${txHash}",
+      "accountPage": "https://explorer.rs-testnet.polypore.xyz/baryon-1/account/${accountAddress}"
+    },
+    {
+      "kind": "Mintscan",
+      "url": "https://mintscan.io/neutron-testnet",
+      "txPage": "https://mintscan.io/neutron-testnet/txs/${txHash}",
+      "accountPage": "https://mintscan.io/neutron-testnet/account/${accountAddress}"
+    }
+  ],
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/neutrontestnet/images/neutron-black-logo.png",
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/neutrontestnet/images/neutron-black-logo.svg"
+    }
+  ]
+}

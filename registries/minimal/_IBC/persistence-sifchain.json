@@ -1,0 +1,30 @@
+{
+  "$schema": "../ibc_data.schema.json",
+  "chain1": {
+    "chainName": "persistence",
+    "clientId": "07-tendermint-38",
+    "connectionId": "connection-32"
+  },
+  "chain2": {
+    "chainName": "sifchain",
+    "clientId": "07-tendermint-18",
+    "connectionId": "connection-8"
+  },
+  "channels": [
+    {
+      "chain1": {
+        "channelId": "channel-26",
+        "portId": "transfer"
+      },
+      "chain2": {
+        "channelId": "channel-7",
+        "portId": "transfer"
+      },
+      "ordering": "unordered",
+      "version": "ics20-1",
+      "tags": {
+
+      }
+    }
+  ]
+}

@@ -1,0 +1,337 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "quicksilver",
+  "assets": [
+    {
+      "description": "QCK - native token of Quicksilver",
+      "denomUnits": [
+        {
+          "denom": "uqck",
+          "exponent": 0,
+          "aliases": [
+
+          ]
+        },
+        {
+          "denom": "qck",
+          "exponent": 6,
+          "aliases": [
+
+          ]
+        }
+      ],
+      "base": "uqck",
+      "name": "Quicksilver",
+      "display": "qck",
+      "symbol": "QCK",
+      "coingeckoId": "quicksilver",
+      "assetType": "sdk.Coin"
+    },
+    {
+      "description": "Quicksilver Liquid Staked STARS",
+      "denomUnits": [
+        {
+          "denom": "uqstars",
+          "exponent": 0,
+          "aliases": [
+
+          ]
+        },
+        {
+          "denom": "qstars",
+          "exponent": 6,
+          "aliases": [
+
+          ]
+        }
+      ],
+      "base": "uqstars",
+      "name": "Quicksilver Liquid Staked STARS",
+      "display": "qstars",
+      "symbol": "qSTARS",
+      "traces": [
+        {
+          "type": "liquid-stake",
+          "counterparty": {
+            "chainName": "stargaze",
+            "baseDenom": "ustars"
+          },
+          "provider": "Quicksilver"
+        }
+      ],
+      "assetType": "sdk.Coin"
+    },
+    {
+      "description": "Quicksilver Liquid Staked ATOM",
+      "denomUnits": [
+        {
+          "denom": "uqatom",
+          "exponent": 0,
+          "aliases": [
+
+          ]
+        },
+        {
+          "denom": "qatom",
+          "exponent": 6,
+          "aliases": [
+
+          ]
+        }
+      ],
+      "base": "uqatom",
+      "name": "Quicksilver Liquid Staked ATOM",
+      "display": "qatom",
+      "symbol": "qATOM",
+      "traces": [
+        {
+          "type": "liquid-stake",
+          "counterparty": {
+            "chainName": "cosmoshub",
+            "baseDenom": "uatom"
+          },
+          "provider": "Quicksilver"
+        }
+      ],
+      "assetType": "sdk.Coin"
+    },
+    {
+      "description": "Quicksilver Liquid Staked REGEN",
+      "denomUnits": [
+        {
+          "denom": "uqregen",
+          "exponent": 0,
+          "aliases": [
+
+          ]
+        },
+        {
+          "denom": "qregen",
+          "exponent": 6,
+          "aliases": [
+
+          ]
+        }
+      ],
+      "base": "uqregen",
+      "name": "Quicksilver Liquid Staked Regen",
+      "display": "qregen",
+      "symbol": "qREGEN",
+      "traces": [
+        {
+          "type": "liquid-stake",
+          "counterparty": {
+            "chainName": "regen",
+            "baseDenom": "uregen"
+          },
+          "provider": "Quicksilver"
+        }
+      ],
+      "assetType": "sdk.Coin"
+    },
+    {
+      "description": "Quicksilver Liquid Staked OSMO",
+      "denomUnits": [
+        {
+          "denom": "uqosmo",
+          "exponent": 0,
+          "aliases": [
+
+          ]
+        },
+        {
+          "denom": "qosmo",
+          "exponent": 6,
+          "aliases": [
+
+          ]
+        }
+      ],
+      "base": "uqosmo",
+      "name": "Quicksilver Liquid Staked OSMO",
+      "display": "qosmo",
+      "symbol": "qOSMO",
+      "traces": [
+        {
+          "type": "liquid-stake",
+          "counterparty": {
+            "chainName": "osmosis",
+            "baseDenom": "uosmo"
+          },
+          "provider": "Quicksilver"
+        }
+      ],
+      "assetType": "sdk.Coin"
+    },
+    {
+      "description": "Quicksilver Liquid Staked SOMM",
+      "denomUnits": [
+        {
+          "denom": "uqsomm",
+          "exponent": 0,
+          "aliases": [
+
+          ]
+        },
+        {
+          "denom": "qsomm",
+          "exponent": 6,
+          "aliases": [
+
+          ]
+        }
+      ],
+      "base": "uqsomm",
+      "name": "Quicksilver Liquid Staked SOMM",
+      "display": "qsomm",
+      "symbol": "qSOMM",
+      "traces": [
+        {
+          "type": "liquid-stake",
+          "counterparty": {
+            "chainName": "sommelier",
+            "baseDenom": "usomm"
+          },
+          "provider": "Quicksilver"
+        }
+      ],
+      "assetType": "sdk.Coin"
+    },
+    {
+      "description": "Quicksilver Liquid Staked JUNO",
+      "denomUnits": [
+        {
+          "denom": "uqjuno",
+          "exponent": 0,
+          "aliases": [
+
+          ]
+        },
+        {
+          "denom": "qjuno",
+          "exponent": 6,
+          "aliases": [
+
+          ]
+        }
+      ],
+      "base": "uqjuno",
+      "name": "Quicksilver Liquid Staked JUNO",
+      "display": "qjuno",
+      "symbol": "qJUNO",
+      "traces": [
+        {
+          "type": "liquid-stake",
+          "counterparty": {
+            "chainName": "juno",
+            "baseDenom": "ujuno"
+          },
+          "provider": "Quicksilver"
+        }
+      ],
+      "assetType": "sdk.Coin"
+    },
+    {
+      "description": "Quicksilver Liquid Staked DYDX",
+      "denomUnits": [
+        {
+          "denom": "aqdydx",
+          "exponent": 0,
+          "aliases": [
+
+          ]
+        },
+        {
+          "denom": "qdydx",
+          "exponent": 18,
+          "aliases": [
+
+          ]
+        }
+      ],
+      "base": "aqdydx",
+      "name": "Quicksilver Liquid Staked DYDX",
+      "display": "qdydx",
+      "symbol": "qDYDX",
+      "traces": [
+        {
+          "type": "liquid-stake",
+          "counterparty": {
+            "chainName": "dydx",
+            "baseDenom": "adydx"
+          },
+          "provider": "Quicksilver"
+        }
+      ],
+      "assetType": "sdk.Coin"
+    },
+    {
+      "description": "Quicksilver Liquid Staked SAGA",
+      "denomUnits": [
+        {
+          "denom": "uqsaga",
+          "exponent": 0,
+          "aliases": [
+
+          ]
+        },
+        {
+          "denom": "qsaga",
+          "exponent": 6,
+          "aliases": [
+
+          ]
+        }
+      ],
+      "base": "uqsaga",
+      "name": "Quicksilver Liquid Staked SAGA",
+      "display": "qsaga",
+      "symbol": "qSAGA",
+      "traces": [
+        {
+          "type": "liquid-stake",
+          "counterparty": {
+            "chainName": "saga",
+            "baseDenom": "usaga"
+          },
+          "provider": "Quicksilver"
+        }
+      ],
+      "assetType": "sdk.Coin"
+    },
+    {
+      "description": "Quicksilver Liquid Staked BLD",
+      "denomUnits": [
+        {
+          "denom": "uqbld",
+          "exponent": 0,
+          "aliases": [
+
+          ]
+        },
+        {
+          "denom": "qbld",
+          "exponent": 6,
+          "aliases": [
+
+          ]
+        }
+      ],
+      "base": "uqbld",
+      "name": "Quicksilver Liquid Staked BLD",
+      "display": "qbld",
+      "symbol": "qBLD",
+      "traces": [
+        {
+          "type": "liquid-stake",
+          "counterparty": {
+            "chainName": "agoric",
+            "baseDenom": "ubld"
+          },
+          "provider": "Quicksilver"
+        }
+      ],
+      "assetType": "sdk.Coin"
+    }
+  ]
+}

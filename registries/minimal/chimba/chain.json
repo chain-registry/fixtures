@@ -1,0 +1,55 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "chimba",
+  "networkType": "mainnet",
+  "website": "https://chimba.ooo/",
+  "prettyName": "Chimba",
+  "chainId": "chimba",
+  "bech32Prefix": "chimba",
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "ucmba",
+        "fixedMinGasPrice": 0.25,
+        "lowGasPrice": 1,
+        "averageGasPrice": 5,
+        "highGasPrice": 10
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "ucmba"
+      }
+    ]
+  },
+  "codebase": {
+
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc.mainnet.chimba.ooo"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://mainnet.chimba.ooo"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "bigdipper",
+      "url": "https://explorer.chimba.ooo/",
+      "txPage": "https://explorer.chimba.ooo/transactions/${txHash}"
+    }
+  ],
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chimba/images/chimba-blue.png",
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chimba/images/chimba-blue.svg"
+    }
+  ]
+}

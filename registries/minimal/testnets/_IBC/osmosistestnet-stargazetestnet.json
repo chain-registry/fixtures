@@ -1,0 +1,32 @@
+{
+  "$schema": "../ibc_data.schema.json",
+  "chain1": {
+    "chainName": "osmosistestnet",
+    "clientId": "07-tendermint-1274",
+    "connectionId": "connection-1175"
+  },
+  "chain2": {
+    "chainName": "stargazetestnet",
+    "clientId": "07-tendermint-621",
+    "connectionId": "connection-633"
+  },
+  "channels": [
+    {
+      "chain1": {
+        "channelId": "channel-4175",
+        "portId": "transfer"
+      },
+      "chain2": {
+        "channelId": "channel-638",
+        "portId": "transfer"
+      },
+      "ordering": "unordered",
+      "version": "ics20-1",
+      "tags": {
+        "status": "live",
+        "preferred": true,
+        "dex": "osmosis"
+      }
+    }
+  ]
+}

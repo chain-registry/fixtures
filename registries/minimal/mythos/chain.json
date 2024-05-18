@@ -1,0 +1,54 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "mythos",
+  "networkType": "mainnet",
+  "prettyName": "Mythos",
+  "chainId": "mythos_7001-1",
+  "bech32Prefix": "mythos",
+  "keyAlgos": [
+    "ethsecp256k1"
+  ],
+  "extraCodecs": [
+    "ethermint"
+  ],
+  "slip44": 60,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "aMYT"
+      }
+    ]
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://mythos-rpc.provable.dev:443/"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://mythos.provable.dev/rest/"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "mythos-grpc.provable.dev:443"
+      }
+    ],
+    "evmHttpJsonrpc": [
+
+    ]
+  },
+  "explorers": [
+
+  ],
+  "codebase": {
+
+  },
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/mythos/images/mythos.png",
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/mythos/images/mythos.svg"
+    }
+  ]
+}

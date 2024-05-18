@@ -1,0 +1,25 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "starname",
+  "assets": [
+    {
+      "description": "IOV coin is the token for the Starname (IOV) Asset Name Service",
+      "denomUnits": [
+        {
+          "denom": "uiov",
+          "exponent": 0
+        },
+        {
+          "denom": "iov",
+          "exponent": 6
+        }
+      ],
+      "base": "uiov",
+      "name": "Starname",
+      "display": "iov",
+      "symbol": "IOV",
+      "coingeckoId": "starname",
+      "assetType": "unknown"
+    }
+  ]
+}

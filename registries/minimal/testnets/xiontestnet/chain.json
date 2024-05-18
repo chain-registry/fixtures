@@ -1,0 +1,66 @@
+{
+  "$schema": "../../chain.schema.json",
+  "chainName": "xiontestnet",
+  "networkType": "testnet",
+  "prettyName": "Xion Testnet",
+  "chainId": "xion-testnet-1",
+  "bech32Prefix": "xion",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "uxion",
+        "fixedMinGasPrice": 0,
+        "lowGasPrice": 0,
+        "averageGasPrice": 0.025,
+        "highGasPrice": 0.04
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "uxion"
+      }
+    ]
+  },
+  "codebase": {
+    "cosmosSdkVersion": "0.47.10",
+    "cosmwasmVersion": "0.45.1",
+    "cosmwasmEnabled": true
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://testnet-burnt-rpc.lavenderfive.com"
+      },
+      {
+        "address": "https://xion-testnet-rpc.polkachu.com"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://testnet-burnt-api.lavenderfive.com"
+      },
+      {
+        "address": "https://xion-testnet-api.polkachu.com"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "https://testnet-burnt-grpc.lavenderfive.com"
+      },
+      {
+        "address": "xion-testnet-grpc.polkachu.com:22390"
+      }
+    ]
+  },
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/xion/images/burnt.png"
+    }
+  ]
+}

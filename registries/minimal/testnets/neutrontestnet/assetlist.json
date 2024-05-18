@@ -1,0 +1,42 @@
+{
+  "$schema": "../../assetlist.schema.json",
+  "chainName": "neutrontestnet",
+  "assets": [
+    {
+      "description": "The native token of Neutron chain",
+      "denomUnits": [
+        {
+          "denom": "untrn",
+          "exponent": 0
+        },
+        {
+          "denom": "ntrn",
+          "exponent": 6
+        }
+      ],
+      "base": "untrn",
+      "name": "Neutron Testnet",
+      "display": "ntrn",
+      "symbol": "NTRN",
+      "assetType": "sdk.Coin"
+    },
+    {
+      "description": "The yield token for ATOM denominated vaults on Amulet Protocol",
+      "denomUnits": [
+        {
+          "denom": "factory/neutron15lku24mqhvy4v4gryrqs4662n9v9q4ux9tayn89cmdzldjcgawushxvm76/amatom",
+          "exponent": 0
+        },
+        {
+          "denom": "amATOM",
+          "exponent": 6
+        }
+      ],
+      "base": "factory/neutron15lku24mqhvy4v4gryrqs4662n9v9q4ux9tayn89cmdzldjcgawushxvm76/amatom",
+      "name": "amATOM (Testnet)",
+      "display": "amATOM",
+      "symbol": "amATOM",
+      "assetType": "sdk.Factory"
+    }
+  ]
+}

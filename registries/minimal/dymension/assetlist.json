@@ -1,0 +1,60 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "dymension",
+  "assets": [
+    {
+      "description": "The native governance and staking token of the Dymension Hub",
+      "denomUnits": [
+        {
+          "denom": "adym",
+          "exponent": 0
+        },
+        {
+          "denom": "dym",
+          "exponent": 18
+        }
+      ],
+      "assetType": "sdk.coin",
+      "base": "adym",
+      "name": "Dymension",
+      "display": "dym",
+      "symbol": "DYM",
+      "coingeckoId": "dymension"
+    },
+    {
+      "description": "The native token of Nim Network.",
+      "denomUnits": [
+        {
+          "denom": "ibc/FB53D1684F155CBB86D9CE917807E42B59209EBE3AD3A92E15EF66586C073942",
+          "exponent": 0,
+          "aliases": [
+            "anim"
+          ]
+        },
+        {
+          "denom": "nim",
+          "exponent": 18
+        }
+      ],
+      "assetType": "ics20",
+      "base": "ibc/FB53D1684F155CBB86D9CE917807E42B59209EBE3AD3A92E15EF66586C073942",
+      "name": "Nim Network",
+      "display": "nim",
+      "symbol": "NIM",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "nim",
+            "baseDenom": "anim",
+            "channelId": "channel-0"
+          },
+          "chain": {
+            "channelId": "channel-49",
+            "path": "transfer/channel-49/anim"
+          }
+        }
+      ]
+    }
+  ]
+}

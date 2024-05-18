@@ -1,0 +1,54 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "commercionetwork",
+  "assets": [
+    {
+      "description": "The native token of Commercio.network",
+      "denomUnits": [
+        {
+          "denom": "ucommercio",
+          "exponent": 0,
+          "aliases": [
+
+          ]
+        },
+        {
+          "denom": "commercio",
+          "exponent": 6,
+          "aliases": [
+
+          ]
+        }
+      ],
+      "base": "ucommercio",
+      "display": "commercio",
+      "name": "Commercio",
+      "symbol": "COM",
+      "assetType": "unknown"
+    },
+    {
+      "description": "The cash credit token of Commercio.network",
+      "denomUnits": [
+        {
+          "denom": "uccc",
+          "exponent": 0,
+          "aliases": [
+
+          ]
+        },
+        {
+          "denom": "ccc",
+          "exponent": 6,
+          "aliases": [
+
+          ]
+        }
+      ],
+      "base": "uccc",
+      "display": "ccc",
+      "name": "Commercio Cash Credit",
+      "symbol": "CCC",
+      "assetType": "unknown"
+    }
+  ]
+}

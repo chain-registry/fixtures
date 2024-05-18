@@ -1,0 +1,195 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "chihuahua",
+  "networkType": "mainnet",
+  "website": "https://chihuahua.wtf/",
+  "prettyName": "Chihuahua",
+  "chainId": "chihuahua-1",
+  "bech32Prefix": "chihuahua",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "uhuahua",
+        "fixedMinGasPrice": 0,
+        "lowGasPrice": 500,
+        "averageGasPrice": 1250,
+        "highGasPrice": 2000
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "uhuahua"
+      }
+    ]
+  },
+  "codebase": {
+    "cosmosSdkVersion": "v0.47.5",
+    "ibcGoVersion": "7.3.0",
+    "cosmwasmVersion": "v0.41.0",
+    "cosmwasmEnabled": true
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc.chihuahua.wtf"
+      },
+      {
+        "address": "https://rpc-chihuahua.ecostake.com"
+      },
+      {
+        "address": "https://chihua.rpc.m.stavr.tech"
+      },
+      {
+        "address": "https://chihuahua-rpc.polkachu.com"
+      },
+      {
+        "address": "https://rpc-chihuahua-ia.cosmosia.notional.ventures"
+      },
+      {
+        "address": "https://chihuahua-rpc.lavenderfive.com"
+      },
+      {
+        "address": "https://rpc.huahua.bh.rocks"
+      },
+      {
+        "address": "https://chihuahua-rpc.kleomedes.network"
+      },
+      {
+        "address": "https://rpc-chihuahua.pupmos.network"
+      },
+      {
+        "address": "https://chihuahua-mainnet-rpc.autostake.com:443"
+      },
+      {
+        "address": "https://chihuahua-rpc.publicnode.com:443"
+      },
+      {
+        "address": "https://rpc.chihuahua.validatus.com"
+      },
+      {
+        "address": "https://chihuahua-rpc.ibs.team"
+      },
+      {
+        "address": "https://chihuahua.rpc.nodeshub.online:443"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://api.chihuahua.wtf"
+      },
+      {
+        "address": "https://rest-chihuahua.ecostake.com"
+      },
+      {
+        "address": "https://chihua.api.m.stavr.tech"
+      },
+      {
+        "address": "https://api-chihuahua-ia.cosmosia.notional.ventures"
+      },
+      {
+        "address": "https://chihuahua-api.polkachu.com"
+      },
+      {
+        "address": "https://chihuahua-api.lavenderfive.com"
+      },
+      {
+        "address": "https://chihuahua-api.kleomedes.network"
+      },
+      {
+        "address": "https://api-chihuahua.pupmos.network"
+      },
+      {
+        "address": "https://chihuahua-mainnet-lcd.autostake.com:443"
+      },
+      {
+        "address": "https://chihuahua-rest.publicnode.com"
+      },
+      {
+        "address": "https://api.chihuahua.validatus.com"
+      },
+      {
+        "address": "https://chihuahua-api.ibs.team"
+      },
+      {
+        "address": "https://chihuahua.api.nodeshub.online:443"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "grpc-chihuahua-ia.cosmosia.notional.ventures:443"
+      },
+      {
+        "address": "chihuahua-grpc.polkachu.com:12990"
+      },
+      {
+        "address": "chihuahua-grpc.lavenderfive.com:443"
+      },
+      {
+        "address": "chihua.grpc.m.stavr.tech:108"
+      },
+      {
+        "address": "grpc-chihuahua.cosmos-spaces.cloud:2290"
+      },
+      {
+        "address": "chihuahua-mainnet-grpc.autostake.com:443"
+      },
+      {
+        "address": "chihuahua-grpc.publicnode.com:443"
+      },
+      {
+        "address": "grpc.chihuahua.validatus.com:443"
+      },
+      {
+        "address": "chihuahua.grpc.nodeshub.online"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "ping.pub",
+      "url": "https://ping.pub/chihuahua",
+      "txPage": "https://ping.pub/chihuahua/tx/${txHash}"
+    },
+    {
+      "kind": "🔥STAVR🔥",
+      "url": "https://explorer.stavr.tech/Chihua-Mainnet",
+      "txPage": "https://explorer.stavr.tech/Chihua-Mainnet/tx/${txHash}"
+    },
+    {
+      "kind": "mintscan",
+      "url": "https://mintscan.io/chihuahua",
+      "txPage": "https://mintscan.io/chihuahua/transactions/${txHash}",
+      "accountPage": "https://www.mintscan.io/chihuahua/accounts/${accountAddress}"
+    },
+    {
+      "kind": "atomscan",
+      "url": "https://atomscan.com/chihuahua",
+      "txPage": "https://atomscan.com/chihuahua/transactions/${txHash}",
+      "accountPage": "https://atomscan.com/chihuahua/accounts/${accountAddress}"
+    },
+    {
+      "kind": "ezstaking",
+      "url": "https://ezstaking.app/chihuahua",
+      "txPage": "https://ezstaking.app/chihuahua/txs/${txHash}",
+      "accountPage": "https://ezstaking.app/chihuahua/account/${accountAddress}"
+    },
+    {
+      "kind": "Nodes Hub 🛡️ 100% Slash Protected 🛡️ | Restake ✅",
+      "url": "https://explorer.nodeshub.online/chihuahua/",
+      "txPage": "https://explorer.nodeshub.online/chihuahua/tx/${txHash}",
+      "accountPage": "https://explorer.nodeshub.online/chihuahua/accounts/${accountAddress}"
+    }
+  ],
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/huahua.png",
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/huahua.svg"
+    }
+  ]
+}

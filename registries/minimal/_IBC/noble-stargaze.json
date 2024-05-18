@@ -1,0 +1,32 @@
+{
+  "$schema": "../ibc_data.schema.json",
+  "chain1": {
+    "chainName": "noble",
+    "clientId": "07-tendermint-16",
+    "connectionId": "connection-25"
+  },
+  "chain2": {
+    "chainName": "stargaze",
+    "clientId": "07-tendermint-287",
+    "connectionId": "connection-214"
+  },
+  "channels": [
+    {
+      "chain1": {
+        "channelId": "channel-11",
+        "portId": "transfer"
+      },
+      "chain2": {
+        "channelId": "channel-204",
+        "portId": "transfer"
+      },
+      "ordering": "unordered",
+      "version": "ics20-1",
+      "tags": {
+        "status": "live",
+        "preferred": true,
+        "dex": "osmosis"
+      }
+    }
+  ]
+}

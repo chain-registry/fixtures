@@ -1,0 +1,25 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "jackal",
+  "assets": [
+    {
+      "description": "The native staking and governance token of Jackal.",
+      "denomUnits": [
+        {
+          "denom": "ujkl",
+          "exponent": 0
+        },
+        {
+          "denom": "jkl",
+          "exponent": 6
+        }
+      ],
+      "base": "ujkl",
+      "name": "Jackal",
+      "display": "jkl",
+      "symbol": "JKL",
+      "coingeckoId": "jackal-protocol",
+      "assetType": "sdk.Coin"
+    }
+  ]
+}

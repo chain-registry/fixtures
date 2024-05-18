@@ -1,0 +1,155 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "terra2",
+  "networkType": "mainnet",
+  "website": "https://www.terra.money/",
+  "prettyName": "Terra",
+  "chainId": "phoenix-1",
+  "bech32Prefix": "terra",
+  "slip44": 330,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "uluna",
+        "fixedMinGasPrice": 0.015,
+        "lowGasPrice": 0.015,
+        "averageGasPrice": 0.015,
+        "highGasPrice": 0.04
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "uluna"
+      }
+    ]
+  },
+  "codebase": {
+
+  },
+  "description": "Fueled by a passionate community and deep developer talent pool, the Terra blockchain is built to enable the next generation of Web3 products and services.",
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://terra2-rpc.lavenderfive.com:443"
+      },
+      {
+        "address": "https://terra-rpc.polkachu.com"
+      },
+      {
+        "address": "https://terra-rpc.stakely.io:443/"
+      },
+      {
+        "address": "https://phoenix-rpc.terra.dev:443"
+      },
+      {
+        "address": "https://terra-rpc.publicnode.com:443"
+      },
+      {
+        "address": "https://rpc-terra-01.stakeflow.io"
+      },
+      {
+        "address": "https://rpc-terra.cosmos-spaces.cloud"
+      },
+      {
+        "address": "https://terra-phoenix-rpc.highstakes.ch"
+      },
+      {
+        "address": "https://rpc-terra.wildsage.io"
+      },
+      {
+        "address": "https://terra.interstellar-lounge.org"
+      },
+      {
+        "address": "https://terra2.tdrsys.com:2053"
+      },
+      {
+        "address": "https://terra-rpc.cosmosrescue.dev:8443"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://lcd-terra.wildsage.io"
+      },
+      {
+        "address": "https://phoenix-lcd.terra.dev:443"
+      },
+      {
+        "address": "https://api-terra.cosmos-spaces.cloud"
+      },
+      {
+        "address": "https://terra-rest.publicnode.com"
+      },
+      {
+        "address": "https://api-terra-01.stakeflow.io"
+      },
+      {
+        "address": "https://terra-phoenix-api.highstakes.ch"
+      },
+      {
+        "address": "https://terra-rest.interstellar-lounge.org"
+      },
+      {
+        "address": "https://terra2.tdrsys.com"
+      },
+      {
+        "address": "https://terra-api.cosmosrescue.dev:8443"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "terra2-grpc.lavenderfive.com:443"
+      },
+      {
+        "address": "terra-grpc.polkachu.com:11790"
+      },
+      {
+        "address": "terra-mainnet-grpc.autostake.com:443"
+      },
+      {
+        "address": "terra-grpc.publicnode.com:443"
+      },
+      {
+        "address": "grpc-terra.cosmos-spaces.cloud:2690"
+      },
+      {
+        "address": "grpc-terra-01.stakeflow.io:1102"
+      },
+      {
+        "address": "https://terra2.tdrsys.com:2083"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "atomscan",
+      "url": "https://atomscan.com/terra2",
+      "txPage": "https://atomscan.com/terra2/transactions/${txHash}",
+      "accountPage": "https://atomscan.com/terra2/accounts/${accountAddress}"
+    },
+    {
+      "kind": "finder",
+      "url": "http://finder.terra.money/",
+      "txPage": "https://finder.terra.money/mainnet/tx/${txHash}",
+      "accountPage": "https://finder.terra.money/mainnet/address/${accountAddress}"
+    },
+    {
+      "kind": "Stakeflow",
+      "url": "https://stakeflow.io/terra",
+      "accountPage": "https://stakeflow.io/terra/accounts/${accountAddress}"
+    },
+    {
+      "kind": "mintscan",
+      "url": "https://www.mintscan.io/terra",
+      "txPage": "https://www.mintscan.io/terra/transactions/${txHash}",
+      "accountPage": "https://www.mintscan.io/terra/accounts/${accountAddress}"
+    }
+  ],
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/luna.png",
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/luna.svg"
+    }
+  ]
+}

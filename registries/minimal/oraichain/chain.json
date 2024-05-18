@@ -1,0 +1,156 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "oraichain",
+  "networkType": "mainnet",
+  "website": "https://orai.io/",
+  "prettyName": "Oraichain",
+  "chainId": "Oraichain",
+  "bech32Prefix": "orai",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "orai",
+        "fixedMinGasPrice": 0,
+        "lowGasPrice": 0.003,
+        "averageGasPrice": 0.005,
+        "highGasPrice": 0.007
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "orai"
+      }
+    ]
+  },
+  "codebase": {
+    "cosmwasmVersion": "0.30.2",
+    "cosmwasmEnabled": true
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc.orai.io"
+      },
+      {
+        "address": "https://rpc.orai.pfc.zone/"
+      },
+      {
+        "address": "https://rpc-orai.nodine.id/"
+      },
+      {
+        "address": "https://oraichain-mainnet-rpc.autostake.com:443"
+      },
+      {
+        "address": "https://rpc-oraichain.mms.team"
+      },
+      {
+        "address": "https://rpc-orai.blockval.io/"
+      },
+      {
+        "address": "https://mainnet-orai-rpc.konsortech.xyz"
+      },
+      {
+        "address": "https://rpc.orai.mortysnode.nl"
+      },
+      {
+        "address": "https://orai.rpc.m.stavr.tech"
+      },
+      {
+        "address": "https://oraichain-rpc.publicnode.com:443"
+      }
+    ],
+    "rest": [
+      {
+        "address": "http://lcd.orai.io"
+      },
+      {
+        "address": "https://oraichain-mainnet-lcd.autostake.com:443"
+      },
+      {
+        "address": "https://api-oraichain.mms.team"
+      },
+      {
+        "address": "https://api-orai.blockval.io"
+      },
+      {
+        "address": "https://mainnet-orai-api.konsortech.xyz"
+      },
+      {
+        "address": "https://orai.api.m.stavr.tech"
+      },
+      {
+        "address": "https://oraichain-rest.publicnode.com"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "grpc-oraichain.mms.team:443"
+      },
+      {
+        "address": "grpc.orai.pfc.zone:443"
+      },
+      {
+        "address": "oraichain-mainnet-grpc.autostake.com:443"
+      },
+      {
+        "address": "grpc-orai.blockval.io:9390"
+      },
+      {
+        "address": "mainnet-orai.konsortech.xyz:33090"
+      },
+      {
+        "address": "orai.grpc.m.stavr.tech:110"
+      },
+      {
+        "address": "oraichain-grpc.publicnode.com:443"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "oraiscan",
+      "url": "https://scan.orai.io",
+      "txPage": "https://scan.orai.io/txs/${txHash}"
+    },
+    {
+      "kind": "Nodine Explorer",
+      "url": "https://explorer.co.id/orai",
+      "txPage": "https://explorer.co.id/orai/tx/${txHash}"
+    },
+    {
+      "kind": "Blockval Explorer",
+      "url": "https://explorer.blockval.io/oraichain",
+      "txPage": "https://explorer.blockval.io/oraichain/tx/${txHash}"
+    },
+    {
+      "kind": "atomscan",
+      "url": "https://atomscan.com/orai",
+      "txPage": "https://atomscan.com/orai/transactions/${txHash}",
+      "accountPage": "https://atomscan.com/orai/accounts/${accountAddress}"
+    },
+    {
+      "kind": "KonsorTech Explorer",
+      "url": "https://explorer.konsortech.xyz/oraichain",
+      "txPage": "https://explorer.konsortech.xyz/oraichain/transactions/${txHash}",
+      "accountPage": "https://explorer.konsortech.xyz/oraichain/accounts/${accountAddress}"
+    },
+    {
+      "kind": "🔥STAVR🔥 Explorer",
+      "url": "https://explorer.stavr.tech/Orai-Mainnet",
+      "txPage": "https://explorer.stavr.tech/Orai-Mainnet/transactions/${txHash}",
+      "accountPage": "https://explorer.stavr.tech/Orai-Mainnet/accounts/${accountAddress}"
+    }
+  ],
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/oraichain/images/orai.png",
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/oraichain/images/orai.svg"
+    }
+  ]
+}

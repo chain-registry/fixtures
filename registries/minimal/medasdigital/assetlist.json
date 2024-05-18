@@ -1,0 +1,24 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "medasdigital",
+  "assets": [
+    {
+      "description": "The native token of Medas Digital Network",
+      "denomUnits": [
+        {
+          "denom": "umedas",
+          "exponent": 0
+        },
+        {
+          "denom": "medas",
+          "exponent": 6
+        }
+      ],
+      "base": "umedas",
+      "name": "Medas Digital",
+      "display": "medas",
+      "symbol": "MEDAS",
+      "assetType": "sdk.Coin"
+    }
+  ]
+}

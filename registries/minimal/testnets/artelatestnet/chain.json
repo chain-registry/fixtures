@@ -1,0 +1,63 @@
+{
+  "$schema": "../../chain.schema.json",
+  "chainName": "artelatestnet",
+  "networkType": "testnet",
+  "prettyName": "Artela Testnet",
+  "chainId": "artela_11820-1",
+  "bech32Prefix": "art",
+  "keyAlgos": [
+    "ethsecp256k1"
+  ],
+  "slip44": 60,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "uart",
+        "lowGasPrice": 20000000000,
+        "averageGasPrice": 25000000000,
+        "highGasPrice": 40000000000
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "uart"
+      }
+    ]
+  },
+  "codebase": {
+    "cosmosSdkVersion": "0.47",
+    "ibcGoVersion": "v7.1.0"
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://testnet-rpc1.artela.network"
+      },
+      {
+        "address": "https://testnet-rpc2.artela.network"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://testnet-rpc1.artela.network"
+      },
+      {
+        "address": "https://testnet-rpc2.artela.network"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "https://testnet-rpc1.artela.network"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "Artela Network",
+      "url": "https://testnet-scan.artela.network",
+      "txPage": "https://testnet-scan.artela.network/tx/${txHash}"
+    }
+  ]
+}

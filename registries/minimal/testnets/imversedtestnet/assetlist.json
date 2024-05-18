@@ -1,0 +1,51 @@
+{
+  "$schema": "../../assetlist.schema.json",
+  "chainName": "imversedtestnet",
+  "assets": [
+    {
+      "description": "The native staking and governance token of the Imversed testnet.",
+      "denomUnits": [
+        {
+          "denom": "nimv",
+          "exponent": 0,
+          "aliases": [
+
+          ]
+        },
+        {
+          "denom": "imv",
+          "exponent": 6,
+          "aliases": [
+
+          ]
+        }
+      ],
+      "base": "nimv",
+      "name": "Imv",
+      "display": "imv",
+      "symbol": "IMV",
+      "assetType": "sdk.Coin"
+    },
+    {
+      "description": "The native staking and governance token of the Imversed testnet.",
+      "denomUnits": [
+        {
+          "denom": "ibc/C6438A7D613196373D939891C99CA7EEF4F78F4A78DC8590E51E62F8ED16E72B",
+          "exponent": 0,
+          "aliases": [
+            "usaage"
+          ]
+        },
+        {
+          "denom": "imv",
+          "exponent": 6
+        }
+      ],
+      "base": "ibc/C6438A7D613196373D939891C99CA7EEF4F78F4A78DC8590E51E62F8ED16E72B",
+      "name": "Imv",
+      "display": "imv",
+      "symbol": "IMV",
+      "assetType": "ics20"
+    }
+  ]
+}

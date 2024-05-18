@@ -1,0 +1,42 @@
+{
+  "$schema": "../../assetlist.schema.json",
+  "chainName": "cosmwasmtestnet",
+  "assets": [
+    {
+      "description": "Fee Token",
+      "denomUnits": [
+        {
+          "denom": "umlg",
+          "exponent": 0
+        },
+        {
+          "denom": "MLG",
+          "exponent": 6
+        }
+      ],
+      "base": "umlg",
+      "name": "Malaga",
+      "display": "umlg",
+      "symbol": "MLG",
+      "assetType": "sdk.Coin"
+    },
+    {
+      "description": "Staking Token",
+      "denomUnits": [
+        {
+          "denom": "uand",
+          "exponent": 0
+        },
+        {
+          "denom": "AND",
+          "exponent": 6
+        }
+      ],
+      "base": "uand",
+      "name": "Malaga Stake",
+      "display": "uand",
+      "symbol": "AND",
+      "assetType": "sdk.Coin"
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "noble",
+  "assets": [
+    {
+      "description": "The permissioned staking asset for Noble Chain",
+      "denomUnits": [
+        {
+          "denom": "ustake",
+          "exponent": 0,
+          "aliases": [
+            "microstake"
+          ]
+        },
+        {
+          "denom": "stake",
+          "exponent": 6
+        }
+      ],
+      "base": "ustake",
+      "name": "Stake",
+      "display": "stake",
+      "symbol": "STAKE",
+      "assetType": "sdk.Coin"
+    },
+    {
+      "description": "Frienzies are an IBC token redeemable exclusively for a physical asset issued by the Noble entity.",
+      "denomUnits": [
+        {
+          "denom": "ufrienzies",
+          "exponent": 0,
+          "aliases": [
+            "microfrienzies"
+          ]
+        },
+        {
+          "denom": "frienzies",
+          "exponent": 6
+        }
+      ],
+      "base": "ufrienzies",
+      "display": "frienzies",
+      "name": "Frienzies",
+      "symbol": "FRNZ",
+      "assetType": "sdk.Coin"
+    },
+    {
+      "description": "ATOM token on Noble",
+      "denomUnits": [
+        {
+          "denom": "ibc/EF48E6B1A1A19F47ECAEA62F5670C37C0580E86A9E88498B7E393EB6F49F33C0",
+          "exponent": 0
+        },
+        {
+          "denom": "atom",
+          "exponent": 6,
+          "aliases": [
+            "ATOM"
+          ]
+        }
+      ],
+      "assetType": "ics20",
+      "base": "ibc/EF48E6B1A1A19F47ECAEA62F5670C37C0580E86A9E88498B7E393EB6F49F33C0",
+      "name": "Atom Staking Coin",
+      "display": "atom",
+      "symbol": "ATOM",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "cosmoshub",
+            "baseDenom": "uatom",
+            "channelId": "channel-536"
+          },
+          "chain": {
+            "channelId": "channel-4",
+            "path": "transfer/channel-4/uatom"
+          }
+        }
+      ]
+    },
+    {
+      "description": "USD Coin",
+      "denomUnits": [
+        {
+          "denom": "uusdc",
+          "exponent": 0,
+          "aliases": [
+            "microusdc"
+          ]
+        },
+        {
+          "denom": "usdc",
+          "exponent": 6
+        }
+      ],
+      "base": "uusdc",
+      "display": "usdc",
+      "name": "USDC",
+      "symbol": "USDC",
+      "coingeckoId": "usd-coin",
+      "traces": [
+        {
+          "type": "additional-mintage",
+          "counterparty": {
+            "chainName": "ethereum",
+            "baseDenom": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+          },
+          "provider": "Circle"
+        }
+      ],
+      "assetType": "sdk.Coin"
+    },
+    {
+      "description": "USDLR is a fiat-backed stablecoin issued by Stable. Stable pays DeFi protocols who distribute USDLR.",
+      "denomUnits": [
+        {
+          "denom": "uusdlr",
+          "exponent": 0,
+          "aliases": [
+            "microusdlr"
+          ]
+        },
+        {
+          "denom": "usdlr",
+          "exponent": 6
+        }
+      ],
+      "base": "uusdlr",
+      "display": "usdlr",
+      "name": "USDLR by Stable",
+      "symbol": "USDLR",
+      "assetType": "sdk.Coin"
+    }
+  ]
+}

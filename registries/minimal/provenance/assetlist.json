@@ -1,0 +1,25 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "provenance",
+  "assets": [
+    {
+      "description": "Hash is the staking token of the Provenance Blockchain",
+      "denomUnits": [
+        {
+          "denom": "nhash",
+          "exponent": 0
+        },
+        {
+          "denom": "hash",
+          "exponent": 9
+        }
+      ],
+      "base": "nhash",
+      "name": "Hash",
+      "display": "hash",
+      "symbol": "HASH",
+      "coingeckoId": "provenance-blockchain",
+      "assetType": "sdk.Coin"
+    }
+  ]
+}

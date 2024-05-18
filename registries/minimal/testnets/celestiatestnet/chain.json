@@ -1,0 +1,42 @@
+{
+  "$schema": "../../chain.schema.json",
+  "chainName": "celestiatestnet",
+  "chainId": "blockspacerace-0",
+  "prettyName": "Blockspace Race Testnet",
+  "networkType": "testnet",
+  "bech32Prefix": "celestia",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "utia",
+        "fixedMinGasPrice": 0
+      }
+    ]
+  },
+  "codebase": {
+
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc-blockspacerace.pops.one/"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://celestia-blockspacerace-rest.brocha.in"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "Mintscan",
+      "url": "https://mintscan.io/celestia-incentivized-testnet",
+      "txPage": "https://mintscan.io/celestia-incentivized-testnet/txs/${txHash}"
+    }
+  ]
+}

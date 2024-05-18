@@ -1,0 +1,66 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "bluzelle",
+  "assets": [
+    {
+      "description": "The native token of Bluzelle",
+      "denomUnits": [
+        {
+          "denom": "ubnt",
+          "exponent": 0
+        },
+        {
+          "denom": "bnt",
+          "exponent": 6,
+          "aliases": [
+            "blz"
+          ]
+        }
+      ],
+      "base": "ubnt",
+      "name": "Bluzelle",
+      "display": "bnt",
+      "symbol": "BLZ",
+      "coingeckoId": "bluzelle",
+      "assetType": "sdk.coin"
+    },
+    {
+      "description": "The ELT token of Bluzelle's Gamma 4 Gaming Ecosystem",
+      "denomUnits": [
+        {
+          "denom": "uelt",
+          "exponent": 0
+        },
+        {
+          "denom": "elt",
+          "exponent": 6
+        }
+      ],
+      "base": "uelt",
+      "name": "ELT",
+      "display": "elt",
+      "symbol": "ELT",
+      "coingeckoId": "",
+      "assetType": "sdk.coin"
+    },
+    {
+      "description": "The game token of Bluzelle's Gamma 4 Gaming Ecosystem",
+      "denomUnits": [
+        {
+          "denom": "ug4",
+          "exponent": 0
+        },
+        {
+          "denom": "g4",
+          "exponent": 6
+        }
+      ],
+      "base": "ug4",
+      "name": "G4",
+      "display": "g4",
+      "symbol": "G4",
+      "coingeckoId": "",
+      "assetType": "sdk.coin"
+    }
+  ]
+}

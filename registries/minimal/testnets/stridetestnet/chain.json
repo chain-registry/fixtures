@@ -1,0 +1,53 @@
+{
+  "$schema": "../../chain.schema.json",
+  "chainName": "stridetestnet",
+  "networkType": "testnet",
+  "prettyName": "Stride Testnet",
+  "chainId": "stride-testnet-1",
+  "bech32Prefix": "stride",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "ustrd",
+        "fixedMinGasPrice": 0
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "ustrd"
+      }
+    ]
+  },
+  "codebase": {
+    "cosmosSdkVersion": "0.46",
+    "ibcGoVersion": "5.1.0"
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://stride.testnet-1.stridenet.co"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://stride.testnet-1.stridenet.co/api"
+      }
+    ],
+    "grpc": [
+
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "PingPub",
+      "url": "https://testnet.ping.pub/stride",
+      "txPage": "https://testnet.ping.pub/stride/tx/${txHash}"
+    }
+  ]
+}

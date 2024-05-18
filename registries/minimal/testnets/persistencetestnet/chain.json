@@ -1,0 +1,97 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "persistencetestnet",
+  "chainId": "test-core-1",
+  "prettyName": "Persistence Testnet",
+  "networkType": "testnet",
+  "website": "https://persistence.one/",
+  "bech32Prefix": "persistence",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "uxprt",
+        "fixedMinGasPrice": 0,
+        "lowGasPrice": 0.05,
+        "averageGasPrice": 0.125,
+        "highGasPrice": 0.2
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "uxprt"
+      }
+    ]
+  },
+  "codebase": {
+
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc-testnet-persistence.architectnodes.com/"
+      },
+      {
+        "address": "https://persistence-testnet-rpc.baryon.dev/"
+      },
+      {
+        "address": "https://persistence-testnet-rpc.cosmonautstakes.com/"
+      },
+      {
+        "address": "https://rpc.testnet.persistence.one/"
+      },
+      {
+        "address": "https://persistence-testnet-rpc.polkachu.com/"
+      },
+      {
+        "address": "https://xprt-trpc.antrixy.org/"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://rest-testnet-persistence.architectnodes.com/"
+      },
+      {
+        "address": "https://persistence-testnet-api.baryon.dev/"
+      },
+      {
+        "address": "https://persistence-testnet-rest.cosmonautstakes.com/"
+      },
+      {
+        "address": "https://rest.testnet.persistence.one/"
+      },
+      {
+        "address": "https://persistence-testnet-api.polkachu.com/"
+      },
+      {
+        "address": "https://xprt-trest.antrixy.org/"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "persistence-testnet-grpc.polkachu.com:15490"
+      },
+      {
+        "address": "https://xprt-tgrpc.antrixy.org/"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "ping.pub",
+      "url": "https://testnet.ping.pub/test-core-1/",
+      "txPage": "https://testnet.ping.pub/test-core-1/tx/${txHash}"
+    },
+    {
+      "kind": "mintscan",
+      "url": "https://mintscan.io/persistence-testnet",
+      "txPage": "https://mintscan.io/persistence-testnet/txs/${txHash}",
+      "accountPage": "https://mintscan.io/persistence-testnet/account/${accountAddress}"
+    }
+  ]
+}

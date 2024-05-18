@@ -1,0 +1,28 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "aptos",
+  "assets": [
+    {
+      "description": "Aptos token (APT) is the Aptos blockchain native token used for paying network and transaction fees.",
+      "denomUnits": [
+        {
+          "denom": "0x1::aptos_coin::AptosCoin",
+          "exponent": 0,
+          "aliases": [
+            "Octa"
+          ]
+        },
+        {
+          "denom": "APT",
+          "exponent": 8
+        }
+      ],
+      "assetType": "unknown",
+      "base": "0x1::aptos_coin::AptosCoin",
+      "name": "Aptos Coin",
+      "display": "APT",
+      "symbol": "APT",
+      "coingeckoId": "aptos"
+    }
+  ]
+}

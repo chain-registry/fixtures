@@ -1,0 +1,24 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "nois",
+  "assets": [
+    {
+      "description": "The native token of Nois",
+      "denomUnits": [
+        {
+          "denom": "unois",
+          "exponent": 0
+        },
+        {
+          "denom": "nois",
+          "exponent": 6
+        }
+      ],
+      "base": "unois",
+      "name": "Nois",
+      "display": "nois",
+      "symbol": "NOIS",
+      "assetType": "sdk.Coin"
+    }
+  ]
+}

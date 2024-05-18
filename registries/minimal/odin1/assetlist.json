@@ -1,0 +1,61 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "odin",
+  "assets": [
+    {
+      "description": "Staking and governance token for ODIN Protocol",
+      "denomUnits": [
+        {
+          "denom": "loki",
+          "exponent": 0
+        },
+        {
+          "denom": "odin",
+          "exponent": 6
+        }
+      ],
+      "base": "loki",
+      "name": "ODIN",
+      "display": "odin",
+      "symbol": "ODIN",
+      "coingeckoId": "odin-protocol",
+      "assetType": "sdk.Coin"
+    },
+    {
+      "description": "GEO token for ODIN Protocol",
+      "denomUnits": [
+        {
+          "denom": "mGeo",
+          "exponent": 0
+        },
+        {
+          "denom": "geo",
+          "exponent": 6
+        }
+      ],
+      "base": "mGeo",
+      "name": "GEO",
+      "display": "geo",
+      "symbol": "GEO",
+      "assetType": "sdk.Coin"
+    },
+    {
+      "description": "O9W token for ODIN Protocol",
+      "denomUnits": [
+        {
+          "denom": "mO9W",
+          "exponent": 0
+        },
+        {
+          "denom": "O9W",
+          "exponent": 6
+        }
+      ],
+      "base": "mO9W",
+      "name": "O9W",
+      "display": "O9W",
+      "symbol": "O9W",
+      "assetType": "sdk.Coin"
+    }
+  ]
+}

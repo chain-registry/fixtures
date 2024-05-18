@@ -1,0 +1,209 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "dydx",
+  "website": "https://dydx.trade/",
+  "networkType": "mainnet",
+  "prettyName": "dYdX Protocol",
+  "chainId": "dydx-mainnet-1",
+  "bech32Prefix": "dydx",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "adydx",
+        "fixedMinGasPrice": 12500000000,
+        "lowGasPrice": 12500000000,
+        "averageGasPrice": 12500000000,
+        "highGasPrice": 20000000000
+      },
+      {
+        "denom": "ibc/8E27BA2D5493AF5636760E354E46004562C46AB7EC0CC4C1CA14E9E20E2545B5",
+        "fixedMinGasPrice": 0.025,
+        "lowGasPrice": 0.025,
+        "averageGasPrice": 0.025,
+        "highGasPrice": 0.03
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "adydx"
+      }
+    ]
+  },
+  "codebase": {
+    "cosmosSdkVersion": "dydxprotocol/cosmos-sdk v0.50.5-0.20240220212824-35f31482370c",
+    "ibcGoVersion": "v8.0.0"
+  },
+  "description": "Our goal is to build open source code that can power a first class product and trading experience.",
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://dydx-rpc.kingnodes.com:443"
+      },
+      {
+        "address": "https://dydx-dao-rpc.polkachu.com"
+      },
+      {
+        "address": "https://dydx-mainnet-full-rpc.public.blastapi.io"
+      },
+      {
+        "address": "https://dydx-rpc.lavenderfive.com:443"
+      },
+      {
+        "address": "https://dydx-mainnet-rpc.autostake.com:443"
+      },
+      {
+        "address": "https://rpc-dydx.ecostake.com:443"
+      },
+      {
+        "address": "https://rpc.dydx.nodestake.top:443"
+      },
+      {
+        "address": "https://rpc-dydx.cosmos-spaces.cloud"
+      },
+      {
+        "address": "https://dydx-rpc.publicnode.com:443"
+      },
+      {
+        "address": "https://rpc-dydx.cros-nest.com:443"
+      },
+      {
+        "address": "https://dydx-rpc.enigma-validator.com"
+      },
+      {
+        "address": "https://community.nuxian-node.ch:6797/dydx/trpc"
+      },
+      {
+        "address": "https://dydx-rpc.noders.services"
+      },
+      {
+        "address": "https://dydx.interstellar-lounge.org"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://community.nuxian-node.ch:6797/dydx/crpc"
+      },
+      {
+        "address": "https://dydx-dao-api.polkachu.com"
+      },
+      {
+        "address": "https://dydx-mainnet-full-lcd.public.blastapi.io"
+      },
+      {
+        "address": "https://dydx-rest.kingnodes.com:443"
+      },
+      {
+        "address": "https://dydx-api.lavenderfive.com:443"
+      },
+      {
+        "address": "https://dydx-mainnet-lcd.autostake.com:443"
+      },
+      {
+        "address": "https://rest-dydx.ecostake.com:443"
+      },
+      {
+        "address": "https://api-dydx.cosmos-spaces.cloud"
+      },
+      {
+        "address": "https://api.dydx.nodestake.top:443"
+      },
+      {
+        "address": "https://dydx-rest.publicnode.com"
+      },
+      {
+        "address": "https://rest-dydx.cros-nest.com:443"
+      },
+      {
+        "address": "https://dydx-lcd.enigma-validator.com"
+      },
+      {
+        "address": "https://dydx-api.noders.services"
+      },
+      {
+        "address": "https://dydx-rest.interstellar-lounge.org"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "dydx-dao-grpc-1.polkachu.com:23890"
+      },
+      {
+        "address": "dydx-dao-grpc-2.polkachu.com:23890"
+      },
+      {
+        "address": "dydx-dao-grpc-3.polkachu.com:23890"
+      },
+      {
+        "address": "dydx-dao-grpc-4.polkachu.com:23890"
+      },
+      {
+        "address": "dydx-dao-grpc-5.polkachu.com:23890"
+      },
+      {
+        "address": "dydx-mainnet-full-grpc.public.blastapi.io:443"
+      },
+      {
+        "address": "https://dydx-grpc.kingnodes.com:443"
+      },
+      {
+        "address": "https://dydx-grpc.lavenderfive.com"
+      },
+      {
+        "address": "dydx-mainnet-grpc.autostake.com:443"
+      },
+      {
+        "address": "https://grpc.dydx.nodestake.top"
+      },
+      {
+        "address": "dydx.grpc.kjnodes.com:443"
+      },
+      {
+        "address": "grpc-dydx.cosmos-spaces.cloud:4990"
+      },
+      {
+        "address": "dydx-grpc.publicnode.com:443"
+      },
+      {
+        "address": "dydx-grpc.noders.services:37090"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "mintscan",
+      "url": "https://www.mintscan.io/dydx",
+      "txPage": "https://www.mintscan.io/dydx/txs/${txHash}",
+      "accountPage": "https://www.mintscan.io/dydx/account/${accountAddress}"
+    },
+    {
+      "kind": "ezstaking",
+      "url": "https://ezstaking.app/dydx",
+      "txPage": "https://ezstaking.app/dydx/txs/${txHash}",
+      "accountPage": "https://ezstaking.app/dydx/account/${accountAddress}"
+    },
+    {
+      "kind": "NodeStake",
+      "url": "https://explorer.nodestake.top/dydx/",
+      "txPage": "https://explorer.nodestake.top/dydx/txs/${txHash}",
+      "accountPage": "https://explorer.nodestake.top/dydx/account/${accountAddress}"
+    },
+    {
+      "kind": "TC Network",
+      "url": "https://explorer.tcnetwork.io/dydx",
+      "txPage": "https://explorer.tcnetwork.io/dydx/transaction/${txHash}",
+      "accountPage": "https://explorer.tcnetwork.io/dydx/account/${accountAddress}"
+    }
+  ],
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx.png",
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx.svg"
+    }
+  ]
+}

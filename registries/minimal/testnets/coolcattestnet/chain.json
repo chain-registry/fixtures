@@ -1,0 +1,52 @@
+{
+  "$schema": "../../chain.schema.json",
+  "chainName": "coolcattestnet",
+  "networkType": "testnet",
+  "website": "https://app.coolcat.space/",
+  "prettyName": "CoolCat",
+  "chainId": "kitten-04",
+  "bech32Prefix": "ccat",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "uccat",
+        "fixedMinGasPrice": 0,
+        "lowGasPrice": 0,
+        "averageGasPrice": 1,
+        "highGasPrice": 2
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "uccat"
+      }
+    ]
+  },
+  "slip44": 118,
+  "codebase": {
+
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc.coolcat.space"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://lcd.coolcat.space"
+      }
+    ],
+    "grpc": [
+
+    ]
+  },
+  "explorers": [
+
+  ]
+}

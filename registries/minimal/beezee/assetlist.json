@@ -1,0 +1,25 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "beezee",
+  "assets": [
+    {
+      "description": "BeeZee native blockchain",
+      "denomUnits": [
+        {
+          "denom": "ubze",
+          "exponent": 0
+        },
+        {
+          "denom": "bze",
+          "exponent": 6
+        }
+      ],
+      "base": "ubze",
+      "name": "BeeZee",
+      "display": "bze",
+      "symbol": "BZE",
+      "coingeckoId": "bzedge",
+      "assetType": "sdk.coin"
+    }
+  ]
+}

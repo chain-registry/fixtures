@@ -1,0 +1,24 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "uptick",
+  "assets": [
+    {
+      "description": "The native token of Uptick",
+      "denomUnits": [
+        {
+          "denom": "auptick",
+          "exponent": 0
+        },
+        {
+          "denom": "uptick",
+          "exponent": 18
+        }
+      ],
+      "base": "auptick",
+      "name": "Uptick",
+      "display": "uptick",
+      "symbol": "UPTICK",
+      "assetType": "sdk.Coin"
+    }
+  ]
+}

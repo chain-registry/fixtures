@@ -1,0 +1,105 @@
+{
+  "$schema": "../../chain.schema.json",
+  "chainName": "cascadiatestnet",
+  "networkType": "testnet",
+  "website": "https://cascadia.foundation/",
+  "prettyName": "Cascadia",
+  "chainId": "cascadia_6102-1",
+  "bech32Prefix": "cascadia",
+  "keyAlgos": [
+    "ethsecp256k1"
+  ],
+  "slip44": 60,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "aCC",
+        "fixedMinGasPrice": 0,
+        "lowGasPrice": 7,
+        "averageGasPrice": 10,
+        "highGasPrice": 15
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "aCC"
+      }
+    ],
+    "lockDuration": {
+      "time": "1814400s"
+    }
+  },
+  "codebase": {
+    "cosmosSdkVersion": "0.46.10",
+    "cosmwasmVersion": "0.30",
+    "cosmwasmEnabled": true
+  },
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/cascadiatestnet/images/cascadia.png",
+      "theme": {
+        "primaryColorHex": "#004A96"
+      }
+    }
+  ],
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc.cascadia.foundation:443"
+      },
+      {
+        "address": "https://cscd-rpc.systemd.run:443"
+      },
+      {
+        "address": "https://api.cascadia-t.indonode.net:443"
+      },
+      {
+        "address": "https://rpc-test.cascadia.hexnodes.co:443"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "grpc.cascadia.foundation:443"
+      },
+      {
+        "address": "cscd-grpc.systemd.run:443"
+      },
+      {
+        "address": "grpc.cascadia-t.indonode.net:43090"
+      },
+      {
+        "address": "grpc-test.cascadia.hexnodes.co:19090"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://lcd.cascadia.foundation"
+      },
+      {
+        "address": "https://cscd-api.systemd.run"
+      },
+      {
+        "address": "https://api.cascadia-t.indonode.net/"
+      },
+      {
+        "address": "https://lcd-test.cascadia.hexnodes.co"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "validator_explorer",
+      "url": "https://validator.cascadia.foundation/",
+      "txPage": "https://validator.cascadia.foundation/transactions/${txHash}",
+      "accountPage": "https://validator.cascadia.foundation/accounts/${accountAddress}"
+    },
+    {
+      "kind": "block_explorer",
+      "url": "https://explorer.cascadia.foundation/",
+      "txPage": "https://explorer.cascadia.foundation/tx/${txHash}",
+      "accountPage": "https://explorer.cascadia.foundation/address/${accountAddress}"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "$schema": "../ibc_data.schema.json",
+  "chain1": {
+    "chainName": "composable",
+    "clientId": "07-tendermint-30",
+    "connectionId": "connection-15"
+  },
+  "chain2": {
+    "chainName": "juno",
+    "clientId": "07-tendermint-382",
+    "connectionId": "connection-376"
+  },
+  "channels": [
+    {
+      "chain1": {
+        "channelId": "channel-8",
+        "portId": "transfer"
+      },
+      "chain2": {
+        "channelId": "channel-280",
+        "portId": "transfer"
+      },
+      "ordering": "unordered",
+      "version": "ics20-1",
+      "tags": {
+        "status": "live",
+        "preferred": true
+      }
+    }
+  ]
+}

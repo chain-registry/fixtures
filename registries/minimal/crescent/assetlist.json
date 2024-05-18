@@ -1,0 +1,44 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "crescent",
+  "assets": [
+    {
+      "description": "The native token of Crescent",
+      "denomUnits": [
+        {
+          "denom": "ucre",
+          "exponent": 0
+        },
+        {
+          "denom": "cre",
+          "exponent": 6
+        }
+      ],
+      "base": "ucre",
+      "name": "Crescent",
+      "display": "cre",
+      "symbol": "CRE",
+      "coingeckoId": "crescent-network",
+      "assetType": "sdk.Coin"
+    },
+    {
+      "description": "The bonded token of Crescent",
+      "denomUnits": [
+        {
+          "denom": "ubcre",
+          "exponent": 0
+        },
+        {
+          "denom": "bcre",
+          "exponent": 6
+        }
+      ],
+      "base": "ubcre",
+      "name": "Bonded Crescent",
+      "display": "bcre",
+      "symbol": "bCRE",
+      "coingeckoId": "liquid-staking-crescent",
+      "assetType": "sdk.Coin"
+    }
+  ]
+}

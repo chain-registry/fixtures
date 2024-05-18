@@ -1,0 +1,25 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "likecoin",
+  "assets": [
+    {
+      "description": "LIKE is the native staking and governance token of LikeCoin chain, a Decentralized Publishing Infrastructure to empower content ownership, authenticity, and provenance.",
+      "denomUnits": [
+        {
+          "denom": "nanolike",
+          "exponent": 0
+        },
+        {
+          "denom": "like",
+          "exponent": 9
+        }
+      ],
+      "base": "nanolike",
+      "name": "LikeCoin",
+      "display": "like",
+      "symbol": "LIKE",
+      "coingeckoId": "likecoin",
+      "assetType": "sdk.Coin"
+    }
+  ]
+}

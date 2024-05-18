@@ -1,0 +1,25 @@
+{
+  "$schema": "../../assetlist.schema.json",
+  "chainName": "fetchhubtestnet",
+  "assets": [
+    {
+      "description": "The native staking and governance token of the Fetch Hub.",
+      "denomUnits": [
+        {
+          "denom": "atestfet",
+          "exponent": 0
+        },
+        {
+          "denom": "testfet",
+          "exponent": 18
+        }
+      ],
+      "base": "atestfet",
+      "name": "fetch-ai",
+      "display": "testfet",
+      "symbol": "FET",
+      "coingeckoId": "fetch-ai",
+      "assetType": "sdk.Coin"
+    }
+  ]
+}

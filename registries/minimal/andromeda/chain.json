@@ -1,0 +1,196 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "andromeda",
+  "chainId": "andromeda-1",
+  "prettyName": "Andromeda",
+  "networkType": "mainnet",
+  "bech32Prefix": "andr",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "uandr"
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "uandr"
+      }
+    ],
+    "lockDuration": {
+      "time": "1814400s"
+    }
+  },
+  "codebase": {
+    "cosmosSdkVersion": "v0.47.8",
+    "ibcGoVersion": "v7.4.0",
+    "cosmwasmVersion": "v0.41.0",
+    "cosmwasmEnabled": true
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc.andromeda-1.andromeda.aviaone.com"
+      },
+      {
+        "address": "https://andromeda.rpc.kjnodes.com"
+      },
+      {
+        "address": "https://andromeda.rpc.nodex.one"
+      },
+      {
+        "address": "https://andro.rpc.m.stavr.tech/"
+      },
+      {
+        "address": "https://andromeda-rpc.lavenderfive.com:443"
+      },
+      {
+        "address": "https://andromeda-mainnet-rpc.autostake.com:443"
+      },
+      {
+        "address": "https://andromeda-rpc.stake-town.com:443"
+      },
+      {
+        "address": "https://andromeda-rpc.stakerhouse.com:443"
+      },
+      {
+        "address": "https://andromeda-rpc.highstakes.ch"
+      },
+      {
+        "address": "https://andromeda-rpc.genznodes.dev"
+      },
+      {
+        "address": "https://andromeda.rpc.kjnodes.com"
+      },
+      {
+        "address": "andromeda-rpc.noders.services"
+      },
+      {
+        "address": "rpc-andromeda.blockval.io"
+      },
+      {
+        "address": "https://andromeda.rpc.liveraven.net"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://api.andromeda-1.andromeda.aviaone.com/"
+      },
+      {
+        "address": "https://andromeda.api.kjnodes.com"
+      },
+      {
+        "address": "https://andromeda.api.nodex.one"
+      },
+      {
+        "address": "https://andro.api.m.stavr.tech"
+      },
+      {
+        "address": "https://andromeda-api.lavenderfive.com:443"
+      },
+      {
+        "address": "https://andromeda-mainnet-lcd.autostake.com:443"
+      },
+      {
+        "address": "https://andromeda-api.stake-town.com:443"
+      },
+      {
+        "address": "https://andromeda-rest.stakerhouse.com:443"
+      },
+      {
+        "address": "https://andromeda-api.highstakes.ch"
+      },
+      {
+        "address": "https://andromeda-api.genznodes.dev"
+      },
+      {
+        "address": "https://andromeda.api.kjnodes.com"
+      },
+      {
+        "address": "andromeda-api.noders.services"
+      },
+      {
+        "address": "api-andromeda.blockval.io"
+      },
+      {
+        "address": "https://andromeda.api.liveraven.net"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "andromeda-grpc.lavenderfive.com:443"
+      },
+      {
+        "address": "https://grpc.andromeda-1.andromeda.aviaone.com:9094"
+      },
+      {
+        "address": "andromeda.grpc.kjnodes.com:443"
+      },
+      {
+        "address": "andromeda-mainnet-grpc.autostake.com:443"
+      },
+      {
+        "address": "https://andromeda.grpc.nodex.one:443"
+      },
+      {
+        "address": "http://andromedad.grpc.t.stavr.tech:132"
+      },
+      {
+        "address": "andromeda-grpc.stake-town.com:443"
+      },
+      {
+        "address": "andromeda-grpc.stakerhouse.com:443"
+      },
+      {
+        "address": "andromeda-grpc.genznodes.dev:27090"
+      },
+      {
+        "address": "andromeda.grpc.kjnodes.com:443"
+      },
+      {
+        "address": "andromeda-grpc.noders.services:34090"
+      },
+      {
+        "address": "grpc-andromeda.blockval.io:443"
+      },
+      {
+        "address": "andromeda.grpc.liveraven.net:443"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "🔥STAVR🔥 Explorer",
+      "url": "https://explorer.stavr.tech/Andromeda-Mainnet",
+      "txPage": "https://explorer.stavr.tech/Andromeda-Mainnet/tx/${txHash}",
+      "accountPage": "https://explorer.stavr.tech/Andromeda-Mainnet/account/${accountAddress}"
+    },
+    {
+      "kind": "exploreme.pro",
+      "url": "https://andromeda.exploreme.pro",
+      "txPage": "https://andromeda.exploreme.pro/transaction/${txHash}",
+      "accountPage": "https://andromeda.exploreme.pro/account/${accountAddress}"
+    },
+    {
+      "kind": "Cosmotracker",
+      "url": "https://cosmotracker.com/andromeda",
+      "txPage": "https://cosmotracker.com/andromeda/tx/${txHash}",
+      "accountPage": "https://cosmotracker.com/andromeda/account/${accountAddress}"
+    },
+    {
+      "kind": "ping.pub",
+      "url": "https://ping.pub/andromeda",
+      "txPage": "https://ping.pub/andromeda/tx/${txHash}"
+    }
+  ],
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/andromeda/images/andromeda-logo.png"
+    }
+  ]
+}

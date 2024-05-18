@@ -1,0 +1,43 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "kusama",
+  "assets": [
+    {
+      "description": "The native fee, governance, staking, and bonding token of the Polkadot platform.",
+      "denomUnits": [
+        {
+          "denom": "Planck",
+          "exponent": 0
+        },
+        {
+          "denom": "Point",
+          "exponent": 3
+        },
+        {
+          "denom": "uKSM",
+          "exponent": 3,
+          "aliases": [
+            "MicroKSM"
+          ]
+        },
+        {
+          "denom": "uKSM",
+          "exponent": 3,
+          "aliases": [
+            "MilliKSM"
+          ]
+        },
+        {
+          "denom": "KSM",
+          "exponent": 12
+        }
+      ],
+      "assetType": "substrate",
+      "base": "Planck",
+      "name": "Kusama",
+      "display": "KSM",
+      "symbol": "KSM",
+      "coingeckoId": "kusama"
+    }
+  ]
+}

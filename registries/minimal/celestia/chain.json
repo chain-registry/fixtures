@@ -1,0 +1,312 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "celestia",
+  "chainId": "celestia",
+  "prettyName": "Celestia",
+  "networkType": "mainnet",
+  "website": "https://celestia.org/",
+  "bech32Prefix": "celestia",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "utia",
+        "fixedMinGasPrice": 0.002,
+        "lowGasPrice": 0.01,
+        "averageGasPrice": 0.02,
+        "highGasPrice": 0.1
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "utia"
+      }
+    ]
+  },
+  "codebase": {
+    "cosmosSdkVersion": "celestiaorg/cosmos-sdk v1.20.1-sdk-v0.46.16",
+    "ibcGoVersion": "v6.2.1"
+  },
+  "description": "Celestia is a modular data availability network that securely scales with the number of users, making it easy for anyone to launch their own blockchain.",
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://public-celestia-rpc.numia.xyz"
+      },
+      {
+        "address": "https://celestia-rpc.mesa.newmetric.xyz"
+      },
+      {
+        "address": "https://rpc.lunaroasis.net"
+      },
+      {
+        "address": "https://rpc.celestia.nodestake.top"
+      },
+      {
+        "address": "https://celestia-rpc.lavenderfive.com:443"
+      },
+      {
+        "address": "https://rpc-celestia-01.stakeflow.io"
+      },
+      {
+        "address": "https://rpc-celestia.cosmos-spaces.cloud"
+      },
+      {
+        "address": "http://celestia.rpc.nodersteam.com:29657"
+      },
+      {
+        "address": "https://celestia.rpc.interchain.validao.xyz"
+      },
+      {
+        "address": "https://celestia-rpc.publicnode.com:443"
+      },
+      {
+        "address": "https://celestia.rpc.stakin-nodes.com"
+      },
+      {
+        "address": "https://celestia.rpc.kjnodes.com"
+      },
+      {
+        "address": "https://celestia-rpc.polkachu.com"
+      },
+      {
+        "address": "https://rpc-celestia.mzonder.com"
+      },
+      {
+        "address": "https://celestia-rpc.enigma-validator.com"
+      },
+      {
+        "address": "https://rpc-celestia.theamsolutions.info"
+      },
+      {
+        "address": "https://celestia-mainnet-rpc.autostake.com:443"
+      },
+      {
+        "address": "https://rpc.celestia.validatus.com"
+      },
+      {
+        "address": "https://celestia-rpc.sr20de.xyz"
+      },
+      {
+        "address": "https://rpc-celestia-full.avril14th.org"
+      },
+      {
+        "address": "https://rpc.freshstaking.com/celestia"
+      },
+      {
+        "address": "https://celestia.cumulo.org.es/"
+      },
+      {
+        "address": "https://celestia-rpc.stake-town.com"
+      },
+      {
+        "address": "https://rpc.celestia-app.bronbro.io"
+      },
+      {
+        "address": "https://celestia-rpc.noders.services"
+      },
+      {
+        "address": "https://rpc.celestia.citizenweb3.com"
+      },
+      {
+        "address": "https://celestia-mainnet-rpc.itrocket.net"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://public-celestia-lcd.numia.xyz"
+      },
+      {
+        "address": "https://celestia-rest.mesa.newmetric.xyz"
+      },
+      {
+        "address": "http://celestia.rpc.nodersteam.com:1617"
+      },
+      {
+        "address": "https://api.lunaroasis.net"
+      },
+      {
+        "address": "https://api.celestia.nodestake.top"
+      },
+      {
+        "address": "https://celestia-api.lavenderfive.com:443"
+      },
+      {
+        "address": "https://api-celestia-01.stakeflow.io"
+      },
+      {
+        "address": "https://api-celestia.cosmos-spaces.cloud"
+      },
+      {
+        "address": "https://celestia.rest.interchain.validao.xyz"
+      },
+      {
+        "address": "https://celestia-rest.publicnode.com"
+      },
+      {
+        "address": "https://celestia.rest.stakin-nodes.com"
+      },
+      {
+        "address": "https://celestia.api.kjnodes.com"
+      },
+      {
+        "address": "https://api-celestia.mzonder.com"
+      },
+      {
+        "address": "https://celestia-lcd.enigma-validator.com"
+      },
+      {
+        "address": "https://rest-celestia.theamsolutions.info"
+      },
+      {
+        "address": "https://api.celestia.validatus.com"
+      },
+      {
+        "address": "https://celestia-api.sr20de.xyz"
+      },
+      {
+        "address": "https://celestia-mainnet-lcd.autostake.com:443"
+      },
+      {
+        "address": "https://api-celestia-full.avril14th.org"
+      },
+      {
+        "address": "https://celestia.api.cumulo.org.es"
+      },
+      {
+        "address": "https://celestia-api.stake-town.com"
+      },
+      {
+        "address": "https://lcd.celestia-app.bronbro.io"
+      },
+      {
+        "address": "https://celestia-api.noders.services"
+      },
+      {
+        "address": "https://celestia-mainnet-api.itrocket.net"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "https://grpc.celestia.nodestake.top"
+      },
+      {
+        "address": "celestia-mainnet-grpc.autostake.com:443"
+      },
+      {
+        "address": "https://celestia-grpc.lavenderfive.com:443"
+      },
+      {
+        "address": "celestia.grpc.nodersteam.com:9690"
+      },
+      {
+        "address": "grpc-celestia-01.stakeflow.io:15002"
+      },
+      {
+        "address": "grpc-celestia.cosmos-spaces.cloud:443"
+      },
+      {
+        "address": "celestia.grpc.interchain.validao.xyz:443"
+      },
+      {
+        "address": "celestia-grpc.publicnode.com:443"
+      },
+      {
+        "address": "celestia.grpc.stakin-nodes.com:443"
+      },
+      {
+        "address": "celestia.grpc.kjnodes.com:443"
+      },
+      {
+        "address": "grpc-celestia.mzonder.com:443"
+      },
+      {
+        "address": "grpc-celestia.theamsolutions.info:443"
+      },
+      {
+        "address": "grpc.celestia.validatus.com"
+      },
+      {
+        "address": "celestia-grpc.sr20de.xyz"
+      },
+      {
+        "address": "grpc-celestia-full.avril14th.org"
+      },
+      {
+        "address": "celestia.grpc.cumulo.org.es"
+      },
+      {
+        "address": "https://celestia-grpc.stake-town.com"
+      },
+      {
+        "address": "grpc.celestia-app.bronbro.io:443"
+      },
+      {
+        "address": "celestia-grpc.noders.services:11090"
+      },
+      {
+        "address": "celestia-mainnet-grpc.itrocket.net:40090"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "Mintscan",
+      "url": "https://mintscan.io/celestia",
+      "txPage": "https://mintscan.io/celestia/txs/${txHash}",
+      "accountPage": "https://mintscan.io/celestia/address/${accountAddress}"
+    },
+    {
+      "kind": "NodeStake",
+      "url": "https://explorer.nodestake.top/celestia/",
+      "txPage": "https://explorer.nodestake.top/celestia/txs/${txHash}",
+      "accountPage": "https://explorer.nodestake.top/celestia/account/${accountAddress}"
+    },
+    {
+      "kind": "Stakeflow",
+      "url": "https://stakeflow.io/celestia",
+      "txPage": "https://stakeflow.io/celestia/transactions/${txHash}"
+    },
+    {
+      "kind": "TC Network",
+      "url": "https://explorer.tcnetwork.io/celestia",
+      "txPage": "https://explorer.tcnetwork.io/celestia/transaction/${txHash}",
+      "accountPage": "https://explorer.tcnetwork.io/celestia/account/${accountAddress}"
+    },
+    {
+      "kind": "🔥STAVR🔥",
+      "url": "https://explorer.stavr.tech/Celestia-Mainnet",
+      "txPage": "https://explorer.stavr.tech/Celestia-Mainnet/transaction/${txHash}",
+      "accountPage": "https://explorer.stavr.tech/Celestia-Mainnet/account/${accountAddress}"
+    },
+    {
+      "kind": "AM Solutions",
+      "url": "https://explorer.theamsolutions.info/celestia-main",
+      "txPage": "https://explorer.theamsolutions.info/celestia-main/transaction/${txHash}",
+      "accountPage": "https://explorer.theamsolutions.info/celestia-main/account/${accountAddress}"
+    },
+    {
+      "kind": "ezstaking",
+      "url": "https://ezstaking.app/celestia",
+      "txPage": "https://ezstaking.app/celestia/txs/${txHash}",
+      "accountPage": "https://ezstaking.app/celestia/account/${accountAddress}"
+    },
+    {
+      "kind": "🚀 itrocket 🚀",
+      "url": "https://mainnet.itrocket.net/celestia",
+      "txPage": "https://mainnet.itrocket.net/celestia/transaction/${txHash}",
+      "accountPage": "https://mainnet.itrocket.net/celestia/account/${accountAddress}"
+    }
+  ],
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.png",
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.svg"
+    }
+  ]
+}

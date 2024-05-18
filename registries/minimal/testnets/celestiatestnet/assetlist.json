@@ -1,0 +1,24 @@
+{
+  "$schema": "../../assetlist.schema.json",
+  "chainName": "celestiatestnet",
+  "assets": [
+    {
+      "description": "",
+      "denomUnits": [
+        {
+          "denom": "utia",
+          "exponent": 0
+        },
+        {
+          "denom": "tia",
+          "exponent": 6
+        }
+      ],
+      "base": "utia",
+      "name": "Celestia",
+      "display": "tia",
+      "symbol": "TIA",
+      "assetType": "sdk.Coin"
+    }
+  ]
+}

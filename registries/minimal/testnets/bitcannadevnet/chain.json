@@ -1,0 +1,106 @@
+{
+  "$schema": "../../chain.schema.json",
+  "chainName": "bitcannadevnet",
+  "networkType": "testnet",
+  "prettyName": "BitCanna Devnet-1",
+  "chainId": "bitcanna-dev-1",
+  "bech32Prefix": "bcna",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "ubcna",
+        "fixedMinGasPrice": 0.001
+      }
+    ]
+  },
+  "codebase": {
+
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc-testnet.bitcanna.io"
+      },
+      {
+        "address": "https://bitcanna-testnet.rpc.kjnodes.com/"
+      },
+      {
+        "address": "https://testnet-bitcanna-rpc.konsortech.xyz/"
+      },
+      {
+        "address": "https://rpc.bitcanna-dev-1.bitcanna.aviaone.com/"
+      },
+      {
+        "address": "https://bitcanna-testnet.nodejumper.io:443"
+      },
+      {
+        "address": "https://bcna-testnet-rpc.ibs.team:443"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://lcd-testnet.bitcanna.io"
+      },
+      {
+        "address": "https://testnet-bitcanna-api.konsortech.xyz/"
+      },
+      {
+        "address": "https://bitcanna.api.dev.stavr.tech"
+      },
+      {
+        "address": "https://api.bitcanna-dev-1.bitcanna.aviaone.com/"
+      },
+      {
+        "address": "https://bitcanna-testnet.api.kjnodes.com/"
+      },
+      {
+        "address": "https://bitcanna-testnet.nodejumper.io:1317"
+      },
+      {
+        "address": "https://bcna-testnet-api.ibs.team:443"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "http://devnet-1.bitcanna.io:9090/"
+      },
+      {
+        "address": "http://bitcanna-testnet.grpc.kjnodes.com:42090/"
+      },
+      {
+        "address": "http://bitcanna.grpc.dev.stavr.tech:2901"
+      },
+      {
+        "address": "https://bitcanna-testnet.nodejumper.io:9090"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "url": "https://explorer.thesilverfox.pro/bitcanna",
+      "txPage": "https://explorer.thesilverfox.pro/bitcanna/tx/${txHash}"
+    },
+    {
+      "url": "https://testnets-cosmos.mintthemoon.xyz/bitcanna",
+      "txPage": "https://testnets-cosmos.mintthemoon.xyz/bitcanna/tx/${txHash}"
+    },
+    {
+      "kind": "🔥STAVR🔥",
+      "url": "https://explorer.stavr.tech/Bitcanna-DEV",
+      "txPage": "https://explorer.stavr.tech/Bitcanna-DEV/tx/${txHash}",
+      "accountPage": "https://explorer.stavr.tech/Bitcanna-DEV/account/${accountAddress}"
+    },
+    {
+      "url": "https://explorer.kjnodes.com/bitcanna-testnet",
+      "txPage": "https://explorer.kjnodes.com/bitcanna-testnet/tx/${txHash}"
+    },
+    {
+      "url": "https://explorer.stavr.tech/bitcanna-dev",
+      "txPage": "https://explorer.stavr.tech/bitcanna-dev/tx/${txHash}"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "mises",
+  "networkType": "mainnet",
+  "website": "https://mises.site",
+  "prettyName": "Mises",
+  "chainId": "mainnet",
+  "bech32Prefix": "mises",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "umis",
+        "fixedMinGasPrice": 0
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "umis"
+      }
+    ]
+  },
+  "codebase": {
+
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc.gw.mises.site:443"
+      },
+      {
+        "address": "https://e2.mises.site:443"
+      }
+    ],
+    "rest": [
+
+    ],
+    "grpc": [
+
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "Mises-GW Explorer",
+      "url": "https://gw.mises.site",
+      "txPage": "https://gw.mises.site/tx/${txHash}"
+    },
+    {
+      "kind": "Jambulmerah ping.pub based",
+      "url": "https://explorer.jambulmerah.dev/mises",
+      "txPage": "https://explorer.jambulmerah.dev/mises/tx/${txHash}"
+    }
+  ],
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/mises/images/mises.png"
+    }
+  ]
+}

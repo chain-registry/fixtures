@@ -1,0 +1,163 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "seda",
+  "networkType": "mainnet",
+  "website": "https://www.seda.xyz/",
+  "prettyName": "SEDA",
+  "chainId": "seda-1",
+  "bech32Prefix": "seda",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "aseda",
+        "fixedMinGasPrice": 10000000000,
+        "lowGasPrice": 10000000000,
+        "averageGasPrice": 10000000000,
+        "highGasPrice": 14000000000
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "aseda"
+      }
+    ]
+  },
+  "codebase": {
+    "cosmosSdkVersion": "v0.50.5",
+    "ibcGoVersion": "v8.2.0"
+  },
+  "description": "SEDA is a standard for modular data transport and querying. Any data type, for all networks.",
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc.mainnet.seda.xyz/"
+      },
+      {
+        "address": "https://seda-rpc.polkachu.com/"
+      },
+      {
+        "address": "https://seda.rpc.kjnodes.com"
+      },
+      {
+        "address": "https://seda-rpc.synergynodes.com/"
+      },
+      {
+        "address": "https://seda-rpc.lavenderfive.com/"
+      },
+      {
+        "address": "https://seda-rpc.kleomedes.network/"
+      },
+      {
+        "address": "https://seda-rpc.ibs.team:443"
+      },
+      {
+        "address": "https://seda-mainnet-rpc.autostake.com:443"
+      },
+      {
+        "address": "https://rpc.seda.bronbro.io:443"
+      },
+      {
+        "address": "https://rpc-seda.whispernode.com:443"
+      },
+      {
+        "address": "https://seda-rpc.applejuice.256x25.tech:443"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://lcd.mainnet.seda.xyz/"
+      },
+      {
+        "address": "https://seda-api.polkachu.com/"
+      },
+      {
+        "address": "https://seda.api.kjnodes.com"
+      },
+      {
+        "address": "https://seda-api.synergynodes.com/"
+      },
+      {
+        "address": "https://seda-api.lavenderfive.com/"
+      },
+      {
+        "address": "https://seda-api.kleomedes.network/"
+      },
+      {
+        "address": "https://seda-api.ibs.team:443"
+      },
+      {
+        "address": "https://seda-mainnet-lcd.autostake.com:443"
+      },
+      {
+        "address": "https://lcd.seda.bronbro.io:443"
+      },
+      {
+        "address": "https://api-seda.whispernode.com:443"
+      },
+      {
+        "address": "https://seda-api.applejuice.256x25.tech:443"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "seda-grpc.polkachu.com:25890"
+      },
+      {
+        "address": "https://seda-grpc.synergynodes.com/"
+      },
+      {
+        "address": "seda.grpc.kjnodes.com:443"
+      },
+      {
+        "address": "https://seda-grpc.lavenderfive.com"
+      },
+      {
+        "address": "seda-mainnet-grpc.autostake.com:443"
+      },
+      {
+        "address": "https://grpc.seda.bronbro.io:443"
+      },
+      {
+        "address": "grpc-seda.whispernode.com:443"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "sedaexplorer",
+      "url": "https://explorer.seda.xyz/",
+      "txPage": "https://explorer.seda.xyz/txs/${txHash}",
+      "accountPage": "https://explorer.seda.xyz/account/${accountAddress}"
+    },
+    {
+      "kind": "explorers.guru",
+      "url": "https://seda.explorers.guru",
+      "txPage": "https://seda.explorers.guru/transaction/${txHash}",
+      "accountPage": "https://seda.explorers.guru/account/${accountAddress}"
+    },
+    {
+      "kind": "WhisperNode 🤐",
+      "url": "https://mainnet.whispernode.com/seda",
+      "txPage": "https://mainnet.whispernode.com/seda/tx/${txHash}",
+      "accountPage": "https://mainnet.whispernode.com/seda/account/${accountAddress}"
+    },
+    {
+      "kind": "Apple juice 🧃",
+      "url": "https://explorer.256x25.tech/seda-mainnet",
+      "txPage": "https://explorer.256x25.tech/seda-mainnet/tx/${txHash}",
+      "accountPage": "https://explorer.256x25.tech/seda-mainnet/account/${accountAddress}"
+    }
+  ],
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/seda/images/seda.png",
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/seda/images/seda.svg"
+    }
+  ]
+}

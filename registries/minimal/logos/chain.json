@@ -1,0 +1,56 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "logos",
+  "networkType": "mainnet",
+  "prettyName": "Logos",
+  "chainId": "logos_7002-1",
+  "bech32Prefix": "logos",
+  "keyAlgos": [
+    "ethsecp256k1"
+  ],
+  "extraCodecs": [
+    "ethermint"
+  ],
+  "slip44": 60,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "aLYT"
+      }
+    ]
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://logos-rpc.provable.dev:443/"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://logos.provable.dev/rest/"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "logos-grpc.provable.dev:443"
+      }
+    ],
+    "evmHttpJsonrpc": [
+      {
+        "address": "https://logos-evm.provable.dev/"
+      }
+    ]
+  },
+  "explorers": [
+
+  ],
+  "codebase": {
+
+  },
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/logos/images/logos.png",
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/logos/images/logos.svg"
+    }
+  ]
+}

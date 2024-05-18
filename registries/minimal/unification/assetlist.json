@@ -1,0 +1,25 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "unification",
+  "assets": [
+    {
+      "description": "Staking and governance coin for the Unification Blockchain",
+      "denomUnits": [
+        {
+          "denom": "nund",
+          "exponent": 0
+        },
+        {
+          "denom": "FUND",
+          "exponent": 9
+        }
+      ],
+      "base": "nund",
+      "name": "Unification Network",
+      "display": "FUND",
+      "symbol": "FUND",
+      "coingeckoId": "unification",
+      "assetType": "sdk.Coin"
+    }
+  ]
+}

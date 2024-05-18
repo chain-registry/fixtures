@@ -1,0 +1,29 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "stratos",
+  "assets": [
+    {
+      "description": "STOS coin is the token for the Stratos (STOS) cosmos based blockchain",
+      "denomUnits": [
+        {
+          "denom": "wei",
+          "exponent": 0
+        },
+        {
+          "denom": "gwei",
+          "exponent": 9
+        },
+        {
+          "denom": "stos",
+          "exponent": 18
+        }
+      ],
+      "base": "wei",
+      "name": "Stratos",
+      "display": "stos",
+      "symbol": "STOS",
+      "coingeckoId": "stratos",
+      "assetType": "unknown"
+    }
+  ]
+}

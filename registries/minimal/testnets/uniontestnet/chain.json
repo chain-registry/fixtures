@@ -1,0 +1,93 @@
+{
+  "$schema": "../../chain.schema.json",
+  "chainName": "uniontestnet",
+  "networkType": "testnet",
+  "prettyName": "Union Testnet",
+  "chainId": "union-testnet-8",
+  "bech32Prefix": "union",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "muno",
+        "fixedMinGasPrice": 0,
+        "lowGasPrice": 0.0025,
+        "averageGasPrice": 0.025,
+        "highGasPrice": 0.04
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "muno"
+      }
+    ]
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc.testnet.bonlulu.uno"
+      },
+      {
+        "address": "https://union-testnet-rpc.polkachu.com"
+      },
+      {
+        "address": "https://rpc-testnet-union.nodeist.net"
+      },
+      {
+        "address": "https://union-testnet-rpc.itrocket.net"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://api.testnet.bonlulu.uno"
+      },
+      {
+        "address": "https://union-testnet-api.polkachu.com"
+      },
+      {
+        "address": "https://api-testnet-union.nodeist.net"
+      },
+      {
+        "address": "https://union-testnet-api.itrocket.net"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "https://grpc.testnet.bonlulu.uno"
+      },
+      {
+        "address": "http://union-testnet-grpc.polkachu.com:24690"
+      },
+      {
+        "address": "https://grpc-testnet-union.nodeist.net"
+      },
+      {
+        "address": "http://union-testnet-grpc.itrocket.net:23090"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "ping.pub",
+      "url": "https://testnet.bonlulu.uno/union",
+      "txPage": "https://testnet.bonlulu.uno/union/tx/${txHash}",
+      "accountPage": "https://testnet.bonlulu.uno/union/account/${accountAddress}"
+    },
+    {
+      "kind": "explorers.guru",
+      "url": "https://testnet.union.explorers.guru",
+      "txPage": "https://testnet.union.explorers.guru/transaction/${txHash}",
+      "accountPage": "https://testnet.union.explorers.guru/account/${accountAddress}"
+    }
+  ],
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/uniontestnet/images/union.png"
+    }
+  ]
+}

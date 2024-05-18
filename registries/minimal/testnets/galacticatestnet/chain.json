@@ -1,0 +1,70 @@
+{
+  "$schema": "../../chain.schema.json",
+  "chainName": "galacticatestnet",
+  "networkType": "testnet",
+  "prettyName": "Galactica Protocol Testnet",
+  "chainId": "galactica_9302-1",
+  "bech32Prefix": "gala",
+  "keyAlgos": [
+    "ethsecp256k1"
+  ],
+  "slip44": 60,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "agnet",
+        "fixedMinGasPrice": 10,
+        "lowGasPrice": 10,
+        "averageGasPrice": 10,
+        "highGasPrice": 20
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "agnet"
+      }
+    ]
+  },
+  "codebase": {
+    "cosmosSdkVersion": "0.46",
+    "cosmwasmEnabled": false
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc.galactica.test.pfc.zone/"
+      },
+      {
+        "address": "https://galactica-testnet-rpc.ibs.team:443"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://api.galactica.test.pfc.zone/"
+      },
+      {
+        "address": "https://galactica-testnet-api.ibs.team:443"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "https://grpc.galactica.test.pfc.zone/"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "ping.pub",
+      "url": "https://ping.pfc.zone/galactica-testnet",
+      "txPage": "https://ping.pfc.zone/galactica-testnet/tx/${txHash}",
+      "accountPage": "https://ping.pfc.zone/galactica-testnet/account/${accountAddress}"
+    }
+  ],
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/galactica/images/galactica.png"
+    }
+  ]
+}

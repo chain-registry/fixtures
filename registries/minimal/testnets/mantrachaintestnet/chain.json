@@ -1,0 +1,67 @@
+{
+  "$schema": "../../chain.schema.json",
+  "chainName": "mantrachaintestnet",
+  "networkType": "testnet",
+  "prettyName": "MANTRA Hongbai Testnet",
+  "chainId": "mantra-hongbai-1",
+  "bech32Prefix": "uom",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "uom",
+        "fixedMinGasPrice": 0,
+        "lowGasPrice": 0.001,
+        "averageGasPrice": 0.002,
+        "highGasPrice": 0.003
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "uom"
+      }
+    ]
+  },
+  "codebase": {
+    "cosmosSdkVersion": "0.47.3",
+    "cosmwasmVersion": "0.41",
+    "cosmwasmEnabled": true
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc.hongbai.mantrachain.io"
+      },
+      {
+        "address": "https://mantra-testnet-rpc.publicnode.com:443"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://api.hongbai.mantrachain.io"
+      },
+      {
+        "address": "https://mantra-testnet-rest.publicnode.com"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "https://grpc.hongbai.mantrachain.io"
+      },
+      {
+        "address": "mantra-testnet-grpc.publicnode.com:443"
+      }
+    ]
+  },
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/mantrachaintestnet/images/mantra.png",
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/mantrachaintestnet/images/mantra.svg"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "shareledger",
+  "assets": [
+    {
+      "description": "The native token of Shareledger",
+      "denomUnits": [
+        {
+          "denom": "nshr",
+          "exponent": 0
+        },
+        {
+          "denom": "shr",
+          "exponent": 9
+        }
+      ],
+      "base": "nshr",
+      "name": "Shareledger",
+      "display": "shr",
+      "symbol": "SHR",
+      "coingeckoId": "shareledger",
+      "assetType": "sdk.Coin"
+    }
+  ]
+}

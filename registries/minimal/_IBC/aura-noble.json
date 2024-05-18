@@ -1,0 +1,31 @@
+{
+  "$schema": "../ibc_data.schema.json",
+  "chain1": {
+    "chainName": "aura",
+    "clientId": "07-tendermint-43",
+    "connectionId": "connection-27"
+  },
+  "chain2": {
+    "chainName": "noble",
+    "clientId": "07-tendermint-66",
+    "connectionId": "connection-63"
+  },
+  "channels": [
+    {
+      "chain1": {
+        "channelId": "channel-9",
+        "portId": "transfer"
+      },
+      "chain2": {
+        "channelId": "channel-41",
+        "portId": "transfer"
+      },
+      "ordering": "unordered",
+      "version": "ics20-1",
+      "tags": {
+        "status": "live",
+        "preferred": true
+      }
+    }
+  ]
+}

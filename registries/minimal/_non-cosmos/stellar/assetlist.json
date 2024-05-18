@@ -1,0 +1,25 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "stellar",
+  "assets": [
+    {
+      "description": "Native token of Stellar network",
+      "denomUnits": [
+        {
+          "denom": "stroop",
+          "exponent": 0
+        },
+        {
+          "denom": "lumen",
+          "exponent": 7
+        }
+      ],
+      "assetType": "evm-base",
+      "base": "stroop",
+      "name": "Lumen",
+      "display": "lumen",
+      "symbol": "XLM",
+      "coingeckoId": "stellar"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "chain4energytestnet",
+  "assets": [
+    {
+      "description": "The native token of Chain4Energy",
+      "denomUnits": [
+        {
+          "denom": "uc4e",
+          "exponent": 0
+        },
+        {
+          "denom": "c4e",
+          "exponent": 6
+        }
+      ],
+      "base": "uc4e",
+      "name": "Chain4Energy",
+      "display": "c4e",
+      "symbol": "C4E",
+      "coingeckoId": "",
+      "assetType": "sdk.Coin"
+    }
+  ]
+}

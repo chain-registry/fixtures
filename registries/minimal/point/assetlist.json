@@ -1,0 +1,25 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "point",
+  "assets": [
+    {
+      "description": "The native governance and staking token of the Point network",
+      "denomUnits": [
+        {
+          "denom": "apoint",
+          "exponent": 0
+        },
+        {
+          "denom": "point",
+          "exponent": 18
+        }
+      ],
+      "base": "apoint",
+      "name": "Point",
+      "display": "point",
+      "symbol": "POINT",
+      "coingeckoId": "point-network",
+      "assetType": "unknown"
+    }
+  ]
+}

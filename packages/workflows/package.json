@@ -1,0 +1,26 @@
+{
+  "name": "@chain-registry/registry-workflows",
+  "version": "0.0.1",
+  "author": "Dan Lynch <pyramation@gmail.com>",
+  "description": "workflows",
+  "homepage": "https://github.com/chain-registry/chain-registry",
+  "license": "SEE LICENSE IN LICENSE",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chain-registry/chain-registry"
+  },
+  "bugs": {
+    "url": "https://github.com/chain-registry/chain-registry/issues"
+  },
+  "scripts": {
+    "minimal": "ts-node ./src/minimal.ts",
+    "full": "ts-node ./src/full.ts"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "@chain-registry/workflows": "^1.39.0",
+    "json-schema-patch": "^1.0.1",
+    "strfy-js": "^3.0.0"
+  }
+}

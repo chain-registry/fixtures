@@ -1,0 +1,25 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "konstellation",
+  "assets": [
+    {
+      "description": "The native token of Konstellation Network",
+      "denomUnits": [
+        {
+          "denom": "udarc",
+          "exponent": 0
+        },
+        {
+          "denom": "darc",
+          "exponent": 6
+        }
+      ],
+      "base": "udarc",
+      "name": "DARC",
+      "display": "darc",
+      "symbol": "DARC",
+      "coingeckoId": "darcmatter-coin",
+      "assetType": "sdk.Coin"
+    }
+  ]
+}

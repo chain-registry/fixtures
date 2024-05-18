@@ -1,0 +1,209 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "nibiru",
+  "networkType": "mainnet",
+  "website": "https://nibiru.fi/",
+  "prettyName": "Nibiru",
+  "chainId": "cataclysm-1",
+  "bech32Prefix": "nibi",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "unibi",
+        "fixedMinGasPrice": 0.025,
+        "lowGasPrice": 0.025,
+        "averageGasPrice": 0.05,
+        "highGasPrice": 0.1
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "unibi"
+      }
+    ],
+    "lockDuration": {
+      "time": "1814400s"
+    }
+  },
+  "codebase": {
+    "cosmosSdkVersion": "v0.47.10",
+    "ibcGoVersion": "v7.3.2",
+    "cosmwasmVersion": "v0.44.0",
+    "cosmwasmEnabled": true
+  },
+  "description": "A Web3 hub ushering in the next era of money",
+  "apis": {
+    "wss": [
+      {
+        "address": "wss://hm-graphql.nibiru.fi/query"
+      }
+    ],
+    "rpc": [
+      {
+        "address": "https://rpc.nibiru.fi"
+      },
+      {
+        "address": "https://nibiru.rpc.kjnodes.com"
+      },
+      {
+        "address": "https://rpc.nibiru.nodestake.org"
+      },
+      {
+        "address": "https://nibiru-rpc.lavenderfive.com:443"
+      },
+      {
+        "address": "https://rpc.nibiru.silentvalidator.com"
+      },
+      {
+        "address": "https://nibiru.rpc.liveraven.net"
+      },
+      {
+        "address": "https://nibiru-rpc.cogwheel.zone"
+      },
+      {
+        "address": "https://nibiru.rpc.nodeshub.online:443"
+      },
+      {
+        "address": "https://nibiru.rpc.m.stavr.tech:443"
+      },
+      {
+        "address": "https://nibiru-rpc.noders.services"
+      },
+      {
+        "address": "https://nibiru-mainnet.rpc.stakevillage.net:443"
+      },
+      {
+        "address": "https://nibiru-rpc.publicnode.com:443"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://lcd.nibiru.fi"
+      },
+      {
+        "address": "https://nibiru.api.kjnodes.com"
+      },
+      {
+        "address": "https://api.nibiru.nodestake.org"
+      },
+      {
+        "address": "https://api.nibiru.silentvalidator.com"
+      },
+      {
+        "address": "https://nibiru-api.lavenderfive.com:443"
+      },
+      {
+        "address": "https://nibiru.api.liveraven.net"
+      },
+      {
+        "address": "https://nibiru-api.cogwheel.zone"
+      },
+      {
+        "address": "https://nibiru.api.m.stavr.tech"
+      },
+      {
+        "address": "https://nibiru.api.nodeshub.online:443"
+      },
+      {
+        "address": "https://nibiru.api.staking-explorer.com"
+      },
+      {
+        "address": "https://nibiru-api.noders.services"
+      },
+      {
+        "address": "https://nibiru-mainnet.api.stakevillage.net"
+      },
+      {
+        "address": "https://nibiru-rest.publicnode.com"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "grpc.nibiru.fi:443"
+      },
+      {
+        "address": "nibiru.grpc.kjnodes.com:443"
+      },
+      {
+        "address": "grpc.nibiru.nodestake.org:443"
+      },
+      {
+        "address": "grpc.nibiru.silentvalidator.com:443"
+      },
+      {
+        "address": "https://nibiru-grpc.lavenderfive.com:443"
+      },
+      {
+        "address": "nibiru.grpc.liveraven.net:443"
+      },
+      {
+        "address": "nibiru-grpc.cogwheel.zone:443"
+      },
+      {
+        "address": "https://nibiru.grpc.nodeshub.online"
+      },
+      {
+        "address": "nibiru.grpc.m.stavr.tech:5023"
+      },
+      {
+        "address": "nibiru-grpc.noders.services:35090"
+      },
+      {
+        "address": "nibiru-mainnet.grpc.stakevillage.net:443"
+      },
+      {
+        "address": "nibiru-grpc.publicnode.com:443"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "Nodes Guru",
+      "url": "https://nibiru.explorers.guru/",
+      "txPage": "https://nibiru.explorers.guru/transaction/${txHash}",
+      "accountPage": "https://nibiru.explorers.guru/account/${accountAddress}"
+    },
+    {
+      "kind": "NodeStake",
+      "url": "https://explorer.nodestake.org/nibiru",
+      "txPage": "https://explorer.nodestake.org/nibiru/tx/${txHash}",
+      "accountPage": "https://explorer.nodestake.org/nibiru/account/${accountAddress}"
+    },
+    {
+      "kind": "LiveRaveN",
+      "url": "https://mainnet.explorer.liveraven.net/nibiru",
+      "txPage": "https://mainnet.explorer.liveraven.net/nibiru/tx/${txHash}",
+      "accountPage": "https://mainnet.explorer.liveraven.net/nibiru/account/${accountAddress}"
+    },
+    {
+      "kind": "🔥STAVR🔥",
+      "url": "https://explorer.stavr.tech/Nibiru-Mainnet",
+      "txPage": "https://explorer.stavr.tech/Nibiru-Mainnet/tx/${txHash}",
+      "accountPage": "https://explorer.stavr.tech/Nibiru-Mainnet/account/${accountAddress}"
+    },
+    {
+      "kind": "Nodes Hub 🛡️ 100% Slash Protected 🛡️ | Restake ✅",
+      "url": "https://explorer.nodeshub.online/nibiru/",
+      "txPage": "https://explorer.nodeshub.online/nibiru/tx/${txHash}",
+      "accountPage": "https://explorer.nodeshub.online/nibiru/accounts/${accountAddress}"
+    },
+    {
+      "kind": "Stake Village",
+      "url": "https://exp.stakevillage.net/nibiru-mainnet",
+      "txPage": "https://exp.stakevillage.net/nibiru-mainnet/tx/${txHash}",
+      "accountPage": "https://exp.stakevillage.net/nibiru-mainnet/accounts/${accountAddress}"
+    }
+  ],
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nibiru/images/nibiru.png",
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nibiru/images/nibiru.svg"
+    }
+  ]
+}

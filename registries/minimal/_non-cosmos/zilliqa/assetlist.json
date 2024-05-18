@@ -1,0 +1,19 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "zilliqa",
+  "assets": [
+    {
+      "assetType": "evm-base",
+      "denomUnits": [
+        {
+          "denom": "wei",
+          "exponent": 0
+        }
+      ],
+      "base": "wei",
+      "display": "wei",
+      "name": "Ether",
+      "symbol": "ETH"
+    }
+  ]
+}

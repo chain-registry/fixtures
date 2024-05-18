@@ -1,0 +1,87 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "nomic",
+  "networkType": "mainnet",
+  "prettyName": "Nomic",
+  "website": "https://nomic.io/",
+  "chainId": "nomic-stakenet-3",
+  "bech32Prefix": "nomic",
+  "slip44": 118,
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "unom",
+        "lowGasPrice": 0,
+        "averageGasPrice": 0,
+        "highGasPrice": 0
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "unom"
+      }
+    ],
+    "lockDuration": {
+      "time": "1209600s"
+    }
+  },
+  "codebase": {
+
+  },
+  "description": "The superior way to use Bitcoin in Cosmos DeFi. Use IBC to securely and efficiently bridge your BTC to Osmosis and more.",
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://stakenet-rpc.nomic.io:2096"
+      },
+      {
+        "address": "https://nomic-rpc.polkachu.com/"
+      },
+      {
+        "address": "https://rpc-nomic.whispernode.com:443"
+      },
+      {
+        "address": "https://rpc.nomic.basementnodes.ca:443"
+      },
+      {
+        "address": "https://rpc.nomic.bronbro.io:443"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://app.nomic.io:8443"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "bigdipper",
+      "url": "https://bigdipper.live/nomic",
+      "accountPage": "https://bigdipper.live/nomic/accounts/${accountAddress}",
+      "txPage": "https://bigdipper.live/nomic/transactions/${txHash}"
+    },
+    {
+      "kind": "Zenscan.io",
+      "url": "https://nomic.zenscan.io/index.php",
+      "accountPage": "https://nomic.zenscan.io/address.php?address=${accountAddress}",
+      "txPage": "https://nomic.zenscan.io/transaction.php?hash=${txHash}"
+    },
+    {
+      "kind": "WhisperNode 🤐",
+      "url": "https://mainnet.whispernode.com/nomic",
+      "txPage": "https://mainnet.whispernode.com/nomic/tx/${txHash}",
+      "accountPage": "https://mainnet.whispernode.com/nomic/account/${accountAddress}"
+    }
+  ],
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nomic/images/nomic.png",
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nomic/images/nomic.svg"
+    }
+  ]
+}

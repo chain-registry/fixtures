@@ -1,0 +1,54 @@
+{
+  "$schema": "../../chain.schema.json",
+  "chainName": "cheqdtestnet",
+  "networkType": "testnet",
+  "prettyName": "cheqd",
+  "chainId": "cheqd-testnet-6",
+  "bech32Prefix": "cheqd",
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "ncheq",
+        "fixedMinGasPrice": 25,
+        "lowGasPrice": 50,
+        "averageGasPrice": 75,
+        "highGasPrice": 100
+      }
+    ]
+  },
+  "codebase": {
+    "cosmosSdkVersion": "cheqd/cosmos-sdk v0.47.10-height-mismatch",
+    "ibcGoVersion": "v7.4.0"
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc.cheqd.network"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://api.cheqd.network"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "grpc.cheqd.network:443"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "bigdipper",
+      "url": "https://testnet-explorer.cheqd.io/",
+      "txPage": "https://testnet-explorer.cheqd.io/transactions/${txHash}"
+    }
+  ],
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cheqd/images/cheq.png",
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cheqd/images/cheq.svg"
+    }
+  ]
+}

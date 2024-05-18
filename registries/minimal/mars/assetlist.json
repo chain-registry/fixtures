@@ -1,0 +1,25 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "mars",
+  "assets": [
+    {
+      "description": "Mars protocol token",
+      "denomUnits": [
+        {
+          "denom": "umars",
+          "exponent": 0
+        },
+        {
+          "denom": "mars",
+          "exponent": 6
+        }
+      ],
+      "base": "umars",
+      "name": "Mars",
+      "display": "mars",
+      "symbol": "MARS",
+      "coingeckoId": "mars-protocol-a7fcbcfb-fd61-4017-92f0-7ee9f9cc6da3",
+      "assetType": "sdk.Coin"
+    }
+  ]
+}

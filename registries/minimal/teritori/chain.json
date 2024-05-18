@@ -1,0 +1,205 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "teritori",
+  "networkType": "mainnet",
+  "website": "https://teritori.com/",
+  "prettyName": "Teritori",
+  "chainId": "teritori-1",
+  "bech32Prefix": "tori",
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "utori",
+        "lowGasPrice": 0,
+        "averageGasPrice": 0.25,
+        "highGasPrice": 0.5
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "utori"
+      }
+    ]
+  },
+  "codebase": {
+    "ibcGoVersion": "v7.3.1",
+    "cosmosSdkVersion": "v0.47.6",
+    "cosmwasmVersion": "v0.41.0",
+    "cosmwasmEnabled": true
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://teritori-rpc.lavenderfive.com:443"
+      },
+      {
+        "address": "https://teritori-rpc.polkachu.com"
+      },
+      {
+        "address": "https://teritori.rpc.m.stavr.tech"
+      },
+      {
+        "address": "https://rpc.teritori.silentvalidator.com/"
+      },
+      {
+        "address": "https://teritori-rpc.brocha.in"
+      },
+      {
+        "address": "https://teritori-rpc.ibs.team"
+      },
+      {
+        "address": "https://teritori.rpc.kjnodes.com"
+      },
+      {
+        "address": "https://rpc.tori.bh.rocks"
+      },
+      {
+        "address": "https://teritori-rpc.kleomedes.network"
+      },
+      {
+        "address": "https://m-teritori.rpc.utsa.tech"
+      },
+      {
+        "address": "https://rpc-teritori.pupmos.network"
+      },
+      {
+        "address": "https://teritori-mainnet-rpc.autostake.com:443"
+      },
+      {
+        "address": "https://rpc-teritori.ecostake.com"
+      },
+      {
+        "address": "https://teritori-rpc.publicnode.com:443"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://teritori-api.lavenderfive.com:443"
+      },
+      {
+        "address": "https://teritori-api.polkachu.com"
+      },
+      {
+        "address": "https://teritori.api.m.stavr.tech"
+      },
+      {
+        "address": "https://api.teritori.silentvalidator.com/"
+      },
+      {
+        "address": "https://teritori-api.ibs.team"
+      },
+      {
+        "address": "https://teritori.api.kjnodes.com"
+      },
+      {
+        "address": "https://api.tori.bh.rocks"
+      },
+      {
+        "address": "https://teritori-api.kleomedes.network"
+      },
+      {
+        "address": "https://m-teritori.api.utsa.tech"
+      },
+      {
+        "address": "https://api-teritori.pupmos.network"
+      },
+      {
+        "address": "https://teritori-mainnet-lcd.autostake.com:443"
+      },
+      {
+        "address": "https://rest-teritori.ecostake.com"
+      },
+      {
+        "address": "https://teritori-rest.publicnode.com"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "teritori-grpc.lavenderfive.com:443"
+      },
+      {
+        "address": "grpc.teritori.nodestake.top:443"
+      },
+      {
+        "address": "teritori.grpc.m.stavr.tech:6705"
+      },
+      {
+        "address": "teritori-grpc.brocha.in:443"
+      },
+      {
+        "address": "teritori-grpc.polkachu.com:15990"
+      },
+      {
+        "address": "teritori.grpc.silknodes.io:443"
+      },
+      {
+        "address": "teritori-mainnet-grpc.autostake.com:443"
+      },
+      {
+        "address": "teritori.grpc.kjnodes.com:11990"
+      },
+      {
+        "address": "teritori-grpc.publicnode.com:443"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "ezstaking",
+      "url": "https://ezstaking.app/teritori",
+      "txPage": "https://ezstaking.app/teritori/txs/${txHash}",
+      "accountPage": "https://ezstaking.app/teritori/account/${accountAddress}"
+    },
+    {
+      "kind": "ping.pub",
+      "url": "https://explorer.teritori.com/teritori",
+      "txPage": "https://explorer.teritori.com/teritori/tx/${txHash}"
+    },
+    {
+      "kind": "🔥STAVR🔥 Explorer",
+      "url": "https://explorer.stavr.tech/teritori-main",
+      "txPage": "https://explorer.stavr.tech/teritori-main/tx/${txHash}"
+    },
+    {
+      "kind": "guru",
+      "url": "https://teritori.explorers.guru/",
+      "txPage": "https://teritori.explorers.guru/transaction/${txHash}"
+    },
+    {
+      "kind": "Brochain",
+      "url": "https://explorer.brocha.in/teritori",
+      "txPage": "https://explorer.brocha.in/teritori/tx/${txHash}"
+    },
+    {
+      "kind": "𝐥𝐞𝐬𝐧𝐢𝐤 | 𝐔𝐓𝐒𝐀",
+      "url": "https://exp.utsa.tech/teritori",
+      "txPage": "https://exp.utsa.tech/teritori/tx/${txHash}"
+    },
+    {
+      "kind": "mintscan",
+      "url": "https://www.mintscan.io/teritori",
+      "txPage": "https://www.mintscan.io/teritori/transactions/${txHash}",
+      "accountPage": "https://www.mintscan.io/teritori/accounts/${accountAddress}"
+    },
+    {
+      "kind": "TC Network",
+      "url": "https://explorer.tcnetwork.io/teritori",
+      "txPage": "https://explorer.tcnetwork.io/teritori/transaction/${txHash}"
+    },
+    {
+      "kind": "atomscan",
+      "url": "https://atomscan.com/teritori",
+      "txPage": "https://atomscan.com/teritori/transactions/${txHash}",
+      "accountPage": "https://atomscan.com/teritori/accounts/${accountAddress}"
+    }
+  ],
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/teritori/images/chain.png",
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/teritori/images/chain.svg"
+    }
+  ]
+}

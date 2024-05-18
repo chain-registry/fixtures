@@ -1,0 +1,70 @@
+{
+  "$schema": "../../chain.schema.json",
+  "chainName": "temporaltestnet",
+  "chainId": "temporal-test-2",
+  "prettyName": "Temporal Testnet",
+  "networkType": "testnet",
+  "bech32Prefix": "temporal",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "utprl",
+        "fixedMinGasPrice": 0
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "utprl"
+      }
+    ]
+  },
+  "codebase": {
+
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc.yieldmos.com/temporal-test-2"
+      },
+      {
+        "address": "https://testnet-temporal-rpc.lavenderfive.com:443"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://lcd.yieldmos.com/temporal-test-2"
+      },
+      {
+        "address": "https://testnet-temporal-api.lavenderfive.com:443"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "142.132.157.153:24190"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "ping.pub",
+      "url": "https://testnet.explorer.thesilverfox.pro/temporal",
+      "txPage": "https://testnet.explorer.thesilverfox.pro/temporal/tx/${txHash}"
+    },
+    {
+      "kind": "Nodes.Guru",
+      "url": "https://testnet.temporal.explorers.guru",
+      "txPage": "https://testnet.temporal.explorers.guru/transaction/${txHash}"
+    },
+    {
+      "kind": "ping.pub",
+      "url": "https://testnet.ping.pub/temporal",
+      "txPage": "https://testnet.ping.pub/temporal/tx/${txHash}"
+    }
+  ]
+}

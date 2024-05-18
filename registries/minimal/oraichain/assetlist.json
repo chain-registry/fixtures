@@ -1,0 +1,25 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "oraichain",
+  "assets": [
+    {
+      "description": "The native token of Oraichain",
+      "denomUnits": [
+        {
+          "denom": "orai",
+          "exponent": 0
+        },
+        {
+          "denom": "ORAI",
+          "exponent": 6
+        }
+      ],
+      "base": "orai",
+      "name": "Oraichain",
+      "display": "ORAI",
+      "symbol": "ORAI",
+      "coingeckoId": "oraichain-token",
+      "assetType": "sdk.Coin"
+    }
+  ]
+}

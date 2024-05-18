@@ -1,0 +1,25 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "dig",
+  "assets": [
+    {
+      "description": "Native token of Dig Chain",
+      "denomUnits": [
+        {
+          "denom": "udig",
+          "exponent": 0
+        },
+        {
+          "denom": "dig",
+          "exponent": 6
+        }
+      ],
+      "base": "udig",
+      "name": "Dig Chain",
+      "display": "dig",
+      "symbol": "DIG",
+      "coingeckoId": "dig-chain",
+      "assetType": "sdk.Coin"
+    }
+  ]
+}

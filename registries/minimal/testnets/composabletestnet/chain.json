@@ -1,0 +1,81 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "composabletestnet",
+  "networkType": "testnet",
+  "prettyName": "Composable Testnet",
+  "chainId": "banksy-testnet-3",
+  "bech32Prefix": "centauri",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "ppica"
+      }
+    ]
+  },
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "ppica",
+        "fixedMinGasPrice": 0,
+        "lowGasPrice": 0,
+        "averageGasPrice": 0,
+        "highGasPrice": 0
+      }
+    ]
+  },
+  "codebase": {
+
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc.composable-t.indonode.net:443"
+      },
+      {
+        "address": "https://rpc-composable-testnet.sr20de.xyz:443"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://api.composable-t.indonode.net"
+      },
+      {
+        "address": "https://composable.api.t4.stavr.tech"
+      },
+      {
+        "address": "https://api-composable-testnet.sr20de.xyz"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "https://grpc.composable-t.indonode.net:47090"
+      },
+      {
+        "address": "https://grpc-composable-testnet.sr20de.xyz"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "url": "https://explorer.nodexcapital.com/composable-3",
+      "txPage": "https://explorer.nodexcapital.com/composable-3/tx/${txHash}"
+    },
+    {
+      "kind": "🔥STAVR🔥",
+      "url": "https://explorer.stavr.tech/Composable-Testnet4",
+      "txPage": "https://explorer.stavr.tech/Composable-Testnet4/tx/${txHash}"
+    },
+    {
+      "url": "https://explorer.indonode.net/composable-testnet-3",
+      "txPage": "https://explorer.indonode.net/composable-testnet-3/tx/${txHash}"
+    },
+    {
+      "url": "https://explorer.sr20de.xyz/Composible-3",
+      "txPage": "https://explorer.sr20de.xyz/Composible-3/tx/${txHash}"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "lumenxtestnet",
+  "assets": [
+    {
+      "description": "The native token of Lumen Network",
+      "denomUnits": [
+        {
+          "denom": "ulumen",
+          "exponent": 0
+        },
+        {
+          "denom": "lumen",
+          "exponent": 6
+        }
+      ],
+      "base": "ulumen",
+      "name": "LUMEN",
+      "display": "lumen",
+      "symbol": "LUMEN",
+      "assetType": "sdk.Coin"
+    }
+  ]
+}

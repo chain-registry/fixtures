@@ -1,0 +1,24 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "galaxy",
+  "assets": [
+    {
+      "description": "GLX is the staking token of the Galaxy Chain",
+      "denomUnits": [
+        {
+          "denom": "uglx",
+          "exponent": 0
+        },
+        {
+          "denom": "glx",
+          "exponent": 6
+        }
+      ],
+      "base": "uglx",
+      "name": "Galaxy",
+      "display": "glx",
+      "symbol": "GLX",
+      "assetType": "sdk.Coin"
+    }
+  ]
+}

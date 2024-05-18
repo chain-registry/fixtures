@@ -1,0 +1,25 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "xpla",
+  "assets": [
+    {
+      "description": "The native staking token of XPLA.",
+      "denomUnits": [
+        {
+          "denom": "axpla",
+          "exponent": 0
+        },
+        {
+          "denom": "xpla",
+          "exponent": 18
+        }
+      ],
+      "base": "axpla",
+      "name": "Xpla",
+      "display": "xpla",
+      "symbol": "XPLA",
+      "coingeckoId": "xpla",
+      "assetType": "sdk.Coin"
+    }
+  ]
+}

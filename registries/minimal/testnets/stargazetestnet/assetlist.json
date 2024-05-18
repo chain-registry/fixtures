@@ -1,0 +1,25 @@
+{
+  "$schema": "../../assetlist.schema.json",
+  "chainName": "stargazetestnet",
+  "assets": [
+    {
+      "description": "The native token of Stargaze",
+      "denomUnits": [
+        {
+          "denom": "ustars",
+          "exponent": 0
+        },
+        {
+          "denom": "stars",
+          "exponent": 6
+        }
+      ],
+      "base": "ustars",
+      "name": "Stargaze",
+      "display": "stars",
+      "symbol": "STARS",
+      "coingeckoId": "stargaze",
+      "assetType": "sdk.Coin"
+    }
+  ]
+}

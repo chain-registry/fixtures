@@ -1,0 +1,42 @@
+{
+  "$schema": "../../chain.schema.json",
+  "chainName": "kichaintestnet",
+  "networkType": "testnet",
+  "prettyName": "Ki",
+  "chainId": "kichain-t-4",
+  "bech32Prefix": "tki",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "utki",
+        "fixedMinGasPrice": 0.025
+      }
+    ]
+  },
+  "codebase": {
+
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc-challenge.blockchain.ki/"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://api-challenge.blockchain.ki/"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "kifoundation",
+      "url": "https://kichain-t-4.blockchain.ki/",
+      "txPage": "https://kichain-t-4.blockchain.ki/transactions/${txHash}"
+    }
+  ]
+}

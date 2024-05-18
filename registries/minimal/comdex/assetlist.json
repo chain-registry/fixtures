@@ -1,0 +1,63 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "comdex",
+  "assets": [
+    {
+      "description": "Native Token of Comdex Protocol",
+      "denomUnits": [
+        {
+          "denom": "ucmdx",
+          "exponent": 0
+        },
+        {
+          "denom": "cmdx",
+          "exponent": 6
+        }
+      ],
+      "base": "ucmdx",
+      "name": "Comdex",
+      "display": "cmdx",
+      "symbol": "CMDX",
+      "coingeckoId": "comdex",
+      "assetType": "sdk.Coin"
+    },
+    {
+      "description": "Governance Token of Harbor protocol on Comdex network",
+      "denomUnits": [
+        {
+          "denom": "uharbor",
+          "exponent": 0
+        },
+        {
+          "denom": "harbor",
+          "exponent": 6
+        }
+      ],
+      "base": "uharbor",
+      "name": "Harbor",
+      "display": "harbor",
+      "symbol": "HARBOR",
+      "coingeckoId": "harbor-2",
+      "assetType": "sdk.Coin"
+    },
+    {
+      "description": "Stable Token of Harbor protocol on Comdex network",
+      "denomUnits": [
+        {
+          "denom": "ucmst",
+          "exponent": 0
+        },
+        {
+          "denom": "cmst",
+          "exponent": 6
+        }
+      ],
+      "base": "ucmst",
+      "name": "CMST",
+      "display": "cmst",
+      "symbol": "CMST",
+      "coingeckoId": "composite",
+      "assetType": "sdk.Coin"
+    }
+  ]
+}

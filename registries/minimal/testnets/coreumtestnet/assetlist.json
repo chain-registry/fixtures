@@ -1,0 +1,25 @@
+{
+  "$schema": "../../assetlist.schema.json",
+  "chainName": "coreumtestnet",
+  "assets": [
+    {
+      "description": "The native token of Coreum",
+      "denomUnits": [
+        {
+          "denom": "utestcore",
+          "exponent": 0
+        },
+        {
+          "denom": "testcore",
+          "exponent": 6
+        }
+      ],
+      "base": "utestcore",
+      "name": "Coreum",
+      "display": "testcore",
+      "symbol": "TESTCORE",
+      "coingeckoId": "coreum",
+      "assetType": "sdk.Coin"
+    }
+  ]
+}

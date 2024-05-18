@@ -1,0 +1,49 @@
+{
+  "$schema": "../ibc_data.schema.json",
+  "chain1": {
+    "chainName": "chihuahua",
+    "clientId": "07-tendermint-45",
+    "connectionId": "connection-25"
+  },
+  "chain2": {
+    "chainName": "osmosis",
+    "clientId": "07-tendermint-1666",
+    "connectionId": "connection-1278"
+  },
+  "channels": [
+    {
+      "chain1": {
+        "channelId": "channel-7",
+        "portId": "transfer"
+      },
+      "chain2": {
+        "channelId": "channel-113",
+        "portId": "transfer"
+      },
+      "ordering": "unordered",
+      "version": "ics20-1",
+      "tags": {
+        "status": "live",
+        "preferred": true,
+        "dex": "osmosis"
+      }
+    },
+    {
+      "chain1": {
+        "channelId": "channel-73",
+        "portId": "wasm.chihuahua1jwkag4yvhyj9fuddtkygvavya8hmdjuzmgxwg9vp3lw9twv6lrcq9mgl52"
+      },
+      "chain2": {
+        "channelId": "channel-11348",
+        "portId": "transfer"
+      },
+      "ordering": "unordered",
+      "version": "ics20-1",
+      "tags": {
+        "status": "live",
+        "preferred": true,
+        "dex": "osmosis"
+      }
+    }
+  ]
+}

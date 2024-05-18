@@ -1,0 +1,56 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "scorum",
+  "assets": [
+    {
+      "description": "The native token of Scorum",
+      "denomUnits": [
+        {
+          "denom": "nscr",
+          "exponent": 0
+        },
+        {
+          "denom": "scr",
+          "exponent": 9
+        }
+      ],
+      "base": "nscr",
+      "name": "Scorum",
+      "display": "scr",
+      "symbol": "SCR",
+      "assetType": "sdk.Coin"
+    },
+    {
+      "description": "Scorum Power used for internal mechanics and staking",
+      "denomUnits": [
+        {
+          "denom": "nsp",
+          "exponent": 0
+        },
+        {
+          "denom": "sp",
+          "exponent": 9
+        }
+      ],
+      "base": "nsp",
+      "name": "Scorum Power",
+      "display": "sp",
+      "symbol": "SP",
+      "assetType": "sdk.Coin"
+    },
+    {
+      "description": "Virtual(non-transferable) coin used to pay gas",
+      "denomUnits": [
+        {
+          "denom": "gas",
+          "exponent": 0
+        }
+      ],
+      "base": "gas",
+      "name": "GAS",
+      "display": "gas",
+      "symbol": "GAS",
+      "assetType": "sdk.Coin"
+    }
+  ]
+}

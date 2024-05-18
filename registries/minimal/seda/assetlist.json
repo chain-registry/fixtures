@@ -1,0 +1,25 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "seda",
+  "assets": [
+    {
+      "description": "The native token of SEDA Chain.",
+      "denomUnits": [
+        {
+          "denom": "aseda",
+          "exponent": 0
+        },
+        {
+          "denom": "seda",
+          "exponent": 18
+        }
+      ],
+      "base": "aseda",
+      "name": "Seda",
+      "display": "seda",
+      "symbol": "SEDA",
+      "coingeckoId": "seda-2",
+      "assetType": "sdk.Coin"
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "composable",
+  "chainId": "centauri-1",
+  "website": "https://www.picasso.xyz/",
+  "prettyName": "Picasso",
+  "networkType": "mainnet",
+  "bech32Prefix": "pica",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "ppica",
+        "fixedMinGasPrice": 0,
+        "lowGasPrice": 0,
+        "averageGasPrice": 0,
+        "highGasPrice": 0
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "ppica"
+      }
+    ]
+  },
+  "codebase": {
+    "cosmosSdkVersion": "rust-ninja/cosmos-sdk v0.47.5-patch-validators-trim-tag",
+    "ibcGoVersion": "notional-labs/ibc-go/v7 v7.2.1-0.20231010040541-6cf43006971f"
+  },
+  "description": "Picasso is a DeFi infrastructure-focused Layer 1 protocol that leads the industry in building the trust-minimized interoperability solution -Cross-Ecosystem IBC. Complementary to the interoperability work, Picasso is building the first Generalized Restaking Layer starting with deployment on Solana, and expand support for all IBC connected ecosystems.",
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc-composable-ia.cosmosia.notional.ventures"
+      },
+      {
+        "address": "https://composable-mainnet-rpc.autostake.com:443"
+      },
+      {
+        "address": "https://picasso-rpc.cogwheel.zone:443"
+      },
+      {
+        "address": "https://picasso-rpc.lavenderfive.com:443"
+      },
+      {
+        "address": "https://composable-rpc.genznodes.dev"
+      },
+      {
+        "address": "https://rpc-picasso.whispernode.com:443"
+      },
+      {
+        "address": "https://picasso-rpc.stake-town.com"
+      },
+      {
+        "address": "https://composable.rpc.stakevillage.net:443"
+      },
+      {
+        "address": "https://composable-rpc.stakeandrelax.net"
+      },
+      {
+        "address": "https://rpc.centauri.bronbro.io:443"
+      },
+      {
+        "address": "https://composable.rpc.moonbridge.team"
+      },
+      {
+        "address": "https://rpc.composable.citizenweb3.com:443"
+      },
+      {
+        "address": "https://composable.rpc.m.stavr.tech:443"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://api-composable-ia.cosmosia.notional.ventures"
+      },
+      {
+        "address": "https://composable-mainnet-lcd.autostake.com:443"
+      },
+      {
+        "address": "https://picasso-api.cogwheel.zone:443"
+      },
+      {
+        "address": "https://picasso-api.lavenderfive.com:443"
+      },
+      {
+        "address": "https://composable-api.genznodes.dev"
+      },
+      {
+        "address": "https://api-picasso.whispernode.com:443"
+      },
+      {
+        "address": "https://picasso-api.stake-town.com"
+      },
+      {
+        "address": "https://composable.api.stakevillage.net"
+      },
+      {
+        "address": "https://composable-api.stakeandrelax.net"
+      },
+      {
+        "address": "https://lcd.centauri.bronbro.io:443"
+      },
+      {
+        "address": "https://composable.api.moonbridge.team"
+      },
+      {
+        "address": "https://composable.api.m.stavr.tech"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "https://grpc-composable-ia.cosmosia.notional.ventures"
+      },
+      {
+        "address": "grpc.composable.nodestake.top:9090"
+      },
+      {
+        "address": "composable-mainnet-grpc.autostake.com:443"
+      },
+      {
+        "address": "grpc-centauri.cosmos-spaces.cloud:1120"
+      },
+      {
+        "address": "https://picasso-grpc.cogwheel.zone:443"
+      },
+      {
+        "address": "https://picasso-grpc.lavenderfive.com:443"
+      },
+      {
+        "address": "composable-grpc.genznodes.dev:53090"
+      },
+      {
+        "address": "picasso-grpc.stake-town.com:443"
+      },
+      {
+        "address": "grpc-composable.vinjan.xyz:36090"
+      },
+      {
+        "address": "composable.grpc.skynodejs.net"
+      },
+      {
+        "address": "composable.grpc.stakevillage.net:16190"
+      },
+      {
+        "address": "composable-rpc.stakeandrelax.net:22290"
+      },
+      {
+        "address": "grpc.composable.validatus.com"
+      },
+      {
+        "address": "https://grpc.centauri.bronbro.io:443"
+      },
+      {
+        "address": "https://composable.grpc.moonbridge.team"
+      },
+      {
+        "address": "composable.grpc.m.stavr.tech:9907"
+      },
+      {
+        "address": "grpc-picasso.whispernode.com:443"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "ping.pub",
+      "url": "https://ping.pub/composable",
+      "txPage": "https://ping.pub/composable/tx/${txHash}"
+    },
+    {
+      "kind": "NodeStake Explorer",
+      "url": "https://explorer.nodestake.top/composable",
+      "txPage": "https://explorer.nodestake.top/composable/tx/${txHash}"
+    },
+    {
+      "kind": "Stake Village",
+      "url": "https://exp.stakevillage.net/composable",
+      "txPage": "https://exp.stakevillage.net/composable/tx/${txHash}",
+      "accountPage": "https://exp.stakevillage.net/composable/account/${accountAddress}"
+    },
+    {
+      "kind": "🔥STAVR🔥",
+      "url": "https://explorer.stavr.tech/Composable-Mainnet",
+      "txPage": "https://explorer.stavr.tech/Composable-Mainnet/tx/${txHash}"
+    },
+    {
+      "kind": "WhisperNode 🤐",
+      "url": "https://mainnet.whispernode.com/picasso",
+      "txPage": "https://mainnet.whispernode.com/picasso/tx/${txHash}",
+      "accountPage": "https://mainnet.whispernode.com/picasso/account/${accountAddress}"
+    }
+  ],
+  "images": [
+    {
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/composable/images/pica.svg"
+    }
+  ]
+}

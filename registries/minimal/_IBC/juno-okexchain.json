@@ -1,0 +1,31 @@
+{
+  "$schema": "../ibc_data.schema.json",
+  "chain1": {
+    "chainName": "juno",
+    "clientId": "07-tendermint-314",
+    "connectionId": "connection-285"
+  },
+  "chain2": {
+    "chainName": "okexchain",
+    "clientId": "07-tendermint-122",
+    "connectionId": "connection-92"
+  },
+  "channels": [
+    {
+      "chain1": {
+        "channelId": "channel-212",
+        "portId": "transfer"
+      },
+      "chain2": {
+        "channelId": "channel-52",
+        "portId": "transfer"
+      },
+      "ordering": "unordered",
+      "version": "ics20-1",
+      "tags": {
+        "status": "live",
+        "preferred": true
+      }
+    }
+  ]
+}

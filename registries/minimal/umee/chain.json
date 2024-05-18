@@ -1,0 +1,253 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "umee",
+  "networkType": "mainnet",
+  "website": "https://www.ux.xyz",
+  "prettyName": "UX Chain",
+  "chainId": "umee-1",
+  "bech32Prefix": "umee",
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "uumee",
+        "fixedMinGasPrice": 0.1,
+        "lowGasPrice": 0.1,
+        "averageGasPrice": 0.12,
+        "highGasPrice": 0.2
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "uumee"
+      }
+    ]
+  },
+  "codebase": {
+    "cosmosSdkVersion": "0.47",
+    "cosmwasmVersion": "0.43",
+    "cosmwasmEnabled": true,
+    "ibcGoVersion": "7.3.2"
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://umee-rpc.polkachu.com"
+      },
+      {
+        "address": "https://rpc-umee-ia.cosmosia.notional.ventures/"
+      },
+      {
+        "address": "https://umee-mainnet-rpc.autostake.com:443"
+      },
+      {
+        "address": "http://umee.rpc.m.stavr.tech:10457"
+      },
+      {
+        "address": "http://rpc-umee-0.node75.org:26657"
+      },
+      {
+        "address": "https://umee-rpc.quantnode.tech"
+      },
+      {
+        "address": "https://umee-rpc.tienthuattoan.ventures"
+      },
+      {
+        "address": "https://rpc-umee-01.stakeflow.io"
+      },
+      {
+        "address": "https://umee-rpc.staketab.org:443"
+      },
+      {
+        "address": "https://umee-rpc.theamsolutions.info"
+      },
+      {
+        "address": "https://umee.rpc.kjnodes.com"
+      },
+      {
+        "address": "https://umee-rpc.w3coins.io"
+      },
+      {
+        "address": "https://rpc-umee.mms.team"
+      },
+      {
+        "address": "https://rpc-umee.mzonder.com"
+      },
+      {
+        "address": "https://umee-rpc.stake-town.com"
+      },
+      {
+        "address": "https://umee-rpc.highstakes.ch"
+      },
+      {
+        "address": "https://umee.rpc.stakevillage.net:443"
+      },
+      {
+        "address": "https://umee-rpc.noders.services"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://api-umee-ia.cosmosia.notional.ventures/"
+      },
+      {
+        "address": "https://umee.api.m.stavr.tech"
+      },
+      {
+        "address": "https://umee-mainnet-lcd.autostake.com:443"
+      },
+      {
+        "address": "https://umee-api.polkachu.com"
+      },
+      {
+        "address": "https://umee-lcd.quantnode.tech"
+      },
+      {
+        "address": "https://umee-api.tienthuattoan.ventures"
+      },
+      {
+        "address": "https://api-umee-01.stakeflow.io"
+      },
+      {
+        "address": "https://umee-rest.staketab.org"
+      },
+      {
+        "address": "https://umee-api.theamsolutions.info"
+      },
+      {
+        "address": "https://umee.api.kjnodes.com"
+      },
+      {
+        "address": "https://umee-api.w3coins.io"
+      },
+      {
+        "address": "https://api-umee.mms.team"
+      },
+      {
+        "address": "https://api-umee.mzonder.com"
+      },
+      {
+        "address": "https://umee-api.stake-town.com"
+      },
+      {
+        "address": "https://umee-api.highstakes.ch"
+      },
+      {
+        "address": "https://umee.api.stakevillage.net"
+      },
+      {
+        "address": "https://umee-api.noders.services"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "grpc-umee-ia.cosmosia.notional.ventures:443"
+      },
+      {
+        "address": "umee-grpc.polkachu.com:13690"
+      },
+      {
+        "address": "umee-mainnet-grpc.autostake.com:443"
+      },
+      {
+        "address": "umee-grpc.quantnode.tech:9090"
+      },
+      {
+        "address": "umee.grpc.m.stavr.tech:9090"
+      },
+      {
+        "address": "umee-grpc.quantnode.tech:9091"
+      },
+      {
+        "address": "umee-grpc.tienthuattoan.ventures:9090"
+      },
+      {
+        "address": "grpc-umee-01.stakeflow.io:9990"
+      },
+      {
+        "address": "services.staketab.com:9020"
+      },
+      {
+        "address": "umee.grpc.kjnodes.com:16290"
+      },
+      {
+        "address": "umee-grpc.w3coins.io:13690"
+      },
+      {
+        "address": "grpc-umee.mms.team:443"
+      },
+      {
+        "address": "grpc-umee.mzonder.com:443"
+      },
+      {
+        "address": "umee-grpc.stake-town.com:443"
+      },
+      {
+        "address": "umee.grpc.stakevillage.net:11090"
+      },
+      {
+        "address": "umee-grpc.noders.services:32090"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "mintscan",
+      "url": "https://www.mintscan.io/umee/",
+      "txPage": "https://www.mintscan.io/umee/transactions/${txHash}",
+      "accountPage": "https://www.mintscan.io/umee/accounts/${accountAddress}"
+    },
+    {
+      "kind": "ping.pub",
+      "url": "https://ping.pub/umee",
+      "txPage": "https://ping.pub/umee/tx/${txHash}"
+    },
+    {
+      "kind": "🔥STAVR🔥 Explorer",
+      "url": "https://explorer.stavr.tech/umee",
+      "txPage": "https://explorer.stavr.tech/umee/tx/${txHash}"
+    },
+    {
+      "kind": "explorers.guru",
+      "url": "https://umee.explorers.guru",
+      "txPage": "https://umee.explorers.guru/transaction/${txHash}"
+    },
+    {
+      "kind": "atomscan",
+      "url": "https://atomscan.com/umee",
+      "txPage": "https://atomscan.com/umee/transactions/${txHash}",
+      "accountPage": "https://atomscan.com/umee/accounts/${accountAddress}"
+    },
+    {
+      "kind": "Stakeflow",
+      "url": "https://stakeflow.io/umee",
+      "accountPage": "https://stakeflow.io/umee/accounts/${accountAddress}"
+    },
+    {
+      "kind": "Stake-Take",
+      "url": "https://explorer.stake-take.com/umee",
+      "txPage": "https://explorer.stake-take.com/umee/transactions/${txHash}",
+      "accountPage": "https://explorer.stake-take.com/umee/account/${accountAddress}"
+    },
+    {
+      "kind": "Stake Village",
+      "url": "https://exp.stakevillage.net/umee",
+      "txPage": "https://exp.stakevillage.net/umee/tx/${txHash}",
+      "accountPage": "https://exp.stakevillage.net/umee/account/${accountAddress}"
+    },
+    {
+      "kind": "ezstaking",
+      "url": "https://ezstaking.app/umee",
+      "txPage": "https://ezstaking.app/umee/txs/${txHash}",
+      "accountPage": "https://ezstaking.app/umee/account/${accountAddress}"
+    }
+  ],
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/umee/images/umee.png",
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/umee/images/umee.svg"
+    }
+  ]
+}

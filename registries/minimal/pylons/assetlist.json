@@ -1,0 +1,24 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "pylons",
+  "assets": [
+    {
+      "description": "The revenue token for Pylons",
+      "denomUnits": [
+        {
+          "denom": "ubedrock",
+          "exponent": 0
+        },
+        {
+          "denom": "rock",
+          "exponent": 6
+        }
+      ],
+      "base": "ubedrock",
+      "name": "Pylons",
+      "display": "rock",
+      "symbol": "ROCK",
+      "assetType": "sdk.Coin"
+    }
+  ]
+}

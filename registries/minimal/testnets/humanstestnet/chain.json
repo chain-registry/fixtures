@@ -1,0 +1,47 @@
+{
+  "$schema": "../../chain.schema.json",
+  "chainName": "humanstestnet",
+  "chainId": "testnet-1",
+  "prettyName": "Humans AI Testnet",
+  "networkType": "testnet",
+  "bech32Prefix": "humans",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "uheart",
+        "fixedMinGasPrice": 0
+      }
+    ]
+  },
+  "codebase": {
+
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://humans-testnet.nodejumper.io"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://humans-testnet.nodejumper.io:1317"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "https://humans-testnet.nodejumper.io:9090"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "explorer.humans.zone",
+      "url": "https://explorer.humans.zone/",
+      "txPage": "https://explorer.humans.zone/humans-testnet/tx/${txHash}"
+    }
+  ]
+}

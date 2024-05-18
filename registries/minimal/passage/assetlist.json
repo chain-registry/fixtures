@@ -1,0 +1,25 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "passage",
+  "assets": [
+    {
+      "description": "The native staking and governance token of the Passage chain.",
+      "denomUnits": [
+        {
+          "denom": "upasg",
+          "exponent": 0
+        },
+        {
+          "denom": "pasg",
+          "exponent": 6
+        }
+      ],
+      "base": "upasg",
+      "name": "Passage",
+      "display": "pasg",
+      "symbol": "PASG",
+      "coingeckoId": "passage",
+      "assetType": "sdk.Coin"
+    }
+  ]
+}

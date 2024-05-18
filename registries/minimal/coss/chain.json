@@ -1,0 +1,72 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "coss",
+  "chainId": "coss-1",
+  "website": "https://coss.ink/",
+  "prettyName": "COSS",
+  "networkType": "mainnet",
+  "bech32Prefix": "coss",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "ucoss",
+        "fixedMinGasPrice": 0.025,
+        "lowGasPrice": 0.025,
+        "averageGasPrice": 0.03,
+        "highGasPrice": 0.04
+      },
+      {
+        "denom": "ucgas",
+        "fixedMinGasPrice": 0.025,
+        "lowGasPrice": 0.025,
+        "averageGasPrice": 0.03,
+        "highGasPrice": 0.04
+      },
+      {
+        "denom": "ucias",
+        "fixedMinGasPrice": 0.025,
+        "lowGasPrice": 0.025,
+        "averageGasPrice": 0.03,
+        "highGasPrice": 0.04
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "ucgas"
+      }
+    ]
+  },
+  "codebase": {
+
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://coss-rpc.coss.ink"
+      },
+      {
+        "address": "https://coss-rpc.cias.network"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://coss-rest.coss.ink"
+      },
+      {
+        "address": "https://coss-rest.cias.network"
+      }
+    ]
+  },
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/coss/images/coss.png",
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/coss/images/coss.svg"
+    }
+  ]
+}

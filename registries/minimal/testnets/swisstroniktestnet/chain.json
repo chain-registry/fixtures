@@ -1,0 +1,78 @@
+{
+  "$schema": "../../chain.schema.json",
+  "chainName": "swisstroniktestnet",
+  "chainId": "swisstronik_1291-1",
+  "prettyName": "Swisstronik Testnet",
+  "networkType": "testnet",
+  "bech32Prefix": "swtr",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "slip44": 60,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "uswtr",
+        "fixedMinGasPrice": 7
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "uswtr"
+      }
+    ]
+  },
+  "codebase": {
+    "cosmosSdkVersion": "0.47",
+    "ibcGoVersion": "v7.2.0"
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc.testnet.swisstronik.com"
+      },
+      {
+        "address": "https://testnet-swisstronik-rpc.genznodes.dev"
+      },
+      {
+        "address": "https://rpc.swisstronik.comunitynode.my.id"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://api.testnet.swisstronik.com"
+      },
+      {
+        "address": "https://testnet-swisstronik-api.genznodes.dev"
+      },
+      {
+        "address": "https://rest.swisstronik.comunitynode.my.id/"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "testnet-swisstronik-grpc.genznodes.dev:20090"
+      }
+    ],
+    "evmHttpJsonrpc": [
+      {
+        "address": "https://json-rpc.testnet.swisstronik.com"
+      },
+      {
+        "address": "https://testnet-swisstronik-rpc-evm.genznodes.dev"
+      },
+      {
+        "address": "https://evm.swisstronik.comunitynode.my.id"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "ping.pub",
+      "url": "https://explorer-cosmos.testnet.swisstronik.com/swisstronik",
+      "txPage": "https://explorer-cosmos.testnet.swisstronik.com/swisstronik/tx/${txHash}"
+    }
+  ]
+}

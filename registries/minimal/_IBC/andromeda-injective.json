@@ -1,0 +1,31 @@
+{
+  "$schema": "../ibc_data.schema.json",
+  "chain1": {
+    "chainName": "andromeda",
+    "clientId": "07-tendermint-16",
+    "connectionId": "connection-12"
+  },
+  "chain2": {
+    "chainName": "injective",
+    "clientId": "07-tendermint-250",
+    "connectionId": "connection-244"
+  },
+  "channels": [
+    {
+      "chain1": {
+        "channelId": "channel-13",
+        "portId": "transfer"
+      },
+      "chain2": {
+        "channelId": "channel-213",
+        "portId": "transfer"
+      },
+      "ordering": "unordered",
+      "version": "ics20-1",
+      "tags": {
+        "status": "live",
+        "preferred": true
+      }
+    }
+  ]
+}

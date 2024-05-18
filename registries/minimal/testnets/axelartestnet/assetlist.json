@@ -1,0 +1,221 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "axelartestnet",
+  "assets": [
+    {
+      "description": "The native token of Axelar",
+      "denomUnits": [
+        {
+          "denom": "uaxl",
+          "exponent": 0
+        },
+        {
+          "denom": "axl",
+          "exponent": 6
+        }
+      ],
+      "base": "uaxl",
+      "name": "Axelar",
+      "display": "axl",
+      "symbol": "AXL",
+      "coingeckoId": "axelar",
+      "assetType": "sdk.Coin"
+    },
+    {
+      "description": "Circle's stablecoin on Axelar",
+      "denomUnits": [
+        {
+          "denom": "uausdc",
+          "exponent": 0
+        },
+        {
+          "denom": "ausdc",
+          "exponent": 6
+        }
+      ],
+      "base": "uausdc",
+      "name": "USD Coin",
+      "display": "ausdc",
+      "symbol": "aUSDC",
+      "traces": [
+        {
+          "type": "bridge",
+          "counterparty": {
+            "chainName": "ethereumtestnet",
+            "baseDenom": "0x254d06f33bDc5b8ee05b2ea472107E300226659A"
+          },
+          "provider": "Axelar"
+        }
+      ],
+      "assetType": "sdk.Coin"
+    },
+    {
+      "description": "Wrapped Ether on Axelar",
+      "denomUnits": [
+        {
+          "denom": "eth-wei",
+          "exponent": 0
+        },
+        {
+          "denom": "weth",
+          "exponent": 18
+        }
+      ],
+      "base": "eth-wei",
+      "name": "Wrapped Ether",
+      "display": "weth",
+      "symbol": "axlWETH",
+      "traces": [
+        {
+          "type": "bridge",
+          "counterparty": {
+            "chainName": "ethereumtestnet",
+            "baseDenom": "0xB4FBF271143F4FBf7B91A5ded31805e42b2208d6"
+          },
+          "provider": "Axelar"
+        }
+      ],
+      "assetType": "sdk.Coin"
+    },
+    {
+      "description": "Wrapped Moonbeam on Axelar",
+      "denomUnits": [
+        {
+          "denom": "wglmr-wei",
+          "exponent": 0
+        },
+        {
+          "denom": "wglmr",
+          "exponent": 18
+        }
+      ],
+      "base": "wglmr-wei",
+      "name": "Wrapped Moonbeam",
+      "display": "wglmr",
+      "symbol": "WDEV",
+      "traces": [
+        {
+          "type": "bridge",
+          "counterparty": {
+            "chainName": "moonbeamtestnet",
+            "baseDenom": "0x1436aE0dF0A8663F18c0Ec51d7e2E46591730715"
+          },
+          "provider": "Axelar"
+        }
+      ],
+      "assetType": "sdk.Coin"
+    },
+    {
+      "description": "Wrapped Matic on Axelar",
+      "denomUnits": [
+        {
+          "denom": "wmatic-wei",
+          "exponent": 0
+        },
+        {
+          "denom": "wmatic",
+          "exponent": 18
+        }
+      ],
+      "base": "wmatic-wei",
+      "name": "Wrapped Matic",
+      "display": "wmatic",
+      "symbol": "WMATIC",
+      "traces": [
+        {
+          "type": "bridge",
+          "counterparty": {
+            "chainName": "polygontestnet",
+            "baseDenom": "0x9c3C9283D3e44854697Cd22D3Faa240Cfb032889"
+          },
+          "provider": "Axelar"
+        }
+      ],
+      "assetType": "sdk.Coin"
+    },
+    {
+      "description": "Wrapped BNB on Axelar",
+      "denomUnits": [
+        {
+          "denom": "wbnb-wei",
+          "exponent": 0
+        },
+        {
+          "denom": "wbnb",
+          "exponent": 18
+        }
+      ],
+      "base": "wbnb-wei",
+      "name": "Wrapped BNB",
+      "display": "wbnb",
+      "symbol": "WBNB",
+      "traces": [
+        {
+          "type": "bridge",
+          "counterparty": {
+            "chainName": "binancesmartchaintestnet",
+            "baseDenom": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd"
+          },
+          "provider": "Axelar"
+        }
+      ],
+      "assetType": "sdk.Coin"
+    },
+    {
+      "description": "Wrapped AVAX on Axelar.",
+      "denomUnits": [
+        {
+          "denom": "wavax-wei",
+          "exponent": 0
+        },
+        {
+          "denom": "avax",
+          "exponent": 18
+        }
+      ],
+      "base": "wavax-wei",
+      "name": "Wrapped AVAX",
+      "display": "avax",
+      "symbol": "WAVAX",
+      "traces": [
+        {
+          "type": "bridge",
+          "counterparty": {
+            "chainName": "avalanchetestnet",
+            "baseDenom": "0xd00ae08403B9bbb9124bB305C09058E32C39A48c"
+          },
+          "provider": "Axelar"
+        }
+      ],
+      "assetType": "sdk.Coin"
+    },
+    {
+      "description": "Wrapped FTM on Axelar.",
+      "denomUnits": [
+        {
+          "denom": "wftm-wei",
+          "exponent": 0
+        },
+        {
+          "denom": "ftm",
+          "exponent": 18
+        }
+      ],
+      "base": "wftm-wei",
+      "name": "Wrapped FTM",
+      "display": "ftm",
+      "symbol": "WFTM",
+      "traces": [
+        {
+          "type": "bridge",
+          "counterparty": {
+            "chainName": "fantomtestnet",
+            "baseDenom": "0x812666209b90344Ec8e528375298ab9045c2Bd08"
+          },
+          "provider": "Axelar"
+        }
+      ],
+      "assetType": "sdk.Coin"
+    }
+  ]
+}

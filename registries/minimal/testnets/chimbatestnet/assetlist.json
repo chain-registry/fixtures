@@ -1,0 +1,25 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "chimbatestnet",
+  "assets": [
+    {
+      "description": "The first blokchain in colombia",
+      "denomUnits": [
+        {
+          "denom": "ucmba",
+          "exponent": 0
+        },
+        {
+          "denom": "chimba",
+          "exponent": 6
+        }
+      ],
+      "base": "ucmba",
+      "name": "Chimba",
+      "display": "chimba",
+      "symbol": "CMBA",
+      "coingeckoId": "",
+      "assetType": "unknown"
+    }
+  ]
+}

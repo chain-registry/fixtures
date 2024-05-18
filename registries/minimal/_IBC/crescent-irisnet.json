@@ -1,0 +1,32 @@
+{
+  "$schema": "../ibc_data.schema.json",
+  "chain1": {
+    "chainName": "crescent",
+    "clientId": "07-tendermint-67",
+    "connectionId": "connection-61"
+  },
+  "chain2": {
+    "chainName": "irisnet",
+    "clientId": "07-tendermint-86",
+    "connectionId": "connection-70"
+  },
+  "channels": [
+    {
+      "chain1": {
+        "channelId": "channel-37",
+        "portId": "transfer"
+      },
+      "chain2": {
+        "channelId": "channel-37",
+        "portId": "transfer"
+      },
+      "ordering": "unordered",
+      "version": "ics20-1",
+      "tags": {
+        "status": "live",
+        "preferred": true,
+        "dex": "crescent"
+      }
+    }
+  ]
+}

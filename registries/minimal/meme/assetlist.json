@@ -1,0 +1,25 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "meme",
+  "assets": [
+    {
+      "description": "MEME Token (MEME) is the native staking token of the MEME Chain",
+      "denomUnits": [
+        {
+          "denom": "umeme",
+          "exponent": 0
+        },
+        {
+          "denom": "meme",
+          "exponent": 6
+        }
+      ],
+      "base": "umeme",
+      "name": "MEME",
+      "display": "meme",
+      "symbol": "MEME",
+      "coingeckoId": "meme-network",
+      "assetType": "sdk.Coin"
+    }
+  ]
+}

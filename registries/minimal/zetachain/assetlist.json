@@ -1,0 +1,25 @@
+{
+  "$schema": "../../assetlist.schema.json",
+  "chainName": "zetachain",
+  "assets": [
+    {
+      "description": "The native token of ZetaChain",
+      "denomUnits": [
+        {
+          "denom": "azeta",
+          "exponent": 0
+        },
+        {
+          "denom": "zeta",
+          "exponent": 18
+        }
+      ],
+      "base": "azeta",
+      "name": "ZetaChain",
+      "display": "zeta",
+      "symbol": "ZETA",
+      "coingeckoId": "zetachain",
+      "assetType": "sdk.Coin"
+    }
+  ]
+}

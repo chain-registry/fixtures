@@ -1,0 +1,24 @@
+{
+  "$schema": "../../assetlist.schema.json",
+  "chainName": "nolustestnet",
+  "assets": [
+    {
+      "description": "The native token of Nolus chain",
+      "denomUnits": [
+        {
+          "denom": "unls",
+          "exponent": 0
+        },
+        {
+          "denom": "nls",
+          "exponent": 6
+        }
+      ],
+      "base": "unls",
+      "name": "Nolus",
+      "display": "nls",
+      "symbol": "NLS",
+      "assetType": "sdk.Coin"
+    }
+  ]
+}

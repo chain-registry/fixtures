@@ -1,0 +1,24 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "nim",
+  "assets": [
+    {
+      "description": "The native token of Nim Network.",
+      "denomUnits": [
+        {
+          "denom": "anim",
+          "exponent": 0
+        },
+        {
+          "denom": "nim",
+          "exponent": 18
+        }
+      ],
+      "assetType": "sdk.coin",
+      "base": "anim",
+      "name": "NIM Network",
+      "display": "nim",
+      "symbol": "NIM"
+    }
+  ]
+}

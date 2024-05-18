@@ -1,0 +1,24 @@
+{
+  "$schema": "../../assetlist.schema.json",
+  "chainName": "marstestnet",
+  "assets": [
+    {
+      "description": "The native token of Mars Protocol",
+      "denomUnits": [
+        {
+          "denom": "umars",
+          "exponent": 0
+        },
+        {
+          "denom": "mars",
+          "exponent": 6
+        }
+      ],
+      "base": "umars",
+      "name": "Mars",
+      "display": "mars",
+      "symbol": "MARS",
+      "assetType": "sdk.Coin"
+    }
+  ]
+}

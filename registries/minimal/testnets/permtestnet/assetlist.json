@@ -1,0 +1,25 @@
+{
+  "$schema": "../../assetlist.schema.json",
+  "chainName": "permtestnet",
+  "assets": [
+    {
+      "description": "Perm A Permissioned Blockchain",
+      "denomUnits": [
+        {
+          "denom": "uperm",
+          "exponent": 0
+        },
+        {
+          "denom": "perm",
+          "exponent": 6
+        }
+      ],
+      "base": "uperm",
+      "name": "Perm",
+      "display": "perm",
+      "symbol": "PERM",
+      "coingeckoId": "",
+      "assetType": "sdk.Coin"
+    }
+  ]
+}

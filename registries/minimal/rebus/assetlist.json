@@ -1,0 +1,25 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "rebus",
+  "assets": [
+    {
+      "description": "REBUS, the native coin of the Rebus chain.",
+      "denomUnits": [
+        {
+          "denom": "arebus",
+          "exponent": 0
+        },
+        {
+          "denom": "rebus",
+          "exponent": 18
+        }
+      ],
+      "base": "arebus",
+      "name": "Rebus",
+      "display": "rebus",
+      "symbol": "REBUS",
+      "coingeckoId": "rebus",
+      "assetType": "sdk.Coin"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "idep",
+  "assets": [
+    {
+      "description": "The native token of IDEP chain",
+      "denomUnits": [
+        {
+          "denom": "IDEP",
+          "exponent": 6,
+          "aliases": [
+
+          ]
+        },
+        {
+          "denom": "idep",
+          "exponent": 0,
+          "aliases": [
+
+          ]
+        }
+      ],
+      "base": "idep",
+      "name": "IDEP",
+      "display": "IDEP",
+      "symbol": "IDEP",
+      "assetType": "sdk.Coin"
+    }
+  ]
+}

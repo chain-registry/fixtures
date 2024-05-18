@@ -1,0 +1,45 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "okexchain",
+  "networkType": "mainnet",
+  "prettyName": "OKExChain",
+  "chainId": "exchain-66",
+  "bech32Prefix": "ex",
+  "slip44": 60,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "wei",
+        "lowGasPrice": 200000000,
+        "averageGasPrice": 250000000,
+        "highGasPrice": 400000000
+      }
+    ]
+  },
+  "codebase": {
+
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://exchaintmrpc.okex.org"
+      }
+    ],
+    "rest": [
+
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "OKLink",
+      "url": "https://www.oklink.com/en/okc",
+      "txPage": "https://www.oklink.com/en/okc/tx/${txHash}",
+      "accountPage": "https://www.oklink.com/en/okc/address/${accountAddress}"
+    }
+  ],
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/okexchain/images/okc.png"
+    }
+  ]
+}

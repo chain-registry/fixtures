@@ -1,0 +1,31 @@
+{
+  "$schema": "../ibc_data.schema.json",
+  "chain1": {
+    "chainName": "migaloo",
+    "clientId": "07-tendermint-3",
+    "connectionId": "connection-11"
+  },
+  "chain2": {
+    "chainName": "osmosis",
+    "clientId": "07-tendermint-2669",
+    "connectionId": "connection-2171"
+  },
+  "channels": [
+    {
+      "chain1": {
+        "channelId": "channel-5",
+        "portId": "transfer"
+      },
+      "chain2": {
+        "channelId": "channel-642",
+        "portId": "transfer"
+      },
+      "ordering": "unordered",
+      "version": "ics20-1",
+      "tags": {
+        "status": "live",
+        "preferred": true
+      }
+    }
+  ]
+}

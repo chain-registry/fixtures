@@ -1,0 +1,25 @@
+{
+  "$schema": "../../assetlist.schema.json",
+  "chainName": "secretnetworktestnet",
+  "assets": [
+    {
+      "description": "The native token of Secret Network",
+      "denomUnits": [
+        {
+          "denom": "uscrt",
+          "exponent": 0
+        },
+        {
+          "denom": "scrt",
+          "exponent": 6
+        }
+      ],
+      "base": "uscrt",
+      "name": "Secret Network",
+      "display": "scrt",
+      "symbol": "SCRT",
+      "coingeckoId": "secret",
+      "assetType": "unknown"
+    }
+  ]
+}

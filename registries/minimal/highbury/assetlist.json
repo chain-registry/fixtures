@@ -1,0 +1,61 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "highbury",
+  "assets": [
+    {
+      "description": "The native staking and governance token of the Blackfury ecosystem",
+      "denomUnits": [
+        {
+          "denom": "ufury",
+          "exponent": 0
+        },
+        {
+          "denom": "fury",
+          "exponent": 6
+        }
+      ],
+      "base": "ufury",
+      "name": "Fury",
+      "display": "fury",
+      "symbol": "FURY",
+      "coingeckoId": "fanfury",
+      "assetType": "unknown"
+    },
+    {
+      "description": "Governance token of Jinx Wallet and Fury Lend Protocol",
+      "denomUnits": [
+        {
+          "denom": "jinx",
+          "exponent": 0
+        },
+        {
+          "denom": "JINX",
+          "exponent": 6
+        }
+      ],
+      "base": "jinx",
+      "name": "Jinx",
+      "display": "JINX",
+      "symbol": "JINX",
+      "assetType": "unknown"
+    },
+    {
+      "description": "Governance token of Fury Swap Protocol",
+      "denomUnits": [
+        {
+          "denom": "jinxy",
+          "exponent": 0
+        },
+        {
+          "denom": "JINXY",
+          "exponent": 6
+        }
+      ],
+      "base": "jinxy",
+      "name": "Jinxy",
+      "display": "JINXY",
+      "symbol": "JINXy",
+      "assetType": "unknown"
+    }
+  ]
+}

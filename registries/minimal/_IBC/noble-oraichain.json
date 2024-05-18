@@ -1,0 +1,32 @@
+{
+  "$schema": "../ibc_data.schema.json",
+  "chain1": {
+    "chainName": "noble",
+    "clientId": "07-tendermint-60",
+    "connectionId": "connection-58"
+  },
+  "chain2": {
+    "chainName": "oraichain",
+    "clientId": "07-tendermint-106",
+    "connectionId": "connection-83"
+  },
+  "channels": [
+    {
+      "chain1": {
+        "channelId": "channel-34",
+        "portId": "transfer"
+      },
+      "chain2": {
+        "channelId": "channel-147",
+        "portId": "wasm.orai195269awwnt5m6c843q6w7hp8rt0k7syfu9de4h0wz384slshuzps8y7ccm"
+      },
+      "ordering": "unordered",
+      "version": "ics20-1",
+      "tags": {
+        "status": "live",
+        "preferred": true,
+        "dex": "oraidex"
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "$schema": "../ibc_data.schema.json",
+  "chain1": {
+    "chainName": "planq",
+    "clientId": "07-tendermint-558",
+    "connectionId": "connection-483"
+  },
+  "chain2": {
+    "chainName": "source",
+    "clientId": "07-tendermint-10",
+    "connectionId": "connection-5"
+  },
+  "channels": [
+    {
+      "chain1": {
+        "channelId": "channel-61",
+        "portId": "transfer"
+      },
+      "chain2": {
+        "channelId": "channel-1",
+        "portId": "transfer"
+      },
+      "ordering": "unordered",
+      "version": "ics20-1",
+      "tags": {
+        "status": "live",
+        "preferred": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "neutaro",
+  "assets": [
+    {
+      "description": "The native token of Neutaro",
+      "denomUnits": [
+        {
+          "denom": "uneutaro",
+          "exponent": 0
+        },
+        {
+          "denom": "neutaro",
+          "exponent": 6
+        }
+      ],
+      "base": "uneutaro",
+      "name": "Neutaro",
+      "display": "neutaro",
+      "symbol": "NTMPI",
+      "coingeckoId": "neutaro",
+      "assetType": "sdk.Coin"
+    }
+  ]
+}

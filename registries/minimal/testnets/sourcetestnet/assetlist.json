@@ -1,0 +1,24 @@
+{
+  "$schema": "../../assetlist.schema.json",
+  "chainName": "sourcetestnet",
+  "assets": [
+    {
+      "description": "The native token of SOURCE Chain",
+      "denomUnits": [
+        {
+          "denom": "usource",
+          "exponent": 0
+        },
+        {
+          "denom": "source",
+          "exponent": 6
+        }
+      ],
+      "base": "usource",
+      "name": "Source Testnet",
+      "display": "source",
+      "symbol": "SOURCE",
+      "assetType": "sdk.Coin"
+    }
+  ]
+}

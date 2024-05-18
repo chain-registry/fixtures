@@ -1,0 +1,87 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "conscious",
+  "networkType": "mainnet",
+  "website": "https://cvn.io/",
+  "prettyName": "ConsciousDAO",
+  "chainId": "cvn_2032-1",
+  "bech32Prefix": "cvn",
+  "keyAlgos": [
+    "ethsecp256k1"
+  ],
+  "slip44": 60,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "acvnt",
+        "fixedMinGasPrice": 100000000,
+        "lowGasPrice": 100000000,
+        "averageGasPrice": 200000000,
+        "highGasPrice": 300000000
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "acvnt"
+      }
+    ]
+  },
+  "codebase": {
+
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc.cvn.io/"
+      },
+      {
+        "address": "https://conscious_mainnet_rpc.chain.whenmoonwhenlambo.money/"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://api.cvn.io"
+      },
+      {
+        "address": "https://conscious_mainnet_api.chain.whenmoonwhenlambo.money/"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "https://grpc.cvn.io"
+      }
+    ],
+    "evmHttpJsonrpc": [
+      {
+        "address": "https://node.cvn.io/"
+      },
+      {
+        "address": "https://node.consciousdao.io/"
+      },
+      {
+        "address": "https://conscious_mainnet_evm.chain.whenmoonwhenlambo.money/"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "blockscout",
+      "url": "https://explore.consciousdao.com/",
+      "txPage": "https://explore.consciousdao.com/tx/${txHash}"
+    },
+    {
+      "kind": "🚀 WHEN MOON 🌕 WHEN LAMBO 🔥",
+      "url": "https://explorer.whenmoonwhenlambo.money/conscious",
+      "txPage": "https://explorer.whenmoonwhenlambo.money/conscious/tx/${txHash}",
+      "accountPage": "https://explorer.whenmoonwhenlambo.money/conscious/account/${accountAddress}"
+    }
+  ],
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/conscious/images/cvn.png",
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/conscious/images/cvn.svg"
+    }
+  ]
+}

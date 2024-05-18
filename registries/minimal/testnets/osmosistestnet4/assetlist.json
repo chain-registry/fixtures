@@ -1,0 +1,49 @@
+{
+  "$schema": "../../assetlist.schema.json",
+  "chainName": "osmosistestnet4",
+  "assets": [
+    {
+      "description": "The native token of Osmosis",
+      "denomUnits": [
+        {
+          "denom": "uosmo",
+          "exponent": 0,
+          "aliases": [
+
+          ]
+        },
+        {
+          "denom": "osmo",
+          "exponent": 6,
+          "aliases": [
+
+          ]
+        }
+      ],
+      "base": "uosmo",
+      "name": "Osmosis",
+      "display": "osmo",
+      "symbol": "OSMO",
+      "coingeckoId": "osmosis",
+      "assetType": "sdk.Coin"
+    },
+    {
+      "denomUnits": [
+        {
+          "denom": "uion",
+          "exponent": 0
+        },
+        {
+          "denom": "ion",
+          "exponent": 6
+        }
+      ],
+      "base": "uion",
+      "name": "Ion",
+      "display": "ion",
+      "symbol": "ION",
+      "coingeckoId": "ion",
+      "assetType": "sdk.Coin"
+    }
+  ]
+}

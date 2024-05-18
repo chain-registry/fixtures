@@ -1,0 +1,44 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "nyx",
+  "assets": [
+    {
+      "description": "NYX Token (NYX) is the Nym Network's native staking and governance token.",
+      "denomUnits": [
+        {
+          "denom": "unyx",
+          "exponent": 0
+        },
+        {
+          "denom": "nyx",
+          "exponent": 6
+        }
+      ],
+      "base": "unyx",
+      "name": "NYX",
+      "display": "nyx",
+      "symbol": "NYX",
+      "coingeckoId": "",
+      "assetType": "sdk.Coin"
+    },
+    {
+      "description": "NYM Token (NYM) is the Nym Network's native utility token, used as the primary means to incentivize mixnet node operators.",
+      "denomUnits": [
+        {
+          "denom": "unym",
+          "exponent": 0
+        },
+        {
+          "denom": "nym",
+          "exponent": 6
+        }
+      ],
+      "base": "unym",
+      "name": "NYM",
+      "display": "nym",
+      "symbol": "NYM",
+      "coingeckoId": "nym",
+      "assetType": "sdk.Coin"
+    }
+  ]
+}
