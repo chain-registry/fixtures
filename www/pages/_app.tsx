@@ -1,5 +1,6 @@
 import "../styles/globals.css";
 import "@interchain-ui/react/styles";
+import '@interchain-ui/react/globalStyles';
 
 import {
   Box,
