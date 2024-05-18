@@ -1,41 +1,43 @@
 import { Registry, RegistryBuilder, RegistryBuilderOptions, SchemaValidator } from '@chain-registry/workflows';
 import { join } from "path";
 
-import { assetListDefaultValuesSetter, assetListOperations, assetListPropertyRenameMap, assetListValueReplacer,chainPropertyRenameMap, registriesDir, registry } from './config';
-import { camelCaseTransform, isValidIdentifierCamelized } from './utils';
+import { assetListDefaultValuesSetter, assetListOperationsOriginal, assetListPropertyRenameMap, assetListValueReplacer, chainPropertyRenameMap, registriesDir, registry } from './config';
 
-const registryDir = join(registriesDir, 'full')
+const registryDir = join(registriesDir, 'original')
 
 const options: RegistryBuilderOptions = {
   assetList: {
-    camelCase: true,
+    camelCase: false,
     space: 2,
     propertyRenameMap: assetListPropertyRenameMap,
     defaultValuesSetter: assetListDefaultValuesSetter,
     valueReplacer: assetListValueReplacer
   },
   chain: {
-    camelCase: true,
+    camelCase: false,
     space: 2,
     propertyRenameMap: chainPropertyRenameMap
   },
   ibcData: {
-    camelCase: true,
+    camelCase: false,
     space: 2
   },
   ops: {
     assetList: [
-      ...assetListOperations,
+      ...assetListOperationsOriginal,
     ],
-    chain: [ ],
+    chain: [],
     ibcData: []
   }
 }
 
+function run () {
+
+
 const builder = new RegistryBuilder(registry, options);
 
 builder.build(registryDir);
-builder.buildSchemas(registryDir, camelCaseTransform, isValidIdentifierCamelized);
+builder.buildSchemas(registryDir, (str: string) => str, (_str: string) => false);
 
 // validate
 
@@ -44,3 +46,7 @@ const validator = new SchemaValidator(new Registry(registryDir), {
   useStrict: false
 });
 validator.validateAllData();
+
+}
+
+setTimeout(run, 100);

@@ -142,7 +142,8 @@
             "svm-base",
             "substrate",
             "unknown",
-            "sdk.factory"
+            "sdk.factory",
+            "bitsong"
           ],
           "default": "sdk.coin",
           "description": "[OPTIONAL] The potential options for type of asset. By default, assumes sdk.coin"

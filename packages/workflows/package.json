@@ -15,6 +15,7 @@
   },
   "scripts": {
     "minimal": "ts-node ./src/minimal.ts",
+    "original": "ts-node ./src/original.ts",
     "full": "ts-node ./src/full.ts"
   },
   "keywords": [],
