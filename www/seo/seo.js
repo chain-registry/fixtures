@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const glob = require('glob');
 
-const seo = require('./seo-dataseo');
+const seo = require('./seo-data');
 const siteInfo = require('./site');
 
 const canonical = seo.canonical;

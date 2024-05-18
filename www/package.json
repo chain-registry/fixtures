@@ -3,13 +3,16 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint",
-    "deploy": "AWS_PROFILE=webinc aws s3 sync out/ s3://chainregistry.org",
     "deploy:all": "npm run export && npm run deploy && ./src/seo/prepare.sh",
-    "invalidate": "AWS_PROFILE=webinc aws cloudfront create-invalidation --distribution-id E36DYSEBYF16G4 --paths \"/*\""
+    "deploy": "AWS_PROFILE=webinc aws s3 sync out/ s3://chainregistry.org",
+    "dev": "next dev",
+    "export": "next build",
+    "invalidate": "AWS_PROFILE=webinc aws cloudfront create-invalidation --distribution-id E36DYSEBYF16G4 --paths \"/*\"",
+    "lint": "next lint",
+    "postexport": "npm run seo",
+    "seo": "node ./seo/seo.js",
+    "start": "next start"
   },
   "resolutions": {
     "react": "18.2.0",
@@ -26,17 +29,22 @@
     "chain-registry": "^1.59.0",
     "framer-motion": "9.0.7",
     "match-sorter": "^6.3.4",
-    "next": "^13",
+    "next": "^14",
+    "next-seo": "6.4.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-icons": "4.6.0"
   },
   "devDependencies": {
+    "@next/bundle-analyzer": "14.0.4",
     "@types/node": "18.11.9",
-    "@types/react": "18.0.25",
     "@types/react-dom": "18.0.9",
-    "eslint": "8.28.0",
+    "@types/react": "18.0.25",
+    "@vanilla-extract/next-plugin": "2.3.0",
     "eslint-config-next": "13.0.5",
-    "typescript": "4.9.3"
+    "eslint": "8.28.0",
+    "next-compose-plugins": "2.2.1",
+    "next-export-optimize-images": "3.2.0",
+    "typescript": "5.2.2"
   }
 }
