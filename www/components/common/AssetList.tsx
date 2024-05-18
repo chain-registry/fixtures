@@ -1,6 +1,7 @@
 // @ts-nocheck
-import * as React from "react";
 import { Box, Stack, Text } from '@interchain-ui/react';
+import * as React from "react";
+
 import AssetListItem from "./AssetListItem";
 
 function AssetList(props) {

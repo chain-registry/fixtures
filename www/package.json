@@ -1,12 +1,15 @@
 {
-  "name": "@cosmology/website",
+  "name": "chainregistry-org",
   "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "deploy": "AWS_PROFILE=webinc aws s3 sync out/ s3://chainregistry.org",
+    "deploy:all": "npm run export && npm run deploy && ./src/seo/prepare.sh",
+    "invalidate": "AWS_PROFILE=webinc aws cloudfront create-invalidation --distribution-id E36DYSEBYF16G4 --paths \"/*\""
   },
   "resolutions": {
     "react": "18.2.0",

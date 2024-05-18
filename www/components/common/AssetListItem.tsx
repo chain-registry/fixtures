@@ -1,7 +1,7 @@
 // @ts-nocheck
+import { Box,Stack, Text } from '@interchain-ui/react'
 import * as React from "react";
-import { useState, useEffect } from "react";
-import { Box, Stack, Text, Button } from '@interchain-ui/react'
+import { useEffect,useState } from "react";
 
 function AssetListItem(props) {
   const [size, setSize] = useState(() => "$xs");

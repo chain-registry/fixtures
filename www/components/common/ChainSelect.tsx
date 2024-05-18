@@ -1,6 +1,4 @@
-import { useEffect, useMemo, useState } from "react";
 import { Chain } from "@chain-registry/v2-types";
-import { matchSorter } from "match-sorter";
 import {
   Avatar,
   Box,
@@ -8,9 +6,10 @@ import {
   Skeleton,
   Stack,
   Text,
-  ThemeProvider,
   useTheme,
 } from "@interchain-ui/react";
+import { matchSorter } from "match-sorter";
+import { useEffect, useMemo, useState } from "react";
 
 export type ChainSelectProps = {
   chains: Chain[];
