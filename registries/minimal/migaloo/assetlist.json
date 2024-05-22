@@ -435,6 +435,40 @@
       "display": "GRAC",
       "symbol": "GRAC",
       "assetType": "sdk.factory"
+    },
+    {
+      "denomUnits": [
+        {
+          "denom": "ibc/721B42229246EEDA7A656DB17E494127F91E84AD63E21852737628321892A928",
+          "exponent": 0,
+          "aliases": [
+            "factory/juno1h6y8tkceau4d8zyv5aa0fwdj2pa2y0gz2hx0tq/uwind"
+          ]
+        },
+        {
+          "denom": "wind",
+          "exponent": 6
+        }
+      ],
+      "assetType": "ics20",
+      "base": "ibc/721B42229246EEDA7A656DB17E494127F91E84AD63E21852737628321892A928",
+      "name": "Wind Token",
+      "display": "wind",
+      "symbol": "WIND",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "juno",
+            "baseDenom": "factory/juno1h6y8tkceau4d8zyv5aa0fwdj2pa2y0gz2hx0tq/uwind",
+            "channelId": "channel-210"
+          },
+          "chain": {
+            "channelId": "channel-1",
+            "path": "transfer/channel-1/factory/juno1h6y8tkceau4d8zyv5aa0fwdj2pa2y0gz2hx0tq/uwind"
+          }
+        }
+      ]
     }
   ]
 }

@@ -12,9 +12,9 @@
   "slip44": 118,
   "codebase": {
     "gitRepo": "https://github.com/OmniFlix/omniflixhub",
-    "recommendedVersion": "v4.0.0",
+    "recommendedVersion": "v4.1.0",
     "compatibleVersions": [
-      "v4.0.0"
+      "v4.1.0"
     ],
     "cosmosSdkVersion": "v0.47.10",
     "ibcGoVersion": "v7.4.0",
@@ -142,12 +142,12 @@
         "name": "v4",
         "proposal": 36,
         "height": 11914000,
-        "recommendedVersion": "v4.0.0",
+        "recommendedVersion": "v4.1.0",
         "compatibleVersions": [
-          "v4.0.0"
+          "v4.1.0"
         ],
         "cosmosSdkVersion": "v0.47.10",
-        "ibcGoVersion": "v7.3.4",
+        "ibcGoVersion": "v7.4.0",
         "consensus": {
           "type": "cometbft",
           "version": "v0.37.4"

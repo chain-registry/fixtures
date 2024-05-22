@@ -69,11 +69,13 @@
         }
       ],
       "logoURIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polygon/images/wmatic.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polygon/images/wmatic.svg"
       },
       "coingeckoId": "wmatic",
       "images": [
         {
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polygon/images/wmatic.png",
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polygon/images/wmatic.svg"
         }
       ]
@@ -115,6 +117,10 @@
       "coingeckoId": "usd-coin",
       "images": [
         {
+          "imageSync": {
+            "chainName": "ethereum",
+            "baseDenom": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+          },
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg"
         }
       ]
@@ -195,6 +201,10 @@
       },
       "images": [
         {
+          "imageSync": {
+            "chainName": "axelar",
+            "baseDenom": "frax-wei"
+          },
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/frax.svg"
         }
       ]

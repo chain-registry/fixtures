@@ -1632,6 +1632,7 @@
       "name": "NAMI",
       "display": "nami",
       "symbol": "NAMI",
+      "coingeckoId": "nami-protocol",
       "assetType": "sdk.factory"
     }
   ]

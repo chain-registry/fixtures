@@ -63,6 +63,10 @@
       "coingeckoId": "wrapped-solana",
       "images": [
         {
+          "imageSync": {
+            "chainName": "solana",
+            "baseDenom": "Lamport"
+          },
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/sol.svg"
         }
       ]

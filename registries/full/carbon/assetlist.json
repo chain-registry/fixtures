@@ -105,6 +105,10 @@
       },
       "images": [
         {
+          "imageSync": {
+            "chainName": "binancesmartchain",
+            "baseDenom": "wei"
+          },
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/binancesmartchain/images/bnb.png",
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/binancesmartchain/images/bnb.svg"
         }
@@ -194,6 +198,10 @@
       },
       "images": [
         {
+          "imageSync": {
+            "chainName": "binancesmartchain",
+            "baseDenom": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56"
+          },
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/busd.png"
         }
       ],
@@ -396,11 +404,17 @@
         }
       ],
       "logoURIs": {
-        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/stars.png"
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/stars.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/stars.svg"
       },
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/stars.png"
+          "imageSync": {
+            "chainName": "stargaze",
+            "baseDenom": "ustars"
+          },
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/stars.png",
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/stars.svg"
         }
       ]
     },
@@ -439,11 +453,17 @@
         }
       ],
       "logoURIs": {
-        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/luna.png"
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/luna.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/luna.svg"
       },
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/luna.png"
+          "imageSync": {
+            "chainName": "terra2",
+            "baseDenom": "uluna"
+          },
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/luna.png",
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/luna.svg"
         }
       ]
     },
@@ -533,6 +553,10 @@
       "coingeckoId": "milkyway-staked-tia",
       "images": [
         {
+          "imageSync": {
+            "chainName": "osmosis",
+            "baseDenom": "factory/osmo1f5vfcph2dvfeqcqkhetwv75fda69z7e5c2dldm3kvgj23crkv6wqcn47a0/umilkTIA"
+          },
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/milktia.png",
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/milktia.svg"
         }
@@ -578,6 +602,10 @@
       },
       "images": [
         {
+          "imageSync": {
+            "chainName": "stride",
+            "baseDenom": "ustrd"
+          },
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/strd.png",
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/strd.svg"
         }
@@ -623,6 +651,10 @@
       },
       "images": [
         {
+          "imageSync": {
+            "chainName": "evmos",
+            "baseDenom": "aevmos"
+          },
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/evmos/images/evmos.png",
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/evmos/images/evmos.svg"
         }
@@ -668,6 +700,10 @@
       },
       "images": [
         {
+          "imageSync": {
+            "chainName": "irisnet",
+            "baseDenom": "uiris"
+          },
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/irisnet/images/iris.png",
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/irisnet/images/iris.svg"
         }
@@ -708,11 +744,17 @@
         }
       ],
       "logoURIs": {
-        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/kuji.png"
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/kuji.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/kuji.svg"
       },
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/kuji.png"
+          "imageSync": {
+            "chainName": "kujira",
+            "baseDenom": "ukuji"
+          },
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/kuji.png",
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/kuji.svg"
         }
       ]
     },
@@ -756,6 +798,10 @@
       },
       "images": [
         {
+          "imageSync": {
+            "chainName": "stride",
+            "baseDenom": "stuosmo"
+          },
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stosmo.png",
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stosmo.svg"
         }
@@ -796,11 +842,17 @@
         }
       ],
       "logoURIs": {
-        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/canto/images/canto.png"
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/canto/images/canto.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/canto/images/canto.svg"
       },
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/canto/images/canto.png"
+          "imageSync": {
+            "chainName": "canto",
+            "baseDenom": "acanto"
+          },
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/canto/images/canto.png",
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/canto/images/canto.svg"
         }
       ]
     },
@@ -844,6 +896,10 @@
       },
       "images": [
         {
+          "imageSync": {
+            "chainName": "cosmoshub",
+            "baseDenom": "uatom"
+          },
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png",
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg"
         }
@@ -889,6 +945,10 @@
       },
       "images": [
         {
+          "imageSync": {
+            "chainName": "stride",
+            "baseDenom": "stuatom"
+          },
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/statom.png",
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/statom.svg"
         }
@@ -934,6 +994,10 @@
       },
       "images": [
         {
+          "imageSync": {
+            "chainName": "osmosis",
+            "baseDenom": "uosmo"
+          },
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.png",
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.svg"
         }
@@ -1024,6 +1088,10 @@
       },
       "images": [
         {
+          "imageSync": {
+            "chainName": "binancesmartchain",
+            "baseDenom": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d"
+          },
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg"
         }
       ],

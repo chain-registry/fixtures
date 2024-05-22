@@ -13198,6 +13198,44 @@
       "name": "WiliHall",
       "display": "WIHA",
       "symbol": "WIHA"
+    },
+    {
+      "description": "For th",
+      "denomUnits": [
+        {
+          "denom": "factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/crazyhorse",
+          "exponent": 0
+        },
+        {
+          "denom": "CRAZYHORSE",
+          "exponent": 6
+        }
+      ],
+      "assetType": "sdk.coin",
+      "address": "osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8",
+      "base": "factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/crazyhorse",
+      "name": "HorseShoeBar",
+      "display": "CRAZYHORSE",
+      "symbol": "CRAZYHORSE"
+    },
+    {
+      "description": "Cosmus Cartol always get rich",
+      "denomUnits": [
+        {
+          "denom": "factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/coca",
+          "exponent": 0
+        },
+        {
+          "denom": "COCA",
+          "exponent": 6
+        }
+      ],
+      "assetType": "sdk.coin",
+      "address": "osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8",
+      "base": "factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/coca",
+      "name": "CosmusCartol",
+      "display": "COCA",
+      "symbol": "COCA"
     }
   ]
 }

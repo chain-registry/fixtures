@@ -301,13 +301,13 @@
   },
   "codebase": {
     "gitRepo": "https://github.com/Switcheo/carbon-bootstrap",
-    "recommendedVersion": "v2.41.1",
+    "recommendedVersion": "v2.43.0",
     "compatibleVersions": [
-      "v2.41.1"
+      "v2.43.0"
     ],
     "binaries": {
-      "linux/amd64": "https://github.com/Switcheo/carbon-bootstrap/releases/download/v2.41.1/carbond2.41.1-mainnet.linux-amd64.tar.gz",
-      "linux/arm64": "https://github.com/Switcheo/carbon-bootstrap/releases/download/v2.41.1/carbond2.41.1-mainnet.linux-arm64.tar.gz"
+      "linux/amd64": "https://github.com/Switcheo/carbon-bootstrap/releases/download/v2.43.0/carbond-mainnet.linux-amd64.tar.gz",
+      "linux/arm64": "https://github.com/Switcheo/carbon-bootstrap/releases/download/v2.43.0/carbond-mainnet.linux-arm64.tar.gz"
     },
     "genesis": {
       "genesisUrl": "https://github.com/Switcheo/carbon-bootstrap/raw/master/carbon-1/genesis.json"
@@ -566,6 +566,34 @@
         "binaries": {
           "linux/amd64": "https://github.com/Switcheo/carbon-bootstrap/releases/download/v2.41.1/carbond2.41.1-mainnet.linux-amd64.tar.gz",
           "linux/arm64": "https://github.com/Switcheo/carbon-bootstrap/releases/download/v2.41.1/carbond2.41.1-mainnet.linux-arm64.tar.gz"
+        },
+        "nextVersionName": "v2.42.0"
+      },
+      {
+        "name": "v2.42.0",
+        "proposal": 355,
+        "height": 57602151,
+        "recommendedVersion": "v2.42.0",
+        "compatibleVersions": [
+          "v2.42.0"
+        ],
+        "binaries": {
+          "linux/amd64": "https://github.com/Switcheo/carbon-bootstrap/releases/download/v2.42.0/carbond2.42.0-mainnet.linux-amd64.tar.gz",
+          "linux/arm64": "https://github.com/Switcheo/carbon-bootstrap/releases/download/v2.42.0/carbond2.42.0-mainnet.linux-arm64.tar.gz"
+        },
+        "nextVersionName": "v2.43.0"
+      },
+      {
+        "name": "v2.43.0",
+        "proposal": 356,
+        "height": 57636191,
+        "recommendedVersion": "v2.43.0",
+        "compatibleVersions": [
+          "v2.43.0"
+        ],
+        "binaries": {
+          "linux/amd64": "https://github.com/Switcheo/carbon-bootstrap/releases/download/v2.43.0/carbond-mainnet.linux-amd64.tar.gz",
+          "linux/arm64": "https://github.com/Switcheo/carbon-bootstrap/releases/download/v2.43.0/carbond-mainnet.linux-arm64.tar.gz"
         },
         "nextVersionName": ""
       }

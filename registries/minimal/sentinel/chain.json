@@ -77,6 +77,15 @@
       },
       {
         "address": "https://sentinel.rpc.nodeshub.online:443"
+      },
+      {
+        "address": "https://rpc.dvpn.me:443"
+      },
+      {
+        "address": "https://rpc.ro.mathnodes.com:443"
+      },
+      {
+        "address": "https://rpc.noncompliant.network:443"
       }
     ],
     "rest": [
@@ -118,6 +127,15 @@
       },
       {
         "address": "https://sentinel.api.nodeshub.online:443"
+      },
+      {
+        "address": "https://api.dvpn.me:443"
+      },
+      {
+        "address": "https://api.ro.mathnodes.com:443"
+      },
+      {
+        "address": "https://api.noncompliant.network:443"
       }
     ],
     "grpc": [
@@ -141,6 +159,24 @@
       },
       {
         "address": "https://sentinel.grpc.nodeshub.online"
+      },
+      {
+        "address": "https://grpc.dvpn.me:443"
+      },
+      {
+        "address": "https://grc.mathnodes.com:443"
+      },
+      {
+        "address": "https://grpc.noncompliant.network:443"
+      },
+      {
+        "address": "https://grpc.dvpn.me:9090"
+      },
+      {
+        "address": "https://grc.mathnodes.com:9000"
+      },
+      {
+        "address": "https://grpc.noncompliant.network:9090"
       }
     ]
   },

@@ -72,6 +72,10 @@
       "coingeckoId": "wrapped-moonbeam",
       "images": [
         {
+          "imageSync": {
+            "chainName": "moonbeamtestnet",
+            "baseDenom": "Wei"
+          },
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/moonbeam/images/glmr.svg"
         }
       ]
