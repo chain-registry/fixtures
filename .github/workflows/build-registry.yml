@@ -43,7 +43,7 @@ jobs:
           yarn build
           popd
 
-      - name: Git Ops ✍🏻
+      - name: Git Commit
         run: |
           # Stage all changes and commit if there are any changes
           git config user.name "${{ github.actor }}"
@@ -56,6 +56,10 @@ jobs:
           else
             echo "GIT_RESULT=No changes to commit." >> $GITHUB_ENV
           fi
+          echo $GIT_RESULT
+
+      - name: Git Ops ✍🏻
+        run: |
           echo $GIT_RESULT
         env:
           GH_TOKEN: ${{ secrets.ADMIN_GITHUB_TOKEN }}
