@@ -50,7 +50,6 @@ const options: RegistryBuilderOptions = {
       '/explorers',
       '/extra_codecs',
       '/fee_token',
-      '/staking_token',
       '/fees',
       '/images',
       '/key_algos',
