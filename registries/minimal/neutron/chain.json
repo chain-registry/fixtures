@@ -61,7 +61,7 @@
     "cosmosSdkVersion": "neutron-org/cosmos-sdk v0.47.10-neutron",
     "cosmwasmVersion": "neutron-org/wasmd v0.45.0",
     "cosmwasmEnabled": true,
-    "ibcGoVersion": "v7.3.2"
+    "ibcGoVersion": "v7.4.0"
   },
   "description": "The most secure CosmWasm platform in Cosmos, Neutron lets smart-contracts leverage bleeding-edge Interchain technology with minimal overhead.",
   "apis": {

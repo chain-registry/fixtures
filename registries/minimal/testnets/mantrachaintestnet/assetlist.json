@@ -7,24 +7,27 @@
       "denomUnits": [
         {
           "denom": "uom",
-          "exponent": 0,
-          "aliases": [
-
-          ]
+          "exponent": 0
         },
         {
           "denom": "om",
-          "exponent": 6,
-          "aliases": [
-
-          ]
+          "exponent": 6
         }
       ],
       "base": "uom",
       "name": "MANTRA Chain",
       "display": "om",
       "symbol": "OM",
-      "coingeckoId": "",
+      "traces": [
+        {
+          "type": "test-mintage",
+          "counterparty": {
+            "chainName": "mantrachain",
+            "baseDenom": "uom"
+          },
+          "provider": "MANTRA Chain"
+        }
+      ],
       "assetType": "sdk.coin"
     }
   ]

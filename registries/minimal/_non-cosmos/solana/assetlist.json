@@ -160,6 +160,266 @@
       "display": "w",
       "symbol": "W",
       "coingeckoId": "wormhole"
+    },
+    {
+      "description": "mSOL represents staked SOL in the Marinade stake pool.",
+      "assetType": "erc20",
+      "address": "mSoLzYCxHdYgdzU16g5QSh3i5K3z3KZK7ytfqcJm7So",
+      "denomUnits": [
+        {
+          "denom": "mSoLzYCxHdYgdzU16g5QSh3i5K3z3KZK7ytfqcJm7So",
+          "exponent": 0
+        },
+        {
+          "denom": "msol",
+          "exponent": 9
+        }
+      ],
+      "base": "mSoLzYCxHdYgdzU16g5QSh3i5K3z3KZK7ytfqcJm7So",
+      "name": "Marinade Staked SOL",
+      "display": "msol",
+      "symbol": "mSOL",
+      "traces": [
+        {
+          "type": "liquid-stake",
+          "counterparty": {
+            "chainName": "solana",
+            "baseDenom": "Lamport"
+          },
+          "provider": "Marinade"
+        }
+      ],
+      "coingeckoId": "msol"
+    },
+    {
+      "description": "A representative token for staked SOL, derived through the process of liquid staking SOL using Jito.",
+      "assetType": "erc20",
+      "address": "J1toso1uCk3RLmjorhTtrVwY9HJ7X8V9yYac6Y7kGCPn",
+      "denomUnits": [
+        {
+          "denom": "J1toso1uCk3RLmjorhTtrVwY9HJ7X8V9yYac6Y7kGCPn",
+          "exponent": 0
+        },
+        {
+          "denom": "jitosol",
+          "exponent": 9
+        }
+      ],
+      "base": "J1toso1uCk3RLmjorhTtrVwY9HJ7X8V9yYac6Y7kGCPn",
+      "name": "Jito Staked SOL",
+      "display": "jitosol",
+      "symbol": "jitoSOL",
+      "traces": [
+        {
+          "type": "liquid-stake",
+          "counterparty": {
+            "chainName": "solana",
+            "baseDenom": "Lamport"
+          },
+          "provider": "Jito"
+        }
+      ],
+      "coingeckoId": "jito-staked-sol"
+    },
+    {
+      "description": "A representative token for staked SOL, derived through the process of liquid staking SOL using the BlazeStake protocol.",
+      "assetType": "erc20",
+      "address": "bSo13r4TkiE4KumL71LsHTPpL2euBYLFx6h9HP3piy1",
+      "denomUnits": [
+        {
+          "denom": "bSo13r4TkiE4KumL71LsHTPpL2euBYLFx6h9HP3piy1",
+          "exponent": 0
+        },
+        {
+          "denom": "bsol",
+          "exponent": 9
+        }
+      ],
+      "base": "bSo13r4TkiE4KumL71LsHTPpL2euBYLFx6h9HP3piy1",
+      "name": "BlazeStake Staked SOL",
+      "display": "bsol",
+      "symbol": "bSOL",
+      "traces": [
+        {
+          "type": "liquid-stake",
+          "counterparty": {
+            "chainName": "solana",
+            "baseDenom": "Lamport"
+          },
+          "provider": "BlazeStake"
+        }
+      ],
+      "coingeckoId": "blazestake-staked-sol"
+    },
+    {
+      "description": "A representative token for staked SOL, derived through the process of liquid staking SOL using the MarginFi protocol.",
+      "assetType": "erc20",
+      "address": "LSTxxxnJzKDFSLr4dUkPcmCf5VyryEqzPLz5j4bpxFp",
+      "denomUnits": [
+        {
+          "denom": "LSTxxxnJzKDFSLr4dUkPcmCf5VyryEqzPLz5j4bpxFp",
+          "exponent": 0
+        },
+        {
+          "denom": "lst",
+          "exponent": 9
+        }
+      ],
+      "base": "LSTxxxnJzKDFSLr4dUkPcmCf5VyryEqzPLz5j4bpxFp",
+      "name": "Liquid Staking Token",
+      "display": "lst",
+      "symbol": "LST",
+      "traces": [
+        {
+          "type": "liquid-stake",
+          "counterparty": {
+            "chainName": "solana",
+            "baseDenom": "Lamport"
+          },
+          "provider": "MarginFi"
+        }
+      ],
+      "coingeckoId": "liquid-staking-token"
+    },
+    {
+      "description": "A representative token for staked SOL, derived through the process of liquid staking SOL using the Edgevana protocol.",
+      "assetType": "erc20",
+      "address": "edge86g9cVz87xcpKpy3J77vbp4wYd9idEV562CCntt",
+      "denomUnits": [
+        {
+          "denom": "edge86g9cVz87xcpKpy3J77vbp4wYd9idEV562CCntt",
+          "exponent": 0
+        },
+        {
+          "denom": "edgesol",
+          "exponent": 9
+        }
+      ],
+      "base": "edge86g9cVz87xcpKpy3J77vbp4wYd9idEV562CCntt",
+      "name": "Edgevana Staked SOL",
+      "display": "edgesol",
+      "symbol": "edgeSOL",
+      "traces": [
+        {
+          "type": "liquid-stake",
+          "counterparty": {
+            "chainName": "solana",
+            "baseDenom": "Lamport"
+          },
+          "provider": "Edgevana"
+        }
+      ],
+      "coingeckoId": "edgevana-staked-sol"
+    },
+    {
+      "description": "A liquid staked token that represents SOL staked to Helius's validator.",
+      "assetType": "erc20",
+      "address": "he1iusmfkpAdwvxLNGV8Y1iSbj4rUy6yMhEA3fotn9A",
+      "denomUnits": [
+        {
+          "denom": "he1iusmfkpAdwvxLNGV8Y1iSbj4rUy6yMhEA3fotn9A",
+          "exponent": 0
+        },
+        {
+          "denom": "hsol",
+          "exponent": 9
+        }
+      ],
+      "base": "he1iusmfkpAdwvxLNGV8Y1iSbj4rUy6yMhEA3fotn9A",
+      "name": "Helius Staked SOL",
+      "display": "hsol",
+      "symbol": "hSOL",
+      "traces": [
+        {
+          "type": "liquid-stake",
+          "counterparty": {
+            "chainName": "solana",
+            "baseDenom": "Lamport"
+          },
+          "provider": "Helius"
+        }
+      ],
+      "coingeckoId": "helius-staked-sol"
+    },
+    {
+      "description": "A liquid staked token that represents SOL staked to Jupiter's validator.",
+      "assetType": "erc20",
+      "address": "jupSoLaHXQiZZTSfEWMTRRgpnyFm8f6sZdosWBjx93v",
+      "denomUnits": [
+        {
+          "denom": "jupSoLaHXQiZZTSfEWMTRRgpnyFm8f6sZdosWBjx93v",
+          "exponent": 0
+        },
+        {
+          "denom": "jupsol",
+          "exponent": 9
+        }
+      ],
+      "base": "jupSoLaHXQiZZTSfEWMTRRgpnyFm8f6sZdosWBjx93v",
+      "name": "Jupiter Staked SOL",
+      "display": "jupsol",
+      "symbol": "jupSOL",
+      "traces": [
+        {
+          "type": "liquid-stake",
+          "counterparty": {
+            "chainName": "solana",
+            "baseDenom": "Lamport"
+          },
+          "provider": "Jupiter"
+        }
+      ],
+      "coingeckoId": "jupiter-staked-sol"
+    },
+    {
+      "description": "dogwifhat is a meme coin that operates on Solana.",
+      "assetType": "erc20",
+      "address": "EKpQGSJtjMFqKZ9KQanSqYXRcF8fBopzLHYxdM65zcjm",
+      "denomUnits": [
+        {
+          "denom": "EKpQGSJtjMFqKZ9KQanSqYXRcF8fBopzLHYxdM65zcjm",
+          "exponent": 0
+        },
+        {
+          "denom": "wif",
+          "exponent": 6
+        }
+      ],
+      "base": "EKpQGSJtjMFqKZ9KQanSqYXRcF8fBopzLHYxdM65zcjm",
+      "name": "dogwifhat",
+      "display": "wif",
+      "symbol": "WIF",
+      "coingeckoId": "dogwifcoin"
+    },
+    {
+      "description": "Tether, issued natively on Solana.",
+      "assetType": "erc20",
+      "address": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+      "denomUnits": [
+        {
+          "denom": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+          "exponent": 0
+        },
+        {
+          "denom": "usdt",
+          "exponent": 6
+        }
+      ],
+      "base": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+      "name": "Tether",
+      "display": "usdt",
+      "symbol": "USDT",
+      "traces": [
+        {
+          "type": "additional-mintage",
+          "counterparty": {
+            "chainName": "ethereum",
+            "baseDenom": "0xdac17f958d2ee523a2206206994597c13d831ec7"
+          },
+          "provider": "Tether"
+        }
+      ],
+      "coingeckoId": "tether"
     }
   ]
 }

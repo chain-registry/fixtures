@@ -201,6 +201,12 @@
       "url": "https://explorer.256x25.tech/shido",
       "txPage": "https://explorer.256x25.tech/shido/tx/${txHash}",
       "accountPage": "https://explorer.256x25.tech//shido/account/${accountAddress}"
+    },
+    {
+      "kind": "MavNode",
+      "url": "https://explorer.mavnode.io/shido",
+      "txPage": "https://explorer.mavnode.io/shido/tx/${txHash}",
+      "accountPage": "https://explorer.mavnode.io/shido/account/${accountAddress}"
     }
   ],
   "images": [

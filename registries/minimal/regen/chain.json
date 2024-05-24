@@ -124,12 +124,6 @@
   },
   "explorers": [
     {
-      "kind": "mintscan",
-      "url": "https://www.mintscan.io/regen",
-      "txPage": "https://www.mintscan.io/regen/transactions/${txHash}",
-      "accountPage": "https://www.mintscan.io/regen/accounts/${accountAddress}"
-    },
-    {
       "kind": "ezstaking",
       "url": "https://ezstaking.app/regen",
       "txPage": "https://ezstaking.app/regen/txs/${txHash}",

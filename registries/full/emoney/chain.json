@@ -171,12 +171,6 @@
       "accountPage": "https://ezstaking.app/emoney/account/${accountAddress}"
     },
     {
-      "kind": "mintscan",
-      "url": "https://www.mintscan.io/emoney",
-      "txPage": "https://www.mintscan.io/emoney/transactions/${txHash}",
-      "accountPage": "https://www.mintscan.io/emoney/accounts/${accountAddress}"
-    },
-    {
       "kind": "ping.pub",
       "url": "https://ping.pub/e-money",
       "txPage": "https://ping.pub/e-money/tx/${txHash}"
