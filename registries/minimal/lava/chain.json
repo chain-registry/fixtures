@@ -73,6 +73,12 @@
       },
       {
         "address": "https://lava-rpc.publicnode.com:443"
+      },
+      {
+        "address": "https://lava.rpc.m.stavr.tech:443"
+      },
+      {
+        "address": "https://lava.rpc-archive.m.stavr.tech:443"
       }
     ],
     "rest": [
@@ -90,11 +96,23 @@
       },
       {
         "address": "https://lava-rest.publicnode.com"
+      },
+      {
+        "address": "https://lava.api.m.stavr.tech"
+      },
+      {
+        "address": "https://lava.api-archive.m.stavr.tech"
       }
     ],
     "grpc": [
       {
         "address": "lava-grpc.publicnode.com:443"
+      },
+      {
+        "address": "lava.grpc.m.stavr.tech:443"
+      },
+      {
+        "address": "lava.grpc-archive.m.stavr.tech:443"
       }
     ]
   },
