@@ -804,6 +804,26 @@
       "display": "WEIRD",
       "symbol": "WEIRD",
       "assetType": "sdk.factory"
+    },
+    {
+      "denomUnits": [
+        {
+          "denom": "factory/neutron19tynwawkm2rgefqxy7weupu4hdamyhg890zep2/TAKUMI",
+          "exponent": 0,
+          "aliases": [
+            "utakumi"
+          ]
+        },
+        {
+          "denom": "takumi",
+          "exponent": 6
+        }
+      ],
+      "base": "factory/neutron19tynwawkm2rgefqxy7weupu4hdamyhg890zep2/TAKUMI",
+      "name": "Takumi Asano",
+      "display": "takumi",
+      "symbol": "TAKUMI",
+      "assetType": "sdk.factory"
     }
   ]
 }

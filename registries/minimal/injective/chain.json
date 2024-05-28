@@ -72,6 +72,9 @@
       },
       {
         "address": "https://injective-rpc.noders.services"
+      },
+      {
+        "address": "https://rpc-injective.ecostake.com"
       }
     ],
     "rest": [
@@ -113,6 +116,9 @@
       },
       {
         "address": "https://injective-api.noders.services"
+      },
+      {
+        "address": "https://rest-injective.ecostake.com"
       }
     ],
     "grpc": [
