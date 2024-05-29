@@ -33,17 +33,17 @@
   },
   "codebase": {
     "gitRepo": "https://github.com/sei-protocol/sei-chain",
-    "recommendedVersion": "v3.9.0",
+    "recommendedVersion": "v5.5.2",
     "compatibleVersions": [
-      "v3.9.0"
+      "v5.5.2"
     ],
     "ibcGoVersion": "sei-ibc-go/v3 v3.3.0",
-    "cosmosSdkVersion": "sei-cosmos v0.2.83",
+    "cosmosSdkVersion": "sei-cosmos v0.3.13",
     "consensus": {
       "type": "sei-tendermint",
-      "version": "v0.2.40"
+      "version": "v0.3.3"
     },
-    "cosmwasmVersion": "sei-wasmd v0.1.1",
+    "cosmwasmVersion": "sei-wasmd v0.1.5",
     "cosmwasmEnabled": true,
     "cosmwasmPath": "$HOME/.sei/wasm",
     "genesis": {
@@ -207,10 +207,10 @@
       {
         "name": "v3.9.0",
         "proposal": 54,
-        "height": 73290488,
-        "recommendedVersion": "v3.9.0",
+        "height": 79123881,
+        "recommendedVersion": "v5.5.2",
         "compatibleVersions": [
-          "v3.9.0"
+          "v5.5.2"
         ],
         "ibcGoVersion": "sei-ibc-go/v3 v3.3.0",
         "cosmosSdkVersion": "sei-cosmos v0.2.83",
@@ -219,6 +219,25 @@
           "version": "v0.2.40"
         },
         "cosmwasmVersion": "sei-wasmd v0.1.1",
+        "cosmwasmEnabled": true,
+        "cosmwasmPath": "$HOME/.sei/wasm",
+        "nextVersionName": "v5.5.2"
+      },
+      {
+        "name": "v5.5.2",
+        "proposal": 55,
+        "height": 73290488,
+        "recommendedVersion": "v3.9.0",
+        "compatibleVersions": [
+          "v3.9.0"
+        ],
+        "ibcGoVersion": "sei-ibc-go/v3 v3.3.0",
+        "cosmosSdkVersion": "sei-cosmos v0.3.13",
+        "consensus": {
+          "type": "sei-tendermint",
+          "version": "v0.3.3"
+        },
+        "cosmwasmVersion": "sei-wasmd v0.1.5",
         "cosmwasmEnabled": true,
         "cosmwasmPath": "$HOME/.sei/wasm",
         "nextVersionName": ""

@@ -224,6 +224,88 @@
           }
         }
       ]
+    },
+    {
+      "description": "CDT - Membrane's solvency preserving stablecoin",
+      "denomUnits": [
+        {
+          "denom": "ibc/B0263C28B6F44651F4596413B41FDB749EA010BD1220816DAC0ABF9947C1E806",
+          "exponent": 0
+        },
+        {
+          "denom": "CDT",
+          "exponent": 6
+        }
+      ],
+      "assetType": "ics20",
+      "base": "ibc/B0263C28B6F44651F4596413B41FDB749EA010BD1220816DAC0ABF9947C1E806",
+      "name": "CDT",
+      "display": "CDT",
+      "symbol": "CDT",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "osmosis",
+            "baseDenom": "factory/osmo1s794h9rxggytja3a4pmwul53u98k06zy2qtrdvjnfuxruh7s8yjs6cyxgd/ucdt",
+            "channelId": "channel-75"
+          },
+          "chain": {
+            "channelId": "channel-0",
+            "path": "transfer/channel-0/factory/osmo1s794h9rxggytja3a4pmwul53u98k06zy2qtrdvjnfuxruh7s8yjs6cyxgd/ucdt"
+          }
+        }
+      ],
+      "images": [
+        {
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/CDT.svg",
+          "imageSync": {
+            "chainName": "osmosis",
+            "baseDenom": "factory/osmo1s794h9rxggytja3a4pmwul53u98k06zy2qtrdvjnfuxruh7s8yjs6cyxgd/ucdt"
+          }
+        }
+      ]
+    },
+    {
+      "description": "MBRN - Membrane's network token",
+      "denomUnits": [
+        {
+          "denom": "ibc/E94BB144B818CB8061F43E202BEA1E9273B87D6326C8C6F4E6AE71C62FD37854",
+          "exponent": 0
+        },
+        {
+          "denom": "MBRN",
+          "exponent": 6
+        }
+      ],
+      "assetType": "ics20",
+      "base": "ibc/E94BB144B818CB8061F43E202BEA1E9273B87D6326C8C6F4E6AE71C62FD37854",
+      "name": "MBRN",
+      "display": "MBRN",
+      "symbol": "MBRN",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "osmosis",
+            "baseDenom": "factory/osmo1s794h9rxggytja3a4pmwul53u98k06zy2qtrdvjnfuxruh7s8yjs6cyxgd/umbrn",
+            "channelId": "channel-75"
+          },
+          "chain": {
+            "channelId": "channel-0",
+            "path": "transfer/channel-0/factory/osmo1s794h9rxggytja3a4pmwul53u98k06zy2qtrdvjnfuxruh7s8yjs6cyxgd/umbrn"
+          }
+        }
+      ],
+      "images": [
+        {
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/MBRN.svg",
+          "imageSync": {
+            "chainName": "osmosis",
+            "baseDenom": "factory/osmo1s794h9rxggytja3a4pmwul53u98k06zy2qtrdvjnfuxruh7s8yjs6cyxgd/umbrn"
+          }
+        }
+      ]
     }
   ]
 }

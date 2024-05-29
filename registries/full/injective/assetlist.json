@@ -494,6 +494,53 @@
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/astro.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/astro.svg"
       }
+    },
+    {
+      "description": "Ninja Blaze Token",
+      "denomUnits": [
+        {
+          "denom": "ibc/1011E4D6D4800DA9B8F21D7C207C0B0C18E54E614A8576037F066B775210709D",
+          "exponent": 0,
+          "aliases": [
+            "uNBZ"
+          ]
+        },
+        {
+          "denom": "NBZ",
+          "exponent": 6
+        }
+      ],
+      "assetType": "ics20",
+      "base": "ibc/1011E4D6D4800DA9B8F21D7C207C0B0C18E54E614A8576037F066B775210709D",
+      "name": "Ninja Blaze Token",
+      "display": "NBZ",
+      "symbol": "NBZ",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "neutron",
+            "baseDenom": "factory/neutron1a6ydq8urdj0gkvjw9e9e5y9r5ce2qegm9m4xufpt96kcm60kmuass0mqq4/nbz",
+            "channelId": "channel-60"
+          },
+          "chain": {
+            "channelId": "channel-177",
+            "path": "transfer/channel-177/factory/neutron1a6ydq8urdj0gkvjw9e9e5y9r5ce2qegm9m4xufpt96kcm60kmuass0mqq4/nbz"
+          }
+        }
+      ],
+      "images": [
+        {
+          "imageSync": {
+            "chainName": "neutron",
+            "baseDenom": "factory/neutron1a6ydq8urdj0gkvjw9e9e5y9r5ce2qegm9m4xufpt96kcm60kmuass0mqq4/nbz"
+          },
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/NBZ.png"
+        }
+      ],
+      "logoURIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/NBZ.png"
+      }
     }
   ]
 }
