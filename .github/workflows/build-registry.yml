@@ -3,7 +3,8 @@ name: Build Registry 📝
 on:
   schedule:
     # Runs every day at 1:00 AM UTC
-    - cron: "0 1 * * *"
+    # FIXTURES DONT RUN!
+    # - cron: "0 1 * * *"
 
   workflow_dispatch:
 
